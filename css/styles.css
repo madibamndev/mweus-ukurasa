@@ -1,0 +1,120 @@
+/* ----------------------- General styling */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4A235A;
+    font-family: 'Jost', serif;
+    text-align: center;
+}
+
+a {
+    font-family: 'Jost', sans-serif;
+}
+
+p {
+    color: #4A235A;
+    font-family: 'Old Standard TT', sans-serif;
+    text-align: center;
+}
+
+i {
+    color: #4A235A;
+}
+
+strong {
+    color: #4A235A;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+em {
+    color: #4A235A;
+}
+
+body {
+    background-color: #FFDEAD;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+small {
+    color: #4A235A;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+#projects-carousel img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+figcaption {
+    color: #4A235A;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+
+/* ----------------------- nav styling */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+nav ul li a {
+    color: #4A235A;
+    font-size: x-large;
+    text-decoration: none; 
+}
+
+
+
+/* ----------------------- Profile Picture Styling */
+
+#profile-picture-wrapper {
+    text-align: center;
+}
+
+.clip-circle {
+    clip-path: circle(70px at center);
+}
+
+
+
+/* ----------------------- main styling */
+
+main {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    box-sizing: border-box;
+}
+
+/* ----------------------- responsive images styling */
+
+.responsive-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+/* ----------------------- Footer styling */
+
+footer ul {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    box-sizing: border-box;
+    text-align: center;
+}
