@@ -118,3 +118,7 @@ footer ul {
     box-sizing: border-box;
     text-align: center;
 }
+
+footer ul li a {
+    text-decoration: none;
+}
