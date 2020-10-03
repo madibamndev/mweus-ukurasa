@@ -118,6 +118,8 @@ main {
     box-sizing: border-box;
 }
 
+
+
 /* ----------------------- responsive images styling */
 
 .responsive-img {
@@ -125,6 +127,8 @@ main {
     max-width: 350px;
     height: auto;
 }
+
+
 
 /* ----------------------- Footer styling */
 
@@ -137,5 +141,35 @@ footer ul {
 }
 
 footer ul li a {
+    text-decoration: none;
+}
+
+
+
+/* ----------------------- Software tutorials styling */
+
+.software-tutorials a {
+    color: #4A235A;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+
+
+/* ----------------------- Project tutorials styling */
+
+.project-tutorials a {
+    color: #4A235A;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+
+
+/* ----------------------- Source tutorials styling */
+
+.source-tutorials a {
+    color: #4A235A;
+    font-size: x-large;
     text-decoration: none;
 }
