@@ -68,6 +68,10 @@ video {
     height: 100%;
 }
 
+.favicon {
+    fill: #FFDEAD;
+}
+
 
 
 /* ----------------------- nav styling */
