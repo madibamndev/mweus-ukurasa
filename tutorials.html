@@ -5,13 +5,13 @@
     <!-- Meta links -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="theme-color" content="#FFDEAD">
     <meta name="Description" content="This is a personal website showcasing my talents, skills and knowledge in my journey as a Web Developer.">
     <script data-ad-client="ca-pub-6343169593553881" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Import Google Fonts -->
-    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jost:wght@500&family=Old+Standard+TT&display=swap">
+    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Josefin+Sans:wght@300&family=Markazi+Text:wght@500&display=swap">
     <!-- Title content -->
     <title>Mweu's Ukurasa - Tutorials</title>
+    <meta name="theme-color" content="#281030">
     <link rel="shortcut icon" href="assets/images/favicon/favicon.svg" sizes="32x32" type="image/svg+xml">
     <link rel="apple-touch-icon" href="images/favicon/favicon.svg" sizes="120×120, 152×152, 167×167, 180x180" type="image/svg+xml">
     <!-- stles.css -->
@@ -26,14 +26,14 @@
         </a>
     </header>
     <!-- Header content ends here -->
-    <br>
     <!-- Nav content starts here -->
     <nav>
         <ul>
-            <li><a href="index.html"><i class="fas fa-2x fa-home"></i> Home</a></li>
-            <li><a href="portfolio.html"><i class="fas fa-2x fa-briefcase"></i> Portfolio</a></li>
-            <li><a href="tutorials.html"><i class="fas fa-2x fa-photo-video"></i> Tutorials</a></li>
-            <li><a href="contact.html"><i class="far fa-2x fa-address-card"></i> Contact</a></li>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="portfolio.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+            <li><a href="tutorials.html"><i class="fas fa-photo-video"></i> Tutorials</a></li>
+            <li><a href="contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
+            <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
         </ul>
     </nav>
     <!-- Nav content ends here -->
@@ -41,10 +41,10 @@
     <!-- Main content starts here -->
     <main>
         <article class="software-tutorials">
-            <h2>Softwares Tutorials</h2>
+        <h2>Softwares Tutorials</h2>
             <section>
                 <h3>Using Visual Studio Code</h3>
-                <video preload="auto" controls poster="assets/videos/thumbnails/visual-studio-code.mp4.png">
+                <video preload="auto" width="500" controls poster="assets/videos/thumbnails/visual-studio-code.mp4.png">
                     <source src="assets/videos/visual-studio-code.mp4" type="video/mp4">
                     <source src="assets/videos/visual-studio-code.oggtheora.ogv" type="video/ogg">
                     <source src="assets/videos/visual-studio-code.webmhd.webm" type="video/webm">
@@ -210,7 +210,7 @@
                 </p>
             </section>
         </article>
-        <article id="projects-gallery" class="project-tutorials">
+        <article class="project-tutorials">
             <h2>Web Development Project Tutorials</h2>
             <section>
                 <h3>Prequisites</h3>
@@ -326,7 +326,7 @@
             </section>
         </article>
         <article class="source-tutorials">
-            <h2>Useful Sources Tutorials</h2>
+        <h2>Useful Sources Tutorials</h2>
             <section>
                 <h3>Stackoverflow</h3>
                 <video preload="auto" controls poster="assets/videos/thumbnails/stackoverflow.oggtheora.png">
@@ -464,40 +464,50 @@
                     </a>
                 </p>
             </section>
-        </article>
+    </article>
     </main>
     <!-- Main content ends here -->
     <br>
-    <!-- Footer content starts here -->
-    <footer>
+    <!-- breadcrum nav content starts here -->
+    <article class="breadcrum">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <i class="fas fa-grip-lines-vertical"></i>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <i class="fas fa-grip-lines-vertical"></i>
+            <li><a href="about.html">About</a></li>
+            <i class="fas fa-grip-lines-vertical"></i>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </article>
+    <!-- breadcrum nav content ends here -->
+    <br>
+    <!-- Links content starts here -->
+    <article class="social-links">
         <ul>
             <li>
-                <a class="twitter" target="_blank" rel="noreferrer" href="https://twitter.com/mweu_m">Follow me on
-                    Twitter
+                <a class="twitter" target="_blank" rel="noreferrer" href="https://twitter.com/mweu_m">
                     <i class="fab fa-2x fa-twitter" style="color: #55acee;" aria-hidden="true"></i>
                 </a>
             </li>
             <li>
-                <a class="youtube" target="_blank" rel="noreferrer" href="https://www.youtube.com/">Link to Youtube
-                    account
-                    <i class="fab fa-2x fa-youtube" style="color: #cd201f;" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
                 <a class="linkedin" target="_blank" rel="noreferrer"
-                    href="https://www.linkedin.com/in/mweu-ngolia-321692167/">Follow me on Linkedin
+                    href="https://www.linkedin.com/in/mweu-ngolia-321692167/">
                     <i class="fab fa-2x fa-linkedin-in" style="color: #2867b2;" aria-hidden="true"></i>
                 </a>
             </li>
             <li>
-                <a class="github" target="_blank" rel="noreferrer" href="https://github.com/madibamndev?">Link to GitHub
-                    account
-                    <i class="fab fa-2x fa-github" aria-hidden="true" style="color:#ffffff;" aria-hidden="true"></i>
+                <a class="github" target="_blank" rel="noreferrer" href="https://github.com/madibamndev?">
+                    <i class="fab fa-2x fa-github" style="color:#ffffff;" aria-hidden="true"></i>
                 </a>
             </li>
         </ul>
-        <br>
-        <p>
+    </article>
+    <!-- Links content ends here -->
+    <br>
+    <!-- Footer content starts here -->
+    <footer>
+        <p style="text-align: center;">
             <!-- copyright content starts here -->
             <small>&#169; COPYRIGHT 2020</small>
             <!-- copyright content ends here -->

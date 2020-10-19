@@ -10,7 +10,7 @@
     <!-- Import Google Fonts -->
     <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Josefin+Sans:wght@300&family=Markazi+Text:wght@500&display=swap">
     <!-- Title content -->
-    <title>Mweu's Ukurasa - Contact</title>
+    <title>Mweu's Ukurasa - Blog</title>
     <meta name="theme-color" content="#281030">
     <link rel="shortcut icon" href="assets/images/favicon/favicon.svg" sizes="32x32" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/images/favicon/favicon.svg" sizes="120×120, 152×152, 167×167, 180x180" type="image/svg+xml">
@@ -41,49 +41,50 @@
     <br>
     <!-- Main content starts here -->
     <main>
-        <article class="personal-info">
-            <h2 class="personal-info-heading">Personal Info</h2>
-            <h3 style="padding-top: 50px;">Names:</h3>
-            <p>Mweu M. Ngolia</p>
+        <article class="Stories">
+            <h2>Stories</h2>
+            <h3 style="padding-top: 30px;">Culture</h3>
+            <p>
+                <em>Culture: the customary beliefs, social forms, and material traits of a racial, religious, or social group.</em>
+            </p>
             <br>
-            <h3>Email:</h3>
-            <p>mweu.mngolia@gmail.com</p>
-            <br>
-            <h3>Mobile number:</h3>
-            <p>+46 (0) 722513110</p>
-            <br>
-            <h3>Date of birth:</h3>
-            <p>27<sup>th</sup> June 1991</p>
-        </article>
-        <article class="identification-details">
-            <h2 class="identification-details-heading">Profile picture</h2>
-            <figure id="profile-picture-wrapper">
-                <img alt="Circular profile picture" src="assets/images/profile-picture/my-profile-picture-img.png"
-                    class="clip-circle">
-                <figcaption style="text-align: center;"><em>Web Developer</em></figcaption>
-            </figure>
-        </article>
-        <article class="downloads" style="text-align: center;">
-            <h2 class="downloads-heading">Downloads</h2>
-            <p style="padding-top: 15px;">Copy of my CV <strong>Curriculum Vitae</strong>
-                <a href="assets/downloads/curriculum-vitae.pdf" target="_blank" rel="noreferrer noopener" download>
-                    <i class="far fa-3x fa-file-pdf" style="color: #F40F02;"></i>
-                </a>
+            <p>
+                Culture is a subject that is close to our hearts in more ways than one. 
+                Take for example you meet a complete stranger and within moments of your interaction you start discerning several things 
+                such as mostly likely place of origin and depending on the breadth of your knowledge of other cultures, you thereby 
+                take it a step further and draw parallels with a particular group of people, beliefs, clothing and so much more. 
+                These fruits culminate into elements that we identify as belonging to a <em>culture</em>. 
+                When I think about culture several points come to mind, such as: 
+                clothing, beliefs, music, food, dance, people, traditions, heritage, language, colour, lifestyle, religion, 
+                hobbies, pride, art and craft to name but a few. 
+                The way in which one expresses him or herself using one or a combination of the mediums named above, 
+                forms the basis of what can be classified as a culture.
             </p>
         </article>
-        <article class="thank-you-note">
-            <h2>Thank you note!</h2>
-            <p style="padding-top: 30px;">Thank you for visiting, it is my hope that you find this site resourceful,
-                user
-                friendly, easy to navigate
-                and intuitive
-                as you navigate the content.
-            </p>
-            <p>Looking forward to hearing your feedback.</p>
-            <p>Asante sana!</p>
+        <article class="activities" style="text-align: center;">
+            <h2>Activities</h2>
+            <h3 style="padding-top: 20px;"><i class="fas fa-hiking"></i> Great Hiking Trails</h3>
+            <li>Mount Kenya</li>
+            <li>Mount Kilimanjaro</li>
+            <br>
+            <h3><i class="fas fa-biking"></i> Great Biking Trails</h3>
+            <li>Hellsgate Loop</li>
+            <li>Africa Classic Dag 3 & 4</li>
+            <br>
+            <h3><i class="fas fa-running"></i> Great Running Trails</h3>
+            <li>Karura Forest</li>
+            <li>Iten</li>
+            <li>Eldoret</li>
         </article>
     </main>
     <!-- Main content ends here -->
+    <br>
+    <!-- Map content starts here -->
+    <article>
+        <h2>Favourite travel destinations</h2>
+        <div id="map"></div>
+    </article>
+    <!-- Map content ends here -->
     <br>
     <!-- breadcrum nav content starts here -->
     <article class="breadcrum">
@@ -132,6 +133,10 @@
     </footer>
     <!-- Footer content ends here -->
     <br>
+    <script src="assets/js/gmap.js"></script>
+    <!-- Google Maps Scripts -->
+    <script async defer src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCr7qDLOI-jEXyFc5wi3bnYl64T8Amr4w4&callback=initMap"></script>
     <!-- fontawesome script -->
     <script async defer src="https://kit.fontawesome.com/f44776f444.js" crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->

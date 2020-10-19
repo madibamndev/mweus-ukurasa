@@ -5,13 +5,13 @@
     <!-- Meta links -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="theme-color" content="#FFDEAD">
     <meta name="Description" content="This is a personal website showcasing my talents, skills and knowledge in my journey as a Web Developer.">
     <script data-ad-client="ca-pub-6343169593553881" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Import Google Fonts -->
-    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jost:wght@500&family=Old+Standard+TT&display=swap">
+    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Josefin+Sans:wght@300&family=Markazi+Text:wght@500&display=swap">
     <!-- Title content -->
     <title>Mweu's Ukurasa - Home</title>
+    <meta name="theme-color" content="#281030">
     <link rel="shortcut icon" href="assets/images/favicon/favicon.svg" sizes="32x32" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/images/favicon/favicon.svg" sizes="120×120, 152×152, 167×167, 180x180" type="image/svg+xml">
     <!-- stles.css -->
@@ -22,98 +22,101 @@
     <!-- Header content starts here -->
     <header>
         <a href="index.html">
-            <img alt="slightly Leaning S-shaped Mweu's Ukurasa Logo" src="assets/images/logos/mweus-ukurasa-logo-img.svg">
+            <img class="brand-logo" alt="slightly Leaning S-shaped Mweu's Ukurasa Logo"
+                src="assets/images/logos/mweus-ukurasa-logo-img.svg">
         </a>
     </header>
     <!-- Header content ends here -->
-    <br>
     <!-- Nav content starts here -->
     <nav>
         <ul>
-            <li><a href="index.html"><i class="fas fa-2x fa-home"></i> Home</a></li>
-            <li><a href="portfolio.html"><i class="fas fa-2x fa-briefcase"></i> Portfolio</a></li>
-            <li><a href="tutorials.html"><i class="fas fa-2x fa-photo-video"></i> Tutorials</a></li>
-            <li><a href="contact.html"><i class="far fa-2x fa-address-card"></i> Contact</a></li>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="portfolio.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+            <li><a href="tutorials.html"><i class="fas fa-photo-video"></i> Tutorials</a></li>
+            <li><a href="contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
+            <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
         </ul>
     </nav>
     <!-- Nav content ends here -->
     <br>
     <!-- Main content starts here -->
     <main>
-        <article>
-            <h2>Profile picture</h2>
-            <figure id="profile-picture-wrapper">
-                <img alt="Circular profile picture" src="assets/images/profile-picture/my-profile-picture-img.png" class="clip-circle">
-                <figcaption><em>Web Developer</em></figcaption>
-            </figure>
+        <article id="portfolio-page-access">
+            <h2>Portfolio Page</h2>
+                <p>
+                    To access my <em>portfolio</em> press the button below.
+                </p>
+                <br>
+                <p style="padding: 30px;">
+                    <a class="button-customization" href="portfolio.html" role="button"
+                        aria-pressed="false">Portfolio</a>
+                </p>
         </article>
-        <article id="projects-carousel">
-            <h2>Projects</h2>
-            <figure>
-                 <a href="https://madibamndev.github.io/personal-portfolio-site/" target="_blank" rel="noreferrer">
-                    <img src="assets/images/screenshots/personal-portfolio-site-cover-page-screenshot.png"
-                        alt="Screenshot of personal portfolio site cover page" class="responsive-img">
-                </a>
-                <figcaption>Personal PortFolio Site</figcaption>
-            </figure>
-            <figure>
-                <a href="https://madibamndev.github.io/mtalii-site/" target="_blank" rel="noreferrer">
-                    <img src="assets/images/screenshots/mtalii-site-destinations-and-booking-screenshot.png"
-                        alt="Screenshot of mtalii site destinations and booking page" class="responsive-img">
-                </a>
-                <figcaption>Mtalii Site</figcaption>
-            </figure>
-            <figure>
-                <a href="https://sheng-dictionary-mongo.herokuapp.com/" target="_blank" rel="noreferrer">
-                    <img src="assets/images/screenshots/sheng-jargon-application-quick-word-search-screenshot.png"
-                        alt="Screenshot of sheng jargon quick word search page" class="responsive-img">
-                </a>
-                <figcaption>Sheng Jargon Application</figcaption>
-            </figure>
+        <article id="tutorials-page-access">
+            <h2>Tuorials Page</h2>
+                <p>
+                    To access <em>tutorials</em> press the button below. 
+                </p>
+                <br>
+                <p style="padding: 30px;">
+                    <a class="button-customization" href="tutorials.html" role="button"
+                        aria-pressed="false">Tutorials</a>
+                </p>
         </article>
-        <article>
-            <h2>Personal Info</h2>
-            <p><strong>Names:</strong></p>
-            <p>Mweu M. Ngolia</p>
-            <br>
-            <p><strong>Email:</strong></p>
-            <p>mweu.mngolia@gmail.com</p>
-            <br>
-            <p><strong>Mobile number:</strong></p>
-            <p>+46 (0) 722513110</p>
-            <br>
-            <p><strong>Date of birth:</strong></p>
-            <p>27<sup>th</sup> June 1991</p>
+        <article id="blog-page-access">
+            <h2>Blog Page</h2>
+                <p>
+                    To access my <em>blog</em> press the button below. 
+                </p>
+                <br>
+                <p style="padding: 30px;">
+                    <a class="button-customization" href="blog.html" role="button"
+                        aria-pressed="false">Blog</a>
+                </p>
         </article>
     </main>
     <!-- Main content ends here -->
     <br>
-    <!-- Footer content starts here -->
-    <footer>
+    <!-- breadcrum nav content starts here -->
+    <article class="breadcrum">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <i class="fas fa-grip-lines-vertical"></i>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <i class="fas fa-grip-lines-vertical"></i>
+            <li><a href="about.html">About</a></li>
+            <i class="fas fa-grip-lines-vertical"></i>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </article>
+    <!-- breadcrum nav content ends here -->
+    <br>
+    <!-- Links content starts here -->
+    <article class="social-links">
         <ul>
             <li>
-                <a class="twitter" target="_blank" rel="noreferrer" href="https://twitter.com/mweu_m">Follow me on Twitter
+                <a class="twitter" target="_blank" rel="noreferrer" href="https://twitter.com/mweu_m">
                     <i class="fab fa-2x fa-twitter" style="color: #55acee;" aria-hidden="true"></i>
                 </a>
             </li>
             <li>
-                <a class="youtube" target="_blank" rel="noreferrer" href="https://www.youtube.com/">Link to Youtube account
-                    <i class="fab fa-2x fa-youtube" style="color: #cd201f;" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a class="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mweu-ngolia-321692167/">Follow me on Linkedin
+                <a class="linkedin" target="_blank" rel="noreferrer"
+                    href="https://www.linkedin.com/in/mweu-ngolia-321692167/">
                     <i class="fab fa-2x fa-linkedin-in" style="color: #2867b2;" aria-hidden="true"></i>
                 </a>
             </li>
             <li>
-                <a class="github" target="_blank" rel="noreferrer" href="https://github.com/madibamndev?">Link to GitHub account
+                <a class="github" target="_blank" rel="noreferrer" href="https://github.com/madibamndev?">
                     <i class="fab fa-2x fa-github" style="color:#ffffff;" aria-hidden="true"></i>
                 </a>
             </li>
         </ul>
-        <br>
-        <p>
+    </article>
+    <!-- Links content ends here -->
+    <br>
+    <!-- Footer content starts here -->
+    <footer>
+        <p style="text-align: center;">
             <!-- copyright content starts here -->
             <small>&#169; COPYRIGHT 2020</small>
             <!-- copyright content ends here -->

@@ -1,75 +1,121 @@
 /* ----------------------- General styling */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    color: #4A235A;
-    font-family: 'Jost', serif;
+    color: #fff8dc;
+    font-family: 'Markazi Text', serif;
     text-align: center;
 }
 
 a {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Markazi Text', sans-serif;
+}
+
+a:link {
+   color: #FAFAD2;
+   text-decoration: none;
+}
+
+a:visited {
+    color: #FAFAD2;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:active {
+    color: #7CfC00;
+}
+
+.button-customization:link {
+    color: #281030;
+    border-radius: 150px;
+    box-shadow: 0 0 10px 1px #FAFAD2;
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-customization:hover {
+    opacity: 0.7;
+}
+
+.button-customization:active {
+    box-shadow: none;
+    top: 10px;
 }
 
 p {
-    color: #4A235A;
-    font-family: 'Old Standard TT', sans-serif;
+    color: #FAFAD2;
+    font-family: 'josefin sans', sans-serif;
+    line-height:1.6;
     text-align: center;
+    padding-top: 10px;
 }
 
 i {
-    color: #4A235A;
+    color: #fff8dc;
+}
+
+hr {
+    border-bottom: 3px solid #fff8dc;
 }
 
 strong {
-    color: #4A235A;
-    font-family: 'Jost', sans-serif;
+    color: #FAFAD2;
+    font-family: 'Markazi Text', sans-serif;
+    line-height:1.6;
     text-align: center;
 }
 
 em {
-    color: #4A235A;
+    color: #FAFAD2;
+    line-height:1.6;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 body {
-    background-color: #FFDEAD;
+    background-color: #281030;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height:1.6;
 }
 
 small {
-    color: #4A235A;
-    font-family: 'Jost', sans-serif;
+    color: #fff8dc;
+    font-family: 'Markazi Text', sans-serif;
     text-align: center;
-}
-
-#projects-carousel img {
-    border-radius: 10px;
-    box-shadow: 0 0 10px #000;
 }
 
 #projects-gallery img {
-    border-radius: 10px;
-    box-shadow: 0 0 10px #000;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 3px #FAFAD2;
 }
 
-#projects-gallery a i strong {
-    color: #4A235A;
-    font-family: 'Jost', sans-serif;
-    text-align: center;
+.brand-logo {
+    padding: 5px 5px;
 }
 
 figcaption {
-    color: #4A235A;
-    font-family: 'Jost', sans-serif;
+    color: #FAFAD2;
+    font-family: 'Josefin sans', sans-serif;
     text-align: center;
 }
 
 video {
     width: 100%;
     height: 100%;
-}
-
-.favicon {
-    fill: #FFDEAD;
 }
 
 
@@ -83,20 +129,41 @@ ul {
     
 }
 
+nav {
+    box-shadow: 0 0 10px 3px #FAFAD2;
+}
+
 nav ul {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     box-sizing: border-box;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+nav ul li {
+    padding-bottom: 30px;
+    cursor: pointer;
+
 }
 
 nav ul li a {
-    color: #4A235A;
     font-size: x-large;
     text-decoration: none; 
+}
+
+
+
+/* ----------------------- main styling */
+
+main {
+    padding: 50px 10px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    box-sizing: border-box;
 }
 
 
@@ -112,18 +179,6 @@ nav ul li a {
 }
 
 
-
-/* ----------------------- main styling */
-
-main {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    box-sizing: border-box;
-}
-
-
-
 /* ----------------------- responsive images styling */
 
 .responsive-img {
@@ -134,46 +189,278 @@ main {
 
 
 
-/* ----------------------- Footer styling */
+/* ----------------------- Social Links styling */
 
-footer ul {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    box-sizing: border-box;
+.social-links {
+    text-align: center;
+    padding-top: 30px;
+}
+.social-links ul {
+    display: inline-flex;
+}
+
+.social-links ul li {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.social-links ul li a {
+    color: #fff8dc;
+    font-family: 'Markazi Text', sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* ----------------------- breadcrum styling */
+
+.breadcrum {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.breadcrum ul {
+    display: inline-flex;
+}
+
+.breadcrum ul li {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.breadcrum i {
+    color: #3498db;
+}
+
+.breadcrum ul li a {
+    color: #fff8dc;
+    font-size: large;
+
+}
+
+.breadcrum ul li a:hover {
+    color: #00FFFF;
+}
+
+
+
+/* ----------------------- map styling */
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+/* ----------------------- Index Page styling */
+
+#portfolio-page-access {
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#tutorials-page-access {
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#blog-page-access {
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+/* ----------------------- Portfolio Page styling */
+
+#education-history {
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#education-history section {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#projects-gallery {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #FAFAD2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#projects-gallery section {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#personal-portfolio-site-wrapper {
     text-align: center;
 }
 
-footer ul li a {
-    text-decoration: none;
+#mtalii-site-wrapper {
+    text-align: center;
+}
+
+#sheng-jargon-app-wrapper {
+    text-align: center;
+}
+
+#work-experience {
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#work-experience section {
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 
 
-/* ----------------------- Software tutorials styling */
+
+/* ----------------------- Tutorials page styling */
+
+/* ----- Software tutorials styling */
+
+.software-tutorials section {
+    padding: 30px 2px;
+}
 
 .software-tutorials a {
-    color: #4A235A;
+    color: #fff8dc;
     font-size: x-large;
     text-decoration: none;
 }
 
 
 
-/* ----------------------- Project tutorials styling */
+/* ----- Project tutorials styling */
+
+.project-tutorials section {
+    padding: 30px 2px;
+}
 
 .project-tutorials a {
-    color: #4A235A;
+    color: #fff8dc;
     font-size: x-large;
     text-decoration: none;
 }
 
 
 
-/* ----------------------- Source tutorials styling */
+/* ----- Useful Sources tutorials styling */
+
+.source-tutorials section {
+    padding: 30px 2px;
+}
 
 .source-tutorials a {
-    color: #4A235A;
+    color: #fff8dc;
     font-size: x-large;
     text-decoration: none;
+}
+
+
+
+
+/* ----------------------- Contact page styling */
+
+.personal-info {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #FAFAD2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.personal-info p {
+    text-align: center;
+}
+
+.identification-details {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #FAFAD2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.downloads {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #FAFAD2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.downloads p {
+    text-align: center;
+}
+
+.thank-you-note {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px #FAFAD2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.thank-you-note p {
+    text-align: center;
+}
+
+
+
+
+/* ----------------------- blog page styling */
+
+.activities {
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.activities li {
+    color: #FAFAD2;
+    font-family: 'josefin sans', sans-serif;
+    line-height:1.6;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.stories {
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
