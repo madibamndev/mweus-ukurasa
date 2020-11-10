@@ -34,18 +34,20 @@ a:active {
 
 .button {
     color: #281030;
+    background-color: #03b2ff;
     border-radius: 200px;
-    box-shadow: 0 0 10px 1px #fafad2;
+    box-shadow: 0 0 3px 1px #fafad2;
     display: block;
     font-family: 'jost', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     padding: 10px 20px;
     text-align: center;
     text-transform: uppercase
 }
 
 .button:hover {
-    color: #f3f3a1;
+    background-color: #fafad2;
+    color: #281030;
 }
 
 .button:active {
@@ -71,14 +73,14 @@ hr {
 }
 
 strong {
-    color: #fafad2;
+    color: #03b2ff;
     font-family: 'Jost', sans-serif;
     line-height: 1.6;
     text-align: center
 }
 
 em {
-    color: #fafad2;
+    color: #03b2ff;
     line-height: 1.6
 }
 
@@ -88,7 +90,7 @@ video {
 }
 
 body {
-    background-color: #281030;
+    background-color: #260131;
     font-family: 'Jost', sans-serif;
     font-size: calc(14px + (20 - 14) * ((100vw - 300px)/ (1600 - 300)));
     line-height: 1.6
@@ -98,6 +100,16 @@ small {
     color: #fff8dc;
     font-family: 'Jost', sans-serif;
     text-align: center
+}
+
+.card {
+    background-color: #31163a;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 3px #fafad2;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 3px #fafad2;
 }
 
 #projects-gallery img {
@@ -113,7 +125,7 @@ small {
 
 figcaption {
     color: #fafad2;
-    font-family: 'Josefin sans', sans-serif;
+    font-family: 'Jost', sans-serif;
     text-align: center
 }
 
@@ -155,7 +167,7 @@ nav ul li a {
 main {
     padding: 50px 10px;
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     box-sizing: border-box
 }
@@ -174,51 +186,51 @@ main {
     height: auto
 }
 
-.social-links {
+#social-links {
+    display:inline;
     text-align: center;
     padding-top: 30px
 }
 
-.social-links ul {
-    display: inline-flex
+#social-links ul {
+    list-style-type: none;
 }
 
-.social-links ul li {
+#social-links ul li {
+    display:inline;
     padding-left: 16px;
     padding-right: 16px
 }
 
-.social-links ul li a {
+#social-links ul li a {
     color: #fff8dc;
-    font-family: 'Markazi Text', sans-serif;
+    font-family: 'Jost', sans-serif;
     text-decoration: none
 }
 
-.breadcrum {
+#breadcrum {
+    display:inline;
     text-align: center;
     padding-top: 10px
 }
 
-.breadcrum ul {
-    display: inline-flex
+#breadcrum ul {
+    list-style-type: none
 }
 
-.breadcrum ul li {
+#breadcrum ul li {
+    display:inline;
     padding-left: 16px;
     padding-right: 16px
 }
 
-.breadcrum i {
-    color: #3498db
-}
-
-.breadcrum ul li a {
+#breadcrum ul li a {
     color: #fff8dc;
     font-size: large
 }
 
-.breadcrum ul li a:hover {
-    color: #0ff
+#breadcrum ul li a:hover {
+    color: #3498db
 }
 
 #map {

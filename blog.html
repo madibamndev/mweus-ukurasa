@@ -36,11 +36,11 @@
     <!-- Nav content starts here -->
     <nav>
         <ul>
-            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="portfolio.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
-            <li><a href="tutorials.html"><i class="fas fa-photo-video"></i> Tutorials</a></li>
-            <li><a href="contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
-            <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
         </ul>
     </nav>
     <!-- Nav content ends here -->
@@ -78,21 +78,21 @@
                 </p>
                 <!-- Great Hiking trails in Kenya Content starts here -->
                 <h4 style="padding-top: 20px;"><i class="fas fa-hiking"></i> Great Hiking Trails</h4>
-                <li>Mount Kenya</li>
-                <li>Mount Kilimanjaro</li>
+                <p>Mount Kenya</p>
+                <p>Mount Kilimanjaro</p>
                 <!-- Great Hiking trails in Kenya Content ends here -->
                 <br>
                 <!-- Great Biking trails in Kenya Content starts here -->
                 <h3><i class="fas fa-biking"></i> Great Biking Trails</h3>
-                <li>Hellsgate Loop</li>
-                <li>Lanet - Egerton (Nakuru)</li>
+                <p>Hellsgate Loop</p>
+                <p>Lanet - Egerton (Nakuru)</p>
                 <!-- Great Biking trails in Kenya Content starts here -->
                 <br>
                 <!-- Great Running trails in Kenya Content starts here -->
                 <h3><i class="fas fa-running"></i> Great Running Trails</h3>
-                <li>Karura Forest</li>
-                <li>Iten</li>
-                <li>Eldoret</li>
+                <p>Karura Forest</p>
+                <p>Iten</p>
+                <p>Eldoret</p>
                 <!-- Great Running trails in Kenya Content starts here -->
             </section>
             <section>
@@ -105,20 +105,20 @@
                 </p>
                 <!-- Great Hiking trails in Kenya Content starts here -->
                 <h4 style="padding-top: 20px;"><i class="fas fa-hiking"></i> Great Hiking Trails</h4>
-                <li>The King’s Trail (Kungsleden)</li>
-                <li>Kebnekaise</li>
+                <p>The King’s Trail (Kungsleden)</p>
+                <p>Kebnekaise</p>
                 <!-- Great Hiking trails Content ends here -->
                 <br>
                 <!-- Great Biking trails in Sweden Content starts here -->
                 <h3><i class="fas fa-biking"></i> Great Biking Trails</h3>
-                <li>Mälardalsleden</li>
-                <li>Kattegattleden</li>
+                <p>Mälardalsleden</p>
+                <p>Kattegattleden</p>
                 <!-- Great Biking trails in Sweden Content starts here -->
                 <br>
                 <!-- Great skiing events in Sweden Content starts here -->
                 <h3><i class="fas fa-skiing-nordic"></i> Great Skiing locations & events</h3>
-                <li>Bruksvallarna</li>
-                <li>Vasaloppet</li>
+                <p>Bruksvallarna</p>
+                <p>Vasaloppet</p>
                 <!-- Great skiing events in Sweden Content starts here -->
             </section>
         </article>
@@ -132,22 +132,8 @@
     </article>
     <!-- Map content ends here -->
     <br>
-    <!-- breadcrum nav content starts here -->
-    <article class="breadcrum">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <i class="fas fa-grip-lines-vertical"></i>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <i class="fas fa-grip-lines-vertical"></i>
-            <li><a href="tutorials.html">Tutorials</a></li>
-            <i class="fas fa-grip-lines-vertical"></i>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
-    </article>
-    <!-- breadcrum nav content ends here -->
-    <br>
     <!-- Links content starts here -->
-    <article class="social-links">
+    <div id="social-links">
         <ul>
             <li>
                 <a class="twitter" target="_blank" rel="noreferrer noopener" href="https://twitter.com/mweu_m">
@@ -166,8 +152,18 @@
                 </a>
             </li>
         </ul>
-    </article>
+    </div>
     <!-- Links content ends here -->
+    <br>
+    <!-- breadcrum nav content starts here -->
+    <div id="breadcrum">
+        <ul>
+            <li><a href="contact.html">Previous</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html">Next</a></li>
+        </ul>
+    </div>
+    <!-- breadcrum nav content ends here -->
     <br>
     <!-- Footer content starts here -->
     <footer>
@@ -186,7 +182,7 @@
     <script async defer src="https://kit.fontawesome.com/f44776f444.js" crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script>
-        function initMap(){var l=new google.maps.Map(document.getElementById("map"),{zoom:6,center:{lat:-.02355,lng:37.90619}}),e="ABCDEFGHIJKLMNOPQRSTUVWXYZ",a=[{lat:-.120999516,lng:37.335331992},{lat:-3.072166378,lng:37.351998592},{lat:-.91583,lng:36.31333},{lat:-.28333,lng:36.06667},{lat:-1.23749905,lng:36.82083005},{lat:.5,lng:35.75},{lat:.52036,lng:35.26993},{lat:61.59756,lng:12.55443},{lat:56.04830155917273,lng:12.697513103485107},{lat:62.6342430562272,lng:12.3928356170654}].map(function(l,a){return new google.maps.Marker({position:l,label:e[a%e.length]})});new MarkerClusterer(l,a,{imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"})}function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-179191465-1");
+        function initMap(){var l=new google.maps.Map(document.getElementById("map"),{zoom:1.6,center:{lat:-.02355,lng:37.90619}}),e="ABCDEFGHIJKLMNOPQRSTUVWXYZ",a=[{lat:-.120999516,lng:37.335331992},{lat:-3.072166378,lng:37.351998592},{lat:-.91583,lng:36.31333},{lat:-.28333,lng:36.06667},{lat:-1.23749905,lng:36.82083005},{lat:.5,lng:35.75},{lat:.52036,lng:35.26993},{lat:61.59756,lng:12.55443},{lat:56.04830155917273,lng:12.697513103485107},{lat:62.6342430562272,lng:12.3928356170654}].map(function(l,a){return new google.maps.Marker({position:l,label:e[a%e.length]})});new MarkerClusterer(l,a,{imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"})}function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-179191465-1");
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179191465-1"></script>
 </body>

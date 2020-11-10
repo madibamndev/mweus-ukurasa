@@ -40,11 +40,11 @@
     <!-- Nav content starts here -->
     <nav>
         <ul>
-            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="portfolio.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
-            <li><a href="tutorials.html"><i class="fas fa-photo-video"></i> Tutorials</a></li>
-            <li><a href="contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
-            <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
         </ul>
     </nav>
     <!-- Nav content ends here -->
@@ -110,7 +110,7 @@
                 <br>
                 <figure id="mysite-wrapper">
                     <img src="assets/images/screenshots/mysite-screenshots.png"
-                        alt="Screenshot of sheng jargon quick word search page" class="responsive-img">
+                        alt="Screenshot of mysite home page" class="responsive-img">
                     <figcaption>
                         <a href="https://madibamndev.github.io/mysite/" target="_blank" rel="noreferrer">
                             <i class="fas fa-link" style="color: #F40F02;"> <strong>MySite</strong></i>
@@ -154,22 +154,8 @@
     </main>
     <!-- Main content ends here -->
     <br>
-    <!-- breadcrum nav content starts here -->
-    <article class="breadcrum">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <i class="fas fa-grip-lines-vertical"></i>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <i class="fas fa-grip-lines-vertical"></i>
-            <li><a href="tutorials.html">Tutorials</a></li>
-            <i class="fas fa-grip-lines-vertical"></i>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
-    </article>
-    <!-- breadcrum nav content ends here -->
-    <br>
     <!-- Links content starts here -->
-    <article class="social-links">
+    <div id="social-links">
         <ul>
             <li>
                 <a class="twitter" target="_blank" rel="noreferrer" href="https://twitter.com/mweu_m">
@@ -189,8 +175,18 @@
             </li>
         </ul>
         <br>
-    </article>
+    </div>
     <!-- Links content ends here -->
+    <br>
+    <!-- breadcrum nav content starts here -->
+    <div id="breadcrum">
+        <ul>
+            <li><a href="index.html">Previous</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="tutorials.html">Next</a></li>
+        </ul>
+    </div>
+    <!-- breadcrum nav content ends here -->
     <br>
     <!-- Footer content starts here -->
     <footer>
@@ -203,7 +199,7 @@
     <!-- Footer content ends here -->
     <br>
     <!-- fontawesome script -->
-    <script async="false" defer src="https://kit.fontawesome.com/f44776f444.js" crossorigin="anonymous"></script>
+    <script async defer src="https://kit.fontawesome.com/f44776f444.js" crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script>
         function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-179191465-1");
