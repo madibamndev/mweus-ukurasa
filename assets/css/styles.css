@@ -33,12 +33,12 @@ a:active {
 }
 
 .button {
-    color: #281030;
+    color: #260131;
     background-color: #03b2ff;
     border-radius: 200px;
     box-shadow: 0 0 3px 1px #fafad2;
     display: block;
-    font-family: 'jost', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 700;
     padding: 10px 20px;
     text-align: center;
@@ -47,13 +47,42 @@ a:active {
 
 .button:hover {
     background-color: #fafad2;
-    color: #281030;
+    color: #260131;
 }
 
 .button:active {
     box-shadow: none;
     top: 5px
 }
+
+button {
+    color: #260131;
+    background-color: #03b2ff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px #fafad2;
+    display: block;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 10px;
+    text-transform: uppercase
+}
+
+button:hover {
+    background-color: #fafad2;
+    color: #260131;
+}
+
+form {
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.form-contents {
+    padding: 10px 10px;
+}
+
+label
 
 p {
     color: #fafad2;
@@ -163,12 +192,21 @@ nav ul li a {
     text-decoration: none
 }
 
-main {
-    padding: 50px 10px;
+#stories {
+    color: #fafad2; 
+    box-sizing: border-box;
+    padding: 10px 20px;
+    text-align: center
+}
+
+#activities {
+    box-sizing: border-box;
+    color: #fafad2;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    box-sizing: border-box
+    padding: 30px 5px 20px;
+    text-align: center
 }
 
 #profile-picture-wrapper {
@@ -263,14 +301,29 @@ main {
 }
 
 #projects-gallery {
-    border-radius: 5px;
-    box-shadow: 0 0 10px 1px #fafad2;
-    padding: 30px 5px 20px
+    box-sizing: border-box;
+    color: #fafad2;
+    display: grid;
+    font-size: x-large;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
+    text-align: center
 }
 
-#projects-gallery section {
-    padding-top: 30px;
-    padding-bottom: 15px
+#projects-gallery {
+    box-sizing: border-box;
+    color: #fafad2;
+    display: grid;
+    font-size: x-large;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
+    text-align: center
+}
+
+#projects-gallery figure {
+    padding: 5px 10px;
 }
 
 #personal-portfolio-site-wrapper {
@@ -289,96 +342,112 @@ main {
     text-align: center;
 }
 
-#work-experience {
-    border-radius: 5px;
-    padding: 30px 5px 20px
-}
-
-#work-experience section {
-    padding-top: 30px;
-    padding-bottom: 15px
-}
-
-.software-tutorials section {
-    padding: 30px 2px
-}
-
-.software-tutorials a {
-    color: #fff8dc;
-    font-size: x-large;
-    text-decoration: none
-}
-
-.project-tutorials section {
-    padding: 30px 2px
-}
-
-.project-tutorials a {
-    color: #fff8dc;
-    font-size: x-large;
-    text-decoration: none
-}
-
-.source-tutorials section {
-    padding: 30px 2px
-}
-
-.source-tutorials a {
-    color: #fff8dc;
-    font-size: x-large;
-    text-decoration: none
-}
-
-.personal-info {
-    border-radius: 5px;
-    box-shadow: 0 0 10px 1px #fafad2;
-    padding: 30px 5px 20px
-}
-
-.personal-info p {
+.welcome-note {
+    color: #fafad2;
+    padding: 10px 7px;
     text-align: center
 }
 
-.identification-details {
-    border-radius: 5px;
-    box-shadow: 0 0 10px 1px #fafad2;
-    padding: 30px 5px 20px
+#the-pages {
+    box-sizing: border-box;
+    color: #fafad2;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
+    text-align: center
 }
 
-.downloads {
-    border-radius: 5px;
-    box-shadow: 0 0 10px 1px #fafad2;
-    padding: 30px 5px 20px
+#education-history {
+    box-sizing: border-box;
+    color: #fafad2;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
+    text-align: center
 }
 
-.downloads p {
+#work-experience {
+    box-sizing: border-box;
+    color: #fafad2;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
+    text-align: center
+}
+
+#software-tutorials a {
+    color: #F40F02;
+    font-size: x-large;
+    text-decoration: none
+}
+
+#software-tutorials {
+    box-sizing: border-box;
+    color: #fafad2;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
+    text-align: center
+}
+
+#project-tutorials {
+    box-sizing: border-box;
+    color: #fafad2;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
+    text-align: center
+}
+
+#project-tutorials a {
+    color: #F40F02;
+    font-size: x-large;
+    text-decoration: none
+}
+
+#web-dev-sources-tutorials {
+    box-sizing: border-box;
+    color: #fafad2;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
+    text-align: center
+}
+
+#web-dev-sources-tutorials a {
+    color: #F40F02;
+    font-size: x-large;
+    text-decoration: none
+}
+
+#personal-info {
+    box-sizing: border-box;
+    color: #fafad2;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
     text-align: center
 }
 
 .thank-you-note {
-    border-radius: 5px;
-    box-shadow: 0 0 10px 3px #fafad2;
-    padding: 30px 5px 20px
-}
-
-.thank-you-note p {
+    color: #fafad2;
+    padding: 5px 10px;
     text-align: center
 }
 
-.activities {
-    border-radius: 5px;
-    padding: 30px 5px 20px
-}
-
-.activities li {
+#other-info {
+    box-sizing: border-box;
     color: #fafad2;
-    font-family: 'josefin sans', sans-serif;
-    line-height: 1.6;
-    text-align: center;
-    padding-top: 10px
-}
-
-.stories {
-    border-radius: 5px;
-    padding: 30px 5px 20px
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 30px 5px 20px;
+    text-align: center
 }

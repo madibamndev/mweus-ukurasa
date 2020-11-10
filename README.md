@@ -341,10 +341,14 @@ In order to deploy your site to [GitHub](https://github.com/) read the following
 ### Content
 
 
-- Below are examples of *Sources* used as inspiration for my project 
+Below are examples of *Sources* used as inspiration for my project 
+
 * [Fluid Typography](https://css-tricks.com/snippets/css/fluid-typography/) 
 * [Favicon Generator](https://realfavicongenerator.net/)
 * [Auto-fit vs Auto-fill](https://gridbyexample.com/examples/example37/)
+* [Min & Max Content Sizing in CSS Grid — 1/3 Flexibility (Jen Simmons YouTube)](https://www.youtube.com/watch?v=lZ2JX_6SGNI)
+* [FR Units in CSS Grid — 2/3 Flexibility (Jen Simmons YouTube)](https://www.youtube.com/watch?v=ZPtpzuRajzM)
+* [MinMax in CSS Grid — 3/3 Flexibility (Jen Simmons YouTube)](https://www.youtube.com/watch?v=mVQiNpqXov8)
 
 
 ### Media
