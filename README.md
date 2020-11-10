@@ -303,19 +303,16 @@ Feature 2 (Tutorial Videos) &mdash; *allows the user to see a tutorial video.*
  Music
  Tutorials
  Events
+ Blog
 ```
 
 ## Technologies Used in this Build
 
-- [Materialize](https://materializecss.com/getting-started.html) &mdash; The Front-End web Framework used
-
-- [Google Fonts](https://fonts.google.com/?query=jost&sidebar.open=true&selection.family=Josefin+Sans|Jost:wght@500) &mdash; The Font Families used
+- [Google Fonts](https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Pompiere&family=Port+Lligat+Slab&display=swap) &mdash; The Font Families used
 
 - [Heroku](https://www.heroku.com/) &mdash; Application Deployment
 
 - [Python](https://www.python.org/downloads/) &mdash; Programming Language
-
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/) &mdash; Microframework written in Python
 
 - [Stack Overflow](https://stackoverflow.com/) &mdash; Troubleshooting
 
@@ -325,20 +322,17 @@ Feature 2 (Tutorial Videos) &mdash; *allows the user to see a tutorial video.*
 
 ## Testing
 
-- [Testing Flask Applications](https://flask.palletsprojects.com/en/1.1.x/testing/#:~:text=Flask%20provides%20a%20way%20to,with%20your%20favourite%20testing%20solution.) &mdash; Used for testing
-
-- [CSS Validator](http://www.css-validator.org/) &mdash; Validating CSS files
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) &mdash; Validating CSS files
 
 - Automated browser Testing [Google Lighthouse ext](https://developers.google.com/web/tools/lighthouse#devtools) 
 
 - Testing was also conducted manually whereby friends and family browsed clicked the link sent and navigated through the site on various devices and gave their feedback in the process of making this site. 
 
-- [Materialize Media Queries](https://materializecss.com/grid.html) allows me to stack the content into a single column on smaller devices such as smartphones; single and double columns on tablets and single, double or more columns on larger devices.
+- [HTML5 Valivator](https://html5.validator.nu/) &mdash; Validating HTML5 files
 
+- [HTML Valivator](https://validator.w3.org/) &mdash; Validating HTML files
 
 ## Deployment
-
-In order to deploy the application to heroku [Heroku](https://www.heroku.com/) read the following guidelines on how to [Deploy Python Flask App on Heroku](https://www.geeksforgeeks.org/deploy-python-flask-app-on-heroku/).
 
 In order to deploy your site to [GitHub](https://github.com/) read the following guidelines on [Getting Started with GitHub Pages](https://guides.github.com/features/pages/). 
 
@@ -347,10 +341,10 @@ In order to deploy your site to [GitHub](https://github.com/) read the following
 ### Content
 
 
-- Below are examples of *Flask Applications* used as inspiration for my project 
-* [Flask Mongo Task Manager](https://github.com/Code-Institute-Solutions/flask-mongo-task-manager) 
-* [Flask Blog](https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Flask_Blog)
-* [Flask Tutorial](https://github.com/pallets/flask/tree/1.1.2/examples/tutorial)
+- Below are examples of *Sources* used as inspiration for my project 
+* [Fluid Typography](https://css-tricks.com/snippets/css/fluid-typography/) 
+* [Favicon Generator](https://realfavicongenerator.net/)
+* [Auto-fit vs Auto-fill](https://gridbyexample.com/examples/example37/)
 
 
 ### Media
