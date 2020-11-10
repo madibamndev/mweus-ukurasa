@@ -92,7 +92,6 @@ video {
 body {
     background-color: #260131;
     font-family: 'Jost', sans-serif;
-    font-size: calc(14px + (20 - 14) * ((100vw - 300px)/ (1600 - 300)));
     line-height: 1.6
 }
 
