@@ -349,6 +349,7 @@ Below are examples of *Sources* used as inspiration for my project
 * [Min & Max Content Sizing in CSS Grid — 1/3 Flexibility (Jen Simmons YouTube)](https://www.youtube.com/watch?v=lZ2JX_6SGNI)
 * [FR Units in CSS Grid — 2/3 Flexibility (Jen Simmons YouTube)](https://www.youtube.com/watch?v=ZPtpzuRajzM)
 * [MinMax in CSS Grid — 3/3 Flexibility (Jen Simmons YouTube)](https://www.youtube.com/watch?v=mVQiNpqXov8)
+* [Symbols HTML code (Toptal Designers)](https://www.toptal.com/designers/htmlarrows/arrows/)
 
 
 ### Media
