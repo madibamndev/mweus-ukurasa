@@ -1,6 +1,6 @@
 # Mweus Ukurasa 
 
-![Mweum Logo](assets/images/logos/mweus-ukurasa-logo-img.svg)
+![Mweum Logo](assets/images/logos/mweus-ukurasa-brand-logo.svg)
 
 This is my *official website* that is aimed at showcasing my talents, creativity and learning with regards to *web development*. helping you understand words and expressions that are commonly used by sheng speakers.
 
