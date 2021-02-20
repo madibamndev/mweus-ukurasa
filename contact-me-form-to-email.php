@@ -4,21 +4,14 @@ if(!isset($_POST['submit']))
 	//This page should not be accessed directly. Need to submit the form.
 	echo "error; you need to submit the form!";
 }
-$first_name = $_POST['first_name'];
-$last_name = $_POST['last_name'];
+$names = $_POST['first_and_last_name'];
 $visitor_email = $_POST['email'];
 $message_or_comment = $_POST['message'];
 
 //Validate first
-if(empty($first_name)) 
+if(empty($names)) 
 {
-    echo "First Name is mandatory!";
-    exit;
-}
-
-if(empty($last_name))
-{
-    echo "Last Name is mandatory!";
+    echo "First Name and Last Name is mandatory!";
     exit;
 }
 
@@ -43,7 +36,7 @@ if(empty($message_or_comment))
 $email_from = "madiba.mweu@gmail.com";//<== update the email address
 $email_subject = "New Form submission";
 $email_body = "You have received a new message or comment from $name.\n".
-    "Here is the message or comment:\n $first_name, $last_name, $visitor_email and $message_or_comment".
+    "Here is the message or comment:\n $names, $visitor_email and $message_or_comment".
     
 $to = "madiba.mweu@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
