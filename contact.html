@@ -130,7 +130,7 @@
                                     <p>Thank you for visiting, it is my hope that you find this site resourceful, user friendly, easy to navigate and intuitive as you navigate the content.</p>
                                     <p>Looking forward to hearing your feedback.</p>
                                     <p>Asante sana!</p>
-                                <form class="row needs-validation my-3" name="contactmeform" method="POST" data-netlify="true" autocomplete="on" novalidate>
+                                <form class="row needs-validation my-3" name="contactmeform" method="POST" data-netlify="true" action="contact-me-form-to-email.php" autocomplete="on" novalidate>
                                     <fieldset>
                                         <legend>Contact Form</legend>
                                         <div class="row g-3 mb-3">
@@ -142,11 +142,11 @@
                                             </div>
                                         </div>
                                         <div class="form-floating mb-3">
-                                            <input id="inputEmail" type="email" class="form-control is-invalid" placeholder="Enter valid email" value="Valid email please">
+                                            <input id="inputEmail" type="email" name="email" class="form-control is-invalid" placeholder="Enter valid email" value="Valid email please">
                                             <label for="inputEmail" class="form-label">Email address:</label>
                                         </div>
                                         <div class="form-floating mb-3">
-                                            <textarea class="form-control is-invalid" placeholder="Please keep your message or comment concise" id="floatingTextareaMessageOrComment" maxlength="550" rows="4"></textarea>
+                                            <textarea class="form-control is-invalid" name="message" placeholder="Please keep your message or comment concise" id="floatingTextareaMessageOrComment" maxlength="550" rows="4"></textarea>
                                             <label for="floatingTextareaMessageOrComment">Message or comment:</label>
                                         </div>
                                     </fieldset>
