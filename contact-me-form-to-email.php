@@ -40,7 +40,7 @@ if(empty($message_or_comment))
     exit;
 }
 
-$email_from = 'madiba.mweu@gmail.com';//<== update the email address
+$email_from = "madiba.mweu@gmail.com";//<== update the email address
 $email_subject = "New Form submission";
 $email_body = "You have received a new message or comment from $name.\n".
     "Here is the message or comment:\n $first_name, $last_name, $visitor_email and $message_or_comment".
