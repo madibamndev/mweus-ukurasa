@@ -1,6 +1,6 @@
 # Mweus Ukurasa 
 
-![Mweum Logo](assets/images/logos/mweus-ukurasa-brand-logo.svg)
+![Mweum Logo](assets/logo/mweus-ukurasa-brand-logo.svg)
 
 This is my *official website* that is aimed at showcasing my talents, creativity and learning with regards to *web development*. helping you understand words and expressions that are commonly used by sheng speakers.
 
@@ -8,7 +8,7 @@ The site can be navigated using the 5 major navigation links below:
 ```
  Home
  Portfolio
- Tutorials
+ Ukurasa
  Contact
  blog 
 ```
@@ -27,44 +27,49 @@ This is [Mweus Ukurasa Site PDF Mockup](assets/images/screenshots/mweus-ukurasa-
 ```
 /* ----------------------- General styling */
 
-* {
-    margin: 0;
-    padding: 0;
+body {
+    background-color: #005895;
+    font-family: Jost, sans-serif;
+    font-size: calc(16px + (20 - 16) * ((100vw - 300px)/ (2500 - 300)));
+    line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #fff8dc;
-    font-family: 'Markazi Text', serif;
-    text-align: center;
-}
-
-a {
-    font-family: 'Markazi Text', sans-serif;
-}
-
-a:link {
-   color: #FAFAD2;
-   text-decoration: none;
-}
-
-a:visited {
-    color: #FAFAD2;
-}
-
-a:hover {
-    opacity: 0.5;
-}
-
-a:active {
-    color: #7CfC00;
+    font-family: 'Port Lligat Slab', serif;
 }
 
 p {
-    color: #FAFAD2;
-    font-family: 'josefin sans', sans-serif;
-    line-height:1.6;
-    text-align: center;
-    padding-top: 10px;
+    color: #fafad2;
+    font-family: jost, sans-serif;
+    letter-spacing: .0625em;
+    line-height: 1.6;
+}
+
+a {
+    color: #ffff00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff25;
+}
+
+legend {
+    color: #fff8dc;
+}
+
+figcaption {
+    color: #ffdead !important;
+}
+
+cite {
+    color: #00aeff;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 i {
@@ -76,23 +81,36 @@ hr {
 }
 
 strong {
-    color: #FAFAD2;
-    font-family: 'Markazi Text', sans-serif;
-    line-height:1.6;
-    text-align: center;
+    color: #ffff25;
+    font-family: Jost, sans-serif;
+    line-height: 1.6;
 }
 
 em {
-    color: #FAFAD2;
-    line-height:1.6;
+    color: #f9f871;
+    line-height: 1.6;
 }
 
+small {
+    color: #fff8dc;
+    font-family: Jost, sans-serif;
+}
 
-body {
-    background-color: #281030;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
-    line-height:1.6;
+.breadcrumb-item a {
+    color: #19ff38;
+}
+
+.breadcrumb>.active {
+    color: #fafad2;
+}
+
+.card {
+    background-color: #0767ac;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
 }
 
 ```
@@ -121,126 +139,176 @@ Below is the General Page Layout:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="Description" content="This is a personal website showcasing my talents, skills and knowledge in my journey as a Web Developer.">
+    <!-- Googlegetmanager -->
+    <link rel="preconnect" href="www.googletagmanager.com">
+    <!-- Fontawesome Kit -->
+    <link rel="preconnect" href="kit.fontawesome.com">
+    <!-- Google analytics -->
+    <link rel="preconnect" href="https://www.google-analytics.com">
     <script data-ad-client="ca-pub-6343169593553881" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Import Google Fonts -->
-    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Josefin+Sans:wght@300&family=Markazi+Text:wght@500&display=swap">
+    <link rel="preconnect stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Pompiere&family=Port+Lligat+Slab&display=swap">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- Title content -->
     <title>Mweu's Ukurasa - Home</title>
-    <meta name="theme-color" content="#281030">
-    <link rel="shortcut icon" href="assets/images/favicon/favicon.svg" sizes="32x32" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="assets/images/favicon/favicon.svg" sizes="120×120, 152×152, 167×167, 180x180" type="image/svg+xml">
-    <!-- stles.css -->
-    <link rel="preload stylesheet" href="assets/css/styles.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#005895">
+    <meta name="msapplication-TileColor" content="#005895">
+    <meta name="theme-color" content="#005895">
+    <!-- styles.css -->
+    <link rel="preconnect stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
 
 <body>
-    <!-- Header content starts here -->
-    <header>
-        <a href="index.html">
-            <img class="brand-logo" alt="slightly Leaning S-shaped Mweu's Ukurasa Logo"
-                src="assets/images/logos/mweus-ukurasa-logo-img.svg">
-        </a>
-    </header>
-    <!-- Header content ends here -->
     <!-- Nav content starts here -->
-    <nav>
-        <ul>
-            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="portfolio.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
-            <li><a href="tutorials.html"><i class="fas fa-photo-video"></i> Tutorials</a></li>
-            <li><a href="contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
-            <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg" style="background-color: #0767ac;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo/mweus-ukurasa-brand-logo.svg" style="width: 130; height: 100;" alt="Logo face sketch inside three rotating Circles using SVG surrounded by the text Mweu's at top right position and the text Ukurasa in the bottom left position">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ukurasa.html">Ukurasa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 gcse-searchbox" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </nav>
     <!-- Nav content ends here -->
-    <br>
+    <!-- Header content starts here -->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="py-3">
+                        <h1>Karibu!</h1>
+                        <p>Welcome to <em>Mweu's Ukurasa</em> a space where creativity is the golden rule.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header content ends here -->
+    <!-- Google Search content starts here -->
+        <aside>
+            <div class="container-fluid pb-3">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 offset-xl-2 offset-lg-2">
+                        <div class="rounded-3" style="background-color: #0767ac;">
+                            <div class="gcse-search"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    <!-- Google Search content ends here -->
     <!-- Main content starts here -->
     <main>
-        <article id="portfolio-page-access">
-            <h2>Portfolio Page</h2>
-                <p>
-                    To access my <em>portfolio</em> press the button below.
-                </p>
-                <br>
-                <p style="padding: 30px;">
-                    <a class="button-customization" href="portfolio.html" role="button"
-                        aria-pressed="false">Portfolio</a>
-                </p>
+        <!-- Hero Carousel content starts here -->
+        <article>
+            <h2 class="text-center h1 p-3">Projects Slideshow</h2>
+            <div class="container-fluid pb-3">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 offset-lg-2 offset-xl-2">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/images/screenshots/personal-portfolio-screenshot.webp" class="d-block w-100 rounded-lg shadow-lg" style="width: 1280; height: auto;" alt="Screenshot of my Personal Portfolio Site">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/screenshots/mtalii-screenshot.webp" class="d-block w-100 rounded-lg shadow-lg" style="width: 1280; height: auto;" alt="Screenshot of Mtalii Site">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/screenshots/sheng-jargon-screenshot.webp" class="d-block w-100 rounded-lg shadow-lg" style="width: 1280; height: auto;" alt="Screenshot of Sheng Jargon Site">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/screenshots/personal-portfolio-screenshot.webp" class="d-block w-100 rounded-lg shadow-lg" style="width: 1280; height: auto;" alt="Screenshot of  MySite">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
-        <article id="tutorials-page-access">
-            <h2>Tuorials Page</h2>
-                <p>
-                    To access <em>tutorials</em> press the button below. 
-                </p>
-                <br>
-                <p style="padding: 30px;">
-                    <a class="button-customization" href="tutorials.html" role="button"
-                        aria-pressed="false">Tutorials</a>
-                </p>
-        </article>
-        <article id="blog-page-access">
-            <h2>Blog Page</h2>
-                <p>
-                    To access my <em>blog</em> press the button below. 
-                </p>
-                <br>
-                <p style="padding: 30px;">
-                    <a class="button-customization" href="blog.html" role="button"
-                        aria-pressed="false">Blog</a>
-                </p>
-        </article>
+    <!-- Hero Carousel content ends here -->
     </main>
     <!-- Main content ends here -->
-    <br>
-    <!-- breadcrum nav content starts here -->
-    <article class="breadcrum">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <i class="fas fa-grip-lines-vertical"></i>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <i class="fas fa-grip-lines-vertical"></i>
-            <li><a href="about.html">About</a></li>
-            <i class="fas fa-grip-lines-vertical"></i>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
-    </article>
-    <!-- breadcrum nav content ends here -->
-    <br>
-    <!-- Links content starts here -->
-    <article class="social-links">
-        <ul>
-            <li>
-                <a class="twitter" target="_blank" rel="noreferrer" href="https://twitter.com/mweu_m">
-                    <i class="fab fa-2x fa-twitter" style="color: #55acee;" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a class="linkedin" target="_blank" rel="noreferrer"
-                    href="https://www.linkedin.com/in/mweu-ngolia-321692167/">
-                    <i class="fab fa-2x fa-linkedin-in" style="color: #2867b2;" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a class="github" target="_blank" rel="noreferrer" href="https://github.com/madibamndev?">
-                    <i class="fab fa-2x fa-github" style="color:#ffffff;" aria-hidden="true"></i>
-                </a>
-            </li>
-        </ul>
-    </article>
-    <!-- Links content ends here -->
-    <br>
     <!-- Footer content starts here -->
-    <footer>
-        <p style="text-align: center;">
-            <!-- copyright content starts here -->
-            <small>&#169; COPYRIGHT 2020</small>
-            <!-- copyright content ends here -->
-        </p>
-    </footer>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="d-flex justify-content-center">
+                            <p class="px-2 py-3">
+                                Follow me on
+                                <a class="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mweu-ngolia-321692167/">
+                                    <strong>Linkedin</strong>
+                                </a>
+                                and 
+                                <a class="github" target="_blank" rel="noreferrer" href="https://github.com/madibamndev?">
+                                    <strong>GitHub</strong>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     <!-- Footer content ends here -->
-    <br>
-    <!-- fontawesome script -->
-    <script async defer src="https://kit.fontawesome.com/f44776f444.js" crossorigin="anonymous"></script>
+    <!-- breadcrumb nav content starts here -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+            <li class="breadcrumb-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="breadcrumb-item"><a href="ukurasa.html">Ukurasa</a></li>
+            <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+            <li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
+        </ol>
+    </nav>
+    <!-- breadcrumb nav content ends here -->
+    <!-- copyright content starts here -->
+    <div class="container-fluid text-center py-4">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <small>© Copyright 2020 Mweu's Ukurasa<br><em>All rights Reserved</em></small>
+            </div>
+        </div>
+    </div>
+    <!-- copyright content ends here -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- Google Search Script -->
+    <script async src="https://cse.google.com/cse.js?cx=8cd1eb912b846eebb"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="module">
+        function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-179191465-1");
+    </script>
+    <script type="module" async src="https://www.googletagmanager.com/gtag/js?id=UA-179191465-1"></script>
 </body>
 </html>
 ```
@@ -267,7 +335,7 @@ Feature 1 (Project Gallery) &mdash; *allows the user to see the see the screensh
 </section>
 ```
 
-#### Tutorial Page
+#### Ukurasa Page
 
 Feature 2 (Tutorial Videos) &mdash; *allows the user to see a tutorial video.*
 
@@ -302,6 +370,8 @@ Feature 2 (Tutorial Videos) &mdash; *allows the user to see a tutorial video.*
  Content
  Music
  Tutorials
+ Animations
+ Photos
  Events
  Blog
 ```
