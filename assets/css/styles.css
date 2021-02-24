@@ -1,1 +1,90 @@
-body{background-color:#522b5d;font-family:Jost,sans-serif;font-size:calc(16px + (20 - 16) * ((100vw - 300px)/ (2500 - 300)));line-height:1.6}h1,h2,h3,h4,h5,h6{color:#fff8dc;font-family:'Port Lligat Slab',serif}p{color:#fafad2;font-family:jost,sans-serif;letter-spacing:.0625em;line-height:1.6}a{color:#03b2ff;text-decoration:none}legend{color:#fff8dc}figcaption{color:#ffdead!important}cite{color:#00aeff}video{max-width:100%;height:auto}i{color:#fff8dc}hr{border-bottom:3px solid #fff8dc}strong{color:#03b2ff;font-family:Jost,sans-serif;line-height:1.6}em{color:#03b2ff;line-height:1.6}small{color:#fff8dc;font-family:Jost,sans-serif}.breadcrumb-item a{color:#56d4fa}.breadcrumb>.active{color:#fafad2}.card{background-color:#260131;box-shadow:0 0 10px 3px #fafad2}#map{width:100%;height:400px}
+body {
+    background-color: #005895;
+    font-family: Jost, sans-serif;
+    font-size: calc(16px + (20 - 16) * ((100vw - 300px)/ (2500 - 300)));
+    line-height: 1.6
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff8dc;
+    font-family: 'Port Lligat Slab', serif
+}
+
+p {
+    color: #fafad2;
+    font-family: jost, sans-serif;
+    letter-spacing: .0625em;
+    line-height: 1.6
+}
+
+a {
+    color: #ffff00;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ffff25;
+}
+
+legend {
+    color: #fff8dc
+}
+
+figcaption {
+    color: #ffdead !important
+}
+
+cite {
+    color: #00aeff
+}
+
+video {
+    max-width: 100%;
+    height: auto
+}
+
+i {
+    color: #fff8dc
+}
+
+hr {
+    border-bottom: 3px solid #fff8dc
+}
+
+strong {
+    color: #ffff25;
+    font-family: Jost, sans-serif;
+    line-height: 1.6
+}
+
+em {
+    color: #f9f871;
+    line-height: 1.6
+}
+
+small {
+    color: #fff8dc;
+    font-family: Jost, sans-serif
+}
+
+.breadcrumb-item a {
+    color: #19ff38
+}
+
+.breadcrumb>.active {
+    color: #fafad2
+}
+
+.card {
+    background-color: #0767ac
+}
+
+#map {
+    width: 100%;
+    height: 400px
+}
