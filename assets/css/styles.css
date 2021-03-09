@@ -2,7 +2,7 @@ body {
     background-color: #005895;
     font-family: Jost, sans-serif;
     font-size: calc(16px + (20 - 16) * ((100vw - 300px)/ (2500 - 300)));
-    line-height: 1.6
+    line-height: 1.6;
 }
 
 h1,
@@ -11,36 +11,36 @@ h3,
 h4,
 h5,
 h6 {
-    color: #fff8dc;
+    color: #05395e;
     font-family: 'Port Lligat Slab', serif
 }
 
 p {
-    color: #fafad2;
+    color: #054877;
     font-family: jost, sans-serif;
     letter-spacing: .0625em;
     line-height: 1.6
 }
 
 a {
-    color: #ffff00;
+    color: #05395e;
     text-decoration: none
 }
 
 a:hover {
-    color: #ffff25;
+    color: #052e4b;
 }
 
 legend {
-    color: #fff8dc
+    color: #05395e
 }
 
 figcaption {
-    color: #ffdead !important
+    color: #05395e !important
 }
 
 cite {
-    color: #00aeff
+    color: #052c47
 }
 
 video {
@@ -49,39 +49,39 @@ video {
 }
 
 i {
-    color: #fff8dc
+    color: #05395e
 }
 
 hr {
-    border-bottom: 3px solid #fff8dc
+    border-bottom: 3px solid #05395e
 }
 
 strong {
-    color: #ffff25;
+    color: #05395e;
     font-family: Jost, sans-serif;
     line-height: 1.6
 }
 
 em {
-    color: #f9f871;
+    color: #072d49;
     line-height: 1.6
 }
 
 small {
-    color: #fff8dc;
+    color: #052e4b;
     font-family: Jost, sans-serif
 }
 
 .breadcrumb-item a {
-    color: #19ff38
+    color: #052e4b
 }
 
 .breadcrumb>.active {
-    color: #fafad2
+    color: #3d2305
 }
 
 .card {
-    background-color: #0767ac
+    background-color: #adcbf1
 }
 
 #map {
