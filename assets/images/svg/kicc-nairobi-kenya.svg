@@ -55,13 +55,13 @@
 			<path class="b" d="M140.892,15h-81.2L10.607,64.088,0,53.482,50.911,2.57A7.977,7.977,0,0,1,54.127.607,7.474,7.474,0,0,1,57.087,0H143.5a7.471,7.471,0,0,1,2.956.606,7.957,7.957,0,0,1,3.219,1.964l50.912,50.912L189.981,64.088Z" transform="translate(6756.412 5611)"/>
 			<path class="b" d="M140.892,15h-81.2L10.607,64.088,0,53.482,50.911,2.57A7.977,7.977,0,0,1,54.127.607,7.474,7.474,0,0,1,57.087,0H143.5a7.471,7.471,0,0,1,2.956.606,7.957,7.957,0,0,1,3.219,1.964l50.912,50.912L189.981,64.088Z" transform="translate(6555.412 5611)"/>
 			<rect class="c" width="1410" height="64.09" transform="translate(6555 5611)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="35000ms" begin="100000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="35000ms" repeatCount="indefinite"/>
 			</rect>
 			<path class="d" d="M1395,100.864a8,8,0,0,1-7.938-7H0v-10H2v-22H0v-3H1410v.726h426.394a1.629,1.629,0,0,1,.476.071L1968.689.154a1.706,1.706,0,0,1,2.236.788,1.608,1.608,0,0,1-.814,2.165l-19.77,8.924a2.84,2.84,0,0,1,.26,1.193V33.845l31.63-14.278a8.534,8.534,0,0,1,11.182,3.94,8.037,8.037,0,0,1-4.071,10.825l-144.39,65.182a8.621,8.621,0,0,1-1.022.385,7.963,7.963,0,0,1-3.81.964Zm423.591-16.292h19.641l13.351-6.027V56.613l-13.661,6.168a1.707,1.707,0,0,1-.709.153,1.751,1.751,0,0,1-.583-.1,1.7,1.7,0,0,1-.236.016h-17.8Zm-51.109,0h45.43V62.849h-45.43Zm-51.11,0H1761.8V62.849h-45.431Zm-51.109,0h45.431V62.849h-45.431Zm-51.109,0h45.43V62.849h-45.43Zm-51.11,0h45.431V62.849h-45.431Zm-51.109,0h45.43V62.849h-45.43Zm-51.11,0h45.431V62.849h-45.431Zm-5.678,0V62.849h-45.431V83.864H1410v.708ZM1351,83.864h51V62.849h-5.518a1.629,1.629,0,0,1-1.5-.986H1351Zm-56,0h51v-22h-51Zm-56,0h51v-22h-51Zm-56,0h51v-22h-51Zm-56,0h51v-22h-51Zm-56,0h51v-22h-51Zm-56,0h51v-22h-51Zm-56,0h51v-22H959Zm-56,0h51v-22H903Zm-56,0h51v-22H847Zm-56,0h51v-22H791Zm-56,0h51v-22H735Zm-56,0h51v-22H679Zm-56,0h51v-22H623Zm-56,0h51v-22H567Zm-56,0h51v-22H511Zm-56,0h51v-22H455Zm-56,0h51v-22H399Zm-56,0h51v-22H343Zm-56,0h51v-22H287Zm-56,0h51v-22H231Zm-56,0h51v-22H175Zm-56,0h51v-22H119Zm-56,0h51v-22H63Zm-56,0H58v-22H7ZM1857.043,54.149a2.839,2.839,0,0,1,.26,1.192V75.963l40.929-18.476V35.555Zm46.649-21.059a2.846,2.846,0,0,1,.26,1.193V54.9l40.93-18.477V14.5Z" transform="translate(6555 5517.136)"/>
 			<path class="b" d="M0,0H1220L988.6,209.933H216Z" transform="translate(8374 5401)"/>
 			<path class="e" d="M64,3800V3670H0v-30H64V3540H0v-30H64V3410H0v-30H64V3280H0v-30H64V3150H0v-30H64V3020H0v-30H64V2890H0v-30H64V2760H0v-30H64V2630H0v-30H64V2500H0v-30H64V2370H0v-30H64V2240H0v-30H64V2110H0v-30H64V1980H0v-30H64V1850H0v-30H64V1720H0v-30H64V1590H0v-30H64V1460H0v-30H64V1330H0v-30H64V1200H0v-30H64V1070H0v-30H64V940H0V910H64V810H0V780H64V680H0V650H64V550H0V520H64V420H0V390H64V290H0V260H64V160H0V0H1410V130h0v30h-65V260h65v30h-65V390h65v30h-65V520h65v30h-65V650h65v30h-65V780h65v30h-65V910h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v100h65v30h-65v130Z" transform="translate(6556 1811)"/>
 			<rect class="c" width="767" height="64.09" transform="translate(8591 5611)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="35000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="37000ms" repeatCount="indefinite"/>
 			</rect>
 			<path class="b" d="M140.892,15h-81.2L10.607,64.088,0,53.482,50.911,2.57A7.977,7.977,0,0,1,54.127.607,7.474,7.474,0,0,1,57.087,0H143.5a7.471,7.471,0,0,1,2.956.606,7.957,7.957,0,0,1,3.219,1.964l50.912,50.912L189.981,64.088Z" transform="translate(8983.412 5611)"/>
 			<path class="b" d="M140.892,15h-81.2L10.607,64.088,0,53.482,50.911,2.57A7.977,7.977,0,0,1,54.127.607,7.474,7.474,0,0,1,57.087,0H143.5a7.471,7.471,0,0,1,2.956.606,7.957,7.957,0,0,1,3.219,1.964l50.912,50.912L189.981,64.088Z" transform="translate(9184.412 5611)"/>
@@ -74,40 +74,40 @@
 			<path class="j" d="M0,654.935l.419-.419-.347-.162L305.2,0l4.532,2.113L5.875,653.74,205.768,853.633l-3.535,3.535Z" transform="translate(8675.94 4753.322)"/>
 			<path class="j" d="M98.063,855.726,302.647,651.142,0,2.113,4.532,0l303.44,650.729-.369.172,1.179,1.179L101.6,859.262Z" transform="translate(8981.5 4752.178)"/>
 			<rect class="c" width="100" height="10" rx="5" transform="translate(8799 5349)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="35000ms" begin="105000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="39000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="140" height="10" rx="5" transform="translate(8781 5330)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="10000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="112" height="10" rx="5" transform="translate(8701 5368)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="1364000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="92" height="10" rx="5" transform="translate(8889 5368)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="122000ms" begin="122000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="122000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="10" rx="5" transform="translate(8514 5349)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="1364000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="140" height="10" rx="5" transform="translate(8496 5330)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="15000ms" begin="15000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="15000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="121" height="10" rx="5" transform="translate(8407 5368)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="107700ms" begin="107700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="107700ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="84" height="10" rx="5" transform="translate(8604 5368)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="106500ms" begin="106500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="106500ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="10" rx="5" transform="translate(9352 5349)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="178000ms" begin="178000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="178000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="140" height="10" rx="5" transform="translate(9334 5330)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="1364000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="89" height="10" rx="5" transform="translate(9277 5368)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="19000ms" begin="19000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="19000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="117" height="10" rx="5" transform="translate(9442 5368)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="12000ms" begin="12000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="12000ms" repeatCount="indefinite"/>
 			</rect>
 			<path class="b" d="M140.892,15h-81.2L10.607,64.088,0,53.482,50.911,2.57A7.977,7.977,0,0,1,54.127.607,7.474,7.474,0,0,1,57.087,0H143.5a7.471,7.471,0,0,1,2.956.606,7.957,7.957,0,0,1,3.219,1.964l50.912,50.912L189.981,64.088Z" transform="translate(8578.412 5611)"/>
 			<path class="b" d="M140.892,15h-81.2L10.607,64.088,0,53.482,50.911,2.57A7.977,7.977,0,0,1,54.127.607,7.474,7.474,0,0,1,57.087,0H143.5a7.471,7.471,0,0,1,2.956.606,7.957,7.957,0,0,1,3.219,1.964l50.912,50.912L189.981,64.088Z" transform="translate(8782.412 5611)"/>
@@ -115,40 +115,40 @@
 			<path class="l" d="M39.909,83.969,1045.97,88.818l1000,139.394-3018.182,3.333Z" transform="translate(7451 6313)"/>
 			<rect class="k" width="3747" height="295" transform="translate(6125 6113)"/>
 			<rect class="c" width="421" height="50" transform="translate(6140 5683)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="90300ms" begin="90300ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="1471000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="376" transform="translate(6140 5737)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="469000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(6576 5683)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="2467000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="376" transform="translate(6576 5737)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="85000ms" begin="85000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="465000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(7012 5683)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="111000ms" begin="111000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="464000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="376" transform="translate(7012 5737)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="76000ms" begin="76000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="3465000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(9436 5683)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="12000ms" begin="12000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="464000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="376" transform="translate(9436 5737)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="30000ms" begin="30000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="463000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(9000 5683)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="462000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="376" transform="translate(9000 5737)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="6000ms" begin="6000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="5461000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(8564 5683)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="460000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="376" transform="translate(8564 5737)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1000000ms" begin="1000000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="459000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="m" width="350" height="376" transform="translate(7824 5737)"/>
 			<rect class="n" width="350" height="376" transform="translate(8199 5737)"/>
@@ -156,1082 +156,1082 @@
 				<rect class="v" width="350" height="376"/>
 			</g>
 			<rect class="c" width="1101" height="50" transform="translate(7448 5683)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="458000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="p" width="1657" height="210" transform="translate(8200 6188)"/>
 			<rect class="c" width="1101" height="50" transform="translate(7448 6123)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="5000ms" begin="5000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="457000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(8564 6123)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="50000ms" begin="50000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="456000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(9000 6123)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="455000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(9436 6123)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="300000ms" begin="300000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="454000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(7012 6123)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="900000ms" begin="900000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="453000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(6576 6123)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="40000ms" begin="40000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="452000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="421" height="50" transform="translate(6140 6123)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="90000ms" begin="90000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="451000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="p" width="1657" height="210" transform="translate(6140 6188)"/>
 			<rect class="q" width="350" height="210" transform="translate(7824 6188)"/>
 			<path class="r" d="M3370.34,476.439,2370.169,335.875a11.631,11.631,0,0,1-.169-22.014V291.7l-5.17-.727a2.707,2.707,0,0,1-1.116-5.3l842.141-118.356L2370.169,49.875a10.018,10.018,0,0,1-2.54-.705h-991a10,10,0,0,1-2.54.705L538.408,167.322,1380.55,285.677a2.911,2.911,0,0,1-1.117,5.3l-5.169.727v22.158a11.4,11.4,0,0,1-.17,22.013L373.923,476.439a10,10,0,1,1-2.784-19.805l8.256-1.161a2.472,2.472,0,0,1-.133-.8V431.541l-14.854,2.088a2.5,2.5,0,1,1-.7-4.951l842.147-118.355L370.169,192.873a10,10,0,0,1-7.334-14.79A10.012,10.012,0,0,1,370,170.861V148.7l-5.169-.727a2.707,2.707,0,0,1-1.117-5.3l665.349-93.509H0v-20H.05a2.505,2.505,0,0,1-.05-.5v-25A2.554,2.554,0,0,1,.064,3.1,1.5,1.5,0,0,1,1.5,1.169H1370.6l8.136-1.143a2.456,2.456,0,0,1,.351-.025,2.5,2.5,0,0,1,2.113,1.168h981.861a2.5,2.5,0,0,1,2.464-1.143l8.136,1.143H3745.5a1.5,1.5,0,1,1,0,3h-.5v24.5a2.5,2.5,0,0,1-.05.5H3747v20H2715.2l665.346,93.508a2.911,2.911,0,0,1-1.117,5.3l-5.169.726V170.86a10.011,10.011,0,0,1,7.164,7.221,10.006,10.006,0,0,1-7.334,14.793L2538.409,310.322l842.142,118.355a2.5,2.5,0,0,1-.7,4.951L3365,431.541V454.67a2.473,2.473,0,0,1-.133.8l8.257,1.16a10,10,0,1,1-2.783,19.805ZM3310,446.669a2.5,2.5,0,0,1-.234,1.061L3360,454.79c0-.039,0-.08,0-.12V430.839l-50-7.026ZM384.264,430.838V454.67c0,.04,0,.08,0,.12l50.237-7.06a2.5,2.5,0,0,1-.235-1.061V423.811ZM3255,439.669a2.681,2.681,0,0,1-.025.36l50.057,7.035a2.5,2.5,0,0,1-.031-.395v-23.56l-50-7.027ZM439.263,423.109v23.56a2.457,2.457,0,0,1-.032.394l50.057-7.034a2.525,2.525,0,0,1-.025-.36V416.081ZM3200,430.669a2.487,2.487,0,0,1-.544,1.557l50.545,7.1V415.379l-50-7.027ZM494.263,415.379v23.95l50.544-7.1a2.484,2.484,0,0,1-.544-1.556V408.351ZM3145,423.668a2.491,2.491,0,0,1-.16.882l50.351,7.077a2.488,2.488,0,0,1-.191-.958V407.65l-50-7.027ZM549.264,407.649v23.02a2.481,2.481,0,0,1-.191.957l50.35-7.076a2.513,2.513,0,0,1-.16-.881V400.623ZM3090,415.669a2.484,2.484,0,0,1-.273,1.137l50.281,7.067c-.006-.068-.009-.135-.009-.2V399.919l-50-7.026ZM604.263,399.919v23.75c0,.068,0,.135-.008.2l50.281-7.067a2.485,2.485,0,0,1-.272-1.135V392.893ZM3035,408.668a2.512,2.512,0,0,1-.039.44l50.084,7.039a2.489,2.489,0,0,1-.046-.479V392.189l-50-7.026ZM659.263,392.189v23.48a2.484,2.484,0,0,1-.046.477l50.084-7.039a2.49,2.49,0,0,1-.038-.438V385.162ZM2980,399.668a2.486,2.486,0,0,1-.606,1.632l50.6,7.111V384.46l-50-7.027ZM714.262,384.46v23.95l50.6-7.112a2.493,2.493,0,0,1-.6-1.63V377.433ZM2925,392.669a2.507,2.507,0,0,1-.19.959l50.418,7.086a2.486,2.486,0,0,1-.229-1.046V376.73l-50-7.027ZM769.263,376.73v22.939a2.5,2.5,0,0,1-.228,1.045l50.418-7.087a2.477,2.477,0,0,1-.19-.958V369.7ZM2870,385.669c0,.086,0,.17-.012.254l50.029,7.031a2.6,2.6,0,0,1-.016-.285V369l-50-7.026ZM824.264,369v23.668a2.6,2.6,0,0,1-.016.285l50.028-7.031c-.008-.084-.012-.168-.012-.254V361.974ZM2815,377.669a2.4,2.4,0,0,1-.055.518L2865,385.222V361.271l-50-7.027Zm-1935.737-16.4v23.951l50.054-7.035a2.422,2.422,0,0,1-.055-.518V354.243ZM2760,369.668a2.514,2.514,0,0,1-.123.78L2810,377.492V353.541l-50-7.027ZM934.264,353.541v23.95l50.123-7.044a2.472,2.472,0,0,1-.124-.778V346.514ZM2705,361.669a2.5,2.5,0,0,1-.223,1.035L2755,369.762c0-.031,0-.062,0-.094V345.812l-50-7.027ZM989.263,345.812v23.857c0,.031,0,.062,0,.093l50.224-7.058a2.5,2.5,0,0,1-.223-1.034V338.785ZM2650,354.668a2.586,2.586,0,0,1-.022.334l50.049,7.035a2.67,2.67,0,0,1-.026-.369V338.081l-50-7.026ZM1044.263,338.081v23.588a2.373,2.373,0,0,1-.027.367L1094.285,355a2.583,2.583,0,0,1-.022-.333V331.055ZM2595,346.67a2.5,2.5,0,0,1-.071.6L2645,354.3V330.351l-50-7.026ZM1099.263,330.352V354.3l50.071-7.037a2.487,2.487,0,0,1-.071-.6V323.325ZM2540,338.669a2.485,2.485,0,0,1-.15.856l50.15,7.048v-23.95l-50-7.027ZM1154.263,322.622v23.95l50.151-7.049a2.472,2.472,0,0,1-.151-.855V315.595ZM2485,317.827v13.841c0,.05,0,.1,0,.147l50.009,7.029c0-.058-.006-.117-.006-.176V314.892l-14.553-2.046Zm-1275.738-2.935v23.776c0,.058,0,.118-.007.175l50.011-7.028c0-.048,0-.1,0-.147V317.827l-35.44-4.981Zm1225.973,9.929L2480,331.114V318.531Zm-1170.974,6.292,44.766-6.292-44.766-6.292ZM2375,313.091l4.4-.617a2.527,2.527,0,0,1-.132-.8V293l-4.265-.6ZM1365,293.006v18.662a2.487,2.487,0,0,1-.133.806l4.4.617V292.406Zm-45.736,6.427v6.631L1360,311.79c0-.04,0-.081,0-.122v-17.96Zm1065,12.235c0,.04,0,.08,0,.12L2425,306.064v-6.632l-40.736-5.726ZM2430,305.361l4.5-.632a2.5,2.5,0,0,1-.235-1.06v-2.935l-4.263-.6Zm-1120-4.626v2.934a2.488,2.488,0,0,1-.235,1.06l4.5.632v-5.226Zm1129.265,2.934a2.488,2.488,0,0,1-.032.395l9.36-1.316-9.328-1.312Zm-1143.594-.921,9.36,1.316a2.494,2.494,0,0,1-.032-.395v-2.232Zm1143.594-22.639v16.279l27.291,3.836,22.735-3.194a2.513,2.513,0,0,1-.025-.36V273.082ZM1255,296.669a2.7,2.7,0,0,1-.024.361l22.733,3.194L1305,296.388V280.109l-50-7.027Zm-55-9a2.487,2.487,0,0,1-.545,1.558l50.544,7.1V272.38l-50-7.027Zm1294.265-15.29v23.95l50.544-7.1a2.49,2.49,0,0,1-.543-1.557V265.352ZM1310,295.686l50-7.027v-.82l-50-7.027Zm1074.265-7.848v.821l50,7.026V280.811ZM1145,280.669a2.47,2.47,0,0,1-.161.882l50.351,7.076a2.479,2.479,0,0,1-.191-.958V264.649l-50-7.027Zm1404.264-16.019v23.019a2.472,2.472,0,0,1-.19.957l50.349-7.075a2.515,2.515,0,0,1-.159-.881V257.622ZM1090,272.669a2.485,2.485,0,0,1-.273,1.137l50.281,7.066c-.006-.066-.009-.134-.009-.2V256.919l-50-7.026Zm1514.265-15.749v23.75c0,.068,0,.135-.009.2l50.281-7.065a2.5,2.5,0,0,1-.273-1.136V249.892Zm55-7.729V272.67a2.513,2.513,0,0,1-.046.478l50.085-7.039a2.525,2.525,0,0,1-.039-.439V242.163ZM1035,265.669a2.447,2.447,0,0,1-.038.44l50.084,7.039a2.506,2.506,0,0,1-.046-.479V249.19l-50-7.027ZM2714.263,241.46v23.951l50.6-7.112a2.494,2.494,0,0,1-.6-1.63V234.433ZM980,256.668a2.488,2.488,0,0,1-.6,1.631L1030,265.411V241.46l-50-7.026Zm-55-7a2.5,2.5,0,0,1-.19.958l50.419,7.087a2.479,2.479,0,0,1-.229-1.046V233.73L925,226.7ZM2769.263,233.73v22.939a2.5,2.5,0,0,1-.228,1.044l50.418-7.086a2.5,2.5,0,0,1-.19-.958V226.7ZM870,242.669a2.508,2.508,0,0,1-.012.254l50.029,7.031a2.6,2.6,0,0,1-.016-.285V226l-50-7.027ZM2824.265,226v23.668a2.373,2.373,0,0,1-.017.284l50.029-7.03a2.5,2.5,0,0,1-.012-.254v-23.7ZM815,234.668a2.475,2.475,0,0,1-.054.519L865,242.222V218.271l-50-7.027Zm2064.265-16.4v23.95l50.053-7.034a2.483,2.483,0,0,1-.054-.518V211.244ZM760,226.669a2.51,2.51,0,0,1-.123.78L810,234.492V210.541l-50-7.026Zm2174.264-16.127v23.95l50.123-7.044a2.5,2.5,0,0,1-.123-.778V203.515ZM705,218.669a2.5,2.5,0,0,1-.223,1.035L755,226.764c0-.032,0-.063,0-.095V202.811l-50-7.027Zm2284.266-15.858v23.858c0,.031,0,.062,0,.093l50.224-7.059a2.5,2.5,0,0,1-.224-1.033V195.784ZM650,211.669a2.624,2.624,0,0,1-.022.335l50.049,7.033a2.486,2.486,0,0,1-.027-.368V195.081l-50-7.027Zm2394.265-16.586V218.67a2.445,2.445,0,0,1-.027.366l50.05-7.033a2.429,2.429,0,0,1-.022-.333V188.055Zm55-7.73V211.3l50.072-7.037a2.5,2.5,0,0,1-.072-.6V180.325ZM595,203.668a2.456,2.456,0,0,1-.072.6L645,211.3v-23.95l-50-7.027Zm-55-8a2.5,2.5,0,0,1-.15.856L590,203.574V179.622L540,172.6Zm2614.265-16.047v23.951l50.15-7.048a2.5,2.5,0,0,1-.151-.856V172.6Zm55-7.729v23.776c0,.058,0,.117-.007.176l50.012-7.029c0-.049,0-.1,0-.147V174.828l-35.445-4.981ZM485,174.828v13.841c0,.049,0,.1,0,.148l50.011,7.028c0-.058-.007-.117-.007-.176V171.892l-14.553-2.045Zm2779.264,13.286,44.764-6.292-44.764-6.29ZM435.235,181.822,480,188.113V175.531ZM3365,150v18.665a2.465,2.465,0,0,1-.133.8l4.4.618V149.407ZM375,170.091l4.4-.618a2.478,2.478,0,0,1-.133-.8V150l-4.264-.6Zm2944.265-13.657v6.63L3360,168.789c0-.04,0-.08,0-.12V150.708Zm-2935,12.235c0,.04,0,.08,0,.12L425,163.064v-6.631l-40.735-5.726ZM3310,157.734v2.935a2.5,2.5,0,0,1-.234,1.06l4.5.632v-5.226ZM430,162.361l4.5-.632a2.5,2.5,0,0,1-.235-1.06v-2.935l-4.263-.6Zm2865.672-2.613,9.359,1.317a2.509,2.509,0,0,1-.031-.395v-2.232Zm-2856.408.922a2.5,2.5,0,0,1-.032.395l9.36-1.317-9.328-1.311Zm2815.736-7a2.67,2.67,0,0,1-.025.36l22.735,3.2L3305,153.388v-16.28l-50-7.026ZM439.263,137.108v16.28l27.291,3.836,22.734-3.2a2.516,2.516,0,0,1-.025-.36V130.082ZM3200,144.669a2.483,2.483,0,0,1-.544,1.557l50.545,7.1V129.379l-50-7.027ZM494.263,129.378V153.33l50.544-7.1a2.485,2.485,0,0,1-.544-1.557V122.351ZM3310,152.686l50-7.026v-.82l-50-7.027ZM384.264,144.838v.821l50,7.026V137.811ZM3145,137.669a2.491,2.491,0,0,1-.16.882l50.351,7.076a2.484,2.484,0,0,1-.191-.958V121.65l-50-7.027ZM549.264,121.65v23.019a2.478,2.478,0,0,1-.191.957l50.35-7.075a2.517,2.517,0,0,1-.16-.881V114.622ZM3090,129.668a2.484,2.484,0,0,1-.273,1.137l50.281,7.067q-.008-.1-.009-.2V113.92l-50-7.027ZM604.263,113.92v23.75c0,.067,0,.134-.008.2l50.281-7.066a2.492,2.492,0,0,1-.272-1.136V106.892ZM3035,122.668a2.512,2.512,0,0,1-.039.44l50.084,7.04a2.5,2.5,0,0,1-.046-.48V106.19l-50-7.026ZM659.263,106.189v23.48a2.494,2.494,0,0,1-.046.478l50.084-7.04a2.49,2.49,0,0,1-.038-.438V99.163ZM2980,113.669a2.483,2.483,0,0,1-.606,1.631l50.6,7.112V98.46l-50-7.027ZM714.262,98.46v23.951l50.6-7.112a2.5,2.5,0,0,1-.6-1.63V91.432ZM2925,106.669a2.5,2.5,0,0,1-.19.958l50.418,7.086a2.485,2.485,0,0,1-.229-1.045V90.73L2925,83.7ZM769.263,90.73V113.67a2.5,2.5,0,0,1-.228,1.044l50.418-7.086a2.484,2.484,0,0,1-.19-.958V83.7ZM2870,99.668c0,.087,0,.171-.012.254l50.029,7.032a2.627,2.627,0,0,1-.016-.285V83l-50-7.027ZM824.264,83v23.668a2.594,2.594,0,0,1-.016.284l50.028-7.031c-.008-.084-.012-.168-.012-.254V75.974ZM2815,91.669a2.4,2.4,0,0,1-.055.518L2865,99.223V75.27l-50-7.026ZM879.263,75.27V99.222l50.054-7.035a2.416,2.416,0,0,1-.055-.518V68.244ZM2760,83.669a2.518,2.518,0,0,1-.123.78L2810,91.492V67.541l-50-7.027ZM934.264,67.54V91.492l50.123-7.044a2.476,2.476,0,0,1-.124-.778V60.514ZM2705,75.668a2.5,2.5,0,0,1-.223,1.036L2755,83.763c0-.031,0-.063,0-.094V59.812l-50-7.027ZM989.263,59.812V83.67c0,.03,0,.062,0,.092l50.224-7.058a2.5,2.5,0,0,1-.223-1.034V52.784ZM2650,68.668a2.576,2.576,0,0,1-.022.334l50.049,7.035a2.66,2.66,0,0,1-.026-.369V52.082l-20.721-2.912H2650ZM1044.263,52.082V75.669a2.364,2.364,0,0,1-.027.367L1094.285,69a2.572,2.572,0,0,1-.022-.333v-19.5h-29.276ZM2595,60.669a2.489,2.489,0,0,1-.071.6L2645,68.3V49.169h-50ZM1099.263,68.3l50.071-7.038a2.481,2.481,0,0,1-.071-.6v-11.5h-50ZM2540,52.669a2.489,2.489,0,0,1-.15.856L2590,60.573v-11.4h-50Zm-1385.737,7.9,50.151-7.047a2.49,2.49,0,0,1-.151-.856v-3.5h-50Zm1380.743-7.728c0-.057-.006-.116-.006-.175v-3.5h-26.143Zm-1325.743-.175c0,.058,0,.117-.007.174l26.143-3.674h-26.136ZM3690,28.669a2.52,2.52,0,0,1-.05.5h50.1a2.52,2.52,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.52,2.52,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.52,2.52,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.52,2.52,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.52,2.52,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.52,2.52,0,0,1-.05.5h50.1a2.52,2.52,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.52,2.52,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.52,2.52,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-50V23.843l37.891,5.325Zm-50.1,0h.05v-.276h-.01A2.483,2.483,0,0,1,2534.95,29.168Zm-4.9,0a2.5,2.5,0,0,1-.05-.5v-.48l-45-6.324v7.3Zm-50.05-.5a2.52,2.52,0,0,1-.05.5h.05v-.5Zm-4.951.5a2.5,2.5,0,0,1-.05-.5v-8.21l-45-6.324V29.168Zm-50.049-.5a2.5,2.5,0,0,1-.05.5h.05v-.5Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V12.73L2375,6.4V29.168Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h.05v-.5Zm-4.95.5a2.52,2.52,0,0,1-.05-.5V5l-.17-.024a2.491,2.491,0,0,1-1.514-.808H2342v24.5a2.5,2.5,0,0,1-.051.5Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h22.1a2.434,2.434,0,0,1-.051-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.5,2.5,0,0,1-.05.5Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h22.1a2.578,2.578,0,0,1-.049-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.434,2.434,0,0,1-.051.5Zm-50.051-.5a2.5,2.5,0,0,1-.05.5h22.1a2.5,2.5,0,0,1-.051-.5V4.169h-22Zm-4.95.5a2.52,2.52,0,0,1-.05-.5V4.169h-23v24.5a2.578,2.578,0,0,1-.05.5Zm-50.049-.5a2.52,2.52,0,0,1-.05.5h22.1a2.5,2.5,0,0,1-.05-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.5,2.5,0,0,1-.05.5Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h22.1a2.5,2.5,0,0,1-.05-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.5,2.5,0,0,1-.05.5Zm-50.051-.5a2.511,2.511,0,0,1-.05.5h22.1a2.5,2.5,0,0,1-.051-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.5,2.5,0,0,1-.05.5Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h22.1a2.5,2.5,0,0,1-.05-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.578,2.578,0,0,1-.049.5Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h22.1a2.443,2.443,0,0,1-.051-.5V4.169h-22Zm-4.95.5a2.511,2.511,0,0,1-.05-.5V4.169h-23v24.5a2.513,2.513,0,0,1-.05.5Zm-50.049-.5a2.511,2.511,0,0,1-.05.5h22.1a2.5,2.5,0,0,1-.05-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.443,2.443,0,0,1-.051.5Zm-50.05-.5a2.511,2.511,0,0,1-.05.5h22.1a2.434,2.434,0,0,1-.051-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.5,2.5,0,0,1-.05.5Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h22.1a2.513,2.513,0,0,1-.05-.5V4.169h-22Zm-4.95.5a2.511,2.511,0,0,1-.05-.5V4.169h-23v24.5a2.5,2.5,0,0,1-.05.5Zm-50.049-.5a2.5,2.5,0,0,1-.05.5h22.1a2.578,2.578,0,0,1-.049-.5V4.169h-22Zm-4.95.5a2.511,2.511,0,0,1-.05-.5V4.169h-23v24.5a2.5,2.5,0,0,1-.05.5Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h22.1a2.513,2.513,0,0,1-.051-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.578,2.578,0,0,1-.05.5Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h22.1a2.434,2.434,0,0,1-.051-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.513,2.513,0,0,1-.05.5Zm-50.049-.5a2.5,2.5,0,0,1-.05.5h22.1a2.578,2.578,0,0,1-.049-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.513,2.513,0,0,1-.05.5Zm-50.05-.5a2.511,2.511,0,0,1-.05.5h22.1a2.578,2.578,0,0,1-.05-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.513,2.513,0,0,1-.05.5Zm-50.05-.5a2.511,2.511,0,0,1-.05.5h22.1a2.434,2.434,0,0,1-.051-.5V4.169h-22Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V4.169h-23v24.5a2.578,2.578,0,0,1-.049.5Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h22.1a2.513,2.513,0,0,1-.05-.5V4.169h-21.052a2.5,2.5,0,0,1-.948.66Zm-4.95.5a2.511,2.511,0,0,1-.05-.5V5.6l-.736.1V29.168Zm-50.049-.5a2.5,2.5,0,0,1-.05.5h44.313V6.406L1325,12.627Zm-4.95.5a2.511,2.511,0,0,1-.05-.5V13.33l-.737.1V29.168Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h44.313V14.136L1270,20.356Zm-4.95.5a2.5,2.5,0,0,1-.05-.5V21.059l-.737.1v8.006Zm-50.05-.5a2.5,2.5,0,0,1-.05.5h44.313v-7.3L1215,28.087Zm-4.95.5a2.5,2.5,0,0,1-.047-.38l-.74.1v.276Zm-50.049-.5a2.5,2.5,0,0,1-.05.5h11.424L1210,23.74V4.169h-50Zm-55,0a2.511,2.511,0,0,1-.05.5h50.1a2.511,2.511,0,0,1-.05-.5V4.169h-50Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169h-50Zm-55,0a2.506,2.506,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169H995Zm-55,0a2.506,2.506,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H940Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H885Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H830Zm-55,0a2.506,2.506,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H775Zm-55,0a2.506,2.506,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H720Zm-55,0a2.506,2.506,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H665Zm-55,0a2.506,2.506,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169H610Zm-55,0a2.506,2.506,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H555Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H500Zm-55,0a2.506,2.506,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H445Zm-55,0a2.506,2.506,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H390Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169H335Zm-55,0a2.5,2.5,0,0,1-.05.5h50.1a2.5,2.5,0,0,1-.05-.5V4.169H280Zm-55,0a2.505,2.505,0,0,1-.05.5h50.1a2.506,2.506,0,0,1-.05-.5V4.169H225Zm-55,0a2.505,2.505,0,0,1-.05.5h50.1a2.505,2.505,0,0,1-.05-.5V4.169H170Zm-55,0a2.505,2.505,0,0,1-.05.5h50.1a2.505,2.505,0,0,1-.05-.5V4.169H115Zm-55,0a2.505,2.505,0,0,1-.05.5h50.1a2.505,2.505,0,0,1-.05-.5V4.169H60Zm-55,0a2.505,2.505,0,0,1-.05.5h50.1a2.505,2.505,0,0,1-.05-.5V4.169H5Zm2525-5.529V4.169h-50V16.114Zm-1315-.1,50-7.027V4.169h-50Zm1260-7.626V4.169h-50V8.384Zm-1205-.1,50-7.027V4.169h-50ZM2420,7.681V4.169h-24.993Zm-1095-.1,24.257-3.409H1325Z" transform="translate(6125 6065.832)"/>
 			<path class="j" d="M0,857.174v-211H.483V0h5V657H5V857.174Z" transform="translate(8981.223 4752.83)"/>
 			<rect class="c" width="100" height="10" rx="5" transform="translate(9067 5349)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="447000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="140" height="10" rx="5" transform="translate(9049 5330)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="448000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="94" height="10" rx="5" transform="translate(8987 5368)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="449000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="112" height="10" rx="5" transform="translate(9157 5368)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="4000ms" begin="4000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="450000ms" begin="4000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="7000ms" begin="7000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="3000ms" begin="3000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="110000ms" begin="110000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="40000ms" begin="40000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="18942ms" begin="18000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="5000ms" begin="5000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="29000ms" begin="29000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="6000ms" begin="6000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="47000ms" begin="47000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="7000ms" begin="7000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="76000ms" begin="76000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="8000ms" begin="8000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="123000ms" begin="123000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="9000ms" begin="9000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="199000ms" begin="199000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="322000ms" begin="322000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="11000ms" begin="11000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="521000ms" begin="521000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="12000ms" begin="12000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="843000ms" begin="843000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="13000ms" begin="13000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="14000ms" begin="14000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="843000ms" begin="843000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="15000ms" begin="15000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="521000ms" begin="521000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="16000ms" begin="16000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="19000ms" begin="19000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="17000ms" begin="17000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="61000ms" begin="61000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="18000ms" begin="18000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="19000ms" begin="19000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="39000ms" begin="39000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="20000ms" begin="20000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="21000ms" begin="21000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="22000ms" begin="22000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100000ms" begin="100000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="23000ms" begin="23000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="24000ms" begin="24000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="5000ms" begin="5000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="25000ms" begin="25000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="26000ms" begin="26000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="145000ms" begin="145000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="27000ms" begin="27000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1000000ms" begin="1000000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="28000ms" begin="28000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="123000ms" begin="123000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="29000ms" begin="29000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="30000ms" begin="30000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="17000ms" begin="17000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="31000ms" begin="31000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="32000ms" begin="32000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="125000ms" begin="125000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="33000ms" begin="33000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="34000ms" begin="34000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="14000ms" begin="14000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="35000ms" begin="35000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="11000ms" begin="11000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="36000ms" begin="36000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="37000ms" begin="37000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="21000ms" begin="21000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="38000ms" begin="38000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="169000ms" begin="169000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="39000ms" begin="39000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="40000ms" begin="40000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="69000ms" begin="69000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="50000ms" begin="50000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="13000ms" begin="13000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="51000ms" begin="51000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="125000ms" begin="125000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="52000ms" begin="52000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="53000ms" begin="53000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="54000ms" begin="54000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="163000ms" begin="163000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="55000ms" begin="55000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="16000ms" begin="16000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="56000ms" begin="56000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="57000ms" begin="57000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="58000ms" begin="58000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="156000ms" begin="156000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="59000ms" begin="59000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="60000ms" begin="60000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="61000ms" begin="61000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="188000ms" begin="188000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="62000ms" begin="62000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="63000ms" begin="63000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="19000ms" begin="19000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="64000ms" begin="64000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6620 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="188000ms" begin="188000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="65000ms" begin="65000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6721 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="66000ms" begin="66000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1300000ms" begin="1300000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="67000ms" begin="67000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="134000ms" begin="134000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="68000ms" begin="68000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="69000ms" begin="69000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="156000ms" begin="156000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="70000ms" begin="70000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="71000ms" begin="71000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="72000ms" begin="72000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="107400ms" begin="107400ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="7300ms" begin="73000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="74000ms" begin="74000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="75000ms" begin="75000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="196000ms" begin="196000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="76000ms" begin="76000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="109600ms" begin="109600ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="77000ms" begin="77000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="78000ms" begin="78000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="108600ms" begin="108600ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="79000ms" begin="79000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="105500ms" begin="105500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="80000ms" begin="80000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1250000ms" begin="1250000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="81000ms" begin="81000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="82000ms" begin="82000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="101500ms" begin="101500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="83000ms" begin="83000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1062300ms" begin="1062300ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="84000ms" begin="84000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1046700ms" begin="1046700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="85000ms" begin="85000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="86000ms" begin="86000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="103300ms" begin="103300ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="87000ms" begin="87000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="88000ms" begin="88000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="89000ms" begin="89000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="155000ms" begin="155000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="90000ms" begin="90000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="143000ms" begin="143000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="91000ms" begin="91000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="154000ms" begin="154000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="92000ms" begin="92000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="93000ms" begin="93000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="106800ms" begin="106800ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="94000ms" begin="94000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="109900ms" begin="109900ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="95000ms" begin="95000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1088800ms" begin="1088800ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="96000ms" begin="96000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="107700ms" begin="107700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="97000ms" begin="97000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="98000ms" begin="98000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="106100ms" begin="106100ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="99000ms" begin="99000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="105500ms" begin="105500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="100000ms" begin="100000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10300ms" begin="10300ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="101000ms" begin="101000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="178000ms" begin="178000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="102000ms" begin="102000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="103000ms" begin="103000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="189000ms" begin="189000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="104000ms" begin="104000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="177000ms" begin="177000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="105000ms" begin="105000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="106000ms" begin="106000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="107000ms" begin="107000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="199000ms" begin="199000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="108000ms" begin="108000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="109000ms" begin="109000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="108800ms" begin="108800ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="110000ms" begin="110000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="107700ms" begin="107700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="111000ms" begin="111000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10500ms" begin="10500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="112000ms" begin="112000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1200000ms" begin="1200000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="113000ms" begin="113000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="114000ms" begin="114000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1150000ms" begin="1150000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="115000ms" begin="115000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="3000ms" begin="13000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="116000ms" begin="116000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="117000ms" begin="117000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="118000ms" begin="118000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="119000ms" begin="119000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1050000ms" begin="1050000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="120000ms" begin="120000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6836 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="55000ms" begin="550000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="121000ms" begin="121000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(6937 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1000000ms" begin="1000000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="122000ms" begin="122000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="55500ms" begin="55500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="123000ms" begin="123000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="124000ms" begin="124000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="5500ms" begin="5500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="125000ms" begin="125000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100000ms" begin="100000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="126000ms" begin="126000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1330000ms" begin="1330000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="127000ms" begin="127000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="50000ms" begin="50000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="128000ms" begin="128000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="129000ms" begin="129000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10500ms" begin="10500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="130000ms" begin="130000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="4500ms" begin="4500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="131000ms" begin="131000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="132000ms" begin="132000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="133000ms" begin="133000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1230000ms" begin="1230000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="133000ms" begin="133000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="134000ms" begin="134000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="23000ms" begin="23000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="135000ms" begin="135000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="15000ms" begin="15000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="136000ms" begin="136000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="137000ms" begin="137000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10400ms" begin="10400ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="138000ms" begin="138000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="90000ms" begin="90000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="139000ms" begin="139000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="950000ms" begin="950000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="140000ms" begin="140000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="130000ms" begin="130000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="141000ms" begin="141000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10300ms" begin="10300ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="142000ms" begin="142000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="970000ms" begin="970000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="143000ms" begin="143000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="144000ms" begin="144000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="850000ms" begin="850000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="145000ms" begin="145000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10900ms" begin="10900ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="146000ms" begin="146000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="750000ms" begin="750000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="147000ms" begin="147000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="148000ms" begin="148000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1630000ms" begin="1630000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="149000ms" begin="149000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="150000ms" begin="150000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="151000ms" begin="151000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="107700ms" begin="107700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="152000ms" begin="152000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="330000ms" begin="330000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="153000ms" begin="153000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="154000ms" begin="154000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="125000ms" begin="125000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="155000ms" begin="155000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="17000ms" begin="17000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="156000ms" begin="156000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100500ms" begin="100500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="157000ms" begin="157000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="188000ms" begin="188000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="158000ms" begin="158000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="159000ms" begin="159000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="160000ms" begin="160000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="156000ms" begin="156000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="161000ms" begin="161000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="105000ms" begin="105000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="162000ms" begin="162000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="163000ms" begin="163000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="111000ms" begin="111000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="164000ms" begin="164000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1150000ms" begin="1150000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="165000ms" begin="165000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="166000ms" begin="166000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10700ms" begin="10700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="167000ms" begin="167000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="168000ms" begin="168000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1060000ms" begin="106000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="169000ms" begin="169000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="104000ms" begin="104000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="170000ms" begin="170000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="14000ms" begin="14000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="171000ms" begin="171000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="151000ms" begin="151000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="172000ms" begin="172000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="173000ms" begin="173000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="128000ms" begin="128000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="174000ms" begin="174000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="132000ms" begin="132000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="175000ms" begin="175000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7052 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="156000ms" begin="156000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="176000ms" begin="176000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7153 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="177000ms" begin="177000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100000ms" begin="100000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="178000ms" begin="178000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="179000ms" begin="179000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="180000ms" begin="180000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="150000ms" begin="150000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="181000ms" begin="181000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="134000ms" begin="134000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="182000ms" begin="182000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="183000ms" begin="183000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="167000ms" begin="167000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="184000ms" begin="184000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="481000ms" begin="481000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="185000ms" begin="185000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="521000ms" begin="521000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="186000ms" begin="186000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="391000ms" begin="3911000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="187000ms" begin="187000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="188000ms" begin="188000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="671000ms" begin="671000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="189000ms" begin="189000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="51000ms" begin="51000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="190000ms" begin="190000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="91000ms" begin="91000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="191000ms" begin="191000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="192000ms" begin="192000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10800ms" begin="10800ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="193000ms" begin="193000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="11000ms" begin="11000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="194000ms" begin="194000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="121000ms" begin="121000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="195000ms" begin="195000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="196000ms" begin="196000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="102300ms" begin="102300ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="197000ms" begin="197000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="810000ms" begin="810000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="198000ms" begin="198000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="106000ms" begin="106000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="199000ms" begin="199000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="200000ms" begin="200000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1098000ms" begin="1098000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="201000ms" begin="201000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="107600ms" begin="107600ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="202000ms" begin="202000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="161000ms" begin="161000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="203000ms" begin="203000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="178000ms" begin="178000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="204000ms" begin="204000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="115000ms" begin="115000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="205000ms" begin="205000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="11000ms" begin="11000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="206000ms" begin="206000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="207000ms" begin="207000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="19000ms" begin="19000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="208000ms" begin="208000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="180000ms" begin="180000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="209000ms" begin="209000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="210000ms" begin="210000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="51000ms" begin="51000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="212000ms" begin="212000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="213000ms" begin="213000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="190000ms" begin="190000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="214000ms" begin="214000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="19000ms" begin="19000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="215000ms" begin="215000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="216000ms" begin="216000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="182000ms" begin="182000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="217000ms" begin="217000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="17000ms" begin="17000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="218000ms" begin="218000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="219000ms" begin="219000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1780000ms" begin="1780000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="220000ms" begin="220000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="107700ms" begin="107700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="221000ms" begin="221000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="223000ms" begin="223000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1520000ms" begin="1520000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="224000ms" begin="224000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="168000ms" begin="168000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="225000ms" begin="225000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="226000ms" begin="226000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="227000ms" begin="227000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="11000ms" begin="11000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="228000ms" begin="228000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10500ms" begin="10500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="229000ms" begin="229000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="150000ms" begin="150000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="330000ms" begin="330000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="331000ms" begin="331000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="146000ms" begin="146000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="332000ms" begin="332000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="19000ms" begin="19000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="333000ms" begin="333000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7268 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="334000ms" begin="334000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7369 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="335000ms" begin="335000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="135000ms" begin="135000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="336000ms" begin="336000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="337000ms" begin="337000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="106700ms" begin="106700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="338000ms" begin="338000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="193000ms" begin="193000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="339000ms" begin="339000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="340000ms" begin="340000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="137000ms" begin="137000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="341000ms" begin="341000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="16000ms" begin="16000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="342000ms" begin="342000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="11000ms" begin="11000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="343000ms" begin="343000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="31000ms" begin="31000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="344000ms" begin="344000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="345000ms" begin="345000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10070ms" begin="10070ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="346000ms" begin="346000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10600ms" begin="10600ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="347000ms" begin="347000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10500ms" begin="10500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="348000ms" begin="348000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="13000ms" begin="13000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="349000ms" begin="349000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="350000ms" begin="350000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="12000ms" begin="12000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="351000ms" begin="351000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="128000ms" begin="128000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="352000ms" begin="352000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10050ms" begin="10050ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="353000ms" begin="353000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="354000ms" begin="354000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="355000ms" begin="355000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="103500ms" begin="103500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="356000ms" begin="356000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="17700ms" begin="17700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="357000ms" begin="357000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100250ms" begin="100250ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="358000ms" begin="358000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="18400ms" begin="18400ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="359000ms" begin="359000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="360000ms" begin="360000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100200ms" begin="100200ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="361000ms" begin="361000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10050ms" begin="10050ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="362000ms" begin="362000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="122000ms" begin="122000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="363000ms" begin="363000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100100ms" begin="100100ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="364000ms" begin="364000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="365000ms" begin="365000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100150ms" begin="100150ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="366000ms" begin="366000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100200ms" begin="100200ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="367000ms" begin="367000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="368000ms" begin="368000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="13500ms" begin="13500ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="369000ms" begin="369000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100250ms" begin="100250ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="370000ms" begin="370000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="371000ms" begin="371000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="17600ms" begin="17600ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="372000ms" begin="372000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100300ms" begin="100200ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="373000ms" begin="373000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100360ms" begin="100360ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="374000ms" begin="374000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100450ms" begin="100450ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="375000ms" begin="375000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="16700ms" begin="16700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="376000ms" begin="376000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="108900ms" begin="108900ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="377000ms" begin="377000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="378000ms" begin="378000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="13700ms" begin="13700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="379000ms" begin="379000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="541000ms" begin="541000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="380000ms" begin="380000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100610ms" begin="100610ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="381000ms" begin="381000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="382000ms" begin="382000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100230ms" begin="100230ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="383000ms" begin="383000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="174000ms" begin="174000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="384000ms" begin="384000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="385000ms" begin="385000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="109900ms" begin="109900ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="386000ms" begin="386000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="11100ms" begin="111000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="387000ms" begin="387000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="108800ms" begin="108800ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="388000ms" begin="388000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="389000ms" begin="389000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7484 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10700ms" begin="10700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="390000ms" begin="390000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7585 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="187000ms" begin="187000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="391000ms" begin="391000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="182000ms" begin="182000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="392000ms" begin="392000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 1970)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="393000ms" begin="393000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="19000ms" begin="19000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="394000ms" begin="394000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 2100)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="11000ms" begin="11000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="395000ms" begin="395000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="199000ms" begin="199000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="396000ms" begin="396000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 2230)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="397000ms" begin="397000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="398000ms" begin="398000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 2360)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="100000ms" begin="100000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="399000ms" begin="399000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="16700ms" begin="16700ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="400000ms" begin="400000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 2490)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="401000ms" begin="401000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="155000ms" begin="155000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="402000ms" begin="402000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 2620)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="132900ms" begin="132900ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="403000ms" begin="403000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="122000ms" begin="122000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="404000ms" begin="404000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 2750)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="405000ms" begin="405000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="406000ms" begin="406000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 2880)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="407000ms" begin="407000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="408000ms" begin="408000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 3010)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="409000ms" begin="409000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="410000ms" begin="410000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 3140)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="109000ms" begin="109000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="411000ms" begin="411000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="171000ms" begin="171000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="412000ms" begin="412000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 3270)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="413000ms" begin="413000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="414000ms" begin="414000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 3400)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="128000ms" begin="128000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="415000ms" begin="415000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="13000ms" begin="13000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="416000ms" begin="416000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 3530)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="16000ms" begin="16000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="417000ms" begin="417000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="418000ms" begin="418000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 3660)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="419000ms" begin="419000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="188000ms" begin="188000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="420000ms" begin="420000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 3790)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="421000ms" begin="421000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="12000ms" begin="12000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="422000ms" begin="422000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 3920)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="423000ms" begin="423000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="424000ms" begin="424000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 4050)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="425000ms" begin="425000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="118000ms" begin="118000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="426000ms" begin="426000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 4180)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="15000ms" begin="15000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="427000ms" begin="427000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="144000ms" begin="144000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="428000ms" begin="428000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 4310)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="428000ms" begin="428000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="175000ms" begin="175000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="429000ms" begin="429000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 4440)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="141000ms" begin="141000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="430000ms" begin="430000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="113000ms" begin="113000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="431000ms" begin="431000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 4570)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="432000ms" begin="432000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="433000ms" begin="433000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 4700)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="16000ms" begin="16000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="434000ms" begin="434000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="126000ms" begin="126000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="435000ms" begin="435000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 4830)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="108000ms" begin="108000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="436000ms" begin="436000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="199000ms" begin="199000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="437000ms" begin="437000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 4960)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="13000ms" begin="13000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="438000ms" begin="438000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="122000ms" begin="122000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="439000ms" begin="439000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 5090)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="18000ms" begin="18000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="440000ms" begin="440000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="441000ms" begin="441000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 5220)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="175000ms" begin="175000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="442000ms" begin="442000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="145000ms" begin="145000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="443000ms" begin="443000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 5350)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="2000ms" begin="2000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="444000ms" begin="444000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7700 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1364000ms" begin="1364000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="445000ms" begin="445000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="100" height="100" transform="translate(7801 5480)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="1350000ms" begin="1350000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="446000ms" begin="446000ms" repeatCount="indefinite"/>
 			</rect>
 			<g class="z" transform="matrix(1, 0, 0, 1, 6125, -69.5)">
 				<path class="s" d="M744,592V462.521L0,214V114H3V214H547V176H537a10,10,0,0,1,0-20H947V0h10V156h409a10,10,0,0,1,0,20h-10v38h545V114h3V214h0L1161,462.187V592Zm602-378V176H1146v38Zm-210,0V176H957v38Zm-189,0V176H767v38Zm-190,0V176H557v38Z" transform="translate(184 1288.5)"/>
 			</g>
 			<g class="y" transform="matrix(1, 0, 0, 1, 6125, -69.5)">
-				<circle class="t" cx="12.5" cy="12.5" r="12.5" transform="translate(1124 1263.5)">
+				<circle id="redNavigationLight" class="t" cx="12.5" cy="12.5" r="12.5" transform="translate(1124 1263.5)">
 				<animate attributeType="xml" attributeName="fill" from="#FFFFFF" to="#CF1E25" dur="2700ms" repeatCount="indefinite"/>
 				</circle>
 			</g>
 			<rect class="c" width="265" height="100" transform="translate(6556 1841)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="10000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="201" height="100" transform="translate(6836 1841)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="10000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="201" height="100" transform="translate(7052 1841)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="10000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="201" height="100" transform="translate(7268 1841)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="10000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="201" height="100" transform="translate(7484 1841)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="10000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="266" height="100" transform="translate(7700 1841)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="10000ms" begin="10000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="10000ms" repeatCount="indefinite"/>
 			</rect>
 			<rect class="c" width="849" height="202" transform="translate(6836 1609)">
-			<animate attributeType="xml" attributeName="fill" from="#4A4661" to="#F6D044" dur="30000ms" begin="30000ms" repeatCount="indefinite"/>
+			<animate attributeType="xml" attributeName="fill" values="#4A4661;#F6D044;#4A4661" dur="30000ms" repeatCount="indefinite"/>
 			</rect>
 			<g class="x" transform="matrix(1, 0, 0, 1, 6125, -69.5)">
 				<rect class="u" width="15500" height="35" rx="17.5" transform="translate(337 6613.5)"/>
