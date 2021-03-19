@@ -1,5 +1,5 @@
 body {
-    background-color: #171733;
+    background-color: #FFFFFF;
     font-family: Jost, sans-serif;
     font-size: calc(16px + (20 - 16) * ((100vw - 300px)/ (2500 - 300)));
     line-height: 1.6;
@@ -16,7 +16,7 @@ h6 {
 }
 
 p {
-    color: #ffffff;
+    color: #000000;
     font-family: jost, sans-serif;
     letter-spacing: .0625em;
     line-height: 1.6
@@ -63,17 +63,17 @@ strong {
 }
 
 em {
-    color: #BD7836;
+    color: #000000;
     line-height: 1.6
 }
 
 small {
-    color: #BD7836;
+    color: #000000;
     font-family: Jost, sans-serif
 }
 
 .breadcrumb-item a {
-    color: #FFFFFF
+    color: #000000
 }
 
 .breadcrumb>.active {
@@ -81,10 +81,390 @@ small {
 }
 
 .card {
-    background-color: #171733
+    background-color: #ffffff
 }
 
 #map {
     width: 100%;
     height: 400px
+}
+
+.county-no-1 {
+    fill: #737b64;
+}
+
+.county-no-2 {
+    fill: #576a55;
+}
+
+.county-no-3 {
+    fill: #3e533c;
+}
+
+.county-no-4 {
+    fill: #a39078;
+}
+
+.county-no-5 {
+    fill: #314a34;
+}
+
+.county-no-6 {
+    fill: #957a65;
+}
+
+.county-no-7 {
+    fill: #59654f;
+}
+
+.county-no-8 {
+    fill: #b0826f;
+}
+
+.county-no-9 {
+    fill: #b07d67;
+}
+
+.county-no-10 {
+    fill: #9b8172;
+}
+
+.county-no-11 {
+    fill: #a6927e;
+}
+
+.county-no-12 {
+    fill: #756f5f;
+}
+
+.county-no-13 {
+    fill: #374d36;
+}
+
+.county-no-14 {
+    fill: #12321e;
+}
+
+.county-no-15 {
+    fill: #746454;
+}
+
+.county-no-16 {
+    fill: #6f6754;
+}
+
+.county-no-17 {
+    fill: #797663;
+}
+
+.county-no-18 {
+    fill: #6f725c;
+}
+
+.county-no-19 {
+    fill: #3d4834;
+}
+
+.county-no-20 {
+    fill: #3b543e;
+}
+
+.county-no-21 {
+    fill: #777765;
+}
+
+.county-no-22 {
+    fill: #3a5338;
+}
+
+.county-no-23 {
+    fill: #98806f;
+}
+
+.county-no-24 {
+    fill: #555f4a;
+}
+
+.county-no-25 {
+    fill: #a88169;
+}
+
+.county-no-26 {
+    fill: #948c75;
+}
+
+.county-no-27 {
+    fill: #6b7762;
+}
+
+.county-no-28 {
+    fill: #5c6350;
+}
+
+.county-no-29 {
+    fill: #68765d;
+}
+
+.county-no-30 {
+    fill: #777561;
+}
+
+.county-no-31 {
+    fill: #626453;
+}
+
+.county-no-32 {
+    fill: #5d6a50;
+}
+
+.county-no-33 {
+    fill: #56664c;
+}
+
+.county-no-34 {
+    fill: #777463;
+}
+
+.county-no-35 {
+    fill: #334f38;
+}
+
+.county-no-36 {
+    fill: #485940;
+}
+
+.county-no-37 {
+    fill: #495b43;
+}
+
+.county-no-38 {
+    fill: #1a3522;
+}
+
+.county-no-39 {
+    fill: #555f49;
+}
+
+.county-no-40 {
+    fill: #526248;
+}
+
+.county-no-41 {
+    fill: #53654b;
+}
+
+.county-no-42 {
+    fill: #506147;
+}
+
+.county-no-43 {
+    fill: #505d46;
+}
+
+.county-no-44 {
+    fill: #4f6249;
+}
+
+.county-no-45 {
+    fill: #475a42;
+}
+
+.county-no-46 {
+    fill: #4d5d43;
+}
+
+.county-no-47 {
+    fill: #797966;
+}
+
+#kenyanCounties {
+    transition: 300ms;
+}
+#mombasaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#kwaleCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#KilifiCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#tanaRiverCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#lamuCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#taitaTavetaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#garissaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#wajirCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#manderaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#marsabitCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#isioloCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#meruCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#tharakaNithiCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#embuCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#kituiCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#machakosCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#makueniCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#nyandaruaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#nyeriCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#kirinyagaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#murangaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#kiambuCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#turkanaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#WestPokotCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#samburuCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#transNzoiaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#uasinGishuCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#elgeyoMarakwetCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#nandiCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#baringoCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#laikipiaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#nakuruCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#narokCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#kajiadoCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#kerichoCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#bometCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#kakamegaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#vihigaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#bungomaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#busiaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#siayaCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#kisumuCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#homabayCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#migoriCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#kisiiCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#nyamiraCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
+}
+#nairobiCounty:hover {
+    fill: #009A44;
+    cursor: pointer;
 }
