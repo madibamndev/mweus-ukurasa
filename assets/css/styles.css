@@ -22,6 +22,14 @@ p {
     line-height: 1.6
 }
 
+text {
+    color: #000000;
+    font-family: jost,
+    sans-serif;
+    letter-spacing: .0625em;
+    line-height: 1.6
+}
+
 a {
     color: #BD7836;
     text-decoration: none
@@ -282,189 +290,522 @@ small {
 }
 #mombasaCounty:hover {
     fill: #009A44;
-    cursor: pointer;
 }
 #kwaleCounty:hover {
     fill: #009A44;
-    cursor: pointer;
 }
-#KilifiCounty:hover {
+#kilifiCounty:hover {
     fill: #009A44;
-    cursor: pointer;
 }
 #tanaRiverCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #lamuCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #taitaTavetaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #garissaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #wajirCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #manderaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #marsabitCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #isioloCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #meruCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #tharakaNithiCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #embuCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #kituiCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #machakosCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #makueniCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #nyandaruaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #nyeriCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;   
 }
 #kirinyagaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #murangaCounty:hover {
     fill: #009A44;
-    cursor: pointer;
 }
 #kiambuCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44; 
 }
 #turkanaCounty:hover {
     fill: #009A44;
-    cursor: pointer;
 }
-#WestPokotCounty:hover {
+#westPokotCounty:hover {
     fill: #009A44;
-    cursor: pointer;
 }
 #samburuCounty:hover {
     fill: #009A44;
-    cursor: pointer;
 }
 #transNzoiaCounty:hover {
     fill: #009A44;
-    cursor: pointer;
 }
 #uasinGishuCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #elgeyoMarakwetCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #nandiCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #baringoCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #laikipiaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #nakuruCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #narokCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #kajiadoCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44; 
 }
 #kerichoCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44; 
 }
 #bometCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #kakamegaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #vihigaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44; 
 }
 #bungomaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44; 
 }
 #busiaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44; 
 }
 #siayaCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44; 
 }
 #kisumuCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #homabayCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #migoriCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #kisiiCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
 }
 #nyamiraCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44; 
 }
 #nairobiCounty:hover {
-    fill: #009A44;
-    cursor: pointer;
+    fill: #009A44;  
+}
+
+
+
+#mombasaCounty:active {
+    fill: #BE3A34;
+}
+
+#kwaleCounty:active {
+    fill: #BE3A34;
+}
+
+#kilifiCounty:active {
+    fill: #BE3A34;
+}
+
+#tanaRiverCounty:active {
+    fill: #BE3A34;
+}
+
+#lamuCounty:active {
+    fill: #BE3A34;
+}
+
+#taitaTavetaCounty:active {
+    fill: #BE3A34;
+}
+
+#garissaCounty:active {
+    fill: #BE3A34;
+}
+
+#wajirCounty:active {
+    fill: #BE3A34;
+}
+
+#manderaCounty:active {
+    fill: #BE3A34;
+}
+
+#marsabitCounty:active {
+    fill: #BE3A34;
+}
+
+#isioloCounty:active {
+    fill: #BE3A34;
+}
+
+#meruCounty:active {
+    fill: #BE3A34;
+}
+
+#tharakaNithiCounty:active {
+    fill: #BE3A34;
+}
+
+#embuCounty:active {
+    fill: #BE3A34;
+}
+
+#kituiCounty:active {
+    fill: #BE3A34;
+}
+
+#machakosCounty:active {
+    fill: #BE3A34;
+}
+
+#makueniCounty:active {
+    fill: #BE3A34;
+}
+
+#nyandaruaCounty:active {
+    fill: #BE3A34;
+}
+
+#nyeriCounty:active {
+    fill: #BE3A34;
+}
+
+#kirinyagaCounty:active {
+    fill: #BE3A34;
+}
+
+#murangaCounty:active {
+    fill: #BE3A34;
+}
+
+#kiambuCounty:active {
+    fill: #BE3A34;
+}
+
+#turkanaCounty:active {
+    fill: #BE3A34;
+}
+
+#westPokotCounty:active {
+    fill: #BE3A34;
+}
+
+#samburuCounty:active {
+    fill: #BE3A34;
+}
+
+#transNzoiaCounty:active {
+    fill: #BE3A34;
+}
+
+#uasinGishuCounty:active {
+    fill: #BE3A34;
+}
+
+#elgeyoMarakwetCounty:active {
+    fill: #BE3A34;
+}
+
+#nandiCounty:active {
+    fill: #BE3A34;
+}
+
+#baringoCounty:active {
+    fill: #BE3A34;
+}
+
+#laikipiaCounty:active {
+    fill: #BE3A34;
+}
+
+#nakuruCounty:active {
+    fill: #BE3A34;
+}
+
+#narokCounty:active {
+    fill: #BE3A34;
+}
+
+#kajiadoCounty:active {
+    fill: #BE3A34;
+}
+
+#kerichoCounty:active {
+    fill: #BE3A34;
+}
+
+#bometCounty:active {
+    fill: #BE3A34;
+}
+
+#kakamegaCounty:active {
+    fill: #BE3A34;
+}
+
+#vihigaCounty:active {
+    fill: #BE3A34;
+}
+
+#bungomaCounty:active {
+    fill: #BE3A34;
+}
+
+#busiaCounty:active {
+    fill: #BE3A34;
+}
+
+#siayaCounty:active {
+    fill: #BE3A34;
+}
+
+#kisumuCounty:active {
+    fill: #BE3A34;
+}
+
+#homabayCounty:active {
+    fill: #BE3A34;
+}
+
+#migoriCounty:active {
+    fill: #BE3A34;
+}
+
+#kisiiCounty:active {
+    fill: #BE3A34;
+}
+
+#nyamiraCounty:active {
+    fill: #BE3A34;
+}
+
+#nairobiCounty:active {
+    fill: #BE3A34;
+}
+
+
+
+#countyMombasa {
+    display: none;
+}
+
+#countyKwale {
+    display: none;
+}
+
+#countyKilifi {
+    display: none;
+}
+
+#countyTanariver {
+    display: none;
+}
+
+#countyLamu {
+    display: none;
+}
+
+#countyTaitataveta {
+    display: none;
+}
+
+#countyGarissa {
+    display: none;
+}
+
+#countyWajir {
+    display: none;
+}
+
+#countyMandera {
+    display: none;
+}
+
+#countyMarsabit {
+    display: none;
+}
+
+#countyIsiolo {
+    display: none;
+}
+
+#countyMeru {
+    display: none;
+}
+
+#countyTharakanithi {
+    display: none;
+}
+
+#countyEmbu {
+    display: none;
+}
+
+#countyKitui {
+    display: none;
+}
+
+#countyMachakos {
+    display: none;
+}
+
+#countyMakueni {
+    display: none;
+}
+
+#countyNyandarua {
+    display: none;
+}
+
+#countyNyeri {
+    display: none;
+}
+
+#countyKirinyaga {
+    display: none;
+}
+
+#countyMuranga {
+    display: none;
+}
+
+#countyKiambu {
+    display: none;
+}
+
+#countyTurkana {
+    display: none;
+}
+
+#countyWestpokot {
+    display: none;
+}
+
+#countySamburu {
+    display: none;
+}
+
+#countyTransnzoia {
+    display: none;
+}
+
+#countyUasingishu {
+    display: none;
+}
+
+#countyElgeyomarakwet {
+    display: none;
+}
+
+#countyNandi {
+    display: none;
+}
+
+#countyBaringo {
+    display: none;
+}
+
+#countyLaikipia {
+    display: none;
+}
+
+#countyNakuru {
+    display: none;
+}
+
+#countyNarok {
+    display: none;
+}
+
+#countyKajiado {
+    display: none;
+}
+
+#countyKericho {
+    display: none;
+}
+
+#countyBomet {
+    display: none;
+}
+
+#countyKakamega {
+    display: none;
+}
+
+#countyVihiga {
+    display: none;
+}
+
+#countyBungoma {
+    display: none;
+}
+
+#countyBusia {
+    display: none;
+}
+
+#countySiaya {
+    display: none;
+}
+
+#countyKisumu {
+    display: none;
+}
+
+#countyHomabay {
+    display: none;
+}
+
+#countyMigori {
+    display: none;
+}
+
+#countyKisii {
+    display: none;
+}
+
+#countyNyamira {
+    display: none;
+}
+
+#countyNairobi {
+    display: none;
 }
