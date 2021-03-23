@@ -13,8 +13,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#005895",
-    "background_color": "#005895",
+    "theme_color": "#ffedcb",
+    "background_color": "#ffedcb",
     "start_url": "https://mweusukur.com",
     "display": "standalone"
 }
