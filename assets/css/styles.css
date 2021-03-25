@@ -1,11 +1,12 @@
 html {scroll-behavior: smooth;}
 
 body {
-    background-color: #FFEDCB;
+    background-color: hsla(39, 100%, 78%, 1);
     font-family: Jost, sans-serif;
     font-size: calc(16px + (20 - 16) * ((100vw - 300px)/ (2500 - 300)));
     line-height: 1.6;
 }
+
 
 h1,
 h2,
@@ -18,23 +19,23 @@ h6 {
 }
 
 p {
-    color: #000000;
+    color: #4f3100;
     font-family: jost, sans-serif;
     letter-spacing: .0625em;
     line-height: 1.6
 }
 
 text {
-    color: #000000;
+    color: #4f3100;
     font-family: jost,
     sans-serif;
     letter-spacing: .0625em;
     line-height: 1.6
 }
 
-#kenyanMap title {
+#kenyanMap g title {
     background-color: #009A44;
-    color: #000000;
+    color: #4f3100;
     font-family: jost,
     sans-serif;
     letter-spacing: .0625em;
@@ -42,7 +43,7 @@ text {
 }
 
 a {
-    color: #855930;
+    color: #009A44;
     text-decoration: none
 }
 
@@ -51,15 +52,15 @@ a:hover {
 }
 
 legend {
-    color: #7e5025
+    color: #4f3100
 }
 
 figcaption {
-    color: #965e2b !important
+    color: #4f3100 !important
 }
 
 cite {
-    color: #835429
+    color: #4f3100
 }
 
 video {
@@ -76,23 +77,23 @@ hr {
 }
 
 strong {
-    color: #77531a;
+    color: #008C51;
     font-family: Jost, sans-serif;
     line-height: 1.6
 }
 
 em {
-    color: #725018;
+    color: #008C51;
     line-height: 1.6
 }
 
 small {
-    color: #000000;
+    color: #4f3100;
     font-family: Jost, sans-serif
 }
 
 .breadcrumb-item a {
-    color: #000000
+    color: #4f3100
 }
 
 .breadcrumb>.active {
@@ -100,7 +101,7 @@ small {
 }
 
 .card {
-    background-color: #FFEDCB
+    background-color: #ffd88f
 }
 
 #map {
@@ -109,7 +110,6 @@ small {
 }
 
 #kenyanCounties {transition: 300ms;}
-
 
 .map-stroke-and-radial-gradient {stroke: #4f3100;stroke-width: 0.5px;fill: url(#radial-gradient);}
 .map-text {fill: #4f3100;font-size: 35px;font-family: MalgunGothicBold, Malgun Gothic;}
