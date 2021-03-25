@@ -1,0 +1,683 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="566.683" height="664.642" viewBox="0 0 566.683 664.642">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #4f3100;
+        stroke-width: 0.5px;
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        fill: #4f3100;
+        font-size: 35px;
+        font-family: MalgunGothicBold, Malgun Gothic;
+      }
+
+      .cls-3 {
+        filter: url(#homabayCounty);
+      }
+
+      .cls-4 {
+        filter: url(#kerichoCounty);
+      }
+
+      .cls-5 {
+        filter: url(#kisumuCounty);
+      }
+
+      .cls-6 {
+        filter: url(#siayaCounty);
+      }
+
+      .cls-7 {
+        filter: url(#busiaCounty);
+      }
+
+      .cls-8 {
+        filter: url(#uasinGishuCounty);
+      }
+
+      .cls-9 {
+        filter: url(#bungomaCounty);
+      }
+
+      .cls-10 {
+        filter: url(#kakamegaCounty);
+      }
+
+      .cls-11 {
+        filter: url(#nyandaruaCounty);
+      }
+
+      .cls-12 {
+        filter: url(#makueniCounty);
+      }
+
+      .cls-13 {
+        filter: url(#machakosCounty);
+      }
+
+      .cls-14 {
+        filter: url(#nakuruCounty);
+      }
+
+      .cls-15 {
+        filter: url(#nyeriCounty);
+      }
+
+      .cls-16 {
+        filter: url(#kirinyagaCounty);
+      }
+
+      .cls-17 {
+        filter: url(#nyamiraCounty);
+      }
+
+      .cls-18 {
+        filter: url(#mombasaCounty);
+      }
+
+      .cls-19 {
+        filter: url(#turkanaCounty);
+      }
+
+      .cls-20 {
+        filter: url(#samburuCounty);
+      }
+
+      .cls-21 {
+        filter: url(#kwaleCounty);
+      }
+
+      .cls-22 {
+        filter: url(#taitaTavetaCounty);
+      }
+
+      .cls-23 {
+        filter: url(#KilifiCounty);
+      }
+
+      .cls-24 {
+        filter: url(#lamuCounty);
+      }
+
+      .cls-25 {
+        filter: url(#kajiadoCounty);
+      }
+
+      .cls-26 {
+        filter: url(#nairobiCounty);
+      }
+
+      .cls-27 {
+        filter: url(#kiambuCounty);
+      }
+
+      .cls-28 {
+        filter: url(#migoriCounty);
+      }
+
+      .cls-29 {
+        filter: url(#murang_aCounty);
+      }
+
+      .cls-30 {
+        filter: url(#kisiiCounty);
+      }
+
+      .cls-31 {
+        filter: url(#narokCounty);
+      }
+
+      .cls-32 {
+        filter: url(#bometCounty);
+      }
+
+      .cls-33 {
+        filter: url(#embuCounty);
+      }
+
+      .cls-34 {
+        filter: url(#kituiCounty);
+      }
+
+      .cls-35 {
+        filter: url(#tanaRiverCounty);
+      }
+
+      .cls-36 {
+        filter: url(#tharakaNithiCounty);
+      }
+
+      .cls-37 {
+        filter: url(#vihigaCounty);
+      }
+
+      .cls-38 {
+        filter: url(#nandiCounty);
+      }
+
+      .cls-39 {
+        filter: url(#meruCounty);
+      }
+
+      .cls-40 {
+        filter: url(#laikipiaCounty);
+      }
+
+      .cls-41 {
+        filter: url(#GarissaCounty);
+      }
+
+      .cls-42 {
+        filter: url(#transNzoiaCounty);
+      }
+
+      .cls-43 {
+        filter: url(#elgeyoMarakwetCounty);
+      }
+
+      .cls-44 {
+        filter: url(#baringoCounty);
+      }
+
+      .cls-45 {
+        filter: url(#isioloCounty);
+      }
+
+      .cls-46 {
+        filter: url(#WestPokotCounty);
+      }
+
+      .cls-47 {
+        filter: url(#wajirCounty);
+      }
+
+      .cls-48 {
+        filter: url(#manderaCounty);
+      }
+
+      .cls-49 {
+        filter: url(#MarsabitCounty);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffedcb"/>
+      <stop offset="1" stop-color="#c49a5c"/>
+    </radialGradient>
+    <filter id="MarsabitCounty" x="157.951" y="12.046" width="228.604" height="231.826" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="manderaCounty" x="408.049" y="24.093" width="158.634" height="162.683" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="wajirCounty" x="350.008" y="74.991" width="154.547" height="246.669" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="WestPokotCounty" x="60" y="138.924" width="72.554" height="115.763" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="isioloCounty" x="205.968" y="182.057" width="187.606" height="158.615" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="baringoCounty" x="110.943" y="212.862" width="71.731" height="136.496" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="elgeyoMarakwetCounty" x="83.892" y="235.113" width="44.662" height="87.528" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="transNzoiaCounty" x="44.972" y="237.745" width="57.609" height="38.999" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-8"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="GarissaCounty" x="333.857" y="261.099" width="210.698" height="218.637" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="laikipiaCounty" x="157.822" y="268.142" width="89.732" height="87.559" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-10"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="meruCounty" x="221.952" y="284.142" width="97.748" height="66.513" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-11"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="nandiCounty" x="59.882" y="290.142" width="48.723" height="52.619" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-12"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="vihigaCounty" x="40.969" y="315.081" width="31.689" height="21.304" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-13"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="tharakaNithiCounty" x="238.75" y="325.063" width="73.871" height="42.592" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-14"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="tanaRiverCounty" x="316.966" y="331.039" width="164.824" height="222.603" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-15"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kituiCounty" x="258.054" y="335.087" width="108.676" height="217.555" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-16"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="embuCounty" x="234.915" y="345.207" width="51.758" height="54.466" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-17"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bometCounty" x="74.866" y="356.62" width="43.792" height="52.06" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-18"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="narokCounty" x="45.03" y="364.142" width="128.525" height="118.645" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-19"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kisiiCounty" x="47.054" y="367.142" width="32.635" height="36.52" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-20"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="murang_aCounty" x="194.054" y="371.142" width="55.635" height="41.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-21"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="migoriCounty" x="9.646" y="377.142" width="48.963" height="54.115" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-22"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-22"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kiambuCounty" x="180.001" y="385.016" width="61.208" height="43.626" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-23"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-23"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="nairobiCounty" x="192.026" y="415.142" width="35.624" height="22.465" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-24"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-24"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kajiadoCounty" x="146.025" y="406.961" width="141.539" height="154.681" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-25"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-25"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="lamuCounty" x="443.018" y="449.132" width="98.768" height="61.51" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-26"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-26"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="KilifiCounty" x="366.046" y="494.984" width="82.2" height="123.972" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-27"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-27"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="taitaTavetaCounty" x="259.975" y="522.102" width="118.619" height="106.571" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-28"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-28"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kwaleCounty" x="324.054" y="584.142" width="84.544" height="80.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-29"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-29"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="samburuCounty" x="165.029" y="148.894" width="129.592" height="144.592" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-30"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-30"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="turkanaCounty" x="4.766" y="0" width="194.765" height="267.396" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-31"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-31"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="mombasaCounty" x="397.221" y="605.725" width="20.975" height="21.768" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-32"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-32"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="nyamiraCounty" x="60.92" y="360.125" width="23.786" height="36.587" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-33"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-33"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kirinyagaCounty" x="224.951" y="342.707" width="29.604" height="46.946" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-34"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-34"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="nyeriCounty" x="187.026" y="330.118" width="54.582" height="50.523" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-35"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-35"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="nakuruCounty" x="102.924" y="315.113" width="88.63" height="102.606" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-36"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-36"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="machakosCounty" x="209.054" y="386.142" width="72.521" height="76.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-37"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-37"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="makueniCounty" x="226.03" y="439.114" width="101.675" height="108.564" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-38"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-38"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="nyandaruaCounty" x="157.956" y="322.032" width="42.639" height="76.109" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-39"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-39"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kakamegaCounty" x="27.991" y="283.854" width="47.599" height="43.843" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-40"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-40"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bungomaCounty" x="24.625" y="250.093" width="63.929" height="52.668" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-41"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-41"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="uasinGishuCounty" x="67.538" y="263.062" width="52.017" height="71.609" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-42"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-42"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="busiaCounty" x="0" y="274.082" width="36.577" height="62.969" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-43"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-43"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="siayaCounty" x="4.971" y="308.142" width="41.583" height="50.555" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-44"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-44"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kisumuCounty" x="32.054" y="327.898" width="70.619" height="36.743" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-45"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-45"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kerichoCounty" x="74.054" y="328.103" width="51.547" height="44.775" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-46"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-46"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="homabayCounty" x="8.5" y="349.434" width="70.556" height="46.399" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-47"/>
+      <feFlood flood-color="#4f3100"/>
+      <feComposite operator="in" in2="blur-47"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="kenyan-map-sample" transform="translate(-3216.696 -13793.608)">
+    <g class="cls-49" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path cursor="pointer" id="MarsabitCounty-2" data-name="MarsabitCounty" class="cls-1" d="M175,75l2.5,1h43l8,4h3l5.5,4.5,1.5,2.5L303,128.5l1.5,3.5,7,3,1-1h6l1,1,14,1,6-4,.5,2h4.5l10,5,8,2h17l5,3,7,1,2.5-1-2,8h-2v2.5l2,5,1,11.5h2v2.5l-6.5,5.5-6.5,2-5,6.5-1,11-4,9.5h-6.5l-1.5,1.5,1,3-2,4,1,2.5h2v2.5l1,5-1,1v7l4,7L344.5,258,329,266v3h-1.5l-1.5,1.5-2,10-3.5,3.5-21,16-.5-7.5-1.5-1.5-5-3-3,3-10,1-8.5,3-11-21.5-5.5-6.5-3.5-2.5-1-3-6.5-6.5-3.5-1v-4h-2.5l-8-2-4.5-3.5-2-11-13-26-1-10,1-4-1-4,1-2-1.5-3.5-3-1-2,1-3-1h-3l-9.5-7.5-1-7L179.5,158l-2.5-1.5-1-3,1-1v-5l-3-8,1-4v-5l3-3,1-5-2-2-1-7-3-4,3-5v-5l2-5L177,92l-2-.5v-8l-2-2,1-1Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-48" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="manderaCounty-2" data-name="manderaCounty" class="cls-1" d="M499.5,87l5.5,3.5,3.5,5.5,7.5,3.5,7.5,9.5,2,1h11l22-3,3,1,2-2h4l7.5,3-33,49.5L525.5,176,513,187.5v46l-4.5,9.5-16-12-8.5-3.5-8-12-4-12-1-11-1-2.5-12.5-7L444,169.5l-4.5-5.5L424,156.5l-1-21,7-7,5.5-12.5,24-12,11-3,5-4,15-6h3Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-47" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="wajirCounty-2" data-name="wajirCounty" class="cls-1" d="M420.5,138l1.5,5.5v14l1.5,1.5,14,6,19,19,12.5,8.5,4,20L483,230l11.5,4,6,6,6.5,3,1.5,3,4-7,.5,115.5-6,2.5v3h-1.5l-16,10-5,5-7,3h-6l-4-1-4,1-8.5-5.5V368h-1.5l-16-9-2,2-1-1-5-1-7.5-4.5,1-3L412.5,337l-1.5.5L405,322l-2-.5,1-2L392,289l10-3.5-5.5-6.5-9.5-6-6-12.5-10-13-1-4.5h2v-1.5l-4-6v-15l-3-5,2-3-1-2.5h5.5l2.5-2.5,4-10v-9l2.5-2.5H382v-1.5l1-2.5,7.5-2,5.5-4.5,1-4-3-1.5v-9.5l-2-6.5h2v-3.5l2-2V145l11,1,1.5,3H414v-2.5l2-5.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-46" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="WestPokotCounty-2" data-name="WestPokotCounty" class="cls-1" d="M96,202l6,4.5v3l5,10-2,6,4,9,4,17-1,2,7,8,2,4.5,11.5,2,6.5,3.5V273l2,.5v5l-7,16,1,1-1.5,1.5-5,2h-4l-15,12-12-6L90,307v-2.5L86.5,301,81,302l-1.5-3L77,300v-3.5l-2-2,1-2-.5-1.5h2l2.5-2.5,1-7.5,6-3.5,2-4v-16l2-5-3-3v-5l1-4-5-11v-3l-3-4V219l7.5-2,1.5.5V216h2.5l2.5-3.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-45" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="isioloCounty-2" data-name="isioloCounty" class="cls-1" d="M367.5,245,379,260.5l3,8,6.5,7.5,11.5,8.5L390,288l12,31.5-1.5,3.5L388,331.5l-3,7-4.5,4.5-7,1-1.5,1.5V347h-4.5l-5,2-7,6h-7l-2.5,1.5,3,3,1,8,3,7v7l-1,1v8l1,4.5h-7.5l-3-2h-4l-3,3-4,1-5.5-6.5L319,377l-4-1v-6.5l-1.5-.5L305,345l-36,12-1,3.5,3,7.5h-3v1.5l-1,2.5-9-2v-3.5l-3-4v-4l1-3.5-3.5-1L221,351l4-12h6.5l5-2,2,2,7,1,2-1,8,12,5,1,3-1,1,1h6l9-7,2,1,7.5-2,1.5-3,4,1,6-5H306l-2-3.5-1-19-6-8V303l4.5-2L325,282.5l3-12.5h2v-1.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-44" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="baringoCounty-2" data-name="baringoCounty" class="cls-1" d="M143.5,276l22,34h5l.5,1.5,9.5,11.5,3.5,1,1,4,6,3.5L181.5,344l-4.5,1-1,3.5,2,3-5,10,2,2v4l-1,3,.5,1.5-2.5,1.5-2.5,4.5H168v1.5l-1,1V387h-2v4.5l-1.5-.5-3.5-1-1.5-3-4-2-1.5,2.5,3,4-2,4.5-4.5-2-4,5H143v4.5l-3,2v-3l-4-7.5-4.5-1-2-2H126l1.5-4H129v-3.5l1-3.5h4.5l4.5-3.5-1-7,1-4.5-4-2.5-1-5-3-4-1-7,3-6-1-3,1-1v-7l-1-3,1-2-1-2,6-15-2-10,1-3-1-2Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-43" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="elgeyoMarakwetCounty-2" data-name="elgeyoMarakwetCounty" class="cls-1" d="M133.5,298l1.5.5v8l1,3-5,9-1,12,1,1v7l-1,2,1,2-3,5,2,3-1,4,4,6v4l1.5,1.5,2.5,1.5v10l-1.5,1.5h-6l-2-2-1.5.5V375h-3v-1.5l1-5-3-3v-13l1-3-4-6,5-.5v-9.5l-1-1,1-2-2-3.5-4-1.5V324h-5v-2.5l1-3.5-9-3-5-6.5,1.5-.5,10,5,8.5-6v-2h1.5l3.5-2v-2h5.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-42" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="transNzoiaCounty-2" data-name="transNzoiaCounty" class="cls-1" d="M78.5,301l.5,2,5.5,1,2-1,4,6,6-1,4,5H102v1.5l8,5,1,2-2.5,5.5-3-3h-2l-2,2h-6l-2,2-5-1L74,333l-1-6.5L71.5,325,64,318.5l-1-2,1-2.5-4-1,1.5-4,3.5-1.5V306h1.5l1-1h8l1.5-1.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-41" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="GarissaCounty-2" data-name="GarissaCounty" class="cls-1" d="M401.5,324l2.5,1.5,6.5,14.5,1-1,2.5,2.5,7,10v2l-1,1,3.5,3.5,6,3,7,1h2l15.5,8.5-1,2,7.5,6.5,7,1,3-1,1,1h7L509,359.5V358h1.5l2.5-1v95.5l38,49,2,4V510l-25.5,2-3-1-1,1h-10l-2,2-5,1-20,10-7,2h-2L457,536l-1-3.5v-7l-2-4v-15l-6-8-2-15,.5-1.5H445v-2.5l-1-3-7-14,1-2-2-3-3-14-3.5-5.5H428v-1.5l-5-2,1-2-6-4v-4L412.5,412l-4.5-3.5-1.5-2.5-9-5-6.5-1v2h-2l-.5-2h-6l-6-4h-4l-6.5,3v-2h-1.5l-9.5-2-1-3.5v-10l1-1v-5l-4-11v-4l-2-3,7.5-.5,6-6,5-2h4l1.5-1.5V346h4.5l7.5-4.5,4-8,4.5-4.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-40" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="laikipiaCounty-2" data-name="laikipiaCounty" class="cls-1" d="M213.5,331H215v1.5l5.5,8.5,1-1,1.5,1.5L218,352l36,4-1,3.5,1,2v2l2,3v5l-2,2-1,5.5h-3v1.5l-5,3.5v2h-1.5l-3,2h-3l-7.5,6.5V396h-1.5l-1.5,1.5v4l3,1.5v4.5l-2,4.5-9-3v-2.5l2-2-1-3.5h-2v-1.5l-2.5-1.5-10,4-2-3h-4l-1.5-1.5,2.5-3.5h3l1.5-1.5-4-3-2.5-3.5-3.5,1-1.5-3h-3l-4.5,3.5-1.5,2.5-5,1-2.5-1,2-3.5v-4l-6-8.5h3.5l1.5-1.5-2-4,1-5-2-2,1-1,3-7v-4l-1-2.5,3.5-1,5.5-5.5,4.5-6.5,1,1h14l4.5-1v-2h1.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-39" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="meruCounty-2" data-name="meruCounty" class="cls-1" d="M301.5,347H304v1.5l4,9,3,12.5h2v6.5l1.5.5,5.5,4.5,5.5,11.5H327v1.5l1,3-1.5-.5-6-4H317v-2h-1.5l-8-4-4,2-2-2h-3l-7,6H289l1,6.5-5.5,4.5-1-1-3,3-6,1-3-2h-9l-10-2L238,392.5l-1-2,7.5-2.5,5.5-4.5,2.5-3.5,2.5-1.5,1-5.5,5.5-1,6,2,1.5-4,5-3.5-4-5v-2Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-38" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="nandiCounty-2" data-name="nandiCounty" class="cls-1" d="M79.5,353h11l7.5,2.5-2,3,7,13,5.5,5.5,2.5,1.5-1,4.5,4,1,3,6.5-1,1v6l-1.5,1.5-8-1-2.5,1v-4.5l-1.5-1.5-4,1-2-2H94l-1.5,3H89l-.5-2h-7l-6.5-.5,3-5v-3l2.5-2.5H82v-1.5l2-4.5h2v-3.5l-2-5,1-1v-5L83,357H81v-1.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-37" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="vihigaCounty-2" data-name="vihigaCounty" class="cls-1" d="M79.5,378l1.5,1.5L78.5,382H77v1.5L74.5,389l-6,3h-6l-4-1L56,392.5l1-6,2.5-2.5,11-1Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-36" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="tharakaNithiCounty-2" data-name="tharakaNithiCounty" class="cls-1" d="M300.5,388l3,3H307v-2h1.5l12.5,6.5-1,2.5h-3.5l-2.5,2.5L309.5,411h-8l-2.5,1-2,5.5,1,2-1,2.5-3-1.5-1-2,1-1-1.5-1.5-2.5,1.5-1.5,3.5-3,2-5,1-13-7L254,405.5l2.5-.5,8,2h7l5,2,8-4,2.5,1v-2h1.5l3.5-4.5-1-4.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-35" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="tanaRiverCounty-2" data-name="tanaRiverCounty" class="cls-1" d="M339.5,394l6,3,8,1,4-1,1,1h5l2,2h4l3-2h5l6,5,2-2H388l1.5,3,3-2h3l8,4,9.5,8,1,7.5,2,3v4l2,3.5,4,1v3h2.5l4.5,3,4,10.5,1,8,2,3-1,4,3,3,5,10v2l2,4,1,15,6,8v8l1,2-1,5,3,8-1,3,3,7,2,10V564l8.5,1,2-2h3l4,3,13.5,3.5-1.5,1.5h-4l-4-2-11,3-9.5,6-4.5,7-21-29L394,602.5l-5,7.5h-4.5l-3-3-3.5,1-30-41.5,5-2.5v-2h1.5l4.5-3.5,12-25,1-8-3-11,3-3v-2l-1-14-1-1-1-28-37-67,7-4Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-34" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="kituiCounty-2" data-name="kituiCounty" class="cls-1" d="M321.5,398l2,1h2l2,1,2.5-1,37,67.5,3,45-3,3,1,1,3,14L357,559l-3.5,1-4,4H345l2,4.5,28,37L361.5,609h-5l-1-1h-5l-7-4h-3l-6.5-5.5-2-4-1-8L321,564l-4-1-1.5-4-5.5-2-5-11-4.5-1-1.5.5-1-2,1-5-3-6v-4l-5-10,1-2L282,500h2.5l4.5-4.5-1-3-7-7v-2l-6.5-9.5H273v-3l8.5-1,5,4,5.5-11.5-2-2-1-6,2.5-3.5H293v-2.5l2-2v-3l-1-4,1-3-2-2v-4l6-9v-4l2.5-4.5h8l3.5-3.5,1-6,3.5-4.5,2,1Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-33" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="embuCounty-2" data-name="embuCounty" class="cls-1" d="M254.5,408l11,10,8,3,5,4,6,1,7-6,2,3,1.5.5-4,7v3l2,5-1,3,2,3-3.5,5.5-4-1-2,1-3-3h-2l-4,5-11,4-4-3-7-1-1.5-1.5-2-3,1.5-.5,5,1,8.5-3.5-1-1v-5l1-2-1-3-4-7,1-2Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-32" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="bometCounty-2" data-name="bometCounty" class="cls-1" d="M119.5,420l7.5,13.5-12,5,2,6.5,3,1.5V448h1.5l2.5,1.5-3,1.5-5.5,9-11,5L90,454.5l3-2,2-4-2-3v-5l-1-12,5.5-2.5,3,2,3.5-1v-4h3l-1,4.5,2,3.5,4-1,1.5-4,5.5-2.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-31" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="narokCounty-2" data-name="narokCounty" class="cls-1" d="M144,427h2v2h1.5l7.5,5.5,1,3.5-7-1v2.5l4.5,4.5,10-4,7.5,9.5-2,4,1,4,2.5,2.5,4.5-1,5,10.5v7l-20,22v3l2,4-3,5,1,4-3,7,2,2v6l-1,9.5-58.5-31L69,488.5,67,478l-4-2.5-3-10,2.5-3.5,11-1,14-4h4l14,10,6-4h3l3.5-2,1-5h2v-1.5l1-2.5,5-2.5-9-7-1-3,12-3.5v3.5l3.5,3.5,3.5-2.5,3-9.5h4v-1.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-30" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="kisiiCounty-2" data-name="kisiiCounty" class="cls-1" d="M74.5,430H78v4l-3,1.5,1,2L73,439v3h1.5l9.5,6.5,4,6L75.5,459,62,460V445.5l1-1v-7l1.5-1.5,2.5-1.5V433h1.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-29" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="murang_aCounty-2" data-name="murang&apos;aCounty" class="cls-1" d="M210.5,434h5l7,3,4-2h5l5,4h4l3,3H246l2,7.5-3,4,7,6,2.5,4.5,3.5,2.5-2.5,2.5h-2l-7-5-7,3-3-2h-4l-9-8L211,449.5l-2-11v-2Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-28" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="migoriCounty-2" data-name="migoriCounty" class="cls-1" d="M57,440h4v5.5l-1,1v12l1,3-3,5,2,2,2,8,4,4,1,7-1.5-.5L25,463.5l2-.5v-6.5l4-4V450H28v-2l3.5-1,3,4,6,4,6-3,4.5,2,2.5-7H55v-1.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-27" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="kiambuCounty-2" data-name="kiambuCounty" class="cls-1" d="M207.5,448l1.5,3,13.5,7,10,9,9,1,7-2,1,2h-4l-3.5,2-1,2.5,1,3-3.5,4.5-6-2-4,2-3.5-1,1-4-3.5-1-6,4-2-1-8.5,6.5V485h-4.5l-6.5-2,2-7.5,4-6,1-8-2-5,2-2V452Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-26" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="nairobiCounty-2" data-name="nairobiCounty" class="cls-1" d="M220.5,478H223v2h1.5l1,1h6l2-1,2.5,1-1.5,3-5-1-2.5,1v2h-1.5l-3.5,3.5v2l1.5,2.5-5-3h-7l-4.5-3.5,1-4.5,8.5-4,2,1Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-25" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="kajiadoCounty-2" data-name="kajiadoCounty" class="cls-1" d="M183,470l12,5-2,10,9.5,1,10,7h7l1.5,1.5-1,4,2.5.5,4.5-1-1,5.5L238.5,518H240v3.5l-1,2,3,7.5h3.5l3.5,2.5,1.5,2.5,6,1,17,10,5.5,1-2,3.5V555h-2.5l-2.5,2.5,17,20,6,9,1,7-3,5v6l-1,1v5l-2,2V618h-9v-3.5l-2-8.5L162,540.5l1-9v-8l-2-3,3-8-1-2,3-5-3-6,19-20,2-3v-3Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-24" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="lamuCounty-2" data-name="lamuCounty" class="cls-1" d="M544.5,512l5.5.5L537,529h-5.5l-.5-2h-3v4h-4.5l-1-1-3,3-5.5,2,2-10-4,1.5-1,2v2l-.5,6.5-1.5-4.5-3.5-3.5-2.5,1.5,1,2-1,1,1.5,1.5H506v7l5,2.66V548h-6.5l-5,5-1-1-1.5,1.5,2.5,4.5H501v1.5l-3,4.5-6.5,3h-6l-9-3-2-2H461V551.5l-3-13,15.5-8.5,8-1,27-13,6-2,11-1,1,1h5l1-1h11Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-23" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="KilifiCounty-2" data-name="KilifiCounty" class="cls-1" d="M434.5,558,454,585.5l2,6-1,1V604h1.5l-1.5,2.5-1,6-3,3V624h-1.5l-5,3-3-2-2.5,5.5,1,2L433.5,647l-6-3-1.5,1.5,1,1,2.5,3.5H433v4.5L427,670l-4-.5,1-2.5h-2.5l-3.5,3.5V672h-3.5l-2,3-1.5-4.5-4.5-4.5-6.5-3.5,1-5.5-3-1.5,1-4-1-4.5h-2l-.5-2h-14l-.5-2.5,6-18,2-13Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-22" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="taitaTavetaCounty-2" data-name="taitaTavetaCounty" class="cls-1" d="M312.5,585l5.5,3.5L334.5,606l1-1h5l11,5,8,1,15-3,4,3,3-2,3,3H387l-2,13.5-8,26-1.5,1.5-6-2-2.5,4.5,6,3.5-5,14-31.5,12L287,649.5l-3.5-9.5-8.5-1.5,1-3-1-2,5-3.5v-3h1.5l1.5-1.5-1-1V620h1.5l1-1h5l1,1,1.5-1.5v-5l2-3v-7l1-5,2-2V592h2.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-21" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="kwaleCounty-2" data-name="kwaleCounty" class="cls-1" d="M380.5,647h14l1.5,1.5,1,5-1,2,3,4v4l1.5,1.5h2l6.5,6.5,2,3V681h2.5l3.5,4.5-5,10-1,8.5h-3v1.5l-3.5,6.5-1-1-4.5,4.5,1,4.5h-5v-3h-2.5l-4.5,2.5V721h-1.5L339,686.5V685h2.5L369,675l6-15.5-6-3.5,1.5-3,6,2Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-20" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="samburuCounty-2" data-name="samburuCounty" class="cls-1" d="M1371.442,9154.083l-3.392,7.275-3.608,2-2.058-1.108v1.667l8.725,5.392-2.05,7.274-5.558,3.667h-2.392l-2.05,4.217-.842,6.842v2.216l-2.167,6.942,1.117,3.725v4.226l-4.833,9.333-2.475,1.5-.667,3.384-3.775,2.558-2.058-2.167-.833.893h-1.55v3.5l8.217,5.55h2.617v1.616l1.05,1.059-4.05,4.05h2.333l1.192,4.726-1.808,1.833-1.333-1.333-1.225,2.441v1.559h1.892l1.283,1.383-1.283,1.392,1.283.442v8.258l2.108,3.217-3.392,3.608h-2.5l1.117,1.616h1.383v2.191l4.333,1,1.167,3h14.117l5-4,3.667,1,3.058,8.942,11.3-2.025,3.058-2.108h3.05l2.892,3.108h4.942l.95-1,4.5,2.025,4.275,9.866,2.225,1,4.883-1,3.333,1,6.5-1,6.225-5.083,8.225-1,3.775-3.783,3.392.892,6.608-5.059h2.608l-.942-2.25V9259.5l-6-8.892v-6.05l1.833-2.059v-6.059l-5.333-4.308-2.95,2.891-11.108.834-8.417,3.309-13.5-25.476-2.167-1.608-5.5-5.449-.883-3.109-7.392-5.333-1.725-1.608v-3.616h-5.55l-7.892-3.108-1.45-1.225-3.05-13.025Z" transform="translate(-1172.7 -9001.61)"/>
+    </g>
+    <g class="cls-19" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="turkanaCounty-2" data-name="turkanaCounty" class="cls-1" d="M1368.942,9169.083l-6.442-2.941-6.608-7.675,1.167-1.884-1.167-6.166-4.892-3.309-1-2.5V9139.5l1-.892-4.058-6v-2.55l-7.5-4.167-1.383-2.342-4.392-2.608h-4.783l-.942-2.358,2.058-6.392-1.117-6.725-7.883-3.55-2.058-3.5v-1.5h-3l-1.058-2.393v-6.941l1.058-2.607-4-1.342,1.167-3.217-3.333-1.334-1.717-4.5v-10.107l1.717-2.167V9055.3l-.942-.775,1.333-8.166,3.667-7.059v-21.8l-.892-1.167,2.225-2.866v-5.942l.833-1.049-.442-1.617h-108.1l-26.4,26.809h2.108l1.05,2.666v5.167l1.833,1.833-1.108,4.059,4.167,4.825-1,4.833h6.392l1.55,1.334v3.641h-4.108v2.942l2.558-.942h3.058l2.942,3.167h5.942l1.725,2.167,5.108,3.858-.833,11.283-3.717,2.833,1.55,2.191-2.108,3.334,4.275,7.283v8.908l5.667.617,2.117,3.5,1.167,11.467,2.667.842,1.775,3.324,1.5-1.324,5.442,2.166,2.642,4.691,1,9.226,3.333,4.383,1.892-1.05,4.717,8.5v3.717h2.558l-.942-4.667,3.167-.667,1.325,4.226,2.342-3.559.833-10.225,2.883-1.775,6.783,7.833v3.5l3.967,7.643-1,5.217,4.942,19.449,2.892,6.417-.775,5.134,1.942,2.666,3.392,2.167,1.667,3.95,2.5,2.333,8.667.941,10.308,5.858,22.358,34.759.442,1.608h5.108l6.392,8.225,4.283,4.55,6.217,3,2.333-3-1.942-4.05v-7.008l-2.942-.717v-5.5l.883-3.95-.883-1.05,4.883-5.059-9.55-5.334h-2.5v-5.5l2.5-2.725h1.55v-1.383l3.117-1.726.442,4.167,8.283-14.608v-5.667l-.842-1.116,1.892-4.217-1.05-3.667,3.858-12.475,2.217-1.108v-1.941l4.667-.95,2.333-2.717Z" transform="translate(-1172.7 -9001.61)"/>
+    </g>
+    <g class="cls-18" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="mombasaCounty-2" data-name="mombasaCounty" class="cls-1" d="M1587.442,9612.858l-4.392-.392.725-1.884h-1.5l-2.442,1.884v2.842h-3.5l-1.667,2.608h-1.5v3.725h1.942l3.45,4.05Z" transform="translate(-1172.7 -9001.61)"/>
+    </g>
+    <g class="cls-17" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="nyamiraCounty-2" data-name="nyamiraCounty" class="cls-1" d="M1240,9369.956l1.331,4.463-.581,4.912-2.419-1.375.875,1.375-2.25,4.044,7.669,4.25,5.294,7.331,4.163-3.5-2.375-4.125,1.212-4.875-2.169-8.831.956-3.213-1.331-.456.375-1.419-1.456-3.456Z" transform="translate(-1172.7 -9001.61)"/>
+    </g>
+    <g class="cls-16" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="kirinyagaCounty-2" data-name="kirinyagaCounty" class="cls-1" d="M251.5,406l7.5,18.5v5l4,5v3l-1,5,.5,1.5-10,2-2-1-1.5.5-2-5.5-5-1,1-3.5-3-3,1-1,1-5,4-6Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-15" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="nyeriCounty-2" data-name="nyeriCounty" class="cls-1" d="M234.5,393l3.5,1,1.5,3,10.5,6.5L243,423h-2v3.5l-2,3v4l2,3.5h-3.5l-7-4h-4l-3,2h-4l-4-3h-5l-3,2-1.5-2.5-1-9-3-4,1-3,5-11-1-1,1.5-1.5,7-2,3.5,5h-2v3.5l1,2.5,10.5,3,1.5-1.5,2-9-3-3V397Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-14" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="nakuruCounty-2" data-name="nakuruCounty" class="cls-1" d="M173.5,378l3.5,4.5v3l-2,3,1,4-1,1v5l-3,3v3l2,6-1,1v5l4,1.5v3h4.5l3.5,1.5,1,10,1.5,1.5H190v3h1.5l2,1,1.5-.5,1,4-1,3,2,5v8l3,4v6l-4.5,6.5L182,466.5l-4-9.5-4.5,1-2.5-5.5,1-5-6-7V438l-11.5,4-2-3,3,1,2.5-2.5-1-1-2-5.5h-3v-2h-1.5l-3.5-2.5V425h-1.5l-2.5-1-2.5,6-3.5,1.5-1,5-3.5,4.5L128,430.5l-10-16,7.5-2.5,3.5,2.5.5-1.5,2,1,2.5-2.5,2-6-2.5-3.5-2.5-.5,2.5-4.5,4.5,5.5v4l1.5,1.5,4.5-2.5,1-4.5,3-1.5,2.5-3.5,1.5,3h2v-1.5l4.5-6.5,7,3,3.5-6.5V379Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-13" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="machakosCounty-2" data-name="machakosCounty" class="cls-1" d="M279,449h3v1.5l3.5,1.5,3.5-1-2,5.5,3,6-3,8.5-3.5-2h-11l-1.5,3.5,1,2.5h2v1.5l8.5,13.5,3.5,2.5,1,3-2.5,2.5h-4l-1.5,1.5,3,4-1.5,2.5-2-1-2.5,1.5-2.5-3.5-11-3-4,1-2.5-1-2,3.5v3l1,3.5,3,1.5-2.5,1.5h-4l-3-6-4.5,1-1,2.5v7l.5,1.5H241v-1.5l-6-5-7-9v-4l1-1-2-2-1-4.5h-2v-1.5l1-2.5h2.5l2-2H236v-2h2v-1.5l3-1.5,3-6.5-1-2,3.5-2.5h4l4,3,5.5-7.5-7-6-3.5-5.5-1.5-.5,1.5-3.5,4,4,8,1,3,3h3l8-5,1,1,2.5-2.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-12" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="makueniCounty-2" data-name="makueniCounty" class="cls-1" d="M257.5,502l4,1,4-1,9.5,5.5,1.5,2.5,2.5-1,.5-2,2.5,1v-2h1.5l6.5,11.5-1,3,5,8v4l3,6v7l1,2.5,4.5-1,2.5,2.5,1,5.5h2v1.5l1,2.5h3.5l3.5,3.5,1.5,2.5,2.5,1.5,10,22,1,8,5,7-1.5.5-20-21L297,590v-4.5l-23-28,4-2,3-8-1.5-1.5-9-2-12-8-7.5-1-3.5-5-5.5-2.5-1-6,5-3-1-1v-7l2.5-1.5,4,6h4l3.5-2v-2.5l-3-3v-4Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-11" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="nyandaruaCounty-2" data-name="nyandaruaCounty" class="cls-1" d="M192.5,385l1.5,4,4.5-1,1.5,4.5-3,3v3l7,4,2,3-5,8v6l4,7-1,3,4,8,1,9-1.5-.5-3.5,1.5-2.5,3.5H200v3.5h-1v-5l-2-6,1-2-1-4-2.5-2.5-2,1-1.5-3h-3v-5.5l-3-8.5h-5.5l-4.5-3.5-1-2,2-2v-3l-3-6,4-1.5v-6.5l1-2.5,4.5-1h2l4.5-1-1-2.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="kakamegaCounty-2" data-name="kakamegaCounty" class="cls-1" d="M76.5,347l1.5,3.5-2,3,4,2.5,3,5.5v4l-1,3,2,6L81.5,377l-7,1-4,3-9,1-4,2-3-3-1,1H51v-2H48v-1.5l1-2.5-3.5,1-.5-2.5v-2l-1-3,2-5L43,363l1.5-4,5,1,1-1,2,2,4.5-1v2h1.5l2-2,1,1,7.5-5v-2h2v-1.5l3-1.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="bungomaCounty-2" data-name="bungomaCounty" class="cls-1" d="M53,313l9,2.5v2l7.5,9.5H71v2.5l2,5.5,5.5-1,6-4,7-1,3.5,2.5,2,3V345l-8.5,2h-2l-5,2L79,348v-2H75.5L64,356.5,62.5,359l-2-1-4,1-2-1L52,359v-2H49.5l-4,1,.5-1.5-3-7,4-7-1-1,2-2L46.5,337,40,335.5l7-4v-2l3-3,1-9Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="uasinGishuCounty-2" data-name="uasinGishuCounty" class="cls-1" d="M104.5,326l4,3,6-3,6.5,4-1,3.5,2,4-1,3.5h-4.5l-1.5,1.5,5,7v4l-1,1v10l3,4v5l-1,2,2,3.5h3.5l1.5,1.5V385h-1.5l-2.5,6-6-1-4.5-8H112v-3h2v-1.5l-8-5-8-14,2-5.5-17-2.5,4.5-2.5,2.5,1,.5-2,3,1,5.5-2-1-14H96v-5h7.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="busiaCounty-2" data-name="busiaCounty" class="cls-1" d="M41.5,337l2.5,1,1,7-3,1.5v6l2,3-4,7,4,3L41.5,370h-6L33,369v2H29.5l-2-1L23,376.5v4l.5,1.5L21,383.5v4L17.5,393l-.5-2.5v-2l-2-4,2-2,1-8,8-9v-4l-1-1,2-2,2-11,1.5-1.5,5-1,2.5-2.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="siayaCounty-2" data-name="siayaCounty" class="cls-1" d="M34.5,371h8l.5,1.5,1,2L43,380l2.5-1,.5,3h2v1.5l4,2.5v-2h1.5l1.5-.5v6l-2,2,.5,1.5-6,2L45,397.5l1,5-1.5-.5L40,403l1,5,3,1.5V411H42v2H40.5l-4,2L35,413.5l1-1L35,406l-4-1.5V403H26.5l-2-3H28v-2.5L27,394l-7,1,3-12,2-.5v-6l3.5-4.5,2,2,2-2Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="kisumuCounty-2" data-name="kisumuCounty" class="cls-1" d="M73.5,391l-.5,1.5,1.5,2.5h7l1,1,4-1,2,2h4l3-3,1,1H102v2.5l5.5,7.5H110v1.5l1,2.5h-2.5l-6-6H95l-1.5,3L91,407.5v3l-4,6V421H83.5l-3-2-2,1L73,417l-1-4.5,2.5,1.5,3.5-1v-4H76v-1.5L74,403l-5-3.5,1-3.5-2.5,1-3-1-6,4-1-1-2,2-3,2L47,401v-4h1.5l6-3,3,2,1.5-3h3.5l3,2Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="kerichoCounty-2" data-name="kerichoCounty" class="cls-1" d="M119.5,391l12.5,4.5-3,7,5,3-2,6.5-2.5-1h-2l-3-1-8.5,3,3,5.5-2,2V424h-3.5l-2.5,2.5-1.5,2.5-1.5-2.5,1-4.5-4.5-1-2.5,2.5V426l-6.5-2-4,3-.5-1.5v-2l-2-3v-4l5.5-9.5H96v-1.5l1.5-1.5,1,1h3l5,5,3,1,2.5-1v-4.5l-1.5-1.5-4.5-3.5,3.5-1.5,2,2h3l3.5-2-1-5.5Z" transform="translate(-11.7 -59.61)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 3216.7, 13793.61)">
+      <path id="homabayCounty-2" data-name="homabayCounty" class="cls-1" d="M2804.55,10616.934s-5.667-7.434-3.667-12.217,10.566-14.333,10.566-14.333,2.884-1.567,3.217,1.883,13.217,2.9,13.217,2.9,3.916-.667,5.233-1.667-8.9-6.333-8.9-6.333,3.434-5.133,5.667-3.566,18,0,18,0l.783,5,6.217,3.666,2.6-1.329,2.3,2.563,4.333-1.233.321.84-19.988,10.061h-2.783v1.55a10.337,10.337,0,0,0-2.783,2.783,4.212,4.212,0,0,1-2,1.884s-4.217.233-4.55.783-2.45,6.767-2.45,6.767h-1.1l-2.017,5.45-3.65-1.217-6.233,2-4.667-3-3.217-3.9Z" transform="translate(-2788.7 -10230.61)"/>
+    </g>
+    <text id="One_Kenya_47_Counties" data-name="One Kenya
+47 Counties" class="cls-2" transform="translate(3237 14353)"><tspan x="0" y="0">One Kenya</tspan><tspan x="0" y="46">47 Counties</tspan></text>
+  </g>
+</svg>
