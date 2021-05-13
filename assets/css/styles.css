@@ -1,306 +1,657 @@
-html {scroll-behavior: smooth;}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: #212141;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 
 body {
-    background-color: hsla(39, 100%, 78%, 1);
+    background: url(/assets/svg/theNightSky.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Jost, sans-serif;
-    font-size: calc(16px + (20 - 16) * ((100vw - 300px)/ (2500 - 300)));
+    font-size: calc(16px + (21 - 16) * ((100vw - 300px)/ (2500 - 300)));
     line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #922529;
-    font-family: 'Port Lligat Slab', serif
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFD700;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: .0700em;
+    text-transform: uppercase;
+}
+
+h1 {font-size: calc(33px + (99 - 33) * ((100vw - 300px)/ (2500 - 300)));}
+h2 {font-size: calc(30px + (55 - 30) * ((100vw - 300px)/ (2500 - 300)));}
+h3 {font-size: calc(27px + (33 - 27) * ((100vw - 300px)/ (2500 - 300)));}
+h4 {font-size: calc(24px + (25 - 24) * ((100vw - 300px)/ (2500 - 300)));}
+h5 {font-size: calc(21px + (23 - 21) * ((100vw - 300px)/ (2500 - 300)));}
+h6 {font-size: calc(18px + (21 - 18) * ((100vw - 300px)/ (2500 - 300)));}
 
 p {
-    color: #4f3100;
+    max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
+    color: #EEBE57;
     font-family: jost, sans-serif;
     letter-spacing: .0625em;
-    line-height: 1.6
+    line-height: 1.9
 }
 
-text {
-    color: #4f3100;
-    font-family: jost,
+dt {
+    color: #FFD700;
+    font-family: 'Roboto',
     sans-serif;
+    font-weight: 500;
+    letter-spacing: .0700em;
+    text-transform: uppercase;
+}
+
+dd {
+    max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
+    color: #EEBE57;
+    font-family: jost, sans-serif;
     letter-spacing: .0625em;
-    line-height: 1.6
-}
-
-#kenyanMap g title {
-    background-color: #009A44;
-    color: #4f3100;
-    font-family: jost,
-    sans-serif;
-    letter-spacing: .0625em;
-    line-height: 1.6
-}
-
-a {
-    color: #009A44;
-    text-decoration: none
-}
-
-a:hover {
-    color: #BE3A34;
-}
-
-legend {
-    color: #4f3100
-}
-
-figcaption {
-    color: #4f3100 !important
-}
-
-cite {
-    color: #4f3100
+    line-height: 1.9
 }
 
 video {
+    width: 100% !important;
+    height: auto !important;
+}
+
+svg text .saying-proverb-quote {
+    font-size: 250px;
+    font-weight: 900;
+    color: #171733;
+    font-family: jost, sans-serif;
+    letter-spacing: .0625em;
+    line-height: 1.9
+}
+
+svg text .saying-proverb-quote-author {
+    font-size: 200px;
+    font-style: italic;
+    color: #171733;
+    font-family: jost, sans-serif;
+    letter-spacing: .0625em;
+    line-height: 1.9
+}
+
+svg text .kartasi-story-title {
+    font-size: 290px;
+    font-weight: 900;
+    color: #171733;
+    font-family: jost,
+    sans-serif;
+    letter-spacing: .0625em;
+    line-height: 1.9
+}
+
+svg text .kartasi-story-text {
+    font-size: 150px;
+    font-weight: 300;
+    color: #171733;
+    font-family: jost,
+    sans-serif;
+    letter-spacing: .0625em;
+    line-height: 1.9
+}
+
+svg text .kartasi-story-text-emphasized {
+    font-size: 150px;
+    font-weight: 900;
+    color: #171733;
+    font-family: jost,
+    sans-serif;
+    letter-spacing: .0625em;
+    line-height: 1.9
+}
+
+blockquote {
+    color: #FFBF00;
+}
+
+figcaption {
+    color: #FFD700;
+}
+
+a {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+footer p a {
     max-width: 100%;
-    height: auto
-}
-
-i {
-    color: #BD7836
-}
-
-hr {
-    border-bottom: 3px solid #4F3100
-}
-
-strong {
-    color: #008C51;
-    font-family: Jost, sans-serif;
-    line-height: 1.6
-}
-
-em {
-    color: #008C51;
-    line-height: 1.6
 }
 
 small {
-    color: #4f3100;
-    font-family: Jost, sans-serif
+    color: #FFD700;
 }
 
-.breadcrumb-item a {
-    color: #4f3100
+
+fieldset {
+    color: #FFD700;
+    border: 0.1rem solid #FFC207;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
 }
 
-.breadcrumb>.active {
-    color: #922529
+legend {
+    color: #FFD700;
+    font-family: jost, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: .0625em;
+}
+
+label {
+    color: #FFD700;
+    font-family: jost, sans-serif;
+    font-weight: bold;
+    letter-spacing: .0625em;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    border: 0.1rem solid #FFC207;
+    border-radius: 0.3rem;
+    letter-spacing: .0625em;
+    -webkit-transition: 0.5s;
+    transition: 50ms;
+    outline: none;
+}
+
+input[type=text]:focus {border: 0.23rem solid #FFC207;}
+
+input[type=email]:focus {border: 0.23rem solid #FFC207;}
+
+textarea:focus {border: 0.23rem solid #FFC207;}
+
+input[type=email] {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    border: 0.1rem solid #FFC207;
+    border-radius: 0.3rem;
+    letter-spacing: .0625em;
+    -webkit-transition: 0.5s;
+    transition: 50ms;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    border: 0.1rem solid #FFC207;
+    border-radius: 0.3rem;
+    letter-spacing: .0625em;
+    -webkit-transition: 0.5s;
+    transition: 50ms;
+    outline: none;
+}
+
+button {
+    background-color: #FFC207;
+    border: 0.1rem solid #FFC207;
+    border-radius: 0.3rem;
+    color: #212141;
+    font-size: 1rem;
+    letter-spacing: .0625em;
+    padding: 0.7rem;
+    -webkit-transition: 0.5s;
+    transition: 50ms;
+    outline: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.button {
+    background-color: transparent;
+    border: 0.1rem solid #FFC207;
+    border-radius: 0.3rem;
+    color: #FFC207;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .0625em;
+    padding: 0.7rem;
+    -webkit-transition: 0.5s;
+    transition: 50ms;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #FFC207;
+    color: #212141;
+}
+
+
+
+.prolonged-text {
+    display: none;
+}
+
+#ukurasaIntroHomepage,
+#blogIntroHomepage,
+#portfolioIntroHomepage,
+#thankyouContentHomepage,
+#theSunsetUkurasaPage,
+#theFullMoonUkurasaPage,
+#thankyouContentUkurasapage,
+#kasukuExerciseBookBlogpage,
+#sayingsProversExpressionsBlogpage,
+#kartasiExerciseBookBlogpage,
+#StoriesBlogpage,
+#thankyouContentBlogpage,
+#mtaliiSiteLayout,
+#mtaliiSiteProject,
+#personalPortfolioSiteLayout,
+#personalPortfolioSiteProject,
+#thankyouContentPortfoliopage,
+#theKenyanMap {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+@-webkit-keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+@-moz-keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+@-o-keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+
+#homeDeskKasukuBookCover {
+    animation: homeDeskKasukuBookCoverDrawing 0.05ms ease-in-out 0ms forwards infinite;
+    -webkit-animation: homeDeskKasukuBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
+    -moz-animation: homeDeskKasukuBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
+    -o-animation: homeDeskKasukuBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
+}
+
+@keyframes homeDeskKasukuBookCoverDecoDrawing {0% {stroke-width: 5;stroke-dashoffset: 165529.359375;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #59393F;}}
+@-webkit-keyframes homeDeskKasukuBookCoverDecoDrawing {0% {stroke-width: 5;stroke-dashoffset: 165529.359375;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #59393F;}}
+@-moz-keyframes homeDeskKasukuBookCoverDecoDrawing {0% {stroke-width: 5;stroke-dashoffset: 165529.359375;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #59393F;}}
+@-o-keyframes homeDeskKasukuBookCoverDecoDrawing {0% {stroke-width: 5;stroke-dashoffset: 165529.359375;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #59393F;}}
+
+#homeDeskKasukuBookCoverDeco {
+    animation: homeDeskKasukuBookCoverDecoDrawing 0.05ms ease-in-out 0ms forwards infinite;
+    -webkit-animation: homeDeskKasukuBookCoverDecoDrawing 10000ms ease-in-out 0ms forwards infinite;
+    -moz-animation: homeDeskKasukuBookCoverDecoDrawing 10000ms ease-in-out 0ms forwards infinite;
+    -o-animation: homeDeskKasukuBookCoverDecoDrawing 10000ms ease-in-out 0ms forwards infinite;
+}
+
+#homeDeskKartasiBookCover {
+    animation: homeDeskKartasiBookCoverDrawing 0.05ms ease-in-out 0ms forwards infinite;
+    -webkit-animation: homeDeskKartasiBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
+    -moz-animation: homeDeskKartasiBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
+    -o-animation: homeDeskKartasiBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
+}
+@keyframes homeDeskKartasiBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+@-webkit-keyframes homeDeskKartasiBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+@-moz-keyframes homeDeskKartasiBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+@-o-keyframes homeDeskKartasiBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+
+#homeDeskKartasiBookRedStripe {
+    animation: homeDeskKartasiBookRedStripeDrawing 0.05ms ease-in-out 0ms forwards infinite;
+    -webkit-animation: homeDeskKartasiBookRedStripeDrawing 30000ms ease-in-out 0ms forwards infinite;
+    -moz-animation: homeDeskKartasiBookRedStripeDrawing 30000ms ease-in-out 0ms forwards infinite;
+    -o-animation: homeDeskKartasiBookRedStripeDrawing 30000ms ease-in-out 0ms forwards infinite;
+}
+
+@keyframes homeDeskKartasiBookRedStripeDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+@-webkit-keyframes homeDeskKartasiBookRedStripeDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+@-moz-keyframes homeDeskKartasiBookRedStripeDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+@-o-keyframes homeDeskKartasiBookRedStripeDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
+
+#homeDeskKartasiBookLogoPart1 {
+    animation: homeDeskKartasiBookLogoPart1Drawing 0.05ms ease-in-out 0ms forwards infinite;
+    -webkit-animation: homeDeskKartasiBookLogoPart1Drawing 10000ms ease-in-out 0ms forwards infinite;
+    -moz-animation: homeDeskKartasiBookLogoPart1Drawing 10000ms ease-in-out 0ms forwards infinite;
+    -o-animation: homeDeskKartasiBookLogoPart1Drawing 10000ms ease-in-out 0ms forwards infinite;
+}
+
+@keyframes homeDeskKartasiBookLogoPart1Drawing {0% {stroke-width: 5;stroke-dashoffset: 5670.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
+@-webkit-keyframes homeDeskKartasiBookLogoPart1Drawing {0% {stroke-width: 5;stroke-dashoffset: 5670.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
+@-moz-keyframes homeDeskKartasiBookLogoPart1Drawing {0% {stroke-width: 5;stroke-dashoffset: 5670.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
+@-o-keyframes homeDeskKartasiBookLogoPart1Drawing {0% {stroke-width: 5;stroke-dashoffset: 5670.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
+
+#homeDeskKartasiBookLogoPart2 {
+    animation: homeDeskKartasiBookLogoPart2Drawing 0.05ms ease-in-out 0ms forwards infinite;
+    -webkit-animation: homeDeskKartasiBookLogoPart2Drawing 10000ms ease-in-out 0ms forwards infinite;
+    -moz-animation: homeDeskKartasiBookLogoPart2Drawing 10000ms ease-in-out 0ms forwards infinite;
+    -o-animation: homeDeskKartasiBookLogoPart2Drawing 10000ms ease-in-out 0ms forwards infinite;
+}
+
+@keyframes homeDeskKartasiBookLogoPart2Drawing {0% {stroke-width: 5;stroke-dashoffset: 991.8937377929688;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
+@-webkit-keyframes homeDeskKartasiBookLogoPart2Drawing {0% {stroke-width: 5;stroke-dashoffset: 991.8937377929688;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
+@-moz-keyframes homeDeskKartasiBookLogoPart2Drawing {0% {stroke-width: 5;stroke-dashoffset: 991.8937377929688;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
+@-o-keyframes homeDeskKartasiBookLogoPart2Drawing {0% {stroke-width: 5;stroke-dashoffset: 991.8937377929688;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
+
+#homeDeskKartasiBookBrandName {
+    animation: homeDeskKartasiBookBrandNameDrawing 0.05ms ease-in-out 0ms forwards infinite;
+    -webkit-animation: homeDeskKartasiBookBrandNameDrawing 10000ms ease-in-out 0ms forwards infinite;
+    -moz-animation: homeDeskKartasiBookBrandNameDrawing 10000ms ease-in-out 0ms forwards infinite;
+    -o-animation: homeDeskKartasiBookBrandNameDrawing 10000ms ease-in-out 0ms forwards infinite;
+}
+
+@keyframes homeDeskKartasiBookBrandNameDrawing {0% {stroke-width: 5;stroke-dashoffset: 7403.4140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FCFEFD;}}
+@-webkit-keyframes homeDeskKartasiBookBrandNameDrawing {0% {stroke-width: 5;stroke-dashoffset: 7403.4140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FCFEFD;}}
+@-moz-keyframes homeDeskKartasiBookBrandNameDrawing {0% {stroke-width: 5;stroke-dashoffset: 7403.4140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FCFEFD;}}
+@-o-keyframes homeDeskKartasiBookBrandNameDrawing {0% {stroke-width: 5;stroke-dashoffset: 7403.4140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FCFEFD;}}
+
+@keyframes brandTitleDrawing {0% {stroke-width: 3;stroke-dashoffset: 28537.765625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@-webkit-keyframes brandTitleDrawing {0% {stroke-width: 3;stroke-dashoffset: 28537.765625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@-moz-keyframes brandTitleDrawing {0% {stroke-width: 3;stroke-dashoffset: 28537.765625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@-o-keyframes brandTitleDrawing {0% {stroke-width: 3;stroke-dashoffset: 28537.765625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+
+#brandTitle {
+    animation: brandTitleDrawing 3500ms ease-in-out 0ms forwards infinite;
+    -webkit-animation: brandTitleDrawing 3500ms ease-in-out 0ms forwards infinite;
+    -moz-animation: brandTitleDrawing 3500ms ease-in-out 0ms forwards infinite;
+    -o-animation: brandTitleDrawing 3500ms ease-in-out 0ms forwards infinite;
+}
+
+@keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 21505.45703125;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@-webkit-keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 21505.45703125;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@-moz-keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 21505.45703125;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@-o-keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 21505.45703125;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+
+#brandSlogan {
+    animation: brandSloganDrawing 3500ms ease-in-out 0ms forwards infinite;
+    -webkit-animation: brandSloganDrawing 3500ms ease-in-out 0ms forwards infinite;
+    -moz-animation: brandSloganDrawing 3500ms ease-in-out 0ms forwards infinite;
+    -o-animation: brandSloganDrawing 3500ms ease-in-out 0ms forwards infinite;
+}
+
+
+#personalPortfolioSiteHomepageLayout path {
+    animation: custom-start-end 1s ease-in-out 0s forwards;
+}
+
+
+
+#theSunsetUkurasaPage {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#theFullMoonUkurasaPage {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#aircraftIntroAnimation {
+   background-image: linear-gradient(to bottom, #075CAB, #E7F3FE);
+}
+
+.breadcrumb {
+    text-align: center;
+}
+
+.breadcrumb {
+    display: grid;
+    list-style-type: none;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+}
+
+.breadcrumb li a {
+    color: #FFD700;
+}
+
+.breadcrumb li a:hover {
+    color: #EEBE57;
 }
 
 .card {
-    background-color: #ffd88f
+    border-style: double;
+    border-width: 2px;
+    border-color: #FFD700;
+    border-radius: 10px;
 }
 
-#map {
-    width: 100%;
-    height: 400px
+.text-center {text-align: center;}
+
+
+
+#ukurasaPageContent {
+    fill: #FFF7D6;
+    font-family: 'Ranga', cursive;
+    font-size: 94px;
 }
 
-#kenyanCounties {transition: 300ms;}
+#LaunchUkurasaContentButton {
+    font-family: CabinRegular, Cabin;
+}
 
-.map-stroke-and-radial-gradient {stroke: #4f3100;stroke-width: 0.5px;fill: url(#radial-gradient);}
-.map-text {fill: #4f3100;font-size: 35px;font-family: MalgunGothicBold, Malgun Gothic;}
-.cls-3 {filter: url(#homabayCounty);}
-.cls-4 {filter: url(#kerichoCounty);}
-.cls-5 {filter: url(#kisumuCounty);}
-.cls-6 {filter: url(#siayaCounty);}
-.cls-7 {filter: url(#busiaCounty);}
-.cls-8 {filter: url(#uasinGishuCounty);}
-.cls-9 {filter: url(#bungomaCounty);}
-.cls-10 {filter: url(#kakamegaCounty);}
-.cls-11 {filter: url(#nyandaruaCounty);}
-.cls-12 {filter: url(#makueniCounty);}
-.cls-13 {filter: url(#machakosCounty);}
-.cls-14 {filter: url(#nakuruCounty);}
-.cls-15 {filter: url(#nyeriCounty);}
-.cls-16 {filter: url(#kirinyagaCounty);}
-.cls-17 {filter: url(#nyamiraCounty);}
-.cls-18 {filter: url(#mombasaCounty);}
-.cls-19 {filter: url(#turkanaCounty);}
-.cls-20 {filter: url(#samburuCounty);}
-.cls-21 {filter: url(#kwaleCounty);}
-.cls-22 {filter: url(#taitaTavetaCounty);}
-.cls-23 {filter: url(#kilifiCounty);}
-.cls-24 {filter: url(#lamuCounty);}
-.cls-25 {filter: url(#kajiadoCounty);}
-.cls-26 {filter: url(#nairobiCounty);}
-.cls-27 {filter: url(#kiambuCounty);}
-.cls-28 {filter: url(#migoriCounty);}
-.cls-29 {filter: url(#murang_aCounty);}
-.cls-30 {filter: url(#kisiiCounty);}
-.cls-31 {filter: url(#narokCounty);}
-.cls-32 {filter: url(#bometCounty);}
-.cls-33 {filter: url(#embuCounty);}
-.cls-34 {filter: url(#kituiCounty);}
-.cls-35 {filter: url(#tanaRiverCounty);}
-.cls-36 {filter: url(#tharakaNithiCounty);}
-.cls-37 {filter: url(#vihigaCounty);}
-.cls-38 {filter: url(#nandiCounty);}
-.cls-39 {filter: url(#meruCounty);}
-.cls-40 {filter: url(#laikipiaCounty);}
-.cls-41 {filter: url(#garissaCounty);}
-.cls-42 {filter: url(#transNzoiaCounty);}
-.cls-43 {filter: url(#elgeyoMarakwetCounty);}
-.cls-44 {filter: url(#baringoCounty);}
-.cls-45 {filter: url(#isioloCounty);}
-.cls-46 {filter: url(#westPokotCounty);}
-.cls-47 {filter: url(#wajirCounty);}
-.cls-48 {filter: url(#manderaCounty);}
-.cls-49 {filter: url(#marsabitCounty);}
 
-#mombasa:hover {fill: #009A44;}
-#kwale:hover {fill: #009A44;}
-#kilifi:hover {fill: #009A44;}
-#tanaRiver:hover {fill: #009A44;}
-#lamu:hover {fill: #009A44; }
-#taitaTaveta:hover {fill: #009A44;}
-#garissa:hover {fill: #009A44;}
-#wajir:hover {fill: #009A44;}
-#mandera:hover {fill: #009A44;}
-#marsabit:hover {fill: #009A44;}
-#isiolo:hover {fill: #009A44;}
-#meru:hover {fill: #009A44;}
-#tharakaNithi:hover {fill: #009A44;}
-#embu:hover {fill: #009A44;}
-#kitui:hover {fill: #009A44;}
-#machakos:hover {fill: #009A44;}
-#makueni:hover {fill: #009A44;}
-#nyandarua:hover {fill: #009A44;}
-#nyeri:hover {fill: #009A44;}
-#kirinyaga:hover {fill: #009A44;}
-#muranga:hover {fill: #009A44;}
-#kiambu:hover {fill: #009A44;}
-#turkana:hover {fill: #009A44;}
-#westPokot:hover {fill: #009A44;}
-#samburu:hover {fill: #009A44;}
-#transNzoia:hover {fill: #009A44;}
-#uasinGishu:hover {fill: #009A44;}
-#elgeyoMarakwet:hover {fill: #009A44;}
-#nandi:hover {fill: #009A44;}
-#baringo:hover {fill: #009A44;}
-#laikipia:hover {fill: #009A44;}
-#nakuru:hover {fill: #009A44;}
-#narok:hover {fill: #009A44; }
-#kajiado:hover {fill: #009A44;}
-#kericho:hover {fill: #009A44;}
-#bomet:hover {fill: #009A44;}
-#kakamega:hover {fill: #009A44;}
-#vihiga:hover {fill: #009A44;}
-#bungoma:hover {fill: #009A44;}
-#busia:hover {fill: #009A44;}
-#siaya:hover {fill: #009A44;}
-#kisumu:hover {fill: #009A44;}
-#homaBay:hover {fill: #009A44;}
-#migori:hover {fill: #009A44;}
-#kisii:hover {fill: #009A44;}
-#nyamira:hover {fill: #009A44;}
-#nairobi:hover {fill: #009A44;}
+.grid-container--fit {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 
-#mombasa:active {fill: #BE3A34;}
-#kwale:active {fill: #BE3A34;}
-#kilifi:active {fill: #BE3A34;}
-#tanaRiver:active {fill: #BE3A34;}
-#lamu:active {fill: #BE3A34;}
-#taitaTaveta:active {fill: #BE3A34;}
-#garissa:active {fill: #BE3A34;}
-#wajir:active {fill: #BE3A34;}
-#mandera:active {fill: #BE3A34;}
-#marsabit:active {fill: #BE3A34;}
-#isiolo:active {fill: #BE3A34;}
-#meru:active {fill: #BE3A34;}
-#tharakaNithi:active {fill: #BE3A34;}
-#embu:active {fill: #BE3A34;}
-#kitui:active {fill: #BE3A34;}
-#machakos:active {fill: #BE3A34;}
-#makueni:active {fill: #BE3A34;}
-#nyandarua:active {fill: #BE3A34;}
-#nyeri:active {fill: #BE3A34;}
-#kirinyaga:active {fill: #BE3A34;}
-#muranga:active {fill: #BE3A34;}
-#kiambu:active {fill: #BE3A34;}
-#turkana:active {fill: #BE3A34;}
-#westPokot:active {fill: #BE3A34;}
-#samburu:active {fill: #BE3A34;}
-#transNzoia:active {fill: #BE3A34;}
-#uasinGishu:active {fill: #BE3A34;}
-#elgeyoMarakwet:active {fill: #BE3A34;}
-#nandi:active {fill: #BE3A34;}
-#baringo:active {fill: #BE3A34;}
-#laikipia:active {fill: #BE3A34;}
-#nakuru:active {fill: #BE3A34;}
-#narok:active {fill: #BE3A34;}
-#kajiado:active {fill: #BE3A34;}
-#kericho:active {fill: #BE3A34;}
-#bomet:active {fill: #BE3A34;}
-#kakamega:active {fill: #BE3A34;}
-#vihiga:active {fill: #BE3A34;}
-#bungoma:active {fill: #BE3A34;}
-#busia:active {fill: #BE3A34;}
-#siaya:active {fill: #BE3A34;}
-#kisumu:active {fill: #BE3A34;}
-#homaBay:active {fill: #BE3A34;}
-#migori:active {fill: #BE3A34;}
-#kisii:active {fill: #BE3A34;}
-#nyamira:active {fill: #BE3A34;}
-#nairobi:active {fill: #BE3A34;}
 
-#mombasaInfo {display: none;}
-#kwaleInfo {display: none;}
-#kilifiInfo {display: none;}
-#tanaRiverInfo {display: none;}
-#lamuInfo {display: none;}
-#taitaTavetaInfo {display: none;}
-#garissaInfo {display: none;}
-#wajirInfo {display: none;}
-#manderaInfo {display: none;}
-#marsabitInfo {display: none;}
-#isioloInfo {display: none;}
-#meruInfo {display: none;}
-#tharakaNithiInfo {display: none;}
-#embuInfo {display: none;}
-#kituiInfo {display: none;}
-#machakosInfo {display: none;}
-#makueniInfo {display: none;}
-#nyandaruaInfo {display: none;}
-#nyeriInfo {display: none;}
-#kirinyagaInfo {display: none;}
-#murangaInfo {display: none;}
-#kiambuInfo {display: none;}
-#turkanaInfo {display: none;}
-#westPokotInfo {display: none;}
-#samburuInfo {display: none;}
-#transNzoiaInfo {display: none;}
-#uasinGishuInfo {display: none;}
-#elgeyoMarakwetInfo {display: none;}
-#nandiInfo {display: none;}
-#baringoInfo {display: none;}
-#laikipiaInfo {display: none;}
-#nakuruInfo {display: none;}
-#narokInfo {display: none;}
-#kajiadoInfo {display: none;}
-#kerichoInfo {display: none;}
-#bometInfo {display: none;}
-#kakamegaInfo {display: none;}
-#vihigaInfo {display: none;}
-#bungomaInfo {display: none;}
-#busiaInfo {display: none;}
-#siayaInfo {display: none;}
-#kisumuInfo {display: none;}
-#homaBayInfo {display: none;}
-#migoriInfo {display: none;}
-#kisiiInfo {display: none;}
-#nyamiraInfo {display: none;}
-#nairobiInfo {display: none;}
+.p1 {
+    padding-left: 0.188rem;
+    padding-top: 0.188rem;
+    padding-right: 0.188rem;
+    padding-bottom: 0.188rem;
+}
+
+.pl-1 {
+    padding-left: 0.188rem;
+}
+.pt-1 {
+    padding-top: 0.188rem;
+}
+.pr-1 {
+    padding-right: 0.188rem;
+}
+.pb-1 {
+    padding-bottom: 0.188rem;
+}
+
+.p2 {
+    padding-left: 0.438rem;
+    padding-top: 0.438rem;
+    padding-right: 0.438rem;
+    padding-bottom: 0.438rem;
+}
+.pl-2 {
+    padding-left: 0.438rem;
+}
+.pt-2 {
+    padding-top: 0.438rem;
+}
+.pr-2 {
+    padding-right: 0.438rem;
+}
+.pb-2 {
+    padding-bottom: 0.438rem;
+}
+
+.p3 {
+    padding-left: 0.688rem;
+    padding-top: 0.688rem;
+    padding-right: 0.688rem;
+    padding-bottom: 0.688rem;
+}
+.pl-3 {
+    padding-left: 0.688rem;
+}
+.pt-3 {
+    padding-top: 0.688rem;
+}
+.pr-3 {
+    padding-right: 0.688rem;
+}
+.pb-3 {
+    padding-bottom: 0.688rem;
+}
+
+.p4 {
+    padding-left: 1.313rem;
+    padding-top: 1.313rem;
+    padding-right: 1.313rem;
+    padding-bottom: 1.313rem;
+}
+.pl-4 {
+    padding-left: 1.313rem;
+}
+.pt-4 {
+    padding-top: 1.313rem;
+}
+.pr-4 {
+    padding-right: 1.313rem;
+}
+.pb-4 {
+    padding-bottom: 1.313rem;
+}
+
+.p5 {
+    padding-left: 2.563rem;
+    padding-top: 2.563rem;
+    padding-right: 2.563rem;
+    padding-bottom: 2.563rem;
+}
+.pl-5 {
+    padding-left: 2.563rem;
+}
+.pt-5 {
+    padding-top: 2.563rem;
+}
+.pr-5 {
+    padding-right: 2.563rem;
+}
+.pb-5 {
+    padding-bottom: 2.563rem;
+}
+
+.m1 {
+    margin-left: 0.188rem;
+    margin-top: 0.188rem;
+    margin-right: 0.188rem;
+    margin-bottom: 0.188rem;
+}
+
+.ml-1 {
+    margin-left: 0.188rem;
+}
+.mt-1 {
+    margin-top: 0.188rem;
+}
+.mr-1 {
+    margin-right: 0.188rem;
+}
+.mb-1 {
+    margin-bottom: 0.188rem;
+}
+
+.m2 {
+    margin-left: 0.438rem;
+    margin-top: 0.438rem;
+    margin-right: 0.438rem;
+    margin-bottom: 0.438rem;
+}
+.ml-2 {
+    margin-left: 0.438rem;
+}
+.mt-2 {
+    margin-top: 0.438rem;
+}
+.mr-2 {
+    margin-right: 0.438rem;
+}
+.mb-2 {
+    margin-bottom: 0.438rem;
+}
+
+.m3 {
+    margin-left: 0.688rem;
+    margin-top: 0.688rem;
+    margin-right: 0.688rem;
+    margin-bottom: 0.688rem;
+}
+.ml-3 {
+    margin-left: 0.688rem;
+}
+.mt-3 {
+    margin-top: 0.688rem;
+}
+.mr-3 {
+    margin-right: 0.688rem;
+}
+.mb-3 {
+    margin-bottom: 0.688rem;
+}
+
+.m4 {
+    margin-left: 1.313rem;
+    margin-top: 1.313rem;
+    margin-right: 1.313rem;
+    margin-bottom: 1.313rem;
+}
+.ml-4 {
+    margin-left: 1.313rem;
+}
+.mt-4 {
+    margin-top: 1.313rem;
+}
+.mr-4 {
+    margin-right: 1.313rem;
+}
+.mb-4 {
+    margin-bottom: 1.313rem;
+}
+
+.m5 {
+    margin-left: 2.563rem;
+    margin-top: 2.563rem;
+    margin-right: 2.563rem;
+    margin-bottom: 2.563rem;
+}
+.ml-5 {
+    margin-left: 2.563rem;
+}
+.mt-5 {
+    margin-top: 2.563rem;
+}
+.mr-5 {
+    margin-right: 2.563rem;
+}
+.mb-5 {
+    margin-bottom: 2.563rem;
+}

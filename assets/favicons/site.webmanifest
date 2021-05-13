@@ -1,6 +1,6 @@
 {
-    "name": "Mweu's Ukurasa",
-    "short_name": "Mweu's Ukurasa",
+    "name": "Mweus Ukurasa",
+    "short_name": "Mweus Ukurasa",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,8 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffedcb",
-    "background_color": "#ffedcb",
-    "start_url": "https://mweusukur.com",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
