@@ -10,7 +10,7 @@ html, body {
 
 html {
     box-sizing: border-box;
-    background-color: #212141;
+    background-color: #030323;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -92,7 +92,7 @@ video {
 svg text .saying-proverb-quote {
     font-size: 250px;
     font-weight: 900;
-    color: #171733;
+    color: #030323;
     font-family: jost, sans-serif;
     letter-spacing: .0625em;
     line-height: 1.9
@@ -101,7 +101,7 @@ svg text .saying-proverb-quote {
 svg text .saying-proverb-quote-author {
     font-size: 200px;
     font-style: italic;
-    color: #171733;
+    color: #030323;
     font-family: jost, sans-serif;
     letter-spacing: .0625em;
     line-height: 1.9
@@ -110,7 +110,7 @@ svg text .saying-proverb-quote-author {
 svg text .kartasi-story-title {
     font-size: 290px;
     font-weight: 900;
-    color: #171733;
+    color: #030323;
     font-family: jost,
     sans-serif;
     letter-spacing: .0625em;
@@ -120,7 +120,7 @@ svg text .kartasi-story-title {
 svg text .kartasi-story-text {
     font-size: 150px;
     font-weight: 300;
-    color: #171733;
+    color: #030323;
     font-family: jost,
     sans-serif;
     letter-spacing: .0625em;
@@ -130,7 +130,7 @@ svg text .kartasi-story-text {
 svg text .kartasi-story-text-emphasized {
     font-size: 150px;
     font-weight: 900;
-    color: #171733;
+    color: #030323;
     font-family: jost,
     sans-serif;
     letter-spacing: .0625em;
@@ -230,7 +230,7 @@ button {
     background-color: #FFC207;
     border: 0.1rem solid #FFC207;
     border-radius: 0.3rem;
-    color: #212141;
+    color: #030323;
     font-size: 1rem;
     letter-spacing: .0625em;
     padding: 0.7rem;
@@ -274,6 +274,7 @@ button:hover {
 #thankyouContentHomepage,
 #theSunsetUkurasaPage,
 #theFullMoonUkurasaPage,
+#theSunriseUkurasaPage,
 #thankyouContentUkurasapage,
 #kasukuExerciseBookBlogpage,
 #sayingsProversExpressionsBlogpage,
