@@ -387,10 +387,10 @@ button:hover {
     -o-animation: brandTitleDrawing 3500ms ease-in-out 0ms forwards infinite;
 }
 
-@keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 21505.45703125;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
-@-webkit-keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 21505.45703125;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
-@-moz-keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 21505.45703125;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
-@-o-keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 21505.45703125;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 14856.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@-webkit-keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 14856.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@-moz-keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 14856.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
+@-o-keyframes brandSloganDrawing {0% {stroke-width: 3;stroke-dashoffset: 14856.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #F1C10D;}}
 
 #brandSlogan {
     animation: brandSloganDrawing 3500ms ease-in-out 0ms forwards infinite;
