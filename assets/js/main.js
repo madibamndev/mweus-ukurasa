@@ -13,5 +13,3 @@ function readTheCompleteStory(story) {
         prolongedText.style.display = "inline";
     }
 }
-
-const terminationEvent = "onpagehide" in self ? "pagehide" : "unload"; addEventListener(terminationEvent, e => { }, { capture: !0 });
