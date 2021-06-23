@@ -37,11 +37,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
     <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#252E42">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#242E42">
     <meta name="apple-mobile-web-app-title" content="Mweus Ukurasa">
     <meta name="application-name" content="Mweus Ukurasa">
-    <meta name="msapplication-TileColor" content="#252E42">
-    <meta name="theme-color" content="#252E42">
+    <meta name="msapplication-TileColor" content="#242E42">
+    <meta name="theme-color" content="#242E42">
     <!-- styles.css -->
     <link rel="preconnect stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
@@ -51,11 +51,11 @@
     <div class="container-fluid">
         <!-- Dark/Light Mode Switch content starts here -->
         <aside id="lightAndDarkModeSwitch" class="pb-2 pt-3 pr-2 pb-3">
-            <label class="light-and-dark-mode-label" for="lightAndDarkModeCheckbox">Light — Dark:</label>
-            <label class="switch">
-                <input id="lightAndDarkModeCheckbox" type="checkbox">
-                <span class="slider round"></span>
-            </label>
+            <label  id="lightAndDarkThemeButton" >Toggle: Light or Dark Theme</label>
+            <div class="theme-switch">
+                <input type="checkbox" id="themeSwitchToggle" />
+                <label for="themeSwitchToggle"></label>
+            </div>
         </aside>
         <!-- Dark/Light Mode Switch content ends here -->
         <!-- Header content starts here -->
@@ -90,7 +90,7 @@
         </header>
         <!-- Header content ends here -->
         <!-- Main content starts here -->
-        <main class="homepage-main-content">
+        <main id="homePageMainContent">
             <!-- Homepage Main content starts here -->
                 <!-- Message from the creator starts here -->
                     <article id="heroIntroText">
@@ -412,7 +412,7 @@
                                                 viewbox="0 0 20000 11250">
                                                 <defs>
                                                     <style>
-                                                        .laptop-background-color {fill: #F2FEDC;}
+                                                        .laptop-background-color {fill: #F0EEF4;}
                                                         .intro-laptop-body-part-1-color {fill: #a2a5ab;}
                                                         .intro-laptop-body-part-2-color {fill: #141414;}
                                                         .intro-laptop-body-part-3-color {fill: #3d3d3d;}
@@ -778,7 +778,7 @@
                                                     xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <g transform="translate(-5474 -6065)">
                                                         <g id="thehomepageTV" class="cls-2" transform="translate(5474 6065)">
-                                                            <rect class="cls-11" fill="#F2FEDC" stroke="#F2FEDC" stroke-width="0.1px" width="5000"
+                                                            <rect class="cls-11" fill="#F0EEF4" stroke="#F0EEF4" stroke-width="0.1px" width="5000"
                                                                 height="3000" rx="50" />
                                                         </g>
                                                         <g id="mtaliiSiteHomepageLayout" transform="translate(-9882 -9892)">
@@ -1219,7 +1219,7 @@
                                                 <svg id="theHomeDesk" viewbox="0 0 20000 11250" xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <defs>
-                                                        <style>.office-wall {fill: #F2FEDC;stroke: #171733;}.office-wall,.desktop-pc-monitor,.desktop-pc-monitor-screen,.desktop-pc-content-1,.desktop-pc-content-2,.desktop-pc-content-3,.desktop-pc-content-4,.desktop-pc-content-5,.desktop-pc-content-6,.desktop-pc-content-7,.desktop-pc-content-8,.desktop-pc-content-9,.desktop-pc-content-10,.desktop-pc-content-11,.desktop-pc-content-12,.desktop-pc-content-13,.desktop-pc-content-14,.desktop-pc-content-15,.desktop-pc-content-16,.desktop-pc-content-17,.desktop-pc-content-18,.home-office-tv-color,.desktop-pc-content-19,.desktop-pc-content-20,.desktop-pc-content-21,.wall-mounted-light-cover,.wall-mounted-light-color,.desk-reading-lamp-stand-bottom,.desk-reading-lamp-stand-top.desk-reading-lamp-light-ray,.desk-reading-lamp-body,.desk-reading-lamp-bulb-holder,.mug-color,.keyboard-tray,.inside-enamel-mug,.tea-color,.desktop-pc-support-column,.desktop-pc-stand {stroke-width: 0.1px;}.office-desk {fill: url(#officeDeskColor);}.home-office-tv-color {fill: #0a0b11;stroke: #0a0b11;}.mug-color { stroke: #c9b98d;}.mug-color,.inside-enamel-mug {fill: url(#insideEnamelMugColor);}.enamel-mug-top {fill: url(#enamelMugTopColor);}.inside-enamel-mug {stroke: #a49264;}.tea-color {fill: #ae6d4f;stroke: #ae6d4f;}.desktop-pc-support-column,.desktop-pc-stand {stroke: #707070;}.desktop-pc-support-column {fill: url(#desktopSupportColumnColor);}.desktop-pc-stand {fill: url(#desktopStandColor);}.desktop-pc-monitor {fill: #000000;stroke: #000000;}.desktop-pc-monitor-screen {fill: #2d3331;stroke: #2d3331;}.desktop-pc-content-13 {stroke: #65696b;}.desktop-pc-content-1 {fill: #e5e1d4;stroke: #e5e1d4;}.desktop-pc-content-2 {fill: #a78657;stroke: #a78657;}.desktop-pc-content-3 {fill: #6a5922;stroke: #6a5922;}.desktop-pc-content-4 {fill: #296b56;stroke: #296b56;}.desktop-pc-content-5 {fill: #608b99;stroke: #608b99;}.desktop-pc-content-6 {fill: #1e1f1e;stroke: #1e1f1e;}.desktop-pc-content-7 {fill: #7b7c86;stroke: #7b7c86;}.desktop-pc-content-8 {fill: #344049;stroke: #344049;}.desktop-pc-content-9 {fill: #8498ab;stroke: #8498ab;}.desktop-pc-content-10 {fill: #c1bbb1;stroke: #c1bbb1;}.desktop-pc-content-11 {fill: #407075;stroke: #407075;}.desktop-pc-content-12 {fill: #5a5452;stroke: #5a5452;}.desktop-pc-content-13 {fill: #65696b;}.desktop-pc-content-14 {fill: #a18a7a;stroke: #a18a7a;}.desktop-pc-content-15 {fill: #535a66;stroke: #535a66;}.desktop-pc-content-16 {fill: #21232c;stroke: #21232c;}.desktop-pc-content-17 {fill: #423c2e;stroke: #423c2e;}.desktop-pc-content-18 {fill: #bfbcbc;stroke: #bfbcbc;}.desktop-pc-content-19 {fill: #ebebeb;stroke: #ebebeb;}.desktop-pc-content-20 {fill: #eedce2;stroke: #eedce2;}.desktop-pc-content-21 {fill: #f5f5f5;stroke: #f5f5f5;}.wall-mounted-light-cover {fill: #1f1108;stroke: #1f1108;}.wall-mounted-light-color {fill: #fffffb;stroke: #fffffb;}.desk-reading-lamp-stand-bottom {fill: #50413c;stroke: #50413c;}.desk-reading-lamp-stand-top {fill: #786f68;stroke: #786f68;}.desk-reading-lamp-light-ray {stroke: #e9b271;opacity: 0.05;fill: url(#deskReadingLampLightRayColor);}.desk-reading-lamp-body {stroke: #6c6c6c;fill: url(#deskReadingLampBody);}.desk-reading-lamp-bulb-holder {stroke: #f4bc7f;fill: url(#deskReadingLampBulbHolder);}.keyboard-tray {fill: #ac9688;stroke: #ac9688;}.homedesk-part-1,.office-desk-color,.enamel-mug-circular-top {stroke: none;}.homedesk-part-2 {fill: none;}.office-desk-color {fill: #927869;}.enamel-mug-circular-top {fill: #3a3f67;}.wall-mounted-light-shadow {filter: url(#wallMountedReadingLightShadow);}</style>
+                                                        <style>.office-wall {fill: #F0EEF4;stroke: #171733;}.office-wall,.desktop-pc-monitor,.desktop-pc-monitor-screen,.desktop-pc-content-1,.desktop-pc-content-2,.desktop-pc-content-3,.desktop-pc-content-4,.desktop-pc-content-5,.desktop-pc-content-6,.desktop-pc-content-7,.desktop-pc-content-8,.desktop-pc-content-9,.desktop-pc-content-10,.desktop-pc-content-11,.desktop-pc-content-12,.desktop-pc-content-13,.desktop-pc-content-14,.desktop-pc-content-15,.desktop-pc-content-16,.desktop-pc-content-17,.desktop-pc-content-18,.home-office-tv-color,.desktop-pc-content-19,.desktop-pc-content-20,.desktop-pc-content-21,.wall-mounted-light-cover,.wall-mounted-light-color,.desk-reading-lamp-stand-bottom,.desk-reading-lamp-stand-top.desk-reading-lamp-light-ray,.desk-reading-lamp-body,.desk-reading-lamp-bulb-holder,.mug-color,.keyboard-tray,.inside-enamel-mug,.tea-color,.desktop-pc-support-column,.desktop-pc-stand {stroke-width: 0.1px;}.office-desk {fill: url(#officeDeskColor);}.home-office-tv-color {fill: #0a0b11;stroke: #0a0b11;}.mug-color { stroke: #c9b98d;}.mug-color,.inside-enamel-mug {fill: url(#insideEnamelMugColor);}.enamel-mug-top {fill: url(#enamelMugTopColor);}.inside-enamel-mug {stroke: #a49264;}.tea-color {fill: #ae6d4f;stroke: #ae6d4f;}.desktop-pc-support-column,.desktop-pc-stand {stroke: #707070;}.desktop-pc-support-column {fill: url(#desktopSupportColumnColor);}.desktop-pc-stand {fill: url(#desktopStandColor);}.desktop-pc-monitor {fill: #000000;stroke: #000000;}.desktop-pc-monitor-screen {fill: #2d3331;stroke: #2d3331;}.desktop-pc-content-13 {stroke: #65696b;}.desktop-pc-content-1 {fill: #e5e1d4;stroke: #e5e1d4;}.desktop-pc-content-2 {fill: #a78657;stroke: #a78657;}.desktop-pc-content-3 {fill: #6a5922;stroke: #6a5922;}.desktop-pc-content-4 {fill: #296b56;stroke: #296b56;}.desktop-pc-content-5 {fill: #608b99;stroke: #608b99;}.desktop-pc-content-6 {fill: #1e1f1e;stroke: #1e1f1e;}.desktop-pc-content-7 {fill: #7b7c86;stroke: #7b7c86;}.desktop-pc-content-8 {fill: #344049;stroke: #344049;}.desktop-pc-content-9 {fill: #8498ab;stroke: #8498ab;}.desktop-pc-content-10 {fill: #c1bbb1;stroke: #c1bbb1;}.desktop-pc-content-11 {fill: #407075;stroke: #407075;}.desktop-pc-content-12 {fill: #5a5452;stroke: #5a5452;}.desktop-pc-content-13 {fill: #65696b;}.desktop-pc-content-14 {fill: #a18a7a;stroke: #a18a7a;}.desktop-pc-content-15 {fill: #535a66;stroke: #535a66;}.desktop-pc-content-16 {fill: #21232c;stroke: #21232c;}.desktop-pc-content-17 {fill: #423c2e;stroke: #423c2e;}.desktop-pc-content-18 {fill: #bfbcbc;stroke: #bfbcbc;}.desktop-pc-content-19 {fill: #ebebeb;stroke: #ebebeb;}.desktop-pc-content-20 {fill: #eedce2;stroke: #eedce2;}.desktop-pc-content-21 {fill: #f5f5f5;stroke: #f5f5f5;}.wall-mounted-light-cover {fill: #1f1108;stroke: #1f1108;}.wall-mounted-light-color {fill: #fffffb;stroke: #fffffb;}.desk-reading-lamp-stand-bottom {fill: #50413c;stroke: #50413c;}.desk-reading-lamp-stand-top {fill: #786f68;stroke: #786f68;}.desk-reading-lamp-light-ray {stroke: #e9b271;opacity: 0.05;fill: url(#deskReadingLampLightRayColor);}.desk-reading-lamp-body {stroke: #6c6c6c;fill: url(#deskReadingLampBody);}.desk-reading-lamp-bulb-holder {stroke: #f4bc7f;fill: url(#deskReadingLampBulbHolder);}.keyboard-tray {fill: #ac9688;stroke: #ac9688;}.homedesk-part-1,.office-desk-color,.enamel-mug-circular-top {stroke: none;}.homedesk-part-2 {fill: none;}.office-desk-color {fill: #927869;}.enamel-mug-circular-top {fill: #3a3f67;}.wall-mounted-light-shadow {filter: url(#wallMountedReadingLightShadow);}</style>
                                                         <lineargradient id="officeDeskColor" x1="0.5" x2="0.5" y2="1" gradientunits="objectBoundingBox"><stop offset="0" stop-color="#927869" /><stop offset="1" stop-color="#ac9688" /></lineargradient><lineargradient id="insideEnamelMugColor" x1="0.5" x2="0.5" y2="1" gradientunits="objectBoundingBox"><stop offset="0" stop-color="#e9dab8" /><stop offset="1" stop-color="#a49264" /></lineargradient><radialgradient id="enamelMugTopColor" cx="0.5" cy="0.5" r="0.5" gradientunits="objectBoundingBox"><stop offset="0" stop-color="#1d2034" /><stop offset="1" stop-color="#41466c" /></radialgradient><radialgradient id="desktopSupportColumnColor" cx="0.5" cy="0.5" r="0.5" gradientunits="objectBoundingBox"><stop offset="0" stop-color="#e5e1d4" /><stop offset="1" stop-color="#c1bbb1" /></radialgradient><lineargradient id="desktopStandColor" x1="0.5" y1="0" x2="0.5" y2="0.684" xlink:href="#desktopSupportColumnColor" /><filter id="wallMountedReadingLightShadow" x="7471.5" y="6242.5" width="4950" height="559" filterunits="userSpaceOnUse"><feoffset input="SourceAlpha" /><fegaussianblur stddeviation="49.5" result="blur" /><feflood flood-color="#fffffb" /><fecomposite operator="in" in2="blur" /><fecomposite in="SourceGraphic" /></filter><lineargradient id="deskReadingLampLightRayColor" x1="0.5" x2="0.5" y2="1" gradientunits="objectBoundingBox"><stop offset="0" stop-color="#e9b271" /><stop offset="1" stop-color="#755939" /></lineargradient><lineargradient id="deskReadingLampBody" x1="0.5" x2="0.5" y2="1" gradientunits="objectBoundingBox"><stop offset="0" stop-color="#6c6c6c" /><stop offset="1" stop-color="#222" /></lineargradient><lineargradient id="deskReadingLampBulbHolder" x1="0.5" x2="0.5" y2="1" gradientunits="objectBoundingBox"><stop offset="0" stop-color="#f4bc7f" /><stop offset="1" stop-color="#755939" /></lineargradient>
                                                     </defs>
                                                     <g transform="translate(16774 14308)">
@@ -1348,19 +1348,19 @@
                         </div>
                         <ul class="fab-options">
                             <li>
-                                <span class="fab-label"><a class="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mweu-ngolia-321692167/">Linkedin</a></span>
+                                <span class="fab-label"><a style="color: #2F314F;" class="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mweu-ngolia-321692167/">Linkedin</a></span>
                                 <div class="fab-icon-holder">
                                     <i class="fab fa-linkedin-in" style="color: #F4F3EF;"></i>
                                 </div>
                             </li>
                             <li>
-                                <span class="fab-label"><a class="github" target="_blank" rel="noreferrer" href="https://github.com/madibamndev?">GitHub</a></span>
+                                <span class="fab-label"><a style="color: #2F314F;" class="github" target="_blank" rel="noreferrer" href="https://github.com/madibamndev?">GitHub</a></span>
                                 <div class="fab-icon-holder">   
                                     <i class="fab fa-github" style="color: #F4F3EF;"></i>    
                                 </div>
                             </li>
                             <li>
-                                <span class="fab-label"><a target="_blank" rel="noreferrer" href="/assets/PDF/mweu_madiba_ngolia_CV.pdf" download="mweu_madiba_ngolia_cv">Curriculum Vitae (PDF)</a></span>
+                                <span class="fab-label"><a style="color: #2F314F;" target="_blank" rel="noreferrer" href="/assets/PDF/mweu_madiba_ngolia_CV.pdf" download="mweu_madiba_ngolia_cv">Curriculum Vitae (PDF)</a></span>
                                 <div class="fab-icon-holder">
                                     <i class="fas fa-file-pdf" style="color: #F4F3EF;"></i>
                                 </div>
@@ -1378,25 +1378,25 @@
                                 </div>
                             </li>
                             <li>
-                                <span class="fab-label"><a rel="noreferrer" href="blog.html">Blog</a></span>
+                                <span class="fab-label"><a style="color: #2F314F;" rel="noreferrer" href="blog.html">Blog</a></span>
                                 <div class="fab-icon-holder">
                                     <i class="fas fa-blog" style="color: #F4F3EF;"></i>
                                 </div>
                             </li>
                             <li>
-                                <span class="fab-label"><a rel="noreferrer" href="portfolio.html">Portfolio</a></span>
+                                <span class="fab-label"><a style="color: #2F314F;" rel="noreferrer" href="portfolio.html">Portfolio</a></span>
                                 <div class="fab-icon-holder">
                                     <i class="fas fa-briefcase" style="color: #F4F3EF;"></i>
                                 </div>
                             </li>
                             <li>
-                                <span class="fab-label"><a rel="noreferrer" href="ukurasa.html">Ukurasa</a></span>
+                                <span class="fab-label"><a style="color: #2F314F;" rel="noreferrer" href="ukurasa.html">Ukurasa</a></span>
                                 <div class="fab-icon-holder">
                                     <i class="fas fa-images" style="color: #F4F3EF;"></i>
                                 </div>
                             </li>
                             <li>
-                                <span class="fab-label"><a rel="noreferrer" href="index.html">Home</a></span>
+                                <span class="fab-label"><a style="color: #2F314F;" rel="noreferrer" href="index.html">Home</a></span>
                                 <div class="fab-icon-holder">
                                     <i class="fas fa-home" style="color: #F4F3EF;"></i>
                                 </div>
