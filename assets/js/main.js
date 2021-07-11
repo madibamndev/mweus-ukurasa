@@ -16,9 +16,6 @@ function readTheCompleteStory(story) {
 
 
 
-
-
-
 // Get the theme toggle input
 const themeToggle = document.querySelector(
   '.theme-switch input[type="checkbox"]'
@@ -53,3 +50,17 @@ function switchTheme(e) {
 themeToggle.addEventListener("change", switchTheme, false);
 
 
+
+var numberOfLikes = 2;
+var hasClicked = false;
+
+    function likesCounterButton() 
+    {
+        if(!hasClicked)
+        {
+           numberOfLikes += 1;
+           document.getElementById("likesCounter").innerHTML = Likes;
+           hasClicked = true;
+        }
+
+    };

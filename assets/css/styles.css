@@ -1,50 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&family=Oswald:wght@500&display=swap');
+
 :root {
-    --header-background-color: #242E42;
-    --body-headings-color: #2E384D;
-    --body-paragraph-color: #2E384D;
-    --horizontal-rule-border: 0.5rem solid #2E384D;
-    --strong-color: #2E384D;
-    --em-color: #2E384D;
-    --i-color: #2E384D;
-    --dt-color: #2E384D;
-    --dd-color: #2E384D;
-    --text-color: #2E384D;
+    --header-background-color: #FBF5DE;
+    --body-headings-color: #002E81;
+    --body-paragraph-color: #03215A;
+    --horizontal-rule-color: #03215A;
+    --horizontal-rule-background-color: #03215A;
+    --v-line-left-color: #03215A;
+    --v-line-right-color: #03215A;
+    --strong-color: #CD3B17;
+    --em-color: #CD3B17;
+    --i-color: #03215A;
+    --dt-color: #03215A;
+    --dd-color: #03215A;
+    --text-color: #03215A;
     --blockquote-color: #34425C;
-    --cite-color: #2F314F;
-    --a-color: #2E384D;
-    --footer-background-color: #242E42;
-    --small-text-color: #BEC9D8;
-    --fieldset-color: #2E384D;
-    --fieldset-border: 0.1rem solid #FFFFFF;
-    --legend-color: #2E384D;
-    --label-color: #2E384D;
+    --cite-color: #1B428C;
+    --a-color: #03215A;
+    --footer-background-color: #FBF5DE;
+    --footer-paragraph-color: #03215A;
+    --footer-anchor-color: #03215A;
+    --copyright-text-background-color: #FBF5DE;
+    --small-text-color: #03215A;
+    --fieldset-color: #03215A;
+    --fieldset-border: 0.1rem solid #A7BADF;
+    --legend-color: #03215A;
+    --label-color: #03215A;
     --input-background-color: #DADDE2;
-    --input-focus-border: 0.23rem solid #2E384D;
-    --textarea-focus-border: 0.23rem solid #2E384D;
+    --input-focus-border: 0.23rem solid #03215A;
+    --textarea-focus-border: 0.23rem solid #03215A;
     --textarea-background-color: #DADDE2;
-    --button-background-color: #2E384D;
-    --button-border: 0.1rem solid #2E384D;
+    --button-background-color: #03215A;
+    --button-border: 0.1rem solid #03215A;
     --button-text-color: #FFFFFF;
     --button-hover-opacity: 0.8;
     --custom-button-background: transparent;
-    --custom-button-border: 0.1rem solid #2E384D;
-    --custom-button-text-color: #2E384D;
-    --custom-button-hover-background-color: #2E384D;
+    --custom-button-border: 0.1rem solid #03215A;
+    --custom-button-text-color: #03215A;
+    --custom-button-hover-background-color: #03215A;
     --custom-button-hover-text-color: #FFFFFF;
-    --theme-switch-background-color: #EAF0F4;
-    --main-background-color: #EAF0F4;
-    --card-background-color: #FFFFFF;
-    --breadcrumb-color: #BEC9D8;
-    --breadcrumb-color-hover: #E4E2DC;
+    --theme-switch-background-color: #2253AF;
+    --main-background-color: #FBF5DE;
+    --homepage-content-card-color: #FBF5DE;
+    --card-background-color: #A7BADF;
+    --breadcrumb-color: #03215A;
+    --breadcrumb-color-hover: #FF9780;
 }
 
 [data-theme="dark"] {
-    --header-background-color: #2F3B52;
+    --header-background-color: #0C1018;
     --body-headings-color: #B3AC8D;
     --body-paragraph-color: #BEC9D8;
-    --horizontal-rule-border: 0.5rem solid #2E384D;
-    --strong-color: #E8EAEB;
-    --em-color: #E8EAEB;
+    --horizontal-rule-color: #E8EAEB;
+    --horizontal-rule-background-color: #E8EAEB;
+    --v-line-left-color: #E8EAEB;
+    --v-line-right-color: #E8EAEB;
+    --strong-color: #DD7253;
+    --em-color: #F9B254;
     --i-color: #E8EAEB;
     --dt-color: #E8EAEB;
     --dd-color: #E8EAEB;
@@ -52,10 +64,13 @@
     --blockquote-color: #C7D1EB;
     --cite-color: #FAC03E;
     --a-color: #E8EAEB;
-    --footer-background-color: #242E42;
+    --footer-background-color: #0C1018;
+    --footer-paragraph-color: #BEC9D8;
+    --footer-anchor-color: #BEC9D8;
+    --copyright-text-background-color: #0C1018;
     --small-text-color: #E8EAEB;
-    --fieldset-color: #2E384D;
-    --fieldset-border: 0.1rem solid #2F3B52;
+    --fieldset-color: #03215A;
+    --fieldset-border: 0.1rem solid #111722;
     --legend-color: #B3AC8D;
     --label-color: #E8EAEB;
     --input-background-color: #20293C;
@@ -73,11 +88,12 @@
     --custom-button-text-color: #CDD1D5;
     --custom-button-hover-background-color: #FFEFCA;
     --custom-button-hover-text-color: #20293C;
-    --theme-switch-background-color: #252E42;
-    --main-background-color: #242E42;
-    --card-background-color: #2F3B52;
+    --theme-switch-background-color: #111722;
+    --main-background-color: #0C1018;
+    --homepage-content-card-color: #111722;
+    --card-background-color: #111722;
     --breadcrumb-color: #E8EAEB;
-    --breadcrumb-color-hover: #E4E2DC;
+    --breadcrumb-color-hover: #FF9780;
 }
 
 
@@ -93,7 +109,6 @@ html, body {
 
 html {
     box-sizing: border-box;
-    
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -125,15 +140,17 @@ body {
 header {
     background-color: #242E42;
     background-color: var(--header-background-color);
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #2E384D;
+    color: #03215A;
     color: var(--body-headings-color);
-    font-family: 'Jost', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 500;
     letter-spacing: .0700em;
     text-transform: uppercase;
+    scroll-behavior: smooth;
 }
 
 h1 {font-size: calc(33px + (99 - 33) * ((100vw - 300px)/ (2500 - 300)));}
@@ -145,59 +162,111 @@ h6 {font-size: calc(18px + (21 - 18) * ((100vw - 300px)/ (2500 - 300)));}
 
 p {
     max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
-    color: #2E384D;
+    color: #03215A;
     color: var(--body-paragraph-color);
     font-family: 'Jost', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: .0625em;
-    line-height: 1.5
+    line-height: 1.5;
+    scroll-behavior: smooth;
 }
 
 p strong {
-    color: #2E384D;
+    color: #03215A;
     color: var(--strong-color);
 }
 
-p strong a {color: #2E384D; color: var(--strong-color);}
+p strong a {color: #03215A; color: var(--strong-color);}
 
 
 hr {
-    border: 10px solid #2E384D;
-    background-origin: var(--horizontal-rule-border);
+    background-color: #03215A;
+    background-color: var(--horizontal-rule-background-color);
+    color: #03215A;
+    color: var(--horizontal-rule-color);
+    height: 0.13rem;
+    width: 4rem;
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+#contentPageCardsHomepage {
+    background-color: #FFAC99;
+    background-color: var(--homepage-content-card-color);
+}
+
+.v-line-left {
+    border-left: 0.1rem solid;
+    color: #03215A;
+    color: var(--v-line-left-color);
+}
+
+.v-line-right {
+    border-left: 0.3rem solid;
+    color: #03215A;
+    color: var(--v-line-right-color);
+    margin-right: 0.4rem;
+}
+
+.text-right {
+    text-align: right;
+    scroll-behavior: smooth;
+}
+
+.dot-right {
+    height: 1rem;
+    width: 1rem;
+    background-color: #FFCB41;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1.2rem;
+    margin-right: -0.1rem;
+}
+
+.dot-left {
+    height: 1rem;
+    width: 1rem;
+    background-color: #FFCB41;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1.2rem;
 }
 
 strong {
-    color: #2E384D;
-    font-weight: 400;
+    color: #03215A;
+    font-weight: 500;
     color: var(--strong-color);
 }
 
 em {
-    color: #2E384D;
+    color: #03215A;
     color: var(--em-color);
 }
 
 i {
-    color: #2E384D;
+    color: #03215A;
     color: var(--i-color);
 }
 
 dt {
-    color: #2E384D;
+    color: #03215A;
     color: var(--dt-color);
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     letter-spacing: .0700em;
     text-transform: uppercase;
+    scroll-behavior: smooth;
 }
 
 dd {
     max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
-    color: #2E384D;
+    color: #03215A;
     color: var(--dd-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
-    line-height: 1.9
+    line-height: 1.9;
+    scroll-behavior: smooth;
 }
 
 video {
@@ -205,89 +274,108 @@ video {
     height: auto !important;
 }
 
+.mweus-ukurasa-brand-slogan {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .0625em;
+    line-height: 1.9;
+    scroll-behavior: smooth;
+    text-transform: uppercase;
+}
+
 svg text .saying-proverb-quote {
     font-size: 250px;
     font-weight: 500;
-    color: #2E384D;
+    color: #03215A;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
-    line-height: 1.9
+    line-height: 1.9;
+    scroll-behavior: smooth;
 }
 
 svg text .saying-proverb-quote-author {
     font-size: 200px;
     font-style: italic;
-    color: #2E384D;
+    color: #03215A;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
-    line-height: 1.9
+    line-height: 1.9;
+    scroll-behavior: smooth;
 }
 
 svg text .kartasi-story-title {
     font-size: 290px;
     font-weight: 500;
-    color: #2E384D;
+    color: #03215A;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
-    line-height: 1.9
+    line-height: 1.9;
+    scroll-behavior: smooth;
 }
 
 svg text .kartasi-story-text {
     font-size: 150px;
     font-weight: 300;
-    color: #2E384D;
+    color: #03215A;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
-    line-height: 1.9
+    line-height: 1.9;
+    scroll-behavior: smooth;
 }
 
 svg text .kartasi-story-text-emphasized {
     font-size: 150px;
     font-weight: 500;
-    color: #2E384D;
+    color: #03215A;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
-    line-height: 1.9
+    line-height: 1.9;
+    scroll-behavior: smooth;
 }
 
 blockquote {
     max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
-    color: #2E384D;
+    color: #03215A;
     color: var(--blockquote-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
-    line-height: 1.9
+    line-height: 1.9;
+    scroll-behavior: smooth;
 }
 
 cite {
-    color: #2E384D;
+    color: #03215A;
     color: var(--cite-color);
+    scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
-    color: #2E384D;
+    color: #03215A;
     color: var(--a-color);
 }
 
 footer {
     background-color: #242E42;
     background-color: var(--footer-background-color);
+    scroll-behavior: smooth;
 }
 
 footer p {
     color: #FFFFFF;
-    color: var(--text-color);
+    color: var(--footer-paragraph-color);
 }
 
 footer p a {
     color: #FFFFFF;
-    color: var(--text-color);
+    color: var(--footer-anchor-text-color);
 }
 
 footer p a {
@@ -295,7 +383,8 @@ footer p a {
 }
 
 #copyrightText {
-    background-color: #242E42;
+    background-color: #111722;
+    background-color: var(--copyright-text-background-color);
 }
 
 small {
@@ -309,16 +398,17 @@ small em {
 }
 
 fieldset {
-    color: #2E384D;
+    color: #03215A;
     color: var(--fieldset-color);
     border: 0.1rem solid #FFFFFF;
     border: var(--fieldset-border);
     border-radius: 0.3rem;
     padding: 0.5rem;
+    scroll-behavior: smooth;
 }
 
 legend {
-    color: #2E384D;
+    color: #03215A;
     color: var(--legend-color);
     font-family: 'Jost', sans-serif;
     font-size: 30px;
@@ -327,11 +417,12 @@ legend {
 }
 
 label {
-    color: #2E384D;
+    color: #03215A;
     color: var(--label-color);
     font-family: 'Jost', sans-serif;
-    font-weight: normal;
+    font-weight: 500;
     letter-spacing: .0625em;
+    scroll-behavior: smooth;
 }
 
 input[type=text] {
@@ -347,24 +438,27 @@ input[type=text] {
     -webkit-transition: 500ms;
     transition: 50ms;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 input[type=text]:focus {
-    border: 0.1rem solid #2E384D;
+    border: 0.1rem solid #03215A;
     border: var(--input-focus-border);
     color: #FFEFCA;
     color: var(--input-focus-color);
+    scroll-behavior: smooth;
 }
 
 input[type=email]:focus {
-    border: 0.1rem solid #2E384D;
+    border: 0.1rem solid #03215A;
     border: var(--input-focus-border);
     color: #FFEFCA;
     color: var(--input-focus-color);
+    scroll-behavior: smooth;
 }
 
 textarea:focus {
-    border: 0.1rem solid #2E384D;
+    border: 0.1rem solid #03215A;
     border: var(--textarea-focus-border);
     color: #FFEFCA;
     color: var(--textarea-focus-color);
@@ -383,6 +477,7 @@ input[type=email] {
     -webkit-transition: 500ms;
     transition: 50ms;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 textarea {
@@ -398,22 +493,25 @@ textarea {
     -webkit-transition: 500ms;
     transition: 50ms;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 button {
-    background-color: #2E384D;
+    background-color: #03215A;
     background-color: var(--button-background-color);
-    border: 0.1rem solid #2E384D;
+    border: 0.1rem solid #03215A;
     border: var(--button-border);
     border-radius: 0.3rem;
     color: #FFFFFF;
     color: var(--button-text-color);
+    cursor: pointer;
     font-size: 1rem;
     letter-spacing: .0625em;
     padding: 0.7rem;
     -webkit-transition: 500ms;
     transition: 50ms;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 button:hover {opacity: 0.8;}
@@ -421,11 +519,12 @@ button:hover {opacity: 0.8;}
 .button {
     background-color: transparent;
     background-color: var(--custom-button-background-color);
-    border: 0.1rem solid #2E384D;
+    border: 0.1rem solid #03215A;
     border: var(--custom-button-border);
     border-radius: 0.3rem;
-    color: #2E384D;
+    color: #03215A;
     color: var(--custom-button-text-color);
+    cursor: pointer;
     font-size: 1rem;
     font-weight: normal;
     letter-spacing: .0625em;
@@ -433,14 +532,17 @@ button:hover {opacity: 0.8;}
     -webkit-transition: 500ms;
     transition: 50ms;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 .button:hover {
-    background-color: #2E384D;
+    background-color: #03215A;
     background-color: var(--custom-button-hover-background-color);
     color: #FFFFFF;
     color: var(--custom-button-hover-text-color);
 }
+
+
 
 .prolonged-text {
     display: none;
@@ -463,7 +565,7 @@ button:hover {opacity: 0.8;}
     height: 40px;
     line-height: 40px;
     border-radius: 100%;
-    background: #242E42;
+    background: #CD3B17;
     box-shadow: 0 7px 21px rgba(0, 0, 0, 0.2);
     text-align: center;
     vertical-align: middle;
@@ -481,7 +583,7 @@ button:hover {opacity: 0.8;}
 .main-fab-button {
     width: 55px;
     height: 55px;
-    background: #242E42;
+    background: #CD3B17;
     line-height: 56px;
     text-align: center;
     vertical-align: middle;
@@ -527,7 +629,7 @@ button:hover {opacity: 0.8;}
 
 #lightAndDarkModeSwitch {
     text-align: right;
-    background-color: #EAF0F4;
+    background-color: #FFEACC;
     background-color: var(--theme-switch-background-color);
 }
 
@@ -537,7 +639,7 @@ button:hover {opacity: 0.8;}
 }
 
 .theme-switch label {
-    background-color: #EAF0F4;
+    background-color: #FFEACC;
     border: 0.15rem solid #252E42;
     border-radius: 5rem;
     cursor: pointer;
@@ -549,7 +651,7 @@ button:hover {opacity: 0.8;}
 }
 
 .theme-switch label::after {
-    background-color: #FF0000;
+    background-color: #1B428C;
     border-radius: 50%;
     content: ' ';
     cursor: pointer;
@@ -564,7 +666,7 @@ button:hover {opacity: 0.8;}
 
 .theme-switch input[type=checkbox]:checked~label {
     background-color: #20293C;
-    border-color: #EAF0F4;
+    border-color: #FFEACC;
 }
 
 .theme-switch input[type=checkbox]:checked~label::after {
@@ -587,31 +689,31 @@ button:hover {opacity: 0.8;}
 }
 
 .dark-theme #portfolioIntroAnim {
-    background-color: #2F3B52;
+    background-color: #111722;
 }
 
 .dark-theme #blogIntroAnim {
-    background-color: #2F3B52;
+    background-color: #111722;
 }
 
 .dark-theme #ukurasaIntroAnim {
-    background-color: #2F3B52;
+    background-color: #111722;
 }
 
 .dark-theme #theSunsetUkurasaPage {
-    background-color: #2F3B52;
+    background-color: #111722;
 }
 
 .dark-theme #theNightUkurasaPage {
-    background-color: #2F3B52;
+    background-color: #111722;
 }
 
 .dark-theme #theSunriseUkurasaPage {
-    background-color: #2F3B52;
+    background-color: #111722;
 }
 
 .dark-theme #ContactMeForm {
-    background-color: #2F3B52;
+    background-color: #111722;
 }
 
 .dark-theme #lightAndDarkModeSwitch {
@@ -647,7 +749,7 @@ button:hover {opacity: 0.8;}
 }
 
 .dark-theme fieldset {
-    border: 0.1rem solid #2F3B52;
+    border: 0.1rem solid #111722;
 }
 
 .dark-theme legend {
@@ -703,11 +805,11 @@ button:hover {opacity: 0.8;}
 }
 
 .dark-theme header {
-    background-color: #2F3B52;
+    background-color: #111722;
 }
 
 main {
-    background-color: #EAF0F4;
+    background-color: #FFEACC;
     background-color: var(--main-background-color);
 }
 
@@ -717,52 +819,31 @@ main {
     border-radius: 0.3rem;
 }
 
-#portfolioIntroAnim {
-    background-color: #FFFFFF;
-    background-color: var(--card-background-color);
-    border-radius: 0.3rem;
-}
 
-#blogIntroAnim {
-    background-color: #FFFFFF;
-    background-color: var(--card-background-color);
-    border-radius: 0.3rem;
-}
 
-#ukurasaIntroAnim {
-    background-color: #FFFFFF;
-    background-color: var(--card-background-color);
-    border-radius: 0.3rem;
-}
-
-#theSunsetUkurasaPage {
-    background-color: #FFFFFF;
-    background-color: var(--card-background-color);
-    border-radius: 0.3rem;
-}
-
-#theNightUkurasaPage {
-    background-color: #FFFFFF;
-    background-color: var(--card-background-color);
-    border-radius: 0.3rem;
-}
-
-#theSunriseUkurasaPage {
-    background-color: #FFFFFF;
-    background-color: var(--card-background-color);
-    border-radius: 0.3rem;
-}
 
 #mtaliiSiteLayout {
-    background-color: #2F3B52;
+    background-color: #111722;
     border-radius: 0.1rem;
 }
 
 #personalPortfolioSiteLayout {
-    background-color: #2F3B52;
+    background-color: #111722;
     border-radius: 0.1rem;
 }
 
+#heroJumbotron,
+#blogPageTimelineContentPart1,
+#illustrationsContentPart1,
+#illustrationsContentPart2,
+#illustrationsContentPart3,
+#illustrationsContentPart4,
+#illustrationsContentPart5,
+#illustrationsContentPart6,
+#illustrationsContentPart7,
+#illustrationsContentPart8,
+#illustrationsContentPart9,
+#illustrationsContentPart10,
 #personalPortfolioSitePortfolioPage,
 #mtaliiSitePortfolioPage,
 #ukurasaCardsPart1,
@@ -913,7 +994,7 @@ main {
 .card {
     border-style: double;
     border-width: 2px;
-    border-color: #2E384D;
+    border-color: #03215A;
     border-radius: 10px;
 }
 
