@@ -4,8 +4,8 @@
     --header-background-color: #FBF5DE;
     --body-headings-color: #002E81;
     --body-paragraph-color: #03215A;
-    --horizontal-rule-color: #03215A;
-    --horizontal-rule-background-color: #03215A;
+    --horizontal-rule-color: #2253AF;
+    --horizontal-rule-background-color: #2253AF;
     --v-line-left-color: #03215A;
     --v-line-right-color: #03215A;
     --strong-color: #CD3B17;
@@ -185,10 +185,7 @@ hr {
     color: #03215A;
     color: var(--horizontal-rule-color);
     height: 0.13rem;
-    width: 4rem;
-    display: inline-block;
-    margin-left: 0.5rem;
-    margin-bottom: 0.3rem;
+    width: 100%;
 }
 
 #contentPageCardsHomepage {
@@ -833,6 +830,15 @@ main {
 }
 
 #heroJumbotron,
+#blogPageTimelineContentPart10,
+#blogPageTimelineContentPart9,
+#blogPageTimelineContentPart8,
+#blogPageTimelineContentPart7,
+#blogPageTimelineContentPart6,
+#blogPageTimelineContentPart5,
+#blogPageTimelineContentPart4,
+#blogPageTimelineContentPart3,
+#blogPageTimelineContentPart2,
 #blogPageTimelineContentPart1,
 #illustrationsContentPart1,
 #illustrationsContentPart2,
