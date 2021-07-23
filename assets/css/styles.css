@@ -806,6 +806,18 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+@keyframes brandLogoFlip {50% {transform: rotate3d(0, 1, 0, 90deg);}}
+@-webkit-keyframes brandLogoFlip {50% {transform: rotate3d(0, 1, 0, 90deg);}}
+@-moz-keyframes brandLogoFlip {50% {transform: rotate3d(0, 1, 0, 90deg);}}
+@-o-keyframes brandLogoFlip {50% {transform: rotate3d(0, 1, 0, 90deg);}}
+
+mweusUkurasaBrandLogo {
+    animation: brandLogoFlip 5000ms linear 0ms forwards infinite;
+    -webkit-animation: brandLogoFlip 5000ms linear 0ms forwards infinite;
+    -moz-animation: brandLogoFlip 5000ms linear 0ms forwards infinite;
+    -o-animation: brandLogoFlip 5000ms linear 0ms forwards infinite;
+}
+
 @keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
 @-webkit-keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
 @-moz-keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
@@ -818,17 +830,7 @@ main {
     -o-animation: homeDeskKasukuBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
 }
 
-@keyframes homeDeskKasukuBookCoverDecoDrawing {0% {stroke-width: 5;stroke-dashoffset: 165529.359375;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #59393F;}}
-@-webkit-keyframes homeDeskKasukuBookCoverDecoDrawing {0% {stroke-width: 5;stroke-dashoffset: 165529.359375;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #59393F;}}
-@-moz-keyframes homeDeskKasukuBookCoverDecoDrawing {0% {stroke-width: 5;stroke-dashoffset: 165529.359375;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #59393F;}}
-@-o-keyframes homeDeskKasukuBookCoverDecoDrawing {0% {stroke-width: 5;stroke-dashoffset: 165529.359375;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #59393F;}}
 
-#homeDeskKasukuBookCoverDeco {
-    animation: homeDeskKasukuBookCoverDecoDrawing 0.05ms ease-in-out 0ms forwards infinite;
-    -webkit-animation: homeDeskKasukuBookCoverDecoDrawing 10000ms ease-in-out 0ms forwards infinite;
-    -moz-animation: homeDeskKasukuBookCoverDecoDrawing 10000ms ease-in-out 0ms forwards infinite;
-    -o-animation: homeDeskKasukuBookCoverDecoDrawing 10000ms ease-in-out 0ms forwards infinite;
-}
 
 #homeDeskKartasiBookCover {
     animation: homeDeskKartasiBookCoverDrawing 0.05ms ease-in-out 0ms forwards infinite;
