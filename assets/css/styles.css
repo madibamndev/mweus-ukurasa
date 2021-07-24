@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&family=Oswald:wght@500&display=swap');
 
 :root {
-    --header-background-color: #FBF5DE;
-    --body-headings-color: #002E81;
+    --header-background-color: #4e75bf;
+    --body-headings-color: #0A1934;
     --special-heading-color: #FBF5DE;
     --body-paragraph-color: #03215A;
     --special-paragraph-color: #FBF5DE;
@@ -10,25 +10,25 @@
     --horizontal-rule-background-color: #2253AF;
     --v-line-left-color: #03215A;
     --v-line-right-color: #03215A;
-    --strong-color: #CD3B17;
-    --em-color: #CD3B17;
+    --strong-color: #FCFEFD;
+    --em-color: #FCFEFD;
     --i-color: #03215A;
     --special-icon-color: #FBF5DE;
     --dt-color: #03215A;
     --dd-color: #03215A;
     --text-color: #03215A;
-    --blockquote-color: #34425C;
-    --cite-color: #1B428C;
+    --blockquote-color: #FCFEFD;
+    --cite-color: #0A1934;
     --a-color: #03215A;
-    --footer-background-color: #FBF5DE;
-    --footer-paragraph-color: #03215A;
+    --footer-background-color: #98C1FF;
+    --footer-paragraph-color: #0A1934;
     --footer-anchor-color: #03215A;
-    --copyright-text-background-color: #FBF5DE;
-    --small-text-color: #03215A;
-    --fieldset-color: #03215A;
+    --copyright-text-background-color: #98C1FF;
+    --small-text-color: #0A1934;
+    --fieldset-color: #0A1934;
     --fieldset-border: 0.1rem solid #A7BADF;
-    --legend-color: #03215A;
-    --label-color: #03215A;
+    --legend-color: #0A1934;
+    --label-color: #0A1934;
     --input-background-color: #DADDE2;
     --input-focus-border: 0.23rem solid #03215A;
     --textarea-focus-border: 0.23rem solid #03215A;
@@ -48,18 +48,18 @@
     --special-button-hover-background-color: #FFEFCA;
     --special-button-hover-text-color: #03215A;
     --theme-switch-background-color: #2253AF;
-    --main-background-color: #FBF5DE;
+    --main-background-color: #729FE3;
     --homepage-content-card-color: #FBF5DE;
     --card-background-color: #729FE3;
     --special-card-background-color: #2253AF;
-    --navbar-menu-icon-color: #2253AF;
-    --navbar-menu-icon-background-color: #FBF5DE;
-    --navbar-background-color: #FBF5DE;
+    --navbar-menu-icon-color: #FCFEFD;
+    --navbar-menu-icon-background-color: #98C1FF;
+    --navbar-background-color: #98C1FF;
     --navbar-color: #03215A;
     --navbar-hover-color: #4E75BF;
-    --navbar-active-color: #DD7253;
-    --breadcrumb-color: #03215A;
-    --breadcrumb-color-hover: #FF9780;
+    --navbar-active-color: #000000;
+    --breadcrumb-color: #0A1934;
+    --breadcrumb-color-hover: #FCFEFD;
 }
 
 [data-theme="dark"] {
@@ -67,7 +67,7 @@
     --body-headings-color: #B3AC8D;
     --special-heading-color: #B3AC8D;
     --body-paragraph-color: #BEC9D8;
-    --special-paragraph-color: #B3AC8D;
+    --special-paragraph-color: #BEC9D8;
     --horizontal-rule-color: #E8EAEB;
     --horizontal-rule-background-color: #E8EAEB;
     --v-line-left-color: #E8EAEB;
@@ -767,7 +767,7 @@ main {
     border-radius: 0.1rem;
 }
 
-#homepageHeroSpecialIntroMessage,
+
 #ukurasaIntroContent,
 #portfolioIntroContent,
 #blogIntroContent,
