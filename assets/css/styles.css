@@ -4,61 +4,68 @@
     --header-background-color: #4e75bf;
     --body-headings-color: #0A1934;
     --special-heading-color: #FBF5DE;
-    --body-paragraph-color: #03215A;
+    --body-paragraph-color: #0A1934;
     --special-paragraph-color: #FBF5DE;
+    --hero-text-color: #FCFEFD;
     --horizontal-rule-color: #2253AF;
     --horizontal-rule-background-color: #2253AF;
-    --v-line-left-color: #03215A;
-    --v-line-right-color: #03215A;
+    --v-line-left-color: #0A1934;
+    --v-line-right-color: #0A1934;
     --strong-color: #FCFEFD;
     --em-color: #FCFEFD;
-    --i-color: #03215A;
+    --i-color: #0A1934;
     --special-icon-color: #FBF5DE;
-    --dt-color: #03215A;
-    --dd-color: #03215A;
-    --text-color: #03215A;
+    --dt-color: #0A1934;
+    --dd-color: #0A1934;
+    --text-color: #0A1934;
     --blockquote-color: #FCFEFD;
     --cite-color: #0A1934;
-    --a-color: #03215A;
-    --footer-background-color: #98C1FF;
+    --a-color: #0A1934;
+    --footer-background-color: #112A58;
     --footer-paragraph-color: #0A1934;
-    --footer-anchor-color: #03215A;
-    --copyright-text-background-color: #98C1FF;
-    --small-text-color: #0A1934;
+    --footer-anchor-color: #0A1934;
+    --copyright-text-background-color: #112A58;
+    --small-text-color: #FCFEFD;
     --fieldset-color: #0A1934;
     --fieldset-border: 0.1rem solid #A7BADF;
     --legend-color: #0A1934;
     --label-color: #0A1934;
     --input-background-color: #DADDE2;
-    --input-focus-border: 0.23rem solid #03215A;
-    --textarea-focus-border: 0.23rem solid #03215A;
+    --input-focus-border: 0.23rem solid #0A1934;
+    --textarea-focus-border: 0.23rem solid #0A1934;
     --textarea-background-color: #DADDE2;
-    --button-background-color: #03215A;
-    --button-border: 0.1rem solid #03215A;
+    --button-background-color: #0A1934;
+    --button-border: 0.1rem solid #0A1934;
     --button-text-color: #FFFFFF;
     --button-hover-opacity: 0.8;
     --custom-button-background: transparent;
-    --custom-button-border: 0.1rem solid #03215A;
-    --custom-button-text-color: #03215A;
-    --custom-button-hover-background-color: #03215A;
+    --custom-button-border: 0.1rem solid #0A1934;
+    --custom-button-text-color: #0A1934;
+    --custom-button-hover-background-color: #0A1934;
     --custom-button-hover-text-color: #FFFFFF;
     --special-button-background-color: transparent;
     --special-button-border: 0.1rem solid #FFEFCA;
     --special-button-text-color: #FBF5DE;
     --special-button-hover-background-color: #FFEFCA;
-    --special-button-hover-text-color: #03215A;
-    --theme-switch-background-color: #2253AF;
+    --special-button-hover-text-color: #0A1934;
+    --hero-button-background-color: transparent;
+    --hero-button-border: 0.1rem solid #FFB55E;
+    --hero-button-text-color: #FFB55E;
+    --hero-button-hover-background-color: #FFB55E;
+    --hero-button-hover-text-color: #0A1934;
+    --theme-switch-background-color: #112A58;
+    --homepage-hero-content-background: #112A58;
     --main-background-color: #729FE3;
     --homepage-content-card-color: #FBF5DE;
     --card-background-color: #729FE3;
     --special-card-background-color: #2253AF;
     --navbar-menu-icon-color: #FCFEFD;
-    --navbar-menu-icon-background-color: #98C1FF;
-    --navbar-background-color: #98C1FF;
-    --navbar-color: #03215A;
+    --navbar-menu-icon-background-color: #BFD5FF;
+    --navbar-background-color: #BFD5FF;
+    --navbar-color: #415579;
     --navbar-hover-color: #4E75BF;
-    --navbar-active-color: #000000;
-    --breadcrumb-color: #0A1934;
+    --navbar-active-color: #071123;
+    --breadcrumb-color: #FCFEFD;
     --breadcrumb-color-hover: #FCFEFD;
 }
 
@@ -68,6 +75,7 @@
     --special-heading-color: #B3AC8D;
     --body-paragraph-color: #BEC9D8;
     --special-paragraph-color: #BEC9D8;
+    --hero-text-color: #FCFEFD;
     --horizontal-rule-color: #E8EAEB;
     --horizontal-rule-background-color: #E8EAEB;
     --v-line-left-color: #E8EAEB;
@@ -87,7 +95,7 @@
     --footer-anchor-color: #BEC9D8;
     --copyright-text-background-color: #0C1018;
     --small-text-color: #E8EAEB;
-    --fieldset-color: #03215A;
+    --fieldset-color: #0A1934;
     --fieldset-border: 0.1rem solid #111722;
     --legend-color: #B3AC8D;
     --label-color: #E8EAEB;
@@ -111,7 +119,13 @@
     --special-button-text-color: #CDD1D5;
     --special-button-hover-background-color: #FFEFCA;
     --special-button-hover-text-color: #20293C;
-    --theme-switch-background-color: #2253AF;
+    --hero-button-background-color: transparent;
+    --hero-button-border: 0.1rem solid #FFB55E;
+    --hero-button-text-color: #FFB55E;
+    --hero-button-hover-background-color: #FFB55E;
+    --hero-button-hover-text-color: #0A1934;
+    --theme-switch-background-color: #111722;
+    --homepage-hero-content-background: #0C1018;
     --main-background-color: #0C1018;
     --homepage-content-card-color: #111722;
     --card-background-color: #111722;
@@ -186,7 +200,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #03215A;
+    color: #0A1934;
     color: var(--body-headings-color);
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -204,7 +218,7 @@ h6 {font-size: calc(18px + (21 - 18) * ((100vw - 300px)/ (2500 - 300)));}
 
 p {
     max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
-    color: #03215A;
+    color: #0A1934;
     color: var(--body-paragraph-color);
     font-family: 'Jost', sans-serif;
     font-weight: 400;
@@ -214,17 +228,17 @@ p {
 }
 
 p strong {
-    color: #03215A;
+    color: #0A1934;
     color: var(--strong-color);
 }
 
-p strong a {color: #03215A; color: var(--strong-color);}
+p strong a {color: #0A1934; color: var(--strong-color);}
 
 
 hr {
-    background-color: #03215A;
+    background-color: #0A1934;
     background-color: var(--horizontal-rule-background-color);
-    color: #03215A;
+    color: #0A1934;
     color: var(--horizontal-rule-color);
     height: 0.13rem;
     width: 100%;
@@ -232,13 +246,13 @@ hr {
 
 .v-line-left {
     border-left: 0.1rem solid;
-    color: #03215A;
+    color: #0A1934;
     color: var(--v-line-left-color);
 }
 
 .v-line-right {
     border-left: 0.3rem solid;
-    color: #03215A;
+    color: #0A1934;
     color: var(--v-line-right-color);
     margin-right: 0.4rem;
 }
@@ -268,23 +282,23 @@ hr {
 }
 
 strong {
-    color: #03215A;
+    color: #0A1934;
     font-weight: 500;
     color: var(--strong-color);
 }
 
 em {
-    color: #03215A;
+    color: #0A1934;
     color: var(--em-color);
 }
 
 i {
-    color: #03215A;
+    color: #0A1934;
     color: var(--i-color);
 }
 
 dt {
-    color: #03215A;
+    color: #0A1934;
     color: var(--dt-color);
     font-family: 'Jost', sans-serif;
     font-weight: 500;
@@ -295,7 +309,7 @@ dt {
 
 dd {
     max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
-    color: #03215A;
+    color: #0A1934;
     color: var(--dd-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -322,7 +336,7 @@ video {
 svg text .saying-proverb-quote {
     font-size: 250px;
     font-weight: 500;
-    color: #03215A;
+    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -333,7 +347,7 @@ svg text .saying-proverb-quote {
 svg text .saying-proverb-quote-author {
     font-size: 200px;
     font-style: italic;
-    color: #03215A;
+    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -344,7 +358,7 @@ svg text .saying-proverb-quote-author {
 svg text .kartasi-story-title {
     font-size: 290px;
     font-weight: 500;
-    color: #03215A;
+    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -355,7 +369,7 @@ svg text .kartasi-story-title {
 svg text .kartasi-story-text {
     font-size: 150px;
     font-weight: 300;
-    color: #03215A;
+    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -366,7 +380,7 @@ svg text .kartasi-story-text {
 svg text .kartasi-story-text-emphasized {
     font-size: 150px;
     font-weight: 500;
-    color: #03215A;
+    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -376,7 +390,7 @@ svg text .kartasi-story-text-emphasized {
 
 blockquote {
     max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
-    color: #03215A;
+    color: #0A1934;
     color: var(--blockquote-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -385,14 +399,14 @@ blockquote {
 }
 
 cite {
-    color: #03215A;
+    color: #0A1934;
     color: var(--cite-color);
     scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
-    color: #03215A;
+    color: #0A1934;
     color: var(--a-color);
 }
 
@@ -432,7 +446,7 @@ small em {
 }
 
 fieldset {
-    color: #03215A;
+    color: #0A1934;
     color: var(--fieldset-color);
     border: 0.1rem solid #FFFFFF;
     border: var(--fieldset-border);
@@ -442,7 +456,7 @@ fieldset {
 }
 
 legend {
-    color: #03215A;
+    color: #0A1934;
     color: var(--legend-color);
     font-family: 'Jost', sans-serif;
     font-size: 30px;
@@ -451,7 +465,7 @@ legend {
 }
 
 label {
-    color: #03215A;
+    color: #0A1934;
     color: var(--label-color);
     font-family: 'Jost', sans-serif;
     font-weight: 500;
@@ -476,7 +490,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    border: 0.1rem solid #03215A;
+    border: 0.1rem solid #0A1934;
     border: var(--input-focus-border);
     color: #FFEFCA;
     color: var(--input-focus-color);
@@ -484,7 +498,7 @@ input[type=text]:focus {
 }
 
 input[type=email]:focus {
-    border: 0.1rem solid #03215A;
+    border: 0.1rem solid #0A1934;
     border: var(--input-focus-border);
     color: #FFEFCA;
     color: var(--input-focus-color);
@@ -492,7 +506,7 @@ input[type=email]:focus {
 }
 
 textarea:focus {
-    border: 0.1rem solid #03215A;
+    border: 0.1rem solid #0A1934;
     border: var(--textarea-focus-border);
     color: #FFEFCA;
     color: var(--textarea-focus-color);
@@ -531,9 +545,9 @@ textarea {
 }
 
 button {
-    background-color: #03215A;
+    background-color: #0A1934;
     background-color: var(--button-background-color);
-    border: 0.1rem solid #03215A;
+    border: 0.1rem solid #0A1934;
     border: var(--button-border);
     border-radius: 0.3rem;
     color: #FFFFFF;
@@ -553,7 +567,7 @@ button:hover {opacity: 0.8;}
 .button {
     background-color: transparent;
     background-color: var(--custom-button-background-color);
-    border: 0.1rem solid #03215A;
+    border: 0.1rem solid #0A1934;
     border: var(--custom-button-border);
     border-radius: 0.3rem;
     color: var(--custom-button-text-color);
@@ -572,7 +586,7 @@ button:hover {opacity: 0.8;}
 }
 
 .button:hover {
-    background-color: #03215A;
+    background-color: #0A1934;
     background-color: var(--custom-button-hover-background-color);
     color: #FFFFFF;
     color: var(--custom-button-hover-text-color);
@@ -581,7 +595,7 @@ button:hover {opacity: 0.8;}
 .special-button {
     background-color: transparent;
     background-color: var(--special-button-background-color);
-    border: 0.1rem solid #03215A;
+    border: 0.1rem solid #0A1934;
     border: var(--special-button-border);
     border-radius: 0.3rem;
     color: var(--special-button-text-color);
@@ -600,10 +614,42 @@ button:hover {opacity: 0.8;}
 }
 
 .special-button:hover {
-    background-color: #03215A;
+    background-color: #0A1934;
     background-color: var(--special-button-hover-background-color);
     color: #FFFFFF;
     color: var(--special-button-hover-text-color);
+}
+
+.hero-button {
+    background-color: transparent;
+    background-color: var(--hero-button-background-color);
+    border: 0.1rem solid #BFD5FF;
+    border: var(--hero-button-border);
+    border-radius: 0.3rem;
+    color: var(--hero-button-text-color);
+    cursor: pointer;
+    font-family: 'Oswald',
+    sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: .0625em;
+    padding: 0.7rem;
+    -webkit-transition: 500ms;
+    transition: 50ms;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.hero-button:hover {
+    background-color: #BFD5FF;
+    background-color: var(--hero-button-hover-background-color);
+    color: #FFFFFF;
+    color: var(--hero-button-hover-text-color);
+}
+
+.hero-text-color {
+    color: var(--hero-text-color);
 }
 
 .prolonged-text {
@@ -747,6 +793,10 @@ button:hover {opacity: 0.8;}
 main {
     background-color: #FFEACC;
     background-color: var(--main-background-color);
+}
+
+#heroIntroContent {
+    background-color: var(--homepage-hero-content-background);
 }
 
 #pageContentSamples {
@@ -1024,7 +1074,7 @@ mweusUkurasaBrandLogo {
 .card {
     border-style: double;
     border-width: 2px;
-    border-color: #03215A;
+    border-color: #0A1934;
     border-radius: 10px;
 }
 
