@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&family=Oswald:wght@500&display=swap');
 
 :root {
-    --header-background-color: #4e75bf;
+    --header-background-color: #1B428C;
     --body-headings-color: #0A1934;
     --special-heading-color: #FBF5DE;
     --body-paragraph-color: #0A1934;
-    --special-paragraph-color: #FBF5DE;
+    --special-paragraph-color: #FCFEFD;
     --hero-text-color: #FCFEFD;
-    --horizontal-rule-color: #2253AF;
-    --horizontal-rule-background-color: #2253AF;
-    --v-line-left-color: #0A1934;
-    --v-line-right-color: #0A1934;
+    --horizontal-rule-color: #1B428C;
+    --horizontal-rule-background-color: #1B428C;
+    --v-line-left-color: #FCFEFD;
+    --v-line-right-color: #FCFEFD;
     --strong-color: #FCFEFD;
     --em-color: #FCFEFD;
     --i-color: #0A1934;
@@ -21,10 +21,11 @@
     --blockquote-color: #FCFEFD;
     --cite-color: #0A1934;
     --a-color: #0A1934;
-    --footer-background-color: #112A58;
-    --footer-paragraph-color: #0A1934;
-    --footer-anchor-color: #0A1934;
-    --copyright-text-background-color: #112A58;
+    --footer-background-color: #183B7E;
+    --footer-heading-color: #FCFEFD;
+    --footer-paragraph-color: #FCFEFD;
+    --footer-anchor-color: #FCFEFD;
+    --copyright-text-background-color: #183B7E;
     --small-text-color: #FCFEFD;
     --fieldset-color: #0A1934;
     --fieldset-border: 0.1rem solid #A7BADF;
@@ -53,15 +54,15 @@
     --hero-button-text-color: #FFB55E;
     --hero-button-hover-background-color: #FFB55E;
     --hero-button-hover-text-color: #0A1934;
-    --theme-switch-background-color: #112A58;
-    --homepage-hero-content-background: #112A58;
+    --theme-switch-background-color: #1B428C;
+    --homepage-hero-content-background: #1B428C;
     --main-background-color: #729FE3;
     --homepage-content-card-color: #FBF5DE;
     --card-background-color: #729FE3;
-    --special-card-background-color: #2253AF;
-    --navbar-menu-icon-color: #FCFEFD;
-    --navbar-menu-icon-background-color: #BFD5FF;
-    --navbar-background-color: #BFD5FF;
+    --special-card-background-color: #1B428C;
+    --navbar-menu-icon-color: #0A1934;
+    --navbar-menu-icon-background-color: #729FE3;
+    --navbar-background-color: #729FE3;
     --navbar-color: #415579;
     --navbar-hover-color: #4E75BF;
     --navbar-active-color: #071123;
@@ -80,8 +81,8 @@
     --horizontal-rule-background-color: #E8EAEB;
     --v-line-left-color: #E8EAEB;
     --v-line-right-color: #E8EAEB;
-    --strong-color: #DD7253;
-    --em-color: #F9B254;
+    --strong-color: #FFB55E;
+    --em-color: #FFB55E;
     --i-color: #E8EAEB;
     --special-icon-color: #E8EAEB;
     --dt-color: #E8EAEB;
@@ -124,7 +125,7 @@
     --hero-button-text-color: #FFB55E;
     --hero-button-hover-background-color: #FFB55E;
     --hero-button-hover-text-color: #0A1934;
-    --theme-switch-background-color: #111722;
+    --theme-switch-background-color: #1B428C;
     --homepage-hero-content-background: #0C1018;
     --main-background-color: #0C1018;
     --homepage-content-card-color: #111722;
@@ -135,7 +136,7 @@
     --navbar-background-color: #0C1018;
     --navbar-color: #E8EAEB;
     --navbar-hover-color: #4E75BF;
-    --navbar-active-color: #DD7253;
+    --navbar-active-color: #FFB55E;
     --breadcrumb-color: #E8EAEB;
     --breadcrumb-color-hover: #FF9780;
 }
@@ -416,6 +417,11 @@ footer {
     scroll-behavior: smooth;
 }
 
+footer h2,h3,h4,h5,h6 {
+    color: #FFFFFF;
+    color: var(--footer-heading-color);
+}
+
 footer p {
     color: #FFFFFF;
     color: var(--footer-paragraph-color);
@@ -623,7 +629,7 @@ button:hover {opacity: 0.8;}
 .hero-button {
     background-color: transparent;
     background-color: var(--hero-button-background-color);
-    border: 0.1rem solid #BFD5FF;
+    border: 0.1rem solid #729FE3;
     border: var(--hero-button-border);
     border-radius: 0.3rem;
     color: var(--hero-button-text-color);
@@ -642,7 +648,7 @@ button:hover {opacity: 0.8;}
 }
 
 .hero-button:hover {
-    background-color: #BFD5FF;
+    background-color: #729FE3;
     background-color: var(--hero-button-hover-background-color);
     color: #FFFFFF;
     color: var(--hero-button-hover-text-color);
@@ -786,10 +792,6 @@ button:hover {opacity: 0.8;}
     transform: translateX(38.5px);
 }
 
-
-
-
-
 main {
     background-color: #FFEACC;
     background-color: var(--main-background-color);
@@ -817,7 +819,7 @@ main {
     border-radius: 0.1rem;
 }
 
-
+footer,
 #ukurasaIntroContent,
 #portfolioIntroContent,
 #blogIntroContent,
@@ -856,92 +858,6 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@keyframes brandLogoFlip {50% {transform: rotate3d(0, 1, 0, 90deg);}}
-@-webkit-keyframes brandLogoFlip {50% {transform: rotate3d(0, 1, 0, 90deg);}}
-@-moz-keyframes brandLogoFlip {50% {transform: rotate3d(0, 1, 0, 90deg);}}
-@-o-keyframes brandLogoFlip {50% {transform: rotate3d(0, 1, 0, 90deg);}}
-
-mweusUkurasaBrandLogo {
-    animation: brandLogoFlip 5000ms linear 0ms forwards infinite;
-    -webkit-animation: brandLogoFlip 5000ms linear 0ms forwards infinite;
-    -moz-animation: brandLogoFlip 5000ms linear 0ms forwards infinite;
-    -o-animation: brandLogoFlip 5000ms linear 0ms forwards infinite;
-}
-
-@keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-@-webkit-keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-@-moz-keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-@-o-keyframes homeDeskKasukuBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-
-#homeDeskKasukuBookCover {
-    animation: homeDeskKasukuBookCoverDrawing 0.05ms ease-in-out 0ms forwards infinite;
-    -webkit-animation: homeDeskKasukuBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
-    -moz-animation: homeDeskKasukuBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
-    -o-animation: homeDeskKasukuBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
-}
-
-
-
-#homeDeskKartasiBookCover {
-    animation: homeDeskKartasiBookCoverDrawing 0.05ms ease-in-out 0ms forwards infinite;
-    -webkit-animation: homeDeskKartasiBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
-    -moz-animation: homeDeskKartasiBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
-    -o-animation: homeDeskKartasiBookCoverDrawing 30000ms ease-in-out 0ms forwards infinite;
-}
-@keyframes homeDeskKartasiBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-@-webkit-keyframes homeDeskKartasiBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-@-moz-keyframes homeDeskKartasiBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-@-o-keyframes homeDeskKartasiBookCoverDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-
-#homeDeskKartasiBookRedStripe {
-    animation: homeDeskKartasiBookRedStripeDrawing 0.05ms ease-in-out 0ms forwards infinite;
-    -webkit-animation: homeDeskKartasiBookRedStripeDrawing 30000ms ease-in-out 0ms forwards infinite;
-    -moz-animation: homeDeskKartasiBookRedStripeDrawing 30000ms ease-in-out 0ms forwards infinite;
-    -o-animation: homeDeskKartasiBookRedStripeDrawing 30000ms ease-in-out 0ms forwards infinite;
-}
-
-@keyframes homeDeskKartasiBookRedStripeDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-@-webkit-keyframes homeDeskKartasiBookRedStripeDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-@-moz-keyframes homeDeskKartasiBookRedStripeDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-@-o-keyframes homeDeskKartasiBookRedStripeDrawing {0% {fill-opacity: 0;}100% {fill-opacity: 1;}}
-
-#homeDeskKartasiBookLogoPart1 {
-    animation: homeDeskKartasiBookLogoPart1Drawing 0.05ms ease-in-out 0ms forwards infinite;
-    -webkit-animation: homeDeskKartasiBookLogoPart1Drawing 10000ms ease-in-out 0ms forwards infinite;
-    -moz-animation: homeDeskKartasiBookLogoPart1Drawing 10000ms ease-in-out 0ms forwards infinite;
-    -o-animation: homeDeskKartasiBookLogoPart1Drawing 10000ms ease-in-out 0ms forwards infinite;
-}
-
-@keyframes homeDeskKartasiBookLogoPart1Drawing {0% {stroke-width: 5;stroke-dashoffset: 5670.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
-@-webkit-keyframes homeDeskKartasiBookLogoPart1Drawing {0% {stroke-width: 5;stroke-dashoffset: 5670.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
-@-moz-keyframes homeDeskKartasiBookLogoPart1Drawing {0% {stroke-width: 5;stroke-dashoffset: 5670.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
-@-o-keyframes homeDeskKartasiBookLogoPart1Drawing {0% {stroke-width: 5;stroke-dashoffset: 5670.5869140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
-
-#homeDeskKartasiBookLogoPart2 {
-    animation: homeDeskKartasiBookLogoPart2Drawing 0.05ms ease-in-out 0ms forwards infinite;
-    -webkit-animation: homeDeskKartasiBookLogoPart2Drawing 10000ms ease-in-out 0ms forwards infinite;
-    -moz-animation: homeDeskKartasiBookLogoPart2Drawing 10000ms ease-in-out 0ms forwards infinite;
-    -o-animation: homeDeskKartasiBookLogoPart2Drawing 10000ms ease-in-out 0ms forwards infinite;
-}
-
-@keyframes homeDeskKartasiBookLogoPart2Drawing {0% {stroke-width: 5;stroke-dashoffset: 991.8937377929688;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
-@-webkit-keyframes homeDeskKartasiBookLogoPart2Drawing {0% {stroke-width: 5;stroke-dashoffset: 991.8937377929688;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
-@-moz-keyframes homeDeskKartasiBookLogoPart2Drawing {0% {stroke-width: 5;stroke-dashoffset: 991.8937377929688;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
-@-o-keyframes homeDeskKartasiBookLogoPart2Drawing {0% {stroke-width: 5;stroke-dashoffset: 991.8937377929688;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FEFFFF;}}
-
-#homeDeskKartasiBookBrandName {
-    animation: homeDeskKartasiBookBrandNameDrawing 0.05ms ease-in-out 0ms forwards infinite;
-    -webkit-animation: homeDeskKartasiBookBrandNameDrawing 10000ms ease-in-out 0ms forwards infinite;
-    -moz-animation: homeDeskKartasiBookBrandNameDrawing 10000ms ease-in-out 0ms forwards infinite;
-    -o-animation: homeDeskKartasiBookBrandNameDrawing 10000ms ease-in-out 0ms forwards infinite;
-}
-
-@keyframes homeDeskKartasiBookBrandNameDrawing {0% {stroke-width: 5;stroke-dashoffset: 7403.4140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FCFEFD;}}
-@-webkit-keyframes homeDeskKartasiBookBrandNameDrawing {0% {stroke-width: 5;stroke-dashoffset: 7403.4140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FCFEFD;}}
-@-moz-keyframes homeDeskKartasiBookBrandNameDrawing {0% {stroke-width: 5;stroke-dashoffset: 7403.4140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FCFEFD;}}
-@-o-keyframes homeDeskKartasiBookBrandNameDrawing {0% {stroke-width: 5;stroke-dashoffset: 7403.4140625;fill-opacity: 0;}100% {stroke-width: 0;stroke-dashoffset: 0;fill-opacity: 1;stroke: #FCFEFD;}}
-
-
 #personalPortfolioSiteHomepageLayout path {
     animation: custom-start-end 1s ease-in-out 0s forwards;
 }
@@ -959,15 +875,15 @@ mweusUkurasaBrandLogo {
 }
 
 #aircraftIntroAnimation {
-    background-image: linear-gradient(to bottom, #2253AF, #729FE3);
+    background-image: linear-gradient(to bottom, #1B428C, #729FE3);
 }
 
 #kenyaAirwaysFlight {
-    background-image: linear-gradient(to bottom, #2253AF, #729FE3);
+    background-image: linear-gradient(to bottom, #1B428C, #729FE3);
 }
 
 #AirbusH160HelicopterFlying {
-    background-image: linear-gradient(to bottom, #2253AF, #729FE3);
+    background-image: linear-gradient(to bottom, #1B428C, #729FE3);
 }
 
 .navbar {
@@ -1048,7 +964,6 @@ mweusUkurasaBrandLogo {
         text-align: left;
     }
 }
-
 
 .breadcrumb {
     text-align: center;
