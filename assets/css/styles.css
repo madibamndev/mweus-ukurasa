@@ -451,6 +451,11 @@ small em {
     color: var(--small-text-color);
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 fieldset {
     color: #0A1934;
     color: var(--fieldset-color);
@@ -796,6 +801,27 @@ main {
     background-color: #FFEACC;
     background-color: var(--main-background-color);
 }
+#sunsetNightSunrise {
+    background-color: var(--special-card-background-color);
+}
+
+#aircraftHelicopter {
+    background-color: var(--special-card-background-color);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#illustrationsGroup1,
+#illustrationsGroup2,
+#illustrationsGroup3,
+#illustrationsGroup4
+ {
+    background-color: var(--special-card-background-color);
+}
+
+#ukurasaPageVideos {
+    background-color: var(--special-card-background-color);
+}
 
 #heroIntroContent {
     background-color: var(--homepage-hero-content-background);
@@ -819,6 +845,16 @@ main {
     border-radius: 0.1rem;
 }
 
+#imagesGroup1,
+#imagesGroup2,
+#imagesGroup3,
+#imagesGroup4,
+#imagesGroup5,
+#imagesGroup6,
+#imagesGroup7,
+#imagesGroup8,
+#imagesGroup9,
+#imagesGroup10,
 footer,
 #ukurasaIntroContent,
 #portfolioIntroContent,
@@ -883,6 +919,19 @@ footer,
 }
 
 #AirbusH160HelicopterFlying {
+    background-image: linear-gradient(to bottom, #1B428C, #729FE3);
+}
+
+#illustrationsContentPart1,
+#illustrationsContentPart2,
+#illustrationsContentPart3,
+#illustrationsContentPart4,
+#illustrationsContentPart5,
+#illustrationsContentPart6,
+#illustrationsContentPart7,
+#illustrationsContentPart8,
+#illustrationsContentPart9,
+#illustrationsContentPart10 {
     background-image: linear-gradient(to bottom, #1B428C, #729FE3);
 }
 
