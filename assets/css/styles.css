@@ -20,7 +20,7 @@
     --text-color: #0A1934;
     --blockquote-color: #FCFEFD;
     --cite-color: #0A1934;
-    --a-color: #0A1934;
+    --a-color: #FCFEFD;
     --footer-background-color: #183B7E;
     --footer-heading-color: #FCFEFD;
     --footer-paragraph-color: #FCFEFD;
@@ -90,7 +90,7 @@
     --text-color: #E8EAEB;
     --blockquote-color: #C7D1EB;
     --cite-color: #FAC03E;
-    --a-color: #E8EAEB;
+    --a-color: #FFB55E;
     --footer-background-color: #0C1018;
     --footer-paragraph-color: #BEC9D8;
     --footer-anchor-color: #BEC9D8;
@@ -256,6 +256,18 @@ hr {
     color: #0A1934;
     color: var(--v-line-right-color);
     margin-right: 0.4rem;
+}
+
+.dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
 }
 
 .text-right {
@@ -721,10 +733,6 @@ button:hover {opacity: 0.8;}
     background-color: var(--hero-button-hover-background-color);
     color: #FFFFFF;
     color: var(--hero-button-hover-text-color);
-}
-
-.more {
-    display: none;
 }
 
 .hero-text-color {
