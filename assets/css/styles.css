@@ -6,6 +6,7 @@
     --special-heading-color: #FBF5DE;
     --body-paragraph-color: #0A1934;
     --special-paragraph-color: #FCFEFD;
+    --figcaption-color: #0A1934;
     --hero-text-color: #FCFEFD;
     --horizontal-rule-color: #1B428C;
     --horizontal-rule-background-color: #1B428C;
@@ -76,6 +77,7 @@
     --special-heading-color: #B3AC8D;
     --body-paragraph-color: #BEC9D8;
     --special-paragraph-color: #BEC9D8;
+    --figcaption-color: #FCFEFD;
     --hero-text-color: #FCFEFD;
     --horizontal-rule-color: #E8EAEB;
     --horizontal-rule-background-color: #E8EAEB;
@@ -235,6 +237,9 @@ p strong {
 
 p strong a {color: #0A1934; color: var(--strong-color);}
 
+figcaption {
+    color: var(--figcaption-color);
+}
 
 hr {
     background-color: #0A1934;
@@ -530,6 +535,8 @@ img {
 iframe {
     width: 100%;
     height: 20rem;
+    border: none;
+    scroll-behavior: smooth;
 }
 
 fieldset {
