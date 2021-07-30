@@ -83,332 +83,29 @@
                 <!-- Aircraft content starts here -->
                 <svg id="aircraftIntroAnimation" viewbox="0 0 5530 2500" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <defs>
-                        <style>
-                            .aircraft-landing-light {
-                                fill: #FFFDFF;
-                            }
-                
-                            .aircraft-doors {
-                                stroke: #707070;
-                            }
-                
-                            .cloud-color {
-                                fill: #E2E3E8;
-                            }
-                
-                            #cloud1 {
-                                box-shadow: 3px 3px 5px #BEC3D1, 4px 4px 10px #959CAE;
-                            }
-                
-                            #cloud2 {
-                                box-shadow: 3px 3px 5px #BEC3D1, 4px 4px 10px #959CAE;
-                            }
-                
-                            #cloud3 {
-                                box-shadow: 3px 3px 5px #BEC3D1, 4px 4px 10px #959CAE;
-                            }
-                
-                            #cloud4 {
-                                box-shadow: 3px 3px 5px #BEC3D1, 4px 4px 10px #959CAE;
-                            }
-                
-                            #cloud5 {
-                                box-shadow: 3px 3px 5px #BEC3D1, 4px 4px 10px #959CAE;
-                            }
-                
-                            #cloud6 {
-                                box-shadow: 3px 3px 5px #BEC3D1, 4px 4px 10px #959CAE;
-                            }
-                
-                            #cloud7 {
-                                box-shadow: 3px 3px 5px #BEC3D1, 4px 4px 10px #959CAE;
-                            }
-                
-                            .aircraft-bottom-landing-light {
-                                fill: #fffdff;
-                            }
-                
-                            .aircraft-doors,
-                            .aircraft-rudder-light-holder {
-                                fill: none;
-                            }
-                
-                            .aircraft-rudder-light-holder {
-                                stroke: #eae8f9;
-                                stroke-linecap: round;
-                            }
-                
-                            .aircraft-tail {
-                                fill: url(#d);
-                            }
-                
-                            .aircraft-body {
-                                fill: url(#a);
-                            }
-                
-                            .aircraft-top-red-beacon-light {
-                                fill: #c11e4a;
-                            }
-                
-                            .aircraft-wings {
-                                fill: #eae8f9;
-                            }
-                
-                            .aircraft-left-wing-front-part {
-                                fill: #cccdf9;
-                            }
-                
-                            .aircraft-left-wing-flap-1 {
-                                fill: #e4e6f9;
-                            }
-                
-                            .aircraft-left-wing-flap-2 {
-                                fill: #d8ddfc;
-                            }
-                
-                            .aircraft-left-wing-flap-3 {
-                                fill: #e2e3fe;
-                            }
-                
-                            .aircraft-left-wing-flap-4 {
-                                fill: #e0e1fd;
-                            }
-                
-                            .aircraft-left-wing-flap-5 {
-                                fill: #dadbfa;
-                            }
-                
-                            .aircraft-left-wing-flap-6 {
-                                fill: #dfe0ff;
-                            }
-                
-                            .aircraft-left-wing-red-light {
-                                fill: red;
-                            }
-                
-                            .aircraft-right-tail-wing-front-part {
-                                fill: url(#q);
-                            }
-                
-                            .aircraft-right-wing {
-                                fill: url(#p);
-                            }
-                
-                            .aircraft-right-wing-front-part {
-                                fill: url(#i);
-                            }
-                
-                            .aircraft-right-wing-green-light {
-                                fill: #04fe11;
-                            }
-                
-                            .aircraft-right-wing-small-light-bar {
-                                fill: #dde3fd;
-                            }
-                
-                            .aircraft-right-wing-engine-tail {
-                                fill: url(#j);
-                            }
-                
-                            .aircraft-right-wing-engine {
-                                fill: url(#o);
-                            }
-                
-                            .aircraft-belly {
-                                fill: url(#t);
-                            }
-                
-                            .aircraft-red-stripe {
-                                fill: #922529;
-                            }
-                
-                            .aircraft-green-stripe {
-                                fill: #008C51;
-                            }
-                
-                            .aircraft-windows {
-                                fill: url(#b);
-                            }
-                
-                            .aircraft-doors {
-                                stroke-width: 0.2px;
-                            }
-                
-                            .aircraft-flag-color-white {
-                                fill: #fff;
-                            }
-                
-                            .aircraft-right-wing-engine-ring {
-                                fill: url(#m);
-                            }
-                
-                            .aircraft-right-wing-engine-inner-ring {
-                                fill: url(#n);
-                            }
-                
-                            .aircraft-right-wing-engine-rotating-blade {
-                                fill: url(#l);
-                            }
-                
-                            .aircraft-right-wing-engine-rotating-blade-holder {
-                                fill: url(#k);
-                            }
-                
-                            .aircraft-slogan-shadow {
-                                filter: url(#e);
-                            }
-                
-                            .aircraft-name-shadow {
-                                filter: url(#r);
-                            }
-                
-                            .aircraft-right-wing-landing-light-shadow {
-                                filter: url(#g);
-                            }
-                
-                            .aircraft-rudder-landing-light-shadow {
-                                filter: url(#f);
-                            }
-                
-                            .aircraft-right-wing-green-light-shadow {
-                                filter: url(#h);
-                            }
-                
-                            .aircraft-left-wing-red-light-shadow {
-                                filter: url(#s);
-                            }
-                
-                            .aircraft-top-red-beacon-light-shadow {
-                                filter: url(#c);
-                            }
-                
-                            .aircraft-bottom-landing-light-shadow {
-                                filter: url(#aircraftBottomLandingLight);
-                            }
-                        </style>
-                        <lineargradient id="d" x1="0.5" x2="0.5" y2="1" gradientunits="objectBoundingbox">
-                            <stop stop-color="#4c5387" offset="0" />
-                            <stop stop-color="#262a44" offset="1" />
-                        </lineargradient>
-                        <lineargradient id="a" x1="0.49" x2="0.5" y1="0.5" y2="1" gradientunits="objectBoundingbox">
-                            <stop stop-color="#eae8f9" offset="0" />
-                            <stop stop-color="#75747d" offset="1" />
-                        </lineargradient>
-                        <filter id="c" x="1772" y="1152.4" width="56.527" height="51.303" filterunits="userSpaceOnUse">
-                            <feoffset input="SourceAlpha" />
-                            <fegaussianblur result="blur-4" stddeviation="7.5" />
-                            <feflood flood-color="#c11e4a" />
-                            <fecomposite in2="blur-4" operator="in" />
-                            <fecomposite in="SourceGraphic" />
-                        </filter>
-                        <filter id="s" x="1735.4" y="875.46" width="56.024" height="57.493" filterunits="userSpaceOnUse">
-                            <feoffset input="SourceAlpha" />
-                            <fegaussianblur result="blur-5" stddeviation="7.5" />
-                            <feflood flood-color="red" />
-                            <fecomposite in2="blur-5" operator="in" />
-                            <fecomposite in="SourceGraphic" />
-                        </filter>
-                        <lineargradient id="q" x1="0.468" x2="0.5" y1="0.5" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#a8c2f5" offset="0" />
-                            <stop stop-color="#54617b" offset="1" />
-                        </lineargradient>
-                        <lineargradient id="i" x1="0.488" x2="0.5" y1="0.674" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#bbcaf6" offset="0" />
-                            <stop stop-color="#5e657b" offset="1" />
-                        </lineargradient>
-                        <filter id="h" x="550.23" y="1552" width="71.1" height="53.855" filterunits="userSpaceOnUse">
-                            <feoffset input="SourceAlpha" />
-                            <fegaussianblur result="blur-6" stddeviation="7.5" />
-                            <feflood flood-color="#04fe11" />
-                            <fecomposite in2="blur-6" operator="in" />
-                            <fecomposite in="SourceGraphic" />
-                        </filter>
-                        <lineargradient id="p" x1="0.5" y1="0" xlink:href="#a" />
-                        <lineargradient id="j" x1="0.5" x2="0.5" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#b8bddb" offset="0" />
-                            <stop stop-color="#5c5f6e" offset="1" />
-                        </lineargradient>
-                        <lineargradient id="o" x1="0.5" x2="0.5" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#922529" offset="0" />
-                            <stop stop-color="#491315" offset="1" />
-                        </lineargradient>
-                        <lineargradient id="t" x1="0.5" x2="0.5" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#585f96" offset="0" />
-                            <stop stop-color="#2c304b" offset="1" />
-                        </lineargradient>
-                        <lineargradient id="b" x1="0.5" x2="0.5" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#2a2a2a" offset="0" />
-                            <stop stop-color="#707070" offset="1" />
-                        </lineargradient>
-                        <lineargradient id="m" x1="0.5" x2="0.5" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#b9c9e7" offset="0" />
-                            <stop stop-color="#5d6574" offset="1" />
-                        </lineargradient>
-                        <lineargradient id="n" x1="0.5" x2="0.5" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#484d5a" offset="0" />
-                            <stop stop-color="#0e0f12" offset="1" />
-                        </lineargradient>
-                        <lineargradient id="l" x1="0.5" x2="0.5" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#405687" offset="0" />
-                            <stop stop-color="#202b44" offset="1" />
-                        </lineargradient>
-                        <lineargradient id="k" x1="0.5" x2="0.5" y2="1" gradientunits="objectboundingbox">
-                            <stop stop-color="#1c1922" offset="0" />
-                            <stop stop-color="#67656b" offset="1" />
-                        </lineargradient>
-                        <filter id="f" x="454.56" y="908.5" width="307" height="302" filterunits="userSpaceOnUse">
-                            <feoffset input="SourceAlpha" />
-                            <fegaussianblur result="blur-7" stddeviation="49.5" />
-                            <feflood flood-color="#fffdff" />
-                            <fecomposite in2="blur-7" operator="in" />
-                            <fecomposite in="SourceGraphic" />
-                        </filter>
-                        <filter id="g" x="1715.6" y="1342.8" width="91.51" height="65.126" filterunits="userSpaceOnUse">
-                            <feoffset input="SourceAlpha" />
-                            <fegaussianblur result="blur-8" stddeviation="7.5" />
-                            <feflood flood-color="#fffdff" />
-                            <fecomposite in2="blur-8" operator="in" />
-                            <fecomposite in="SourceGraphic" />
-                        </filter>
-                        <filter id="r" x="1580.7" y="1153.6" width="573.39" height="176.36" filterunits="userSpaceOnUse">
-                            <feoffset input="SourceAlpha" />
-                            <fegaussianblur result="blur-9" stddeviation="1" />
-                            <feflood flood-color="#100958" flood-opacity=".251" />
-                            <fecomposite in2="blur-9" operator="in" />
-                            <fecomposite in="SourceGraphic" />
-                        </filter>
-                        <filter id="e" x="1756.3" y="1260.9" width="389.78" height="90.271" filterunits="userSpaceOnUse">
-                            <feoffset input="SourceAlpha" />
-                            <fegaussianblur result="blur-10" stddeviation="1" />
-                            <feflood flood-color="#100958" flood-opacity=".251" />
-                            <fecomposite in2="blur-10" operator="in" />
-                            <fecomposite in="SourceGraphic" />
-                        </filter>
-                    </defs>
                     <g transform="translate(32.062 100)">
-                        <path id="cloud5" class="cloud-color" transform="translate(-6006.9 -3879.6)"
+                        <path id="cloud5" style="box-shadow: 3px 3px 10rem #BEC3D1, 4px 4px 10rem #959CAE;" fill="#E2E3E8" transform="translate(-6006.9 -3879.6)"
                             d="m6321.7 5154c-13.471-43.354-28.955 4.025-53.729-32.052 9.562-7.94-34.514-12.569-18.581-23.689 10.312-7.2 5.205-14.342 18.581-22.762 23.689-14.4 2.013-29.884 18.581-37.161 12.576-7.5 55.74-8.206 72.309 30.039 16.7-9.118-30.968-1.084 28.8-20.749 11.332-6.46 3.3-2.244 15.484-9.29 7.9-4.567 1.611-24.778 10.374-29.884 11.313-6.59-30.967 6.194-17.5-7.277-14.557-7.121-45.036-9.9-30.968-17.5 9.94-5.372-3.1-33.529 8.205-39.174 11.793-5.887 27.012-16.861 40.258-22.762 10.893-4.852 22.051 21.215 34.064 16.412 17.791-7.112 39.174-13.315 56.67 6.35 13.921-5.421 6.053 14.427 20.749 8.206-6.193-27.871-5.907-75.252 9.29-82.528 20.421-9.777 13.861 3.6 24.311-7.9 10-11.007-3.253-14.243 15.327-22.605 19.665-2.168 27.547-20.051 36.233-26.942 5.335-4.238 9.145 3.848 15.483 0 4.406-2.679 4.377-8.455 10.375-11.3 3.561-1.693 7.034 1.56 12.23 0 5.084-4.727 18.146-20.273 28.955-21.677 15.182-1.983 21.562 11.378 46.451 21.677 12.4 5.127 41.356-5.834 57.91 0 24.774 16.568 26.581-18.1 40.258-12.387 12.338 5.157 17.673 17.331 30.968 23.689 11.471 5.486 27.813-6.433 40.258 0 34.524 17.848 72.154 27.871 91.818 66.116 31.664 19.622 122.79 73.238 69.213 151.74 18.581 7.742 34.064-22.142 28.8-48 5.735 3.27 10 2.429 16.568 6.194-15.484-29.884 46.85-27.138 54.657-22.605 18.321 10.631 44.439 31.9 44.439-10.375 26.786 0.464 97.083 17.032 85.624 48 6.588 5.942 29.415-14.983 36.233-8.206 8.67 8.618-1.742 15.672 6.193 25.7 5.877 7.426 18.688-18.893 24.774-10.374 18.947 26.516 81.443 110.56 23.689 90.89 65.031 35.148 11.923 38.71 66.116 72.31-21.332 1.058-75.039 67.454-100.18 68.129-18.147 0.487 5.646 40.465-14.4 40.258-29.15-0.3-28.955-21.678-92.9 0-49.722-3.6-220.79 74.907-276.7 67.508-32.965-4.362-20.128-42.734-85.16-13.935-21.678 16.567-38.035-7.315-48.464-10.219-25.483-7.095-13.472-48.464-68.128-7.278-26.53-9.416-14.38-7.242-40.259-18.58-18.451-8.082-39.962 20.687-59.923 11.459-21.389-9.887-23.053 19.66-45.366 7.121-14.479-8.135 15.91-15.294 0-25.858-13.264-8.8-34.854 17.354-51.1 7.278-58.374-55.741-41.727 10.957-66.58-7.278-10.91-8 4.024-31.9-72.31-19.509-13.472 9.291-31.125 11.626-39.174 0-6.551-9.457-50.633-17.651-21.678-22.761 1.858-12.827-18.1-5.536-22.761-20.594-2.874-9.3-12.863-4.331-14.4-16.567-1-7.966 10.219-18.581 22.606-14.4 0.441-6.915-21.11-44.821-22.592-44.899z">
                             <animatetransform attributename="transform" attributetype="xml" begin="0" dur="150000ms" fill="freeze"
                                 from="-8000 -3300" repeatcount="indefinite" to="-100 -3500" type="translate" />
                             <animate attributename="fill" attributetype="xml" dur="39000ms" fill="freeze"
                                 values="#E2E3E8;#F3F3F3;#FFFFFF;#F3F3F3;#E2E3E8;" repeatcount="indefinite" />
                         </path>
-                        <path id="cloud6" class="cloud-color" transform="translate(-6006.9 -3879.6)"
+                        <path id="cloud6" style="box-shadow: 3px 3px 10rem #BEC3D1, 4px 4px 10rem #959CAE;" fill="#E2E3E8" transform="translate(-6006.9 -3879.6)"
                             d="m6321.7 5154c-13.471-43.354-28.955 4.025-53.729-32.052 9.562-7.94-34.514-12.569-18.581-23.689 10.312-7.2 5.205-14.342 18.581-22.762 23.689-14.4 2.013-29.884 18.581-37.161 12.576-7.5 55.74-8.206 72.309 30.039 16.7-9.118-30.968-1.084 28.8-20.749 11.332-6.46 3.3-2.244 15.484-9.29 7.9-4.567 1.611-24.778 10.374-29.884 11.313-6.59-30.967 6.194-17.5-7.277-14.557-7.121-45.036-9.9-30.968-17.5 9.94-5.372-3.1-33.529 8.205-39.174 11.793-5.887 27.012-16.861 40.258-22.762 10.893-4.852 22.051 21.215 34.064 16.412 17.791-7.112 39.174-13.315 56.67 6.35 13.921-5.421 6.053 14.427 20.749 8.206-6.193-27.871-5.907-75.252 9.29-82.528 20.421-9.777 13.861 3.6 24.311-7.9 10-11.007-3.253-14.243 15.327-22.605 19.665-2.168 27.547-20.051 36.233-26.942 5.335-4.238 9.145 3.848 15.483 0 4.406-2.679 4.377-8.455 10.375-11.3 3.561-1.693 7.034 1.56 12.23 0 5.084-4.727 18.146-20.273 28.955-21.677 15.182-1.983 21.562 11.378 46.451 21.677 12.4 5.127 41.356-5.834 57.91 0 24.774 16.568 26.581-18.1 40.258-12.387 12.338 5.157 17.673 17.331 30.968 23.689 11.471 5.486 27.813-6.433 40.258 0 34.524 17.848 72.154 27.871 91.818 66.116 31.664 19.622 122.79 73.238 69.213 151.74 18.581 7.742 34.064-22.142 28.8-48 5.735 3.27 10 2.429 16.568 6.194-15.484-29.884 46.85-27.138 54.657-22.605 18.321 10.631 44.439 31.9 44.439-10.375 26.786 0.464 97.083 17.032 85.624 48 6.588 5.942 29.415-14.983 36.233-8.206 8.67 8.618-1.742 15.672 6.193 25.7 5.877 7.426 18.688-18.893 24.774-10.374 18.947 26.516 81.443 110.56 23.689 90.89 65.031 35.148 11.923 38.71 66.116 72.31-21.332 1.058-75.039 67.454-100.18 68.129-18.147 0.487 5.646 40.465-14.4 40.258-29.15-0.3-28.955-21.678-92.9 0-49.722-3.6-220.79 74.907-276.7 67.508-32.965-4.362-20.128-42.734-85.16-13.935-21.678 16.567-38.035-7.315-48.464-10.219-25.483-7.095-13.472-48.464-68.128-7.278-26.53-9.416-14.38-7.242-40.259-18.58-18.451-8.082-39.962 20.687-59.923 11.459-21.389-9.887-23.053 19.66-45.366 7.121-14.479-8.135 15.91-15.294 0-25.858-13.264-8.8-34.854 17.354-51.1 7.278-58.374-55.741-41.727 10.957-66.58-7.278-10.91-8 4.024-31.9-72.31-19.509-13.472 9.291-31.125 11.626-39.174 0-6.551-9.457-50.633-17.651-21.678-22.761 1.858-12.827-18.1-5.536-22.761-20.594-2.874-9.3-12.863-4.331-14.4-16.567-1-7.966 10.219-18.581 22.606-14.4 0.441-6.915-21.11-44.821-22.592-44.899z">
                             <animatetransform attributename="transform" attributetype="xml" begin="0" dur="190000ms" fill="freeze"
                                 from="-100 -3300" repeatcount="indefinite" to="-8000 -3100" type="translate" />
                             <animate attributename="fill" attributetype="xml" dur="41000ms" fill="freeze"
                                 values="#E2E3E8;#F3F3F3;#FFFFFF;#F3F3F3;#E2E3E8;" repeatcount="indefinite" />
                         </path>
-                        <path id="cloud7" class="cloud-color" transform="translate(-6006.9 -3879.6)"
+                        <path id="cloud7" style="box-shadow: 3px 3px 10rem #BEC3D1, 4px 4px 10rem #959CAE;" fill="#E2E3E8" transform="translate(-6006.9 -3879.6)"
                             d="m6321.7 5154c-13.471-43.354-28.955 4.025-53.729-32.052 9.562-7.94-34.514-12.569-18.581-23.689 10.312-7.2 5.205-14.342 18.581-22.762 23.689-14.4 2.013-29.884 18.581-37.161 12.576-7.5 55.74-8.206 72.309 30.039 16.7-9.118-30.968-1.084 28.8-20.749 11.332-6.46 3.3-2.244 15.484-9.29 7.9-4.567 1.611-24.778 10.374-29.884 11.313-6.59-30.967 6.194-17.5-7.277-14.557-7.121-45.036-9.9-30.968-17.5 9.94-5.372-3.1-33.529 8.205-39.174 11.793-5.887 27.012-16.861 40.258-22.762 10.893-4.852 22.051 21.215 34.064 16.412 17.791-7.112 39.174-13.315 56.67 6.35 13.921-5.421 6.053 14.427 20.749 8.206-6.193-27.871-5.907-75.252 9.29-82.528 20.421-9.777 13.861 3.6 24.311-7.9 10-11.007-3.253-14.243 15.327-22.605 19.665-2.168 27.547-20.051 36.233-26.942 5.335-4.238 9.145 3.848 15.483 0 4.406-2.679 4.377-8.455 10.375-11.3 3.561-1.693 7.034 1.56 12.23 0 5.084-4.727 18.146-20.273 28.955-21.677 15.182-1.983 21.562 11.378 46.451 21.677 12.4 5.127 41.356-5.834 57.91 0 24.774 16.568 26.581-18.1 40.258-12.387 12.338 5.157 17.673 17.331 30.968 23.689 11.471 5.486 27.813-6.433 40.258 0 34.524 17.848 72.154 27.871 91.818 66.116 31.664 19.622 122.79 73.238 69.213 151.74 18.581 7.742 34.064-22.142 28.8-48 5.735 3.27 10 2.429 16.568 6.194-15.484-29.884 46.85-27.138 54.657-22.605 18.321 10.631 44.439 31.9 44.439-10.375 26.786 0.464 97.083 17.032 85.624 48 6.588 5.942 29.415-14.983 36.233-8.206 8.67 8.618-1.742 15.672 6.193 25.7 5.877 7.426 18.688-18.893 24.774-10.374 18.947 26.516 81.443 110.56 23.689 90.89 65.031 35.148 11.923 38.71 66.116 72.31-21.332 1.058-75.039 67.454-100.18 68.129-18.147 0.487 5.646 40.465-14.4 40.258-29.15-0.3-28.955-21.678-92.9 0-49.722-3.6-220.79 74.907-276.7 67.508-32.965-4.362-20.128-42.734-85.16-13.935-21.678 16.567-38.035-7.315-48.464-10.219-25.483-7.095-13.472-48.464-68.128-7.278-26.53-9.416-14.38-7.242-40.259-18.58-18.451-8.082-39.962 20.687-59.923 11.459-21.389-9.887-23.053 19.66-45.366 7.121-14.479-8.135 15.91-15.294 0-25.858-13.264-8.8-34.854 17.354-51.1 7.278-58.374-55.741-41.727 10.957-66.58-7.278-10.91-8 4.024-31.9-72.31-19.509-13.472 9.291-31.125 11.626-39.174 0-6.551-9.457-50.633-17.651-21.678-22.761 1.858-12.827-18.1-5.536-22.761-20.594-2.874-9.3-12.863-4.331-14.4-16.567-1-7.966 10.219-18.581 22.606-14.4 0.441-6.915-21.11-44.821-22.592-44.899z">
                             <animatetransform attributename="transform" attributetype="xml" begin="0" dur="230000ms" fill="freeze"
                                 from="-8000 -3000" repeatcount="indefinite" to="-100 -3100" type="translate" />
                             <animate attributename="fill" attributetype="xml" dur="43000ms" fill="freeze"
                                 values="#E2E3E8;#F3F3F3;#FFFFFF;#F3F3F3;#E2E3E8;" repeatcount="indefinite" />
                         </path>
-                        <path id="cloud1" class="cloud-color" transform="translate(-6006.9 -3879.6)"
+                        <path id="cloud1" style="box-shadow: 3px 3px 10rem #BEC3D1, 4px 4px 10rem #959CAE;" fill="#E2E3E8" transform="translate(-6006.9 -3879.6)"
                             d="m6321.7 5154c-13.471-43.354-28.955 4.025-53.729-32.052 9.562-7.94-34.514-12.569-18.581-23.689 10.312-7.2 5.205-14.342 18.581-22.762 23.689-14.4 2.013-29.884 18.581-37.161 12.576-7.5 55.74-8.206 72.309 30.039 16.7-9.118-30.968-1.084 28.8-20.749 11.332-6.46 3.3-2.244 15.484-9.29 7.9-4.567 1.611-24.778 10.374-29.884 11.313-6.59-30.967 6.194-17.5-7.277-14.557-7.121-45.036-9.9-30.968-17.5 9.94-5.372-3.1-33.529 8.205-39.174 11.793-5.887 27.012-16.861 40.258-22.762 10.893-4.852 22.051 21.215 34.064 16.412 17.791-7.112 39.174-13.315 56.67 6.35 13.921-5.421 6.053 14.427 20.749 8.206-6.193-27.871-5.907-75.252 9.29-82.528 20.421-9.777 13.861 3.6 24.311-7.9 10-11.007-3.253-14.243 15.327-22.605 19.665-2.168 27.547-20.051 36.233-26.942 5.335-4.238 9.145 3.848 15.483 0 4.406-2.679 4.377-8.455 10.375-11.3 3.561-1.693 7.034 1.56 12.23 0 5.084-4.727 18.146-20.273 28.955-21.677 15.182-1.983 21.562 11.378 46.451 21.677 12.4 5.127 41.356-5.834 57.91 0 24.774 16.568 26.581-18.1 40.258-12.387 12.338 5.157 17.673 17.331 30.968 23.689 11.471 5.486 27.813-6.433 40.258 0 34.524 17.848 72.154 27.871 91.818 66.116 31.664 19.622 122.79 73.238 69.213 151.74 18.581 7.742 34.064-22.142 28.8-48 5.735 3.27 10 2.429 16.568 6.194-15.484-29.884 46.85-27.138 54.657-22.605 18.321 10.631 44.439 31.9 44.439-10.375 26.786 0.464 97.083 17.032 85.624 48 6.588 5.942 29.415-14.983 36.233-8.206 8.67 8.618-1.742 15.672 6.193 25.7 5.877 7.426 18.688-18.893 24.774-10.374 18.947 26.516 81.443 110.56 23.689 90.89 65.031 35.148 11.923 38.71 66.116 72.31-21.332 1.058-75.039 67.454-100.18 68.129-18.147 0.487 5.646 40.465-14.4 40.258-29.15-0.3-28.955-21.678-92.9 0-49.722-3.6-220.79 74.907-276.7 67.508-32.965-4.362-20.128-42.734-85.16-13.935-21.678 16.567-38.035-7.315-48.464-10.219-25.483-7.095-13.472-48.464-68.128-7.278-26.53-9.416-14.38-7.242-40.259-18.58-18.451-8.082-39.962 20.687-59.923 11.459-21.389-9.887-23.053 19.66-45.366 7.121-14.479-8.135 15.91-15.294 0-25.858-13.264-8.8-34.854 17.354-51.1 7.278-58.374-55.741-41.727 10.957-66.58-7.278-10.91-8 4.024-31.9-72.31-19.509-13.472 9.291-31.125 11.626-39.174 0-6.551-9.457-50.633-17.651-21.678-22.761 1.858-12.827-18.1-5.536-22.761-20.594-2.874-9.3-12.863-4.331-14.4-16.567-1-7.966 10.219-18.581 22.606-14.4 0.441-6.915-21.11-44.821-22.592-44.899z">
                             <animatetransform attributename="transform" attributetype="xml" begin="0" dur="50000ms" fill="freeze"
                                 from="-8000 -3879.59" repeatcount="indefinite" to="-100 -4000" type="translate" />
@@ -416,202 +113,201 @@
                                 values="#E2E3E8;#F3F3F3;#FFFFFF;#F3F3F3;#E2E3E8;" repeatcount="indefinite" />
                         </path>
                         <g transform="translate(-845 -333)">
-                            <g class="aircraft-bottom-landing-Light-2" transform="translate(812.94 450)">
-                                <ellipse class="aircraft-bottom-landing-light" transform="translate(1118.1 1489)" cx="8.5" cy="4"
+                            <g style="box-shadow: 0px 0px 10rem #FFFDFF;" transform="translate(812.94 450)">
+                                <ellipse fill="#FFFDFF" transform="translate(1118.1 1489)" cx="8.5" cy="4"
                                     rx="8.5" ry="4" data-name="aircraftBottomLandingLightColor">
                                     <animate attributename="fill" attributetype="xml" dur="2000ms" fill="freeze"
                                         values="#FFFDFF;#000000;#FFFDFF;" repeatcount="indefinite" />
                                 </ellipse>
                             </g>
-                            <line class="aircraft-rudder-light-holder" transform="translate(1417.5 1509.5)" x1="37" />
-                            <path class="aircraft-tail" transform="translate(-9622.3 -12161)"
+                            <line fill="none" stroke="#EAE8F9" stroke-linecap="round" transform="translate(1417.5 1509.5)" x1="37" />
+                            <path fill="#2E4062" transform="translate(-9622.3 -12161)"
                                 d="m11143 14019 35-18.351a37.489 37.489 0 0 0-4.65 17.35c0 9.589 4.65 21 4.65 21l-35-8.3a12.852 12.852 0 0 1-2-5.962 11.519 11.519 0 0 1 2-5.739z" />
-                            <path class="aircraft-body" transform="translate(-9622.3 -12161)"
+                            <path fill="#EAE8F9" transform="translate(-9622.3 -12161)"
                                 d="m11178 14000s35.772-19.014 93.333-40.2c80.1-26.768 201.08-65.08 326.9-80.768-8.4-6.5 0.582-1.617 5.816-1.617s771.25-109.72 803.55-113.72c5.333-3.6-9.268-8.233-7.934-12.8 8-7.434 21.334 10.233 28 10.233s292.93-62.233 408.9 19.1c11.983 8.516 26.983 19.182 33 23.9 17.2 13.333 154.53 67.566 0 124.43-13.233 6.466-77.566 24.433-236.57 52.133-12.566 22.534-19.9 20.534-21.667 18.1s5.1-14.2 3.768-15.1-262.3 30.232-274.1 33.333-197.77 47.2-217.33 44.1c-46.133-0.367-345.67 31.633-519.62 42.866-59.85-0.1-77.584-0.967-142.35-10-7.033 10.7-12.25 7.25-12.25 7.25s2.783-6.116 0-9.116c-128.95-15.283-193.25-27.968-271.45-53.934-0.391-4-4.339-9.414-4.339-19.464a47.049 47.049 0 0 1 4.339-18.735z" />
-                            <g class="aircraft-top-red-beacon-light-shadow" transform="translate(812.94 450)">
-                                <ellipse class="aircraft-top-red-beacon-light" transform="translate(1794.5 1176.3) rotate(-7)" cx="5.5"
+                            <g style="box-shadow: 0px 0px 10rem #C11E4A;" transform="translate(812.94 450)">
+                                <ellipse fill="#C11E4A" transform="translate(1794.5 1176.3) rotate(-7)" cx="5.5"
                                     cy="2.5" rx="5.5" ry="2.5" data-name="aircraftTopRedBeaconLightColor">
                                     <animate attributename="fill" attributetype="xml" dur="3000ms" fill="freeze"
                                         values="#C11E4A;#000000;#C11E4A;" repeatcount="indefinite" />
                                 </ellipse>
                             </g>
-                            <path class="aircraft-wings" transform="translate(-9622.3 -12161)"
+                            <path fill="#EAE8F9" transform="translate(-9622.3 -12161)"
                                 d="M12093,13808.5s12.835-36.634,10.867-36.867-14.367,2.483-15.434-1.233,13.2-5.032,17.434-10.566c4.016-7.367,11.349-38.817,14.9-59.867-2-1.133-10.635,2.534-14.867-.566s18.2-9.667,19.1-13.667c5-29.649,10.5-40.967,18.667-144.1.133-42.517-14.517-61.867-38.233-81.233,56.416.066,99.366,55.307,100.466,58,.5,4.967,83.6,261.717,83.6,261.717Z" />
-                            <path class="aircraft-left-wing-front-part" transform="translate(-9622.3 -12161)"
+                            <path fill="#CCCDF9" transform="translate(-9622.3 -12161)"
                                 d="m12194 13525s26.65 124.7 79.65 257.65c6 0.351 16.65-2 16.65-2s-63.768-194.03-82.3-255.65c-4.6-0.7-14 0-14 0z" />
-                            <path class="aircraft-left-wing-flap-1" transform="translate(-9622.3 -12161)"
+                            <path fill="#E4E6F9" transform="translate(-9622.3 -12161)"
                                 d="m12141 13579s13.05-11 15-8 2.7 63.35 0 65.35-19.9 10.95-23.7 12c7.9-53.35 8.7-69.35 8.7-69.35z" />
-                            <path class="aircraft-left-wing-flap-2" transform="translate(-9622.3 -12161)"
+                            <path fill="#D8DDFC" transform="translate(-9622.3 -12161)"
                                 d="m12132 13648s13.634-6.833 14.5-6.85c1 1.7-23 163.05-24.65 163.35s-25.883 3.267-29 3.65c19.65-56.95 39.15-160.15 39.15-160.15z" />
-                            <path class="aircraft-left-wing-flap-3" transform="translate(-9622.3 -12161)"
+                            <path fill="#E2E3FE" transform="translate(-9622.3 -12161)"
                                 d="m12147 13644s10.97-3 10.97 0 1 25 0 34.649c0.249 0.229-11.65 5.351-16 5.05 2.03-17.099 5.03-39.699 5.03-39.699z" />
-                            <path class="aircraft-left-wing-flap-4" transform="translate(-9628.3 -12121)"
+                            <path fill="#E0E1FD" transform="translate(-9628.3 -12121)"
                                 d="m12148 13644s0.652 0.783 15.97-5c0 3-2 30-3 39.649 0.249 0.229-14.65 5.351-19 5.05 2.03-17.099 6.03-39.699 6.03-39.699z" />
-                            <path class="aircraft-left-wing-flap-5" transform="translate(-9633.3 -12081)"
+                            <path fill="#DADBFA" transform="translate(-9633.3 -12081)"
                                 d="m12147 13644s3.652 1.4 18.97-5c0 3-3 30-4 39.649 0.249 0.229-16.65 5.351-21 5.05 2.03-17.099 6.03-39.699 6.03-39.699z" />
-                            <path class="aircraft-left-wing-flap-6" transform="translate(-9639.3 -12041)"
+                            <path fill="#DFE0FF" transform="translate(-9639.3 -12041)"
                                 d="m12147 13644s4.42 0.85 20.97-5c0 3-3 32-4 41.649 0.249 0.229-19.65 3.351-24 3.05 3.13-16.999 7.03-39.699 7.03-39.699z" />
-                            <g class="aircraft-left-wing-red-light-shadow" transform="translate(812.94 450)">
-                                <ellipse class="aircraft-left-wing-red-light" transform="matrix(.84 -.54 .54 .84 1757.9 901.23)" cx="3"
+                            <g style="box-shadow: 0px 0px 10rem red;" transform="translate(812.94 450)">
+                                <ellipse fill="red" transform="matrix(.84 -.54 .54 .84 1757.9 901.23)" cx="3"
                                     cy="5.5" rx="3" ry="5.5" data-name="aircraftLeftWingRedLightColor">
                                     <animate attributename="fill" attributetype="xml" dur="4000ms" fill="freeze"
                                         values="#C11E4A;#000000;#C11E4A;" repeatcount="indefinite" />
                                 </ellipse>
                             </g>
-                            <path class="aircraft-wings" transform="translate(-9622.3 -12161)"
+                            <path fill="#EAE8F9" transform="translate(-9622.3 -12161)"
                                 d="m11196 14024c-1 2.8-287.15 92-305.85 92.3-5.3 17.351 327.2-67.2 348.85-70.5s47-12.3 95.35-14.95c9.3-4.05 11-15.7 0-16.7-19.35-4.35-120.05 0.35-138.35 9.85z" />
-                            <path class="aircraft-right-tail-wing-front-part" transform="translate(-9622.3 -12161)"
+                            <path fill="#A8C2F5" transform="translate(-9622.3 -12161)"
                                 d="m11196 14024c-39.463 14.467-190.32 61.083-247.87 76.634-4.713 2.135 12.716 7.078 13.716 7.666 33.833-5.217 259.22-62.217 337.3-74.3 6.583-1.7 20.484-2.133 20.851-3 25.699-23.6-47.201-16.7-124-7z" />
-                            <path class="aircraft-right-wing" transform="translate(-9622.3 -12161)"
+                            <path fill="#EAE8F9" transform="translate(-9622.3 -12161)"
                                 d="m11823 14001c-51.05 12.5-118.05 78.8-86.1 76-221.47 61.66-421.01 91.419-577.95 102.8-223.74 16.223-362.35 0.979-362.35 7.2 120.55 38.65 477.78-2.034 501.62-6.5-8.233 3.191-7.949 7.25-7.949 7.25s95.559-8.417 104.89-20.417c12.633-5.183 62.982-7.183 72.866-11.133 36.616 0.1 77.267-3.2 88.934-13.734 9.46-2.287 325.07-60.2 578.68-81.966 118.25-19.037 168-35.7 209.32-43.833-43.768-110.97-489.97-25.467-521.97-15.667z" />
-                            <path class="aircraft-right-wing-front-part" transform="translate(-9622.3 -12161)"
+                            <path fill="#BBCAF6" transform="translate(-9622.3 -12161)"
                                 d="m11923 14020c-2.719 0.309-208.37 80.345-484.74 122.31-288.06 54.083-620.73 43.63-620.73 45.549 0 3.534-0.734 4.786 1.666 4.927 1.814 0.106 92.568 33.638 475.53-11.593 128.92-17.592 259.49-37.242 470.32-73.667 42.85-8.85 82.7-15.65 87.7-18s51.65-28.066 182.3-38.85c56.017 1.85 120.95-21.217 142-36.5 45.482-14.05 115.75-52.317-58.384-44.317-89.866 7.041-179.57 41.741-195.67 50.141z" />
-                            <g class="aircraft-right-wing-green-light-shadow" transform="translate(812.94 450)">
-                                <path class="aircraft-right-wing-green-light" transform="translate(-10435 -12611)"
+                            <g style="box-shadow: 0px 0px 10rem #04FE11;" transform="translate(812.94 450)">
+                                <path fill="#04FE11" transform="translate(-10435 -12611)"
                                     d="m11008 14187s-0.976 5.35 0 7.35c4.35 0.675 17.35 0.675 25.35 0-0.175-2.175 1.325-7.85-1-8.35-6.95 1-24.35 1-24.35 1z"
                                     data-name="rightWingGreenLight">
                                     <animate attributename="fill" attributetype="xml" dur="5000ms" fill="freeze"
                                         values="#04FE11;#000000;#04FE11;" repeatcount="indefinite" />
                                 </path>
                             </g>
-                            <path class="aircraft-right-wing-small-light-bar" transform="translate(-9622.3 -12161)"
+                            <path fill="#DDE3FD" transform="translate(-9622.3 -12161)"
                                 d="m11874 14065s64.175-21.524 65.175-21.175 10.5 4.675 7.5 11.35c-3.175 1.325-63.024 16-66.675 15.5s-6-5.675-6-5.675z" />
-                            <path class="aircraft-right-wing" transform="translate(-9622.3 -12161)"
+                            <path fill="#EAE8F9" transform="translate(-9622.3 -12161)"
                                 d="m11741 14111s44.066 6.917 78.466 37.334c3.1 12.434 64.768-16.334 64.768-16.334l18.767-4.8 9.267 3.334 8.967 7.133 3.567 7.533 2.633 21.1-2.633 8.666 5.767-18.866-11.567 26.866-6.733 13.4-4.875 7.3s93.175 28 195.32 0c60.35-0.2 61-143.2 0-148.35-84.3-14.851-214.82 14.5-252.48 33.5-43.136 9.684-109.24 22.184-109.24 22.184z" />
-                            <path class="aircraft-right-wing-engine-tail" transform="translate(-10597 -11306) rotate(-4.012)"
+                            <path fill="#39383E" transform="translate(-10597 -11306) rotate(-4.012)"
                                 d="m11873 14165c0.132-8.066 30.26-16.786 30.26-16.786l1.483 35.779s-31.843-10.893-31.743-18.993z" />
-                            <path class="aircraft-right-wing-engine-tail-holder" transform="translate(-10805 -11072) rotate(-4.992)"
+                            <path fill="#B8BDDB" transform="translate(-10805 -11072) rotate(-4.992)"
                                 d="m11913 14141s-25.271-3.846-27.787 0c-3.78 3.642-2.928 37.2 0 41.146 4.028 4.017 27.787 0 27.787 0z" />
-                            <path class="aircraft-right-wing-engine" transform="translate(-9622.3 -12161)"
+                            <path fill="#922529" transform="translate(-9622.3 -12161)"
                                 d="m12111 14058c-33.034-11.154-175.68 15.8-213.38 45 16.05 1.35-11.649 13-11.649 13l11.649 5.3-11.649 11.351 11.649 8.35-11.649 12 11.649 8-9.3 14.65 13.65 5.35-4.351 10.3 14.351 5.7-5.351 8s95.351 30.3 204.38-0.35c58.501-21.651 40.501-142.35 1e-3 -146.65z" />
-                            <path class="aircraft-belly" transform="translate(-9622.3 -12161)"
+                            <path fill="#2C304B" transform="translate(-9622.3 -12161)"
                                 d="m11803 14136c53.066 1.35 74.891-7.229 89.566-17.483 6.667 3.025 6.434 2.1-6.783 13.316-1 0.566-58.883 30.233-66.217 17.116-1.266-1.849-10.566-8.849-16.566-12.949z" />
-                            <path class="aircraft-wings" transform="translate(-9622.3 -12161)"
+                            <path fill="#EAE8F9" transform="translate(-9622.3 -12161)"
                                 d="m11240 13972c-1.642 0.446-38.434-60.8-38.434-60.8s-87-140.8-154.18-239.57c49.249 1.367 59.315-13.766 131.45 49 212 168.7 223.87 193.5 297.2 180.05-28.232 6.717-132.73 34.717-236.03 71.317z" />
-                            <path class="aircraft-red-stripe" transform="translate(-9622.3 -12161)"
+                            <path fill="#922529" transform="translate(-9622.3 -12161)"
                                 d="m11070 13671s43.834 97.176 156.67 95.143c45.35 35.184 87.07 68.407 116.3 93.1 50.667 45.8 74.716 58.393 132.93 41.566 1.067-1.566-73.6 16.633 31.267 109.23 126.27 82.2 195.5 77 195.5 77s-94.1 38.867-221.27-40.667c-132.43-101.33-86.658-116.4-89.4-116.9 19.95-16.1-99.4-67.751-137.05-13.6-2.223 2.223-10.979 14.533-18 21.3-4.156 4.006-5.909 5.52-5.649 5.12 0.373 0.033-1.86 1.82-5.34 0.34-3.86-5.939-3.061-5.46-3.061-5.46l-173.37-266.18z" />
-                            <path class="aircraft-green-stripe" transform="translate(-9622.3 -12161)"
+                            <path fill="#008C51" transform="translate(-9622.3 -12161)"
                                 d="m11230 13950s10.867 1.333 22.867-17.334c19.133-22.2 30.266-36 75.333-30.666 22.933 4.466 70 24.466 50.667 33.8-8.4 45.066 60 92.667 126.8 134.13 83 39.4 130.91 31.588 127.2 31.4-128.69 12.4-171.73-23.534-260.2-97.8-36.592-34.916-34.242-53.741-28.867-65.733-73.4 18.567-103.47 35.066-103.47 35.066z" />
                             <path transform="translate(-9622.3 -12161)"
                                 d="m11077 13671c47.566 73.477 99.666 87.81 142.57 88.275-91.466-70.775-95.966-87.875-142.57-88.275z" />
-                            <rect class="aircraft-windows" transform="translate(1800.6 1840.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(1847.6 1834.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(1866.6 1833.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(1884.6 1831.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(1902.6 1829.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(1922.6 1826.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(1940.6 1824.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(1957.6 1822.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(1976.6 1820.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(1994.6 1818.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2012.6 1815.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2030.6 1813.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2049.6 1810.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2068.6 1808.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2086.6 1806.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2180.6 1793.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2199.6 1790.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2219.6 1788.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2237.6 1785.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2256.6 1783.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2276.6 1780.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2315.6 1775.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2334.6 1773.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2354.6 1770.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2373.6 1768.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2393.6 1765.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2413.6 1763.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2432.6 1760.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2452.6 1758.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2473.6 1755.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2492.6 1753.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2513.6 1750.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2533.6 1748.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2553.6 1745.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2614.6 1736.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2636.6 1735.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2740.6 1720.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2761.6 1718.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2782.6 1715.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2804.6 1712.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2825.6 1710.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2847.6 1706.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2890.6 1701.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2912.6 1698.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2295.6 1778.6)" width="12" height="20" rx="5" />
-                            <path class="aircraft-doors" transform="translate(-9622.3 -12161)"
+                            <rect fill="#2A2A2A" transform="translate(1800.6 1840.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(1847.6 1834.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(1866.6 1833.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(1884.6 1831.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(1902.6 1829.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(1922.6 1826.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(1940.6 1824.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(1957.6 1822.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(1976.6 1820.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(1994.6 1818.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2012.6 1815.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2030.6 1813.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2049.6 1810.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2068.6 1808.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2086.6 1806.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2180.6 1793.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2199.6 1790.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2219.6 1788.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2237.6 1785.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2256.6 1783.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2276.6 1780.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2315.6 1775.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2334.6 1773.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2354.6 1770.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2373.6 1768.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2393.6 1765.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2413.6 1763.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2432.6 1760.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2452.6 1758.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2473.6 1755.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2492.6 1753.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2513.6 1750.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2533.6 1748.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2553.6 1745.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2614.6 1736.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2636.6 1735.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2740.6 1720.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2761.6 1718.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2782.6 1715.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2804.6 1712.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2825.6 1710.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2847.6 1706.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2890.6 1701.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2912.6 1698.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2295.6 1778.6)" width="12" height="20" rx="5" />
+                            <path fill="none" stroke="#707070" stroke-width="0.2px" transform="translate(-9622.3 -12161)"
                                 d="m12299 13862s-7.434 31.084-3.141 51.291c0.141 6.459 9.6 32.926 11.707 32.926 4 0 39.333-4.9 39.333-4.9a199.97 199.97 0 0 1-11.7-34.042c-4.166-17.829-1.114-45.612 0.03-45.274 2.171 0.599-36.229-1e-3 -36.229-1e-3z" />
-                            <rect class="aircraft-windows" transform="translate(2573.6 1742.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2594.6 1739.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2678.6 1728.6)" width="12" height="20" rx="5" />
-                            <rect class="aircraft-windows" transform="translate(2868.6 1703.6)" width="12" height="20" rx="5" />
-                            <path class="aircraft-doors" transform="translate(-9622.3 -12161)"
+                            <rect fill="#2A2A2A" transform="translate(2573.6 1742.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2594.6 1739.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2678.6 1728.6)" width="12" height="20" rx="5" />
+                            <rect fill="#2A2A2A" transform="translate(2868.6 1703.6)" width="12" height="20" rx="5" />
+                            <path fill="none" stroke="#707070" stroke-width="0.2px" transform="translate(-9622.3 -12161)"
                                 d="m12617 13822c-0.467-2.2 32.333-10.334 43.1-7.566-3.767 49.232 3.1 62.365 10.434 83.333-3.333 0.9-40.866 8.132-43.533 7.466-9.501-21.133-16.201-48.433-10.001-83.233z" />
-                            <rect class="aircraft-windows" transform="translate(3000.6 1682.6)" width="12" height="20" rx="5" />
-                            <g transform="translate(-9622.3 -12161)" data-name="Group 8">
+                            <rect fill="#2A2A2A" transform="translate(3000.6 1682.6)" width="12" height="20" rx="5" />
+                            <g transform="translate(-9622.3 -12161)">
                                 <path d="m12671 13807 29.566-6.667v8.2l-29.566 7.334z" />
-                                <path class="aircraft-flag-color-white" transform="translate(0 9)"
+                                <path fill="#FFFFFF" transform="translate(0 9)"
                                     d="m12671 13806 29.566-7.441v3.2l-29.566 7.334z" />
-                                <path class="aircraft-red-stripe" transform="translate(0 13)"
+                                <path fill="#922529" transform="translate(0 13)"
                                     d="m12671 13805 29.566-7.333v10.2l-29.566 7.334z" />
-                                <path class="aircraft-flag-color-white" transform="translate(0 22)"
+                                <path fill="#FFFFFF" transform="translate(0 22)"
                                     d="m12671 13806 29.566-7.274v3.2l-29.566 7.334z" />
-                                <path class="aircraft-green-stripe" transform="translate(0 25)"
+                                <path fill="#008C51" transform="translate(0 25)"
                                     d="m12671 13806 29.566-7.392v8.2l-29.566 7.334z" />
                             </g>
-                            <path class="aircraft-windows" transform="translate(-9622.3 -12161)"
+                            <path fill="#2A2A2A" transform="translate(-9622.3 -12161)"
                                 d="m12797 13804c2.867 1.633 21.352 15.317 21.117 19.551s-37.25 10.748-40.117 11.018c-2.7-0.7-19.117-5.018-20.667-6.568s6.567-15.982 8.334-17.216 26.133-7.885 31.333-6.785z" />
-                            <path class="aircraft-windows" transform="translate(-9622.3 -12161)"
+                            <path fill="#2A2A2A" transform="translate(-9622.3 -12161)"
                                 d="m12837 13792c-4.383-0.649-33.834 4.416-35 7.982s20.834 20.252 26.334 21.351 35.833-9.667 36.117-11.667-23.051-17.066-27.451-17.666z" />
-                            <path class="aircraft-windows" transform="translate(-9622.3 -12161)"
+                            <path fill="#2A2A2A" transform="translate(-9622.3 -12161)"
                                 d="m12838 13792c-1.117-1 0-10.667 0-10.667l33 24.1s-4.333 3.782-6.55 3.782-25.35-16.215-26.45-17.215z" />
-                            <ellipse class="aircraft-right-wing-engine-ring" transform="translate(2439.4 1895.4) rotate(-.974)" cx="43"
+                            <ellipse fill="#B9C9E7" transform="translate(2439.4 1895.4) rotate(-.974)" cx="43"
                                 cy="74" rx="43" ry="74" />
-                            <ellipse class="aircraft-right-wing-engine-inner-ring" transform="translate(2453.7 1910) rotate(-.974)"
+                            <ellipse fill="#484D5A" transform="translate(2453.7 1910) rotate(-.974)"
                                 cx="29.5" cy="57.5" rx="29.5" ry="57.5" />
-                            <ellipse class="aircraft-right-wing-engine-rotating-blade" transform="translate(2454.3 1924) rotate(-.974)"
+                            <ellipse fill="#405687" transform="translate(2454.3 1924) rotate(-.974)"
                                 cx="16.5" cy="44.5" rx="16.5" ry="44.5">
                                 <animate attributename="fill" attributetype="xml" dur="100ms" fill="freeze"
                                     values="#405687;#7F96C7;#405687;" repeatcount="indefinite" />
                             </ellipse>
-                            <path class="aircraft-doors" transform="translate(-10179 -12092)"
+                            <path fill="none" stroke="#707070" stroke-width="0.2px" transform="translate(-10179 -12092)"
                                 d="m12299 13862c-1.433 2.232-4.282 22.236-2.141 43.291s8.6 40.926 10.707 40.926c4 0 39.333-4.9 39.333-4.9-4.916-10.974-9.282-18.964-11.7-40.043s1.052-40.607 2.03-44.273c2.171 0.599-36.329 3.799-38.229 4.999z" />
-                            <path class="aircraft-right-wing-engine-rotating-blade-holder" transform="translate(-9622.3 -12161)"
+                            <path fill="#1C1922" transform="translate(-9622.3 -12161)"
                                 d="m12079 14115s15 3.85 18.5 13.675c-3.35 10.825-18.5 16-18.5 16a84.271 84.271 0 0 1-2-16.067 49.38 49.38 0 0 1 2-13.607z" />
-                            <rect class="aircraft-windows" transform="translate(2124.6 1800.6)" width="12" height="20" rx="5" />
-                            <path class="aircraft-doors" transform="translate(-10507 -12051)"
+                            <rect fill="#2A2A2A" transform="translate(2124.6 1800.6)" width="12" height="20" rx="5" />
+                            <path fill="none" stroke="#707070" stroke-width="0.2px" transform="translate(-10507 -12051)"
                                 d="m12299 13862s-7.434 31.084-3.141 51.291c0.141 6.459 9.6 32.926 11.707 32.926 4 0 39.333-4.9 39.333-4.9a199.97 199.97 0 0 1-11.7-34.042c-4.166-17.829-1.114-50.612 0.03-50.274 2.171 0.599-36.229 4.999-36.229 4.999z" />
-                            <g class="aircraft-rudder-landing-light-shadow" transform="translate(812.94 450)">
-                                <ellipse class="aircraft-landing-light" transform="translate(603.06 1057)" cx="5" cy="2.5" rx="5"
+                            <g style="box-shadow: 0px 0px 10rem #FFFDFF;" transform="translate(812.94 450)">
+                                <ellipse fill="#FFFDFF" transform="translate(603.06 1057)" cx="5" cy="2.5" rx="5"
                                     ry="2.5" data-name="aircraftRudderLandingLightColor">
                                     <animate attributename="fill" attributetype="xml" dur="2000ms" fill="freeze"
                                         values="#FFFDFF;#000000;#FFFDFF;" repeatcount="indefinite" />
                                 </ellipse>
                             </g>
-                            <g class="aircraft-right-wing-landing-light-shadow" transform="translate(812.94 450)">
-                                <ellipse class="aircraft-landing-light" transform="translate(1738.1 1371.6) rotate(-8)" cx="22.5" cy="7"
+                            <g style="box-shadow: 0px 0px 10rem #FFFDFF;" transform="translate(812.94 450)">
+                                <ellipse fill="#FFFDFF" transform="translate(1738.1 1371.6) rotate(-8)" cx="22.5" cy="7"
                                     rx="22.5" ry="7" data-name="aircraftRightWingLandingLightColor" />
                             </g>
                             <animatetransform attributename="transform" attributetype="xml" begin="0" dur="200000ms" fill="freeze"
                                 from="-3500 -350" repeatcount="indefinite" to="4500 -590" type="translate" />
                         </g>
-                        <path id="cloud2" class="cloud-color" transform="translate(-2238.9 -3906.6)"
+                        <path id="cloud2" style="box-shadow: 3px 3px 10rem #BEC3D1, 4px 4px 10rem #959CAE;" fill="#E2E3E8" transform="translate(-2238.9 -3906.6)"
                             d="m6340.1 5245.2c-16.751-53.91-36 5-66.81-39.855 11.89-9.874-42.916-15.63-23.1-29.457 12.822-8.95 6.473-17.833 23.1-28.3 29.457-17.9 2.5-37.158 23.1-46.208 15.639-9.329 69.312-10.2 89.913 37.352 20.767-11.337-38.507-1.348 35.81-25.8 14.091-8.032 4.1-2.79 19.253-11.552 9.821-5.679 2.006-30.81 12.9-37.158 14.067-8.195-38.506 7.7-21.755-9.05-18.1-8.855-56-12.306-38.506-21.755 12.361-6.68-3.859-41.691 10.2-48.71 14.665-7.32 33.589-20.966 50.059-28.3 13.545-6.034 27.42 26.379 42.357 20.408 22.123-8.844 48.712-16.557 70.467 7.9 17.31-6.741 7.526 17.939 25.8 10.2-7.7-34.656-7.346-93.572 11.552-102.62 25.393-12.158 17.236 4.479 30.229-9.821 12.438-13.687-4.046-17.711 19.059-28.109 24.452-2.7 34.252-24.932 45.054-33.5 6.634-5.271 11.371 4.784 19.253 0 5.478-3.332 5.441-10.515 12.9-14.055 4.427-2.105 8.747 1.939 15.209 0 6.321-5.877 22.563-25.21 36-26.955 18.877-2.465 26.811 14.148 57.76 26.955 15.414 6.375 51.424-7.254 72.009 0 30.8 20.6 33.052-22.513 50.059-15.4 15.341 6.413 21.975 21.55 38.506 29.457 14.264 6.821 34.584-8 50.059 0 42.93 22.193 89.72 34.656 114.17 82.212 39.373 24.4 152.68 91.068 86.063 188.68 23.1 9.627 42.358-27.531 35.811-59.685 7.131 4.065 12.429 3.019 20.6 7.7-19.254-37.158 58.256-33.744 67.963-28.108 22.782 13.219 55.258 39.661 55.258-12.9 33.309 0.577 120.72 21.178 106.47 59.685 8.191 7.389 36.575-18.631 45.053-10.2 10.782 10.716-2.165 19.488 7.7 31.959 7.309 9.234 23.238-23.492 30.806-12.9 23.561 32.972 101.27 137.47 29.457 113.02 80.863 43.706 14.826 48.133 82.213 89.914-26.525 1.314-93.309 83.876-124.57 84.715-22.565 0.605 7.021 50.316-17.905 50.059-36.247-0.376-36-26.955-115.52 0-61.827-4.474-274.54 93.144-344.06 83.943-40.99-5.425-25.028-53.139-105.89-17.328-26.955 20.6-47.295-9.1-60.263-12.707-31.687-8.822-16.751-60.263-84.714-9.05-32.989-11.709-17.881-9.006-50.059-23.1-22.944-10.05-49.69 25.721-74.513 14.249-26.6-12.293-28.665 24.447-56.411 8.855-18-10.115 19.784-19.017 0-32.153-16.491-10.948-43.336 21.577-63.534 9.05-72.587-69.312-51.886 13.624-82.791-9.05-13.565-9.953 5-39.661-89.913-24.258-16.751 11.552-38.7 14.456-48.71 0-8.146-11.76-62.959-21.95-26.955-28.3 2.311-15.95-22.512-6.883-28.3-25.606-3.573-11.562-15.994-5.387-17.905-20.6-1.246-9.9 12.706-23.1 28.109-17.906 0.541-8.628-26.257-55.761-28.1-55.858z">
                             <animatetransform attributename="transform" attributetype="xml" begin="0" dur="70000ms" fill="freeze"
                                 from="-100 -3906.59" repeatcount="indefinite" to="-8000 -4000" type="translate" />
                             <animate attributename="fill" attributetype="xml" dur="33000ms" fill="freeze"
                                 values="#E2E3E8;#F3F3F3;#FFFFFF;#F3F3F3;#E2E3E8;" repeatcount="indefinite" />
                         </path>
-                        <path id="cloud3" class="cloud-color" transform="translate(-3331.9 -4386.6)"
+                        <path id="cloud3" style="box-shadow: 3px 3px 10rem #BEC3D1, 4px 4px 10rem #959CAE;" fill="#E2E3E8" transform="translate(-3331.9 -4386.6)"
                             d="m6340.1 5245.2c-16.751-53.91-36 5-66.81-39.855 11.89-9.874-42.916-15.63-23.1-29.457 12.822-8.95 6.473-17.833 23.1-28.3 29.457-17.9 2.5-37.158 23.1-46.208 15.639-9.329 69.312-10.2 89.913 37.352 20.767-11.337-38.507-1.348 35.81-25.8 14.091-8.032 4.1-2.79 19.253-11.552 9.821-5.679 2.006-30.81 12.9-37.158 14.067-8.195-38.506 7.7-21.755-9.05-18.1-8.855-56-12.306-38.506-21.755 12.361-6.68-3.859-41.691 10.2-48.71 14.665-7.32 33.589-20.966 50.059-28.3 13.545-6.034 27.42 26.379 42.357 20.408 22.123-8.844 48.712-16.557 70.467 7.9 17.31-6.741 7.526 17.939 25.8 10.2-7.7-34.656-7.346-93.572 11.552-102.62 25.393-12.158 17.236 4.479 30.229-9.821 12.438-13.687-4.046-17.711 19.059-28.109 24.452-2.7 34.252-24.932 45.054-33.5 6.634-5.271 11.371 4.784 19.253 0 5.478-3.332 5.441-10.515 12.9-14.055 4.427-2.105 8.747 1.939 15.209 0 6.321-5.877 22.563-25.21 36-26.955 18.877-2.465 26.811 14.148 57.76 26.955 15.414 6.375 51.424-7.254 72.009 0 30.8 20.6 33.052-22.513 50.059-15.4 15.341 6.413 21.975 21.55 38.506 29.457 14.264 6.821 34.584-8 50.059 0 42.93 22.193 89.72 34.656 114.17 82.212 39.373 24.4 152.68 91.068 86.063 188.68 23.1 9.627 42.358-27.531 35.811-59.685 7.131 4.065 12.429 3.019 20.6 7.7-19.254-37.158 58.256-33.744 67.963-28.108 22.782 13.219 55.258 39.661 55.258-12.9 33.309 0.577 120.72 21.178 106.47 59.685 8.191 7.389 36.575-18.631 45.053-10.2 10.782 10.716-2.165 19.488 7.7 31.959 7.309 9.234 23.238-23.492 30.806-12.9 23.561 32.972 101.27 137.47 29.457 113.02 80.863 43.706 14.826 48.133 82.213 89.914-26.525 1.314-93.309 83.876-124.57 84.715-22.565 0.605 7.021 50.316-17.905 50.059-36.247-0.376-36-26.955-115.52 0-61.827-4.474-274.54 93.144-344.06 83.943-40.99-5.425-25.028-53.139-105.89-17.328-26.955 20.6-47.295-9.1-60.263-12.707-31.687-8.822-16.751-60.263-84.714-9.05-32.989-11.709-17.881-9.006-50.059-23.1-22.944-10.05-49.69 25.721-74.513 14.249-26.6-12.293-28.665 24.447-56.411 8.855-18-10.115 19.784-19.017 0-32.153-16.491-10.948-43.336 21.577-63.534 9.05-72.587-69.312-51.886 13.624-82.791-9.05-13.565-9.953 5-39.661-89.913-24.258-16.751 11.552-38.7 14.456-48.71 0-8.146-11.76-62.959-21.95-26.955-28.3 2.311-15.95-22.512-6.883-28.3-25.606-3.573-11.562-15.994-5.387-17.905-20.6-1.246-9.9 12.706-23.1 28.109-17.906 0.541-8.628-26.257-55.761-28.1-55.858z">
                             <animatetransform attributename="transform" attributetype="xml" begin="0" dur="90000ms" fill="freeze"
                                 from="-8000 -4386.59" repeatcount="indefinite" to="-50 -4000" type="translate" />
                             <animate attributename="fill" attributetype="xml" dur="35000ms" fill="freeze"
                                 values="#E2E3E8;#F3F3F3;#FFFFFF;#F3F3F3;#E2E3E8;" repeatcount="indefinite" />
                         </path>
-                        <path id="cloud4" class="cloud-color" transform="translate(-5028.9 -4196.6)"
-                            d="m6340.1 5245.2c-16.751-53.91-36 5-66.81-39.855 11.89-9.874-42.916-15.63-23.1-29.457 12.822-8.95 6.473-17.833 23.1-28.3 29.457-17.9 2.5-37.158 23.1-46.208 15.639-9.329 69.312-10.2 89.913 37.352 20.767-11.337-38.507-1.348 35.81-25.8 14.091-8.032 4.1-2.79 19.253-11.552 9.821-5.679 2.006-30.81 12.9-37.158 14.067-8.195-38.506 7.7-21.755-9.05-18.1-8.855-56-12.306-38.506-21.755 12.361-6.68-3.859-41.691 10.2-48.71 14.665-7.32 33.589-20.966 50.059-28.3 13.545-6.034 27.42 26.379 42.357 20.408 22.123-8.844 48.712-16.557 70.467 7.9 17.31-6.741 7.526 17.939 25.8 10.2-7.7-34.656-7.346-93.572 11.552-102.62 25.393-12.158 17.236 4.479 30.229-9.821 12.438-13.687-4.046-17.711 19.059-28.109 24.452-2.7 34.252-24.932 45.054-33.5 6.634-5.271 11.371 4.784 19.253 0 5.478-3.332 5.441-10.515 12.9-14.055 4.427-2.105 8.747 1.939 15.209 0 6.321-5.877 22.563-25.21 36-26.955 18.877-2.465 26.811 14.148 57.76 26.955 15.414 6.375 51.424-7.254 72.009 0 30.8 20.6 33.052-22.513 50.059-15.4 15.341 6.413 21.975 21.55 38.506 29.457 14.264 6.821 34.584-8 50.059 0 42.93 22.193 89.72 34.656 114.17 82.212 39.373 24.4 152.68 91.068 86.063 188.68 23.1 9.627 42.358-27.531 35.811-59.685 7.131 4.065 12.429 3.019 20.6 7.7-19.254-37.158 58.256-33.744 67.963-28.108 22.782 13.219 55.258 39.661 55.258-12.9 33.309 0.577 120.72 21.178 106.47 59.685 8.191 7.389 36.575-18.631 45.053-10.2 10.782 10.716-2.165 19.488 7.7 31.959 7.309 9.234 23.238-23.492 30.806-12.9 23.561 32.972 101.27 137.47 29.457 113.02 80.863 43.706 14.826 48.133 82.213 89.914-26.525 1.314-93.309 83.876-124.57 84.715-22.565 0.605 7.021 50.316-17.905 50.059-36.247-0.376-36-26.955-115.52 0-61.827-4.474-274.54 93.144-344.06 83.943-40.99-5.425-25.028-53.139-105.89-17.328-26.955 20.6-47.295-9.1-60.263-12.707-31.687-8.822-16.751-60.263-84.714-9.05-32.989-11.709-17.881-9.006-50.059-23.1-22.944-10.05-49.69 25.721-74.513 14.249-26.6-12.293-28.665 24.447-56.411 8.855-18-10.115 19.784-19.017 0-32.153-16.491-10.948-43.336 21.577-63.534 9.05-72.587-69.312-51.886 13.624-82.791-9.05-13.565-9.953 5-39.661-89.913-24.258-16.751 11.552-38.7 14.456-48.71 0-8.146-11.76-62.959-21.95-26.955-28.3 2.311-15.95-22.512-6.883-28.3-25.606-3.573-11.562-15.994-5.387-17.905-20.6-1.246-9.9 12.706-23.1 28.109-17.906 0.541-8.628-26.257-55.761-28.1-55.858z"
-                            fill="#E2E3E8">
+                        <path id="cloud4" style="box-shadow: 3px 3px 10rem #BEC3D1, 4px 4px 10rem #959CAE;" fill="#E2E3E8" transform="translate(-5028.9 -4196.6)"
+                            d="m6340.1 5245.2c-16.751-53.91-36 5-66.81-39.855 11.89-9.874-42.916-15.63-23.1-29.457 12.822-8.95 6.473-17.833 23.1-28.3 29.457-17.9 2.5-37.158 23.1-46.208 15.639-9.329 69.312-10.2 89.913 37.352 20.767-11.337-38.507-1.348 35.81-25.8 14.091-8.032 4.1-2.79 19.253-11.552 9.821-5.679 2.006-30.81 12.9-37.158 14.067-8.195-38.506 7.7-21.755-9.05-18.1-8.855-56-12.306-38.506-21.755 12.361-6.68-3.859-41.691 10.2-48.71 14.665-7.32 33.589-20.966 50.059-28.3 13.545-6.034 27.42 26.379 42.357 20.408 22.123-8.844 48.712-16.557 70.467 7.9 17.31-6.741 7.526 17.939 25.8 10.2-7.7-34.656-7.346-93.572 11.552-102.62 25.393-12.158 17.236 4.479 30.229-9.821 12.438-13.687-4.046-17.711 19.059-28.109 24.452-2.7 34.252-24.932 45.054-33.5 6.634-5.271 11.371 4.784 19.253 0 5.478-3.332 5.441-10.515 12.9-14.055 4.427-2.105 8.747 1.939 15.209 0 6.321-5.877 22.563-25.21 36-26.955 18.877-2.465 26.811 14.148 57.76 26.955 15.414 6.375 51.424-7.254 72.009 0 30.8 20.6 33.052-22.513 50.059-15.4 15.341 6.413 21.975 21.55 38.506 29.457 14.264 6.821 34.584-8 50.059 0 42.93 22.193 89.72 34.656 114.17 82.212 39.373 24.4 152.68 91.068 86.063 188.68 23.1 9.627 42.358-27.531 35.811-59.685 7.131 4.065 12.429 3.019 20.6 7.7-19.254-37.158 58.256-33.744 67.963-28.108 22.782 13.219 55.258 39.661 55.258-12.9 33.309 0.577 120.72 21.178 106.47 59.685 8.191 7.389 36.575-18.631 45.053-10.2 10.782 10.716-2.165 19.488 7.7 31.959 7.309 9.234 23.238-23.492 30.806-12.9 23.561 32.972 101.27 137.47 29.457 113.02 80.863 43.706 14.826 48.133 82.213 89.914-26.525 1.314-93.309 83.876-124.57 84.715-22.565 0.605 7.021 50.316-17.905 50.059-36.247-0.376-36-26.955-115.52 0-61.827-4.474-274.54 93.144-344.06 83.943-40.99-5.425-25.028-53.139-105.89-17.328-26.955 20.6-47.295-9.1-60.263-12.707-31.687-8.822-16.751-60.263-84.714-9.05-32.989-11.709-17.881-9.006-50.059-23.1-22.944-10.05-49.69 25.721-74.513 14.249-26.6-12.293-28.665 24.447-56.411 8.855-18-10.115 19.784-19.017 0-32.153-16.491-10.948-43.336 21.577-63.534 9.05-72.587-69.312-51.886 13.624-82.791-9.05-13.565-9.953 5-39.661-89.913-24.258-16.751 11.552-38.7 14.456-48.71 0-8.146-11.76-62.959-21.95-26.955-28.3 2.311-15.95-22.512-6.883-28.3-25.606-3.573-11.562-15.994-5.387-17.905-20.6-1.246-9.9 12.706-23.1 28.109-17.906 0.541-8.628-26.257-55.761-28.1-55.858z">
                             <animatetransform attributename="transform" attributetype="xml" begin="0" dur="110000ms" fill="freeze"
                                 from="-50 -4196.59" repeatcount="indefinite" to="-8000 -4000" type="translate" />
                             <animate attributename="fill" attributetype="xml" dur="37000ms" fill="freeze"
@@ -695,14 +391,6 @@
                                             .sunset-balloon-part-9-color {
                                                 fill: url(#sunsetBalloonPart9ColorGradient);
                                             }
-
-                                            .sunset-mlima-shadow {
-                                                filter: url(#milima);
-                                            }
-
-                                            .sunset-sun-shadow {
-                                                filter: url(#theSunsetSun);
-                                            }
                                         </style>
                                         <lineargradient id="sunsetSkyColorGradient" x1="0.5" x2="0.5" y2="1"
                                             gradientunits="objectBoundingBox">
@@ -714,14 +402,6 @@
                                             <stop offset="0" stop-color="#fbf5de" />
                                             <stop offset="1" stop-color="#f9d71c" />
                                         </radialgradient>
-                                        <filter id="theSunsetSun" x="2332.899" y="2453.058" width="3297" height="3297"
-                                            filterunits="userSpaceOnUse">
-                                            <fefoffset input="SourceAlpha" />
-                                            <fegaussianblur stddeviation="49.5" result="blur-2" />
-                                            <feflood flood-color="#f9d71c" />
-                                            <fecomposite operator="in" in2="blur-2" />
-                                            <fecomposite in="SourceGraphic" />
-                                        </filter>
                                         <lineargradient id="sunsetHillsColorGradient" x1="0.5" y1="0.224" x2="0.5"
                                             y2="1" gradientunits="objectBoundingBox">
                                             <stop offset="0" stop-color="#7c0d01" />
@@ -729,14 +409,6 @@
                                         </lineargradient>
                                         <lineargradient id="sunsetMlimaColorGradient" y1="0.235"
                                             xlink:href="#sunsetHillsColorGradient" />
-                                        <filter id="milima" x="132.053" y="10746.499" width="20028.24" height="666.566"
-                                            filterunits="userSpaceOnUse">
-                                            <fefoffset input="SourceAlpha" />
-                                            <fegaussianblur stddeviation="5" result="blur-3" />
-                                            <feflood flood-color="#af906f" />
-                                            <fecomposite operator="in" in2="blur-3" />
-                                            <fecomposite in="SourceGraphic" />
-                                        </filter>
                                         <lineargradient id="sunsetBalloonPart4ColorGradient" x1="0.5" x2="0.5" y2="1"
                                             gradientunits="objectBoundingBox">
                                             <stop offset="0" stop-color="#f9d71c" />
@@ -758,7 +430,7 @@
                                             <rect id="sunsetBackground-2" class="sunset-sky-color" width="19996.773"
                                                 height="11249.541" transform="translate(148.5 148.5)" />
                                         </g>
-                                        <g class="sunset-sun-shadow" transform="matrix(1, 0, 0, 1, 938.55, -6993.5)">
+                                        <g style="box-shadow: 0px 0px 10rem #AF906F;" transform="matrix(1, 0, 0, 1, 938.55, -6993.5)">
                                             <circle class="sunset-sun-color" cx="1500" cy="1500" r="1500"
                                                 transform="translate(2481.4 2601.56)">
                                                 <animate attributetype="xml" attributename="r" begin="0ms" dur="35000ms"
@@ -768,7 +440,7 @@
                                         <path id="hills" class="sunset-hills-color"
                                             d="M1061,9218.033s337.946-251.923,763.548-236.4c75.036,1.325,445.986,119.732,1036.313,123.435,249.121,1.554,537.3-112.609,853.573-111.1,277.485,1.316,579.682,168.233,907.575,169.851,261.766,1.287,537.346-113.281,825.078-112.29,568.922,1.977,1184.2,235.339,1839.584,237.233,1170.156,3.4,2430.935,68.947,3731.839,246.32,948.221-2.762,1902.406-338.788,2829.9-346.87,3571.937-198.229,7209.36-102.125,7209.36-102.125v1491.861H1061Z"
                                             transform="translate(26.046 -6172.945)" />
-                                        <g class="sunset-mlima-shadow" transform="matrix(1, 0, 0, 1, 938.55, -6993.5)">
+                                        <g style="box-shadow: 0px 0px 10rem #F9D71C;" transform="matrix(1, 0, 0, 1, 938.55, -6993.5)">
                                             <path class="sunset-mlima-color"
                                                 d="M-172.73,2359.216s1873.014-194.308,2900.436-192.4,1032.655-330.284,3007.88-254.4,1813.339,303.076,4033.525,382.428S13071.85,1835.18,14616.4,1983.617s673.395-116.282,2165.956-109.219,3043.158,595.943,3043.158,595.943v40.484H-172.73Z"
                                                 transform="translate(319.78 8887.24)" />
@@ -1167,39 +839,7 @@
                                         .kenya-airways-dreamliner-part-36 {
                                             stroke: none;
                                         }
-
-                                        .kenya-airways-dreamliner-part-38 {
-                                            filter: url(#kenyaAirwaysDreamlinerLandingLightWing);
-                                        }
-
-                                        .kenya-airways-dreamliner-part-39 {
-                                            filter: url(#kenyaAirwaysDreamlinerRudderLight);
-                                        }
-
-                                        .kenya-airways-dreamliner-part-40 {
-                                            filter: url(#kenyaAirwaysDreamlinerGreenWingLight);
-                                        }
-
-                                        .kenya-airways-dreamliner-part-41 {
-                                            filter: url(#kenyaAirwaysDreamlinerRedWingLight);
-                                        }
-
-                                        .kenya-airways-dreamliner-part-42 {
-                                            filter: url(#kenyaAirwaysDreamlinerTopRedBeaconLight);
-                                        }
-
-                                        .kenya-airways-dreamliner-part-43 {
-                                            filter: url(#kenyaAirwaysDreamlinerBottomLandingLight);
-                                        }
                                     </style>
-                                    <filter id="kenyaAirwaysDreamlinerBottomLandingLight" x="1949.5" y="3279.5"
-                                        width="90" height="65" filterunits="userSpaceOnUse">
-                                        <feoffset input="SourceAlpha" />
-                                        <fegaussianblur stddeviation="7.5" result="blur" />
-                                        <feflood flood-color="#fffdff" />
-                                        <fecomposite operator="in" in2="blur" />
-                                        <fecomposite in="SourceGraphic" />
-                                    </filter>
                                     <lineargradient id="kenyaAirwaysPart4ColorGradient" x1="0.5" x2="0.5" y2="1"
                                         gradientunits="objectBoundingBox">
                                         <stop offset="0" stop-color="#4c5387" />
@@ -1210,22 +850,6 @@
                                         <stop offset="0" stop-color="#eae8f9" />
                                         <stop offset="1" stop-color="#75747d" />
                                     </lineargradient>
-                                    <filter id="kenyaAirwaysDreamlinerTopRedBeaconLight" x="3712.122" y="2460.714"
-                                        width="75.033" height="61.422" filterunits="userSpaceOnUse">
-                                        <feoffset input="SourceAlpha" />
-                                        <fegaussianblur stddeviation="7.5" result="blur-2" />
-                                        <feflood flood-color="#c11e4a" />
-                                        <fecomposite operator="in" in2="blur-2" />
-                                        <fecomposite in="SourceGraphic" />
-                                    </filter>
-                                    <filter id="kenyaAirwaysDreamlinerRedWingLight" x="3616.688" y="1739.062"
-                                        width="73.722" height="77.549" filterunits="userSpaceOnUse">
-                                        <feoffset input="SourceAlpha" />
-                                        <fegaussianblur stddeviation="7.5" result="blur-3" />
-                                        <feflood flood-color="red" />
-                                        <fecomposite operator="in" in2="blur-3" />
-                                        <fecomposite in="SourceGraphic" />
-                                    </filter>
                                     <lineargradient id="kenyaAirwaysPart17ColorGradient" x1="0.468" y1="0.5" x2="0.5"
                                         y2="1" gradientunits="objectBoundingBox">
                                         <stop offset="0" stop-color="#a8c2f5" />
@@ -1238,14 +862,6 @@
                                         <stop offset="0" stop-color="#bbcaf6" />
                                         <stop offset="1" stop-color="#5e657b" />
                                     </lineargradient>
-                                    <filter id="kenyaAirwaysDreamlinerGreenWingLight" x="528.969" y="3501.687"
-                                        width="112.999" height="68.072" filterunits="userSpaceOnUse">
-                                        <feoffset input="SourceAlpha" />
-                                        <fegaussianblur stddeviation="7.5" result="blur-4" />
-                                        <feflood flood-color="#04fe11" />
-                                        <fecomposite operator="in" in2="blur-4" />
-                                        <fecomposite in="SourceGraphic" />
-                                    </filter>
                                     <lineargradient id="kenyaAirwaysPart22ColorGradient" x1="0.5" x2="0.5" y2="1"
                                         gradientunits="objectBoundingBox">
                                         <stop offset="0" stop-color="#72707b" />
@@ -1291,26 +907,10 @@
                                         <stop offset="0" stop-color="#1c1922" />
                                         <stop offset="1" stop-color="#67656b" />
                                     </lineargradient>
-                                    <filter id="kenyaAirwaysDreamlinerRudderLight" x="482.5" y="2026.5" width="322"
-                                        height="311" filterunits="userSpaceOnUse">
-                                        <feoffset input="SourceAlpha" />
-                                        <fegaussianblur stddeviation="49.5" result="blur-5" />
-                                        <feflood flood-color="#fffdff" />
-                                        <fecomposite operator="in" in2="blur-5" />
-                                        <fecomposite in="SourceGraphic" />
-                                    </filter>
-                                    <filter id="kenyaAirwaysDreamlinerLandingLightWing" x="3565.232" y="2956.639"
-                                        width="166.177" height="97.437" filterunits="userSpaceOnUse">
-                                        <feoffset input="SourceAlpha" />
-                                        <fegaussianblur stddeviation="7.5" result="blur-6" />
-                                        <feflood flood-color="#fffdff" />
-                                        <fecomposite operator="in" in2="blur-6" />
-                                        <fecomposite in="SourceGraphic" />
-                                    </filter>
                                 </defs>
                                 <g transform="translate(4834 -3566)">
                                     <g transform="translate(-6288 3699)">
-                                        <g class="kenya-airways-dreamliner-part-43"
+                                        <g style="box-shadow: 0px 0px 10rem #FFFDFF;"
                                             transform="matrix(1, 0, 0, 1, 1454, -133)">
                                             <ellipse id="kenyaAirwaysDreamlinerBottomLandingLight-2"
                                                 data-name="kenyaAirwaysDreamlinerBottomLandingLight"
@@ -1336,7 +936,7 @@
                                             <ellipse class="kenya-airways-dreamliner-part-37" cx="42.988" cy="15.632"
                                                 rx="42.488" ry="15.132" />
                                         </g>
-                                        <g class="kenya-airways-dreamliner-part-42"
+                                        <g style="box-shadow: 0px 0px 10rem #C11E4A;"
                                             transform="matrix(1, 0, 0, 1, 1454, -133)">
                                             <ellipse id="kenyaAirwaysDreamlinerTopRedBeaconLight-2"
                                                 data-name="kenyaAirwaysDreamlinerTopRedBeaconLight"
@@ -1372,7 +972,7 @@
                                         <path class="kenya-airways-dreamliner-part-15"
                                             d="M12157.984,13651.729s11.518,2.213,54.635-13.027c0,7.814-7.816,83.373-10.422,108.51.65.6-51.2,8.732-62.527,7.947C12147.824,13710.871,12157.984,13651.729,12157.984,13651.729Z"
                                             transform="translate(-7230.006 -11360.521)" />
-                                        <g class="kenya-airways-dreamliner-part-41"
+                                        <g style="box-shadow: 0px 0px 10rem red;"
                                             transform="matrix(1, 0, 0, 1, 1454, -133)">
                                             <ellipse id="kenyaAirwaysDreamlinerRedWingLight-2"
                                                 data-name="kenyaAirwaysDreamlinerRedWingLight"
@@ -1396,7 +996,7 @@
                                         <path class="kenya-airways-dreamliner-part-19"
                                             d="M13697.435,14101.741c-7.084.8-542.886,209.328-1262.919,318.66-750.5,140.906-1617.213,113.674-1617.213,118.672,0,9.207-1.912,12.469,4.34,12.836,4.728.277,241.174,87.639,1238.934-30.205,335.875-45.83,676.068-97.027,1225.346-191.928,111.637-23.057,215.462-40.773,228.49-46.9s134.566-73.123,474.956-101.217c145.941,4.818,315.117-55.277,369.959-95.1,118.5-36.605,301.568-136.3-152.109-115.461C13973.085,13989.45,13739.383,14079.856,13697.435,14101.741Z"
                                             transform="translate(-9309.024 -11144.086)" />
-                                        <g class="kenya-airways-dreamliner-part-40"
+                                        <g style="box-shadow: 0px 0px 10rem #04FE11;"
                                             transform="matrix(1, 0, 0, 1, 1454, -133)">
                                             <path id="kenyaAirwaysDreamlinerGreenWingLight2"
                                                 class="kenya-airways-dreamliner-part-20"
@@ -1658,7 +1258,7 @@
                                         <path class="kenya-airways-dreamliner-part-30"
                                             d="M12306.184,13870.53s-19.367,80.986-8.182,133.633c.367,16.826,25.009,85.783,30.5,85.783,10.422,0,102.477-12.768,102.477-12.768a520.939,520.939,0,0,1-30.482-88.693c-10.853-46.449-2.9-131.861.079-130.982C12406.231,13859.067,12306.184,13870.53,12306.184,13870.53Z"
                                             transform="translate(-9242.858 -11035.326)" />
-                                        <g class="kenya-airways-dreamliner-part-39"
+                                        <g style="box-shadow: 0px 0px 10rem #FFFDFF;"
                                             transform="matrix(1, 0, 0, 1, 1454, -133)">
                                             <ellipse id="kenyaAirwaysDreamlinerRudderLight-2"
                                                 class="kenya-airways-dreamliner-part-2" cx="12.5" cy="7" rx="12.5"
@@ -1668,7 +1268,7 @@
                                                     repeatcount="indefinite" />
                                             </ellipse>
                                         </g>
-                                        <g class="kenya-airways-dreamliner-part-38"
+                                        <g style="box-shadow: 0px 0px 10rem #FFFDFF;"
                                             transform="matrix(1, 0, 0, 1, 1454, -133)">
                                             <ellipse id="kenyaAirwaysDreamlinerLandingLightWing-2"
                                                 class="kenya-airways-dreamliner-part-2" cx="58.621" cy="18.237"
@@ -1992,6 +1592,8 @@
                                         </lineargradient>
                                     </defs>
                                     <g transform="translate(1471 -8552)">
+                                        <rect fill="#FBF5DE" width="1080" height="1080" rx="10"
+                                            transform="translate(-1471 8552)" />
                                         <path id="mkBody" fill="none" stroke="#854f38" stroke-width="1.5"
                                             stroke-dasharray="3537.14697265625" stroke-dashoffset="3537.14697265625"
                                             class="mk-body-color"
@@ -2168,6 +1770,7 @@
                                         </style>
                                     </defs>
                                     <g transform="translate(16327 5857)">
+                                        <rect fill="#FBF5DE" width="1800" height="1800" rx="10" transform="translate(-16327 -5857)" />
                                         <path class="nk-illustration-color-part-1"
                                             d="M-15717.32-5148.979c-22.82-46.884-64.76-136.693-87.582-158.566-7.371-4.967-1.85,61.822-1.85,61.822s60.41,98.286,83.23,120.158C-15713.617-5125.565-15712.969-5139.725-15717.32-5148.979Z"
                                             transform="translate(-121.263 39.135)" />
@@ -2308,6 +1911,7 @@
                                         </style>
                                     </defs>
                                     <g transform="translate(6733 -2336)">
+                                        <rect fill="#FBF5DE" width="1080" height="1080" rx="10" transform="translate(-6733 2336)" />
                                         <path class="mweu-illustration-color-part-1"
                                             d="M-6322,3054.6c13.3,107.4-108.225,82.425-79.4,162.1s205.4,152.6,205.4,152.6,143.325-72.925,180-152.6-73.4-37.4-44-162.1C-6136.5,3014.075-6236.65,3014.075-6322,3054.6Z" />
                                         <path class="mweu-illustration-color-part-1"
@@ -2454,6 +2058,7 @@
                                         </lineargradient>
                                     </defs>
                                     <g transform="translate(1097 -1031)">
+                                        <rect fill="#FBF5DE" width="1080" height="1080" rx="10" transform="translate(-1097 1031)" />
                                         <path class="kukhu-illustration-color-part-1"
                                             d="M-680.5,1720.35c-56.433,52.583,4.9,127.117,44.1,174.717,11.6,22.267,27.76,33.115,45.267,68.933,30.667,68,39.867,86.733,39.867,86.733s19.408-59.083,37.933-86.733c13.8-26.2,19.067-33.733,47.067-68.933,60.933-69.733,84-134.667,44.067-174.717C-489.792,1711.821-619.5,1692.837-680.5,1720.35Z" />
                                         <path class="kukhu-illustration-color-part-1"
@@ -2591,6 +2196,7 @@
                                         </style>
                                     </defs>
                                     <g transform="translate(18459 9730)">
+                                        <rect fill="#FBF5DE" width="1080" height="1080" rx="10" transform="translate(-18459 -9730)" />
                                         <path class="kuka-illustration-color-part-1"
                                             d="M-18069.824-10513.574s38.648,114.554,34.4,152.457-85.662.063-51.385,45.26,188.494,135.529,188.494,135.529,152.188-90.331,185.643-135.529-44.229-7.357-51.812-45.26,21.479-152.457,21.479-152.457Z"
                                             transform="translate(-6.205 1416.927)" />
@@ -2720,6 +2326,7 @@
                                         </style>
                                     </defs>
                                     <g transform="translate(20388 2851)">
+                                        <rect fill="#FBF5DE" width="1800" height="1800" rx="10" transform="translate(-20388 -2851)" />
                                         <path class="jfn-illustration-color-part-1"
                                             d="M-19629.332-1919.8s112.947,369.811,92.129,506.164c13.451,127.692,389.342,168.23,439.826,0-7.369-143.723,68.734-421.4,68.734-421.4Z"
                                             transform="translate(-156.241 74.879)" />
@@ -2919,6 +2526,7 @@
                                         </lineargradient>
                                     </defs>
                                     <g transform="translate(-1631 -11810)">
+                                        <rect fill="#FBF5DE" width="1080" height="1080" rx="10" transform="translate(1631 11810)" />
                                         <path class="sa-illustration-color-part-1"
                                             d="M1953.333,11867.066c2.517-7.217,10.167-33.566-17.2,3.217-20.688,6.962-29.58,23.273-75.636,27.867-37,10-52.252,30.487-72.35,58.1-16.65,14.9-27.929,28.3-35.5,45.4-21,14.35-22.475,50.78-28.65,86.649-4.35,17.7-23.35,21.7-25,50.7-39.35,26.35-7.65,39.65-5,49.35-7.35,7.35-6.946,12.269-6.7,19.95-17.65,11.351-4.65,27.7,0,34.351.211,2.8.568-1.587,6.7,12.85-32.35,28.65,10.027,50.633,12,67.85,1.736,15.151-15,12.3-16,30.3-16-14-.893-34.4,0-30.3-34.35,16.3,18.35,49.65,16,64.3,1.5,8.794,2.448,8.814,3.65,17.649.718,5.278-16.48-.833-15.65,4.7-6,7.65,1.086,15.682,2.65,24.3,0,14.351,10.52,9.02,13,21.351,2.681,13.33,10.88,19.014,13.65,32.649,3.507,17.266-9.174,29.818-4.65,47.2-18.65,12.35-4,24.35,9.7,17.65-.35,11.649,6.909,27.705,10.3,38-3,22.649,17.011,13.627,19.85,21.5-.65,20.35,21.18,20.846,24.35,29,2.853,7.338,11.067.523,14,7.649,4.033,9.8,9-.3,16.3,5.351,5.35-5.65-12.525-22.2-10-16.65,2.936,6.455,9.464-24.547,12.35-18.35,9.65,12,22.365-1.907,26,6,3.475,7.56,8.716,12.338,12,19.649,1.641,3.653-9,2.351-7,9.351,1.91,4.273-11,.35-7,9.7,4.515,10.063,15.069,14.445,19.3,24-14.65,28.65-28.14-24.8-24.65-17.05,1.141,2.534-15.481-16.244-14.3-13.649,2.347,5.157,1.65,8.716,3.95,13.649,2.225,4.773-10.485-4.536-8.3,0,4.959,10.3-.9,16.5,4.35,26.351,2.445,4.59,1.314-21.088,3.95-16.351,36.35,54.351,42.344,2.26,50.5,16.351,7.578,13.091.55,35.031,8.05,47,7.358,11.744-7.65,45.926,0,56.35,8.568,11.674,43.305-27.795,51.65-17.65,5.665,6.886,15.254-24.887,20.65-18.7,6.505,7.46,13.143-1.31,19.35,5.35,5.769,6.189,6.932-16.871,12.35-11.35,4.571,4.658,10.564-12.369,15-8,2.792,2.75,1.092,5.261,3.95,8,6.723,6.444,1,14.35-3.95,16.649-33.7,15-47,9.351-46.7,11.05,22.35,14.65,46.88-4.236,54.35,0,2.007,7.209-19.35,8.3,6.829,17.321,8.194,14.455,18.18,13,24.521,4.679,14.3,4.3-5-12,6.3-22,23.7-27.35-27.174-46.942-17-50.7,15-3,9.591-8.274,13.7-11.65,1.833-1.506,12.78,2,16.3-4.7s-1.143-11.281,0-19c.581-3.926-7.66-4.8-7-8.649,1.182-6.89,2.673-7.851,4.35-13.65.815-2.817,10.037,7.292,10.65,4.35,1.566-7.52-4.735-10.435-3-17.35.754-3,16,7.276,16.35,4,.71-6.563-3.317-13.762-4.65-20.35-1.834-9.07-9.839-11.383-16.7-20.351-59.65,8-96.457-40.439-130.3-90.149-15-15.65-19.05-17.65-40.5-56.5-16.7-42.3-59.05-73.351-53-131,1.3-33.65,4.949-63.283-10-103.5a346.173,346.173,0,0,1-15.778-49.832c-16.922-93.168,6.312-140.812,18.678-159.318,7.175-3.85,39.175-36.825,48.25-45.1,4.325-17.15,41-26.65,53.325-36.65,3.85,16.5,27.175,8.15,51.925,0,2.943-1.067,26.916,3.03,42.675,4.075,5.325.675,10.15-1.5,16.4-4.075,19.85,7.325,48.675,19.175,54.775,17.417,2.467,17.333,13.767,23.767,21,24.533,26.8,5.287,38.467,21.566,33.567,37.366.678,3.279,2.9,4.634,6.233,7.333,14.233,17.334,25.767,22.2,43.2,44.768,31.134,45.767,1.567,74.666,19.8,105.767a202.491,202.491,0,0,1,16.967,24.966c7.972,13.678,9.333,32.934,11,47.135.6,11.6.6,31.133,2.333,40.865,3.133,14.667-3.067,59.135,6.667,65.8,11.083,33.793-23.064,105.781-12.867,139.133,12.867,15.534,7.133,22.667,6.667,31.733-8,11.134-2.961,24.4,0,35.134,2.191,7.946-21.8,8-17.6,23.133-18.4-1.8-3.325,14.514,0,26.667,2.416,8.83-12.448,26.491-10,35.333-8.867,8.867,16.467,20,0,23.534-33.333,1.333-18.326,29.108-13.733,44.466,4.159,13.907-7.213,28.817-2.867,42.2,2.548,7.848,24.135,12.511,26.6,19.8,3.128,9.249,20.467-13.6,35.133-8.2,11.533-1.8,5.333-42.733,17.333-39.133-.4,10.667,6.307,9.959,8,14.667,1.643,4.569-12.467,31.066-8,36.666,5.333,5.133,9.921-11.687,11.533-7.333,1.6,4.313-5.267,7.133,0,12.466,2.8,7.457,12.2-7.605,15.133,0,2.2,5.705-5.668,11-3.533,16.4,2.088,5.284-24.867-7.134-23.133,6.466,2.2,5.381,13.4,9.182,15.6,14.4,1.653,3.916-9.088,5.968-7.6,9.4,2.5,5.757,5.073,2.851,7.6,8.4,3.248,7.138,18.988-15.063,22.2-8.4,1.578,3.272-1.684,9.027,0,12.4,2.532,5.074,4.867-10.667,8.867-12.4,10.267-3.133,12.812-46.162,17.333-38.266,2.891,5.05,13.193,3.395,16,8,3.249,5.33-7.232,9.823-4,14.667,5.6,8.387,9.37-.361,14.667,6.2,7.138,8.843,9.078-26.705,16-20.866-3.533,6.2,2.334,7.847,7.6,10.266,6.82,3.132,4.867,53.734,39.533,25.534,9.045,5.865,6.894,16.961,16,20,6.186,2.064,10.909-21.521,16.867-20,6.255,1.6,3.391,11.155,9.333,11.133,11.393-.043,11.72-38.5,20.867-40.467,6.554-1.406-27.812-18.11-20.867-20,5.5-1.5,4.23-10.341,10.267-12,12.867,11.066,25.941,5.632,31.067,4,17.58-5.6,4,30.667,47.6-16.466,13.134-8.134-21.506-60.638-8.267-67.333,4.933,8.865,37.333,24,58.667,20-5.333,26.266-40.153,12.818-36.867,10.666,2.592-1.7,33.8,42.2,51.133-15.067,33.333,23.534-32.512,46.139-30.267,44.4,64,15.6,58.667-45.334,27.133-60,2.371-2.227,33.14,9.192,35.464,6.8,3.823-3.937,7.635-8.209,11.2-12.6,7.553-9.294-43.133,4.934-50.667-19.066,6.35-9.985,9.1-22.649,14.667-33.8,77.333-55.134,40-159.134,18.667-149.734,25.333-11.133,6.065-20.471,8.467-31.8,44.867-45.333-14.859-38.886-12.933-58.2,38.267-72.066-29.108-42.531-29.733-66.667,24.4-133.8-26.155-82.683-30.933-108.466-4.4-24-21.358-16.485-25.733-30.934-10.667-8.866-10.955-17.077-14.667-26.2-31.6-1.333-5.517-10.877-14.667-24.4,10.667-22.266-2.1-38.286-12.933-53.4,3.533-11.532-3.477-17.229-10.867-25.066-8.484-9,16.467-22.667-26.667-23.6-14.667-32.865-24.054-11.194-34-21.066-11.533-80.867-41.8-57.333-62.2-69.8-2.267-18.268-6.084-17.138-13.6-23.534-16.4-14.667-14.667-19.6-27.048-16.889-3.9-3.061-7.841-6.087-11.619-8.911-9.333-7.067-15.923,3.556-20.867,0-11.947-8.594-3.142-26.123-8.867-27.533-7.651-4.556-14.392-4.152-22.267-8.467-10.581-5.8-11.635-19.41-22.4-24.467-5.554-2.608-14.451-1.138-22.267-3.533-12.4-10.666-12,12.933-39.879-16.3-10.017-3.647-20.266-7.043-30.521-10.1-32.467,17.267-44.1,6.774-67.6,2.734-7.518-1.292-17.178,8.451-24.4,7.466-9.8-11.133-11.35,4.575-16.467,4-17.479-1.964-33.579,4.987-50.667,4.4-3.47-.119,3.281-13.277,0-13.333-3.5-1.652-9.934,10.538-20,19.134C1978.667,11854.667,1963.234,11871.528,1953.333,11867.066Z" />
                                         <path class="sa-illustration-color-part-2"
@@ -3099,6 +2707,7 @@
                                         </radialgradient>
                                     </defs>
                                     <g transform="translate(-2812 -14658)">
+                                        <rect fill="#FBF5DE" width="1080" height="1080" rx="10" transform="translate(2812 14658)" />
                                         <path class="dama-illustration-color-part-1"
                                             d="M3308.667,15354.867c.933,8.639-.433,19.333,0,31.333,3.1,73.8,38.9,120.233,55.567,179.8,2.471,6.492,2.767,15.867,2.767,28.333,4.6,12.747-1.147,21.47,2.767,30.434.233,20.566,6,35.233,24.233,30.566,2.865-2.922,34,3.1,13.1-39.8.233-14.434-3.1-16.2-4.2-26.2-.418-4.218-3.975-11.508-3-16.158-.656-3.146-1.537-3.261-3.825-7.175-.883-1.51-1.581-6.207-2.075-7.566-9.029-71.244-20.568-164.452-32.433-206.233C3340.233,15277.084,3300.55,15279.751,3308.667,15354.867Z" />
                                         <path class="dama-illustration-color-part-1"
@@ -3218,6 +2827,7 @@
                                         </style>
                                     </defs>
                                     <g transform="translate(-647 -13531)">
+                                        <rect fill="#FBF5DE" width="1800" height="1800" rx="10" transform="translate(647 13531)" />
                                         <path class="vjniso-illustration-color-part-1"
                                             d="M1589.621,13955.836c-197.255-16.012-307.955,28.554-349.284,262.41-11.2,63.375-15.739,134.884-12.89,207.668.448,11.437-52.351-35.283-82.416,0-6.936,6.181-13.4,12.773-17.273,19.845-5.68,10.359-4.7,22.122-10.407,35.152-5.11,13.116-4.382,25.63-4.685,39.519,7.661,29.8,11.668,63.965,29.81,65.07-7.569,42.271,51.954,43.353,57.916,73.5,65.581,45.395,66.161-48.572,74.013-21.975,31.543,106.844,42.074,199.9,149.9,251.68,136.826,81.635,238.9,117.406,322.2,92.41,72.736-18.229,46.674-43.1,84.148-105.613,35.027-36.084,72.735-132.865,69.91-160.511-5.18-37.084,39.109-41.683,39.62-118.592.681-46.759-20.186-54.764-13.372-119.494,6.814-68.135,32.449-78.848,21.037-113.618C1918.038,13927.219,1706.815,13981.728,1589.621,13955.836Z"
                                             transform="translate(16.729 31.035)" />
@@ -3395,6 +3005,7 @@
                                         </style>
                                     </defs>
                                     <g transform="translate(1251 -16049)">
+                                        <rect fill="#FBF5DE" width="1800" height="1800" rx="10" transform="translate(-1251 16049)" />
                                         <path class="pmm-illustration-color-part-1"
                                             d="M534.729,885.059c-3.271,0-5.257-1.013-5.9-3.01-3-18.383,15.166-24.905,34.4-31.809,9.264-3.328,18.844-6.766,26.484-11.669,8.633-5.54,13.517-12.241,14.933-20.486a4.948,4.948,0,0,0-.788-4.2c-1.13-1.35-3.286-2.006-6.586-2.006-6.969,0-18.071,2.973-29.827,6.12q-1.3.35-2.615.7c-13.467,3.593-26.353,6.821-35.988,6.821-8.323,0-13.078-2.433-14.534-7.437-.307-1.056-.6-1.99-.875-2.9-2.067-6.686-3.008-9.737.875-22.917,3.511,3.826,10.956,7.814,20.43,10.939,9.127,3.01,19,4.808,26.4,4.808,7.465,0,12.106-1.736,13.424-5.02,4.867-12.143-.5-28.272-6.178-45.348-4.118-12.381-8.378-25.184-9.469-37.974-8.058-41.97-1.187-62.5,3.36-76.091,1.773-5.3,3.173-9.48,3.173-13.439a266.746,266.746,0,0,1,8.554-67.873c5.076-19.57,11.723-36.6,18.152-53.07,4.515-11.564,8.776-22.483,12.331-33.8,7.461,1.866,9.844,7.866,12.148,13.668,2.385,6.008,4.639,11.686,12.461,11.686,4.856,0,11.477-2.184,20.238-6.677,1.239-2.038,2.289-3.685,3.132-5.009,4.4-6.9,4.569-7.171,6.79-22.658-.527-1.524-.573-2.518-.139-3.127.505-.708,1.635-.849,3.295-.849.327,0,.671,0,1.03.011h.063c.32,0,.758.011,1.191.011,5.847,0,12.2-1.542,14.966-12.984-2.228-9.763.4-28.522,3.445-50.243,2.507-17.895,5.1-36.393,5.381-52.632.32-18.566-2.568-30.556-8.827-36.661a15.467,15.467,0,0,0-11-4.258c-8,0-16.919,4.682-25.367,9.743-1.435.86-2.84,1.72-4.2,2.552l-.039.024c-6.274,3.846-11.693,7.167-14.916,7.167a2.741,2.741,0,0,1-2.8-1.84C589.539,120.594,453.518,71.856,345.01,66.67c-2.639-.087-5.294-.131-7.888-.131-98.279,0-148.995,63.3-174.233,116.407-14.291,30.066-22.1,60.115-26.144,80.029a307.412,307.412,0,0,0-5.4,36.378c.013.059,1.307,6.059-1.575,10.6a10.988,10.988,0,0,1-7.256,4.745,22.873,22.873,0,0,1-3.813.351c-3.325,0-5.839-.919-7.685-2.809-4.406-4.51-4.186-13.916-3.953-23.875.181-7.674.368-15.61-1.487-22.061a328.153,328.153,0,0,1,9.386-68.175,261.557,261.557,0,0,1,21.416-56.8,238.172,238.172,0,0,1,70.776-82.279c27.059-19.918,58.839-35.136,94.459-45.23A362.39,362.39,0,0,1,352.632,3.336,388.352,388.352,0,0,1,403.464,0a371.041,371.041,0,0,1,63.45,5.353,283.763,283.763,0,0,1,54.86,14.981,223.944,223.944,0,0,1,87.05,55.348,270.559,270.559,0,0,1,33.054,41.4,357.158,357.158,0,0,1,26.85,49.679,498.629,498.629,0,0,1,21.233,57.315c6.054,19.813,11.5,41.447,16.192,64.3,8.877,43.246,15.29,91.314,19.606,146.952a557.34,557.34,0,0,1-.973,97.077c-.037.377-.137.568-.3.568-1.052,0-4.543-7.947-7.918-15.634l-.137-.311c-3.465-7.879-6.736-15.321-7.714-15.321-.135,0-.224.15-.261.446l-.059.453c-1.773,13.779-1.773,13.779-3.447,22.677-.353,1.869-.791,4.194-1.333,7.121-1.588,8.561,1.747,15.46,5.606,23.448,2.6,5.37,5.538,11.459,7.309,18.879a68.126,68.126,0,0,1,.555,27.436c-4.708,2.5-7.661,6.945-8.779,13.208-1.858,10.41,1.455,25.95,9.327,43.763C724.431,674.5,734.111,690.161,742.9,700c3.619.836,7.139,4.053,9.652,8.824A26.485,26.485,0,0,1,755.6,723.51,13.537,13.537,0,0,1,751.688,732c-2.478,2.343-5.971,3.532-10.377,3.532a30.9,30.9,0,0,1-5.429-.523c-7.851-4.473-11.157-22.139-14.075-37.723-1.385-7.4-2.694-14.391-4.375-19.567-1.886-5.8-3.977-8.5-6.581-8.5a4.965,4.965,0,0,0-2.393.7c-6.453,7.951-4.541,13.548-2.517,19.472a31.66,31.66,0,0,1,2.243,10.5c.011,4.5-1.481,9.127-4.565,14.153-2.635,4.295-6.61,7.42-10.819,10.728-3.835,3.016-7.8,6.133-10.717,10.242-2.452,3.456-2.467,6.721-2.481,9.878-.013,3.21-.026,6.242-2.358,9.48a38.619,38.619,0,0,0-4.351,8.972c-2.644,6.886-5.379,14.005-16.055,17.324-1.385,3.014-1.315,5.993-1.246,8.872.076,3.243.148,6.3-1.982,8.875-4.088,4.933-8.707,10.029-13.354,14.735-11.634,1.577-22.882,5.584-26.41,24.056-2.683,2.241-5.181,4.292-7.385,6.1-6.013,4.941-10.357,8.511-12.1,10.636-9.221,11.268-45.217,31.12-59.634,31.12Zm90.735-130.728c-.88.283-2.071.664-3.633,1.082-9.164,8.75-21.784,27.708-28.49,38.229a13.454,13.454,0,0,1-2.432,4.626c-.309.392-.479.606-.425.778.072.229.538.366,1.664.7.342.1.736.218,1.193.357q.451.137.915.285l.078.024a33.078,33.078,0,0,0,10.177,1.958,22.984,22.984,0,0,0,9.817-2.267c9.253-4.284,11.368-6.625,15.083-16.7,3.778-10.242,1.858-17.337,0-24.2-.4-1.47-.605-2.589-.756-3.406-.27-1.463-.372-2.01-1.067-2.01A8.815,8.815,0,0,0,625.464,754.332Zm-42.349-9.645c0,11.655,3.748,24.2,11.978,24.2,8.36,0,18.718-15.828,23.028-24.2.963-1.873,1.183-3.265.649-4.138-.442-.725-1.392-1.091-2.825-1.091a20.792,20.792,0,0,0-6.455,1.437c-2.1.795-3.559,3.866-4.85,6.575-1.217,2.559-2.269,4.765-3.6,4.765a1.8,1.8,0,0,1-1.228-.612c-3.587-2.96-3.358-9.591-3.158-15.441.157-4.543.294-8.467-1.559-9.238a2.887,2.887,0,0,0-1.119-.216C589.783,726.728,583.115,734.947,583.115,744.686Zm35.574-36.2c-3.659,2.448-6.457,4.691-6.457,9.338,0,4.417,2.716,8.454,6.457,9.6a6.475,6.475,0,0,0,1.882.312c2.372,0,4.053-1.686,5.616-5.636,1.873-4.739,1.873-10.207,0-13.611-.817-1.481-1.712-2.171-2.82-2.169C622.04,706.321,620.464,707.3,618.689,708.49Zm-45.738-11.15c2.9,2.367,5.405,4.412,5.405,9.68,0,2.653-1.7,4.6-3.2,6.311s-2.79,3.186-2.2,4.978c.823,2.507,4.075,5.534,6.882,5.534a3.593,3.593,0,0,0,3.284-2.306c1.365-2.814.865-7.178.338-11.8-.475-4.136-.963-8.411-.338-12.4.647-4.129,1.929-4.4,3.062-4.643,1.254-.266,2.339-.5,2.339-5.6,0-8.609-1.361-27.854-5.4-28.962a1.257,1.257,0,0,0-.318-.044c-1.816,0-2.962,4.53-4.288,9.776-1.357,5.366-2.892,11.444-5.56,14.953-1.862,2.448-3.809,3.587-6.126,3.587a11.719,11.719,0,0,1-2.163-.246l-.187-.035a9.177,9.177,0,0,0-1.6-.211A1.763,1.763,0,0,0,561.1,687.1c-1.605,3.609,2.315,7.572,5.4,10.24a2.553,2.553,0,0,0,1.627.753,2.881,2.881,0,0,0,1.616-.714,2.918,2.918,0,0,1,1.642-.723A2.531,2.531,0,0,1,572.951,697.339Zm82.272-7.017a11.4,11.4,0,0,0,2.435,9.173,7.057,7.057,0,0,0,5.065,2.683c3.759,0,7-4.765,8.066-11.856.767-5.1.375-11.923-1.86-14.519a2.7,2.7,0,0,0-2.082-1.05C662.856,674.754,656.229,683.63,655.223,690.323Zm-56.461-20.97c2.467,8.935,10.534,16.129,15.567,16.129a2.968,2.968,0,0,0,2.369-1.2c2.359-2.905,2.341-10.534,1.422-14.924-.409-1.949-1.18-2.219-1.953-2.219a7.149,7.149,0,0,0-1.065.115l-.074.011a8.287,8.287,0,0,1-1.287.126c-.919,0-2.3-.24-3.687-2.311-1.372-2.049-1.174-4.427-.982-6.727.3-3.6.612-7.315-4.987-9.966C601.328,649.426,596.175,659.984,598.762,669.353Zm46.217-44.605a2.042,2.042,0,0,0-1.141,1.2c-.682,1.725.142,4.68,1.141,6.871,1.226,2.687,2.637,4.049,4.192,4.049a3.2,3.2,0,0,0,1.213-.257,7.736,7.736,0,0,0,3.752-4.029,4.466,4.466,0,0,0,.037-3.552c-1.135-2.489-5.248-4.495-7.9-4.495A3.445,3.445,0,0,0,644.979,624.747ZM578.37,582.44a47.17,47.17,0,0,0-5.418,17.623c-.682,9.944,4.922,23.381,10.377,29.221,1.616,1.731,3.116,2.646,4.338,2.646a2.18,2.18,0,0,0,.852-.163c5.264-2.123,5.111-17.675,4.552-26.756-.749-12.187-3.021-25.735-4.552-29.707-.455-1.183-1.137-1.781-2.021-1.781C584.387,573.522,581.272,576.939,578.37,582.44ZM.035,836.637c-.749-.95,10.636-19.448,32.747-34.439,12.5-8.478,34.487-7.884,48.395-16.135,33.416-19.824,58.079-47.2,62.35-54.845,4.7-6.187,1.906-15.477,0-18.8-2.075-3.615-26.044,1.542-49.5,6.7-22.054,4.85-43.654,9.7-46.162,7.256-13.276-12.923-42.508,0-40.33-19.92,2.038-8.552,14.791-6.25,27.22-3.948,10.2,1.888,20.177,3.776,23.838-.329,8.855-9.935,75.841-1.59,84.933-13.47,7.428-9.709,3.308-26.321,6.533-34.363,15.059-37.53,16.261-63.147,82.651-75.334,47.73,1.333,112.879,68.944,102.3,109.7-7.357,28.326-79.859,27.825-128.489,23.71-8.432-.712-.891-31.116-8.066-30.086-7.108,1.017,6.252,34.86,0,36.543-6.827,1.827-1.832,20.9-8.066,23.148-6.681,2.406-9.321,10.246-17.745,18.228,8.428,31.238-3.164,25.382-12.747,19.526-4.445-2.718-8.458-5.434-9.837-4.445-4.48,3.208-7.241,3.023-9.948,2.835-2.753-.189-5.451-.379-9.839,2.992-11.856,9.107-23.392,17.827-35.06,25.308-2.409,1.542-5.784.932-9.216.32-2.809-.5-5.656-1-8.045-.32-4.556,1.289-7.337,8.421-9.68,9.759-12.422,17.4-14.4,11.486-15.93,5.575-.923-3.572-1.681-7.141-4.475-5.575-20.8,11.652-37.115,21.74-44.48,21.738A4.008,4.008,0,0,1,.035,836.637Z"
                                             transform="translate(-718.288 16266.295)" />
@@ -3560,6 +3171,7 @@
                                         </style>
                                     </defs>
                                     <g transform="translate(1209 -11439)">
+                                        <rect fill="#FBF5DE" width="1800" height="1800" rx="10" transform="translate(-1209 11439)" />
                                         <path class="mulubhan-illustration-color-part-1"
                                             d="M-495.6,12367.684c122.9-120.646,436.033-152.079,568.933,0-5.022,12.924-10.351,99.363-26.667,184.316-2.667,160.8-68,357.731,0,424,24,40-152,95.066-127.2,195.066-82.533-148.8-327.867-214.667-359.867-324C-490.267,12688.934-441.333,12527.066-495.6,12367.684Z" />
                                         <path class="mulubhan-illustration-color-part-1"
@@ -3756,7 +3368,8 @@
                                             <stop offset="1" stop-color="#c36c5b" />
                                         </radialgradient>
                                     </defs>
-                                    <g transform="translate(1251 -8923)">
+                                    <g transform="translate(1300 -8923)">
+                                        <rect fill="#FBF5DE" width="1800" height="1800" rx="10" transform="translate(-1300 8923)" />
                                         <path class="tms-illustration-color-part-1"
                                             d="M-834.545,10269.7c64,126.434,48.788,188.939,266.97,255.606,250.3,44.545,243.576-156.369,354.642-278.236,88.433-126.434,0-124.4,0-124.4H-815.6S-852.424,10223.333-834.545,10269.7Z" />
                                         <path class="tms-illustration-color-part-1"
@@ -3890,6 +3503,7 @@
                                         </style>
                                     </defs>
                                     <g transform="translate(19640 7040)">
+                                        <rect fill="#FBF5DE" width="1800" height="1800" rx="10" transform="translate(-19640 -7040)" />
                                         <path class="ri-illustration-color-part-1"
                                             d="M-18925.8-6048.377c100.254,146.681,88.7,218.712,106.137,297.938-.219,16.074,96.773,33.921,194.3,6.838,89.18-24.765,162.785-91.729,152.125-99.9-45.66-141.558,14.605-265.9,61.137-336.295C-18529.238-6236.822-18826.25-6173.507-18925.8-6048.377Z"
                                             transform="translate(-170.994 249.335)" />
@@ -3996,25 +3610,25 @@
                     <div id="maVideos" class="p3">
                         <div id="videosGroup1" class="pb-5">
                             <figure class="pb-5">
-                                <video src=""></video>
+                                <video src="#"></video>
                                 <figcaption></figcaption>
                             </figure>
                             <figure class="pb-5">
-                                <video src=""></video>
+                                <video src="#"></video>
                                 <figcaption></figcaption>
                             </figure>
                             <figure class="pb-5">
-                                <video src=""></video>
+                                <video src="#"></video>
                                 <figcaption></figcaption>
                             </figure>
                         </div>
                         <div id="videosGroup2" class="pb-5">
                             <figure class="pb-5">
-                                <video src=""></video>
+                                <video src="#"></video>
                                 <figcaption></figcaption>
                             </figure>
                             <figure class="pb-5">
-                                <video src=""></video>
+                                <video src="#"></video>
                                 <figcaption></figcaption>
                             </figure>
                         </div>

@@ -29,7 +29,7 @@
     --copyright-text-background-color: #183B7E;
     --small-text-color: #FCFEFD;
     --fieldset-color: #0A1934;
-    --fieldset-border: 0.1rem solid #A7BADF;
+    --fieldset-border: 0.1rem solid #FBF5DE;
     --legend-color: #0A1934;
     --label-color: #0A1934;
     --input-background-color: #DADDE2;
@@ -58,12 +58,16 @@
     --theme-switch-background-color: #1B428C;
     --homepage-hero-content-background: #1B428C;
     --main-background-color: #729FE3;
+    --thankyou-content-background-color: #FBF5DE;
     --homepage-content-card-color: #FBF5DE;
     --card-background-color: #729FE3;
     --special-card-background-color: #1B428C;
+    --ukurasa-homepage-card-background-color: #1B428C;
+    --portfolio-homepage-card-background-color: ;
+    --blog-homepage-card-background-color: #1B428C;
     --navbar-menu-icon-color: #0A1934;
-    --navbar-menu-icon-background-color: #729FE3;
-    --navbar-background-color: #729FE3;
+    --navbar-menu-icon-background-color: #FBF5DE;
+    --navbar-background-color: #FBF5DE;
     --navbar-color: #415579;
     --navbar-hover-color: #4E75BF;
     --navbar-active-color: #071123;
@@ -72,7 +76,7 @@
 }
 
 [data-theme="dark"] {
-    --header-background-color: #0C1018;
+    --header-background-color: #07070F;
     --body-headings-color: #B3AC8D;
     --special-heading-color: #B3AC8D;
     --body-paragraph-color: #BEC9D8;
@@ -93,13 +97,13 @@
     --blockquote-color: #C7D1EB;
     --cite-color: #FAC03E;
     --a-color: #FFB55E;
-    --footer-background-color: #0C1018;
+    --footer-background-color: #141522;
     --footer-paragraph-color: #BEC9D8;
     --footer-anchor-color: #BEC9D8;
-    --copyright-text-background-color: #0C1018;
+    --copyright-text-background-color: #141522;
     --small-text-color: #E8EAEB;
     --fieldset-color: #0A1934;
-    --fieldset-border: 0.1rem solid #111722;
+    --fieldset-border: 0.1rem solid #07070F;
     --legend-color: #B3AC8D;
     --label-color: #E8EAEB;
     --input-background-color: #20293C;
@@ -127,15 +131,19 @@
     --hero-button-text-color: #FFB55E;
     --hero-button-hover-background-color: #FFB55E;
     --hero-button-hover-text-color: #0A1934;
-    --theme-switch-background-color: #1B428C;
-    --homepage-hero-content-background: #0C1018;
-    --main-background-color: #0C1018;
-    --homepage-content-card-color: #111722;
-    --card-background-color: #111722;
-    --special-card-background-color: #111722;
+    --theme-switch-background-color: #141522;
+    --homepage-hero-content-background: #07070F;
+    --main-background-color: #07070F;
+    --thankyou-content-background-color: #07070F;
+    --homepage-content-card-color: #020203;
+    --card-background-color: #07070F;
+    --special-card-background-color: #1C1E31;
+    --ukurasa-homepage-card-background-color: #1C1E31;
+    --portfolio-homepage-card-background-color: #07070F;
+    --blog-homepage-card-background-color: #1C1E31;
     --navbar-menu-icon-color: #E8EAEB;
-    --navbar-menu-icon-background-color: #0C1018;
-    --navbar-background-color: #0C1018;
+    --navbar-menu-icon-background-color: #141522;
+    --navbar-background-color: #141522;
     --navbar-color: #E8EAEB;
     --navbar-hover-color: #4E75BF;
     --navbar-active-color: #FFB55E;
@@ -513,7 +521,7 @@ footer p a {
 }
 
 #copyrightText {
-    background-color: #111722;
+    background-color: #020203;
     background-color: var(--copyright-text-background-color);
 }
 
@@ -884,8 +892,25 @@ main {
     background-color: #FFEACC;
     background-color: var(--main-background-color);
 }
+
+#ukurasaHomepageCard {
+    background-color: var(--ukurasa-homepage-card-background-color);
+}
+
+#porfolioHomepageCard {
+    background-color: var(--portfolio-homepage-card-background-color);
+}
+
+#blogHomepageCard {
+    background-color: var(--blog-homepage-card-background-color);
+}
+
+#thankyouContent {
+    background-color: var(--thankyou-content-background-color);
+}
+
 #sunsetNightSunrise {
-    background-color: var(--special-card-background-color);
+    background-color: var(--card-background-color);
 }
 
 #aircraftHelicopter {
@@ -897,9 +922,8 @@ main {
 #illustrationsGroup1,
 #illustrationsGroup2,
 #illustrationsGroup3,
-#illustrationsGroup4
- {
-    background-color: var(--special-card-background-color);
+#illustrationsGroup4 {
+    background-color: var(--card-background-color);
 }
 
 #ukurasaPageVideos {
@@ -911,7 +935,7 @@ main {
 }
 
 #pageContentSamples {
-    background-color: var(--special-card-background-color);
+    background-color: var(--card-background-color);
 }
 
 #homepageHeroSpecialIntroMessage {
@@ -1003,19 +1027,6 @@ footer,
 }
 
 #AirbusH160HelicopterFlying {
-    background-image: linear-gradient(to bottom, #1B428C, #729FE3);
-}
-
-#illustrationsContentPart1,
-#illustrationsContentPart2,
-#illustrationsContentPart3,
-#illustrationsContentPart4,
-#illustrationsContentPart5,
-#illustrationsContentPart6,
-#illustrationsContentPart7,
-#illustrationsContentPart8,
-#illustrationsContentPart9,
-#illustrationsContentPart10 {
     background-image: linear-gradient(to bottom, #1B428C, #729FE3);
 }
 
