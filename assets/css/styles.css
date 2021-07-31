@@ -76,7 +76,7 @@
 }
 
 [data-theme="dark"] {
-    --header-background-color: #07070F;
+    --header-background-color: #050d1C;
     --body-headings-color: #B3AC8D;
     --special-heading-color: #B3AC8D;
     --body-paragraph-color: #BEC9D8;
@@ -97,13 +97,13 @@
     --blockquote-color: #C7D1EB;
     --cite-color: #FAC03E;
     --a-color: #FFB55E;
-    --footer-background-color: #141522;
+    --footer-background-color: #08142A;
     --footer-paragraph-color: #BEC9D8;
     --footer-anchor-color: #BEC9D8;
-    --copyright-text-background-color: #141522;
+    --copyright-text-background-color: #08142A;
     --small-text-color: #E8EAEB;
     --fieldset-color: #0A1934;
-    --fieldset-border: 0.1rem solid #07070F;
+    --fieldset-border: 0.1rem solid #050d1C;
     --legend-color: #B3AC8D;
     --label-color: #E8EAEB;
     --input-background-color: #20293C;
@@ -131,26 +131,25 @@
     --hero-button-text-color: #FFB55E;
     --hero-button-hover-background-color: #FFB55E;
     --hero-button-hover-text-color: #0A1934;
-    --theme-switch-background-color: #141522;
-    --homepage-hero-content-background: #07070F;
-    --main-background-color: #07070F;
-    --thankyou-content-background-color: #07070F;
+    --theme-switch-background-color: #08142A;
+    --homepage-hero-content-background: #050d1C;
+    --main-background-color: #050d1C;
+    --thankyou-content-background-color: #050d1C;
     --homepage-content-card-color: #020203;
-    --card-background-color: #07070F;
-    --special-card-background-color: #1C1E31;
-    --ukurasa-homepage-card-background-color: #1C1E31;
-    --portfolio-homepage-card-background-color: #07070F;
-    --blog-homepage-card-background-color: #1C1E31;
+    --card-background-color: #050d1C;
+    --special-card-background-color: #0B1A38;
+    --ukurasa-homepage-card-background-color: #0B1A38;
+    --portfolio-homepage-card-background-color: #050d1C;
+    --blog-homepage-card-background-color: #0B1A38;
     --navbar-menu-icon-color: #E8EAEB;
-    --navbar-menu-icon-background-color: #141522;
-    --navbar-background-color: #141522;
+    --navbar-menu-icon-background-color: #08142A;
+    --navbar-background-color: #08142A;
     --navbar-color: #E8EAEB;
     --navbar-hover-color: #4E75BF;
     --navbar-active-color: #FFB55E;
     --breadcrumb-color: #E8EAEB;
     --breadcrumb-color-hover: #FF9780;
 }
-
 
 * {
     margin: 0;
@@ -174,7 +173,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Josefin Sans, sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: calc(16px + (21 - 16) * ((100vw - 300px)/ (2500 - 300)));
     line-height: 1.6;
     margin-left: auto;
@@ -193,7 +192,6 @@ body {
 }
 
 header {
-    background-color: #242E42;
     background-color: var(--header-background-color);
     scroll-behavior: smooth;
 }
@@ -211,7 +209,6 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #0A1934;
     color: var(--body-headings-color);
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -229,7 +226,6 @@ h6 {font-size: calc(18px + (21 - 18) * ((100vw - 300px)/ (2500 - 300)));}
 
 p {
     max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
-    color: #0A1934;
     color: var(--body-paragraph-color);
     font-family: 'Jost', sans-serif;
     font-weight: 400;
@@ -239,20 +235,17 @@ p {
 }
 
 p strong {
-    color: #0A1934;
     color: var(--strong-color);
 }
 
-p strong a {color: #0A1934; color: var(--strong-color);}
+p strong a {color: var(--strong-color);}
 
 figcaption {
     color: var(--figcaption-color);
 }
 
 hr {
-    background-color: #0A1934;
     background-color: var(--horizontal-rule-background-color);
-    color: #0A1934;
     color: var(--horizontal-rule-color);
     height: 0.13rem;
     width: 100%;
@@ -260,13 +253,11 @@ hr {
 
 .v-line-left {
     border-left: 0.1rem solid;
-    color: #0A1934;
     color: var(--v-line-left-color);
 }
 
 .v-line-right {
     border-left: 0.3rem solid;
-    color: #0A1934;
     color: var(--v-line-right-color);
     margin-right: 0.4rem;
 }
@@ -367,23 +358,19 @@ hr {
 }
 
 strong {
-    color: #0A1934;
     font-weight: 500;
     color: var(--strong-color);
 }
 
 em {
-    color: #0A1934;
     color: var(--em-color);
 }
 
 i {
-    color: #0A1934;
     color: var(--i-color);
 }
 
 dt {
-    color: #0A1934;
     color: var(--dt-color);
     font-family: 'Jost', sans-serif;
     font-weight: 500;
@@ -394,7 +381,6 @@ dt {
 
 dd {
     max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
-    color: #0A1934;
     color: var(--dd-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -421,7 +407,6 @@ video {
 svg text .saying-proverb-quote {
     font-size: 250px;
     font-weight: 500;
-    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -432,7 +417,6 @@ svg text .saying-proverb-quote {
 svg text .saying-proverb-quote-author {
     font-size: 200px;
     font-style: italic;
-    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -443,7 +427,6 @@ svg text .saying-proverb-quote-author {
 svg text .kartasi-story-title {
     font-size: 290px;
     font-weight: 500;
-    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -454,7 +437,6 @@ svg text .kartasi-story-title {
 svg text .kartasi-story-text {
     font-size: 150px;
     font-weight: 300;
-    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -465,7 +447,6 @@ svg text .kartasi-story-text {
 svg text .kartasi-story-text-emphasized {
     font-size: 150px;
     font-weight: 500;
-    color: #0A1934;
     color: var(--text-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -475,7 +456,6 @@ svg text .kartasi-story-text-emphasized {
 
 blockquote {
     max-width: calc(45ch + (75 - 45) * ((100vw - 300px)/ (2500 - 300)));
-    color: #0A1934;
     color: var(--blockquote-color);
     font-family: 'Jost', sans-serif;
     letter-spacing: .0625em;
@@ -484,35 +464,30 @@ blockquote {
 }
 
 cite {
-    color: #0A1934;
     color: var(--cite-color);
     scroll-behavior: smooth;
 }
 
 a {
+    font-family: 'Jost', sans-serif;
     text-decoration: none;
-    color: #0A1934;
     color: var(--a-color);
 }
 
 footer {
-    background-color: #242E42;
     background-color: var(--footer-background-color);
     scroll-behavior: smooth;
 }
 
 footer h2,h3,h4,h5,h6 {
-    color: #FFFFFF;
     color: var(--footer-heading-color);
 }
 
 footer p {
-    color: #FFFFFF;
     color: var(--footer-paragraph-color);
 }
 
 footer p a {
-    color: #FFFFFF;
     color: var(--footer-anchor-text-color);
 }
 
@@ -521,17 +496,15 @@ footer p a {
 }
 
 #copyrightText {
-    background-color: #020203;
     background-color: var(--copyright-text-background-color);
 }
 
 small {
-    color: #BEC9D8;
+    font-family: 'Jost', sans-serif;
     color: var(--small-text-color);
 }
 
 small em {
-    color: #BEC9D8;
     color: var(--small-text-color);
 }
 
@@ -548,9 +521,7 @@ iframe {
 }
 
 fieldset {
-    color: #0A1934;
     color: var(--fieldset-color);
-    border: 0.1rem solid #FFFFFF;
     border: var(--fieldset-border);
     border-radius: 0.3rem;
     padding: 0.5rem;
@@ -558,7 +529,6 @@ fieldset {
 }
 
 legend {
-    color: #0A1934;
     color: var(--legend-color);
     font-family: 'Jost', sans-serif;
     font-size: 30px;
@@ -567,7 +537,6 @@ legend {
 }
 
 label {
-    color: #0A1934;
     color: var(--label-color);
     font-family: 'Jost', sans-serif;
     font-weight: 500;
@@ -579,7 +548,6 @@ input[type=text] {
     width: 100%;
     padding: 1rem 1.5rem;
     margin: 1rem 0;
-    background-color: #DADDE2;
     background-color: var(--input-background-color);
     box-sizing: border-box;
     border: none;
@@ -592,25 +560,19 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    border: 0.1rem solid #0A1934;
     border: var(--input-focus-border);
-    color: #FFEFCA;
     color: var(--input-focus-color);
     scroll-behavior: smooth;
 }
 
 input[type=email]:focus {
-    border: 0.1rem solid #0A1934;
     border: var(--input-focus-border);
-    color: #FFEFCA;
     color: var(--input-focus-color);
     scroll-behavior: smooth;
 }
 
 textarea:focus {
-    border: 0.1rem solid #0A1934;
     border: var(--textarea-focus-border);
-    color: #FFEFCA;
     color: var(--textarea-focus-color);
 }
 
@@ -618,7 +580,6 @@ input[type=email] {
     width: 100%;
     padding: 1rem 1.5rem;
     margin: 1rem 0;
-    background-color: #DADDE2;
     background-color: var(--input-background-color);
     box-sizing: border-box;
     border: none;
@@ -634,7 +595,6 @@ textarea {
     width: 100%;
     padding: 1rem 1.5rem;
     margin: 1rem 0;
-    background-color: #DADDE2;
     background-color: var(--textarea-background-color);
     box-sizing: border-box;
     border: none;
@@ -647,12 +607,9 @@ textarea {
 }
 
 button {
-    background-color: #0A1934;
     background-color: var(--button-background-color);
-    border: 0.1rem solid #0A1934;
     border: var(--button-border);
     border-radius: 0.3rem;
-    color: #FFFFFF;
     color: var(--button-text-color);
     cursor: pointer;
     font-size: 1rem;
@@ -669,7 +626,6 @@ button:hover {opacity: 0.8;}
 .button {
     background-color: transparent;
     background-color: var(--custom-button-background-color);
-    border: 0.1rem solid #0A1934;
     border: var(--custom-button-border);
     border-radius: 0.3rem;
     color: var(--custom-button-text-color);
@@ -688,16 +644,13 @@ button:hover {opacity: 0.8;}
 }
 
 .button:hover {
-    background-color: #0A1934;
     background-color: var(--custom-button-hover-background-color);
-    color: #FFFFFF;
     color: var(--custom-button-hover-text-color);
 }
 
 .special-button {
     background-color: transparent;
     background-color: var(--special-button-background-color);
-    border: 0.1rem solid #0A1934;
     border: var(--special-button-border);
     border-radius: 0.3rem;
     color: var(--special-button-text-color);
@@ -716,16 +669,13 @@ button:hover {opacity: 0.8;}
 }
 
 .special-button:hover {
-    background-color: #0A1934;
     background-color: var(--special-button-hover-background-color);
-    color: #FFFFFF;
     color: var(--special-button-hover-text-color);
 }
 
 .hero-button {
     background-color: transparent;
     background-color: var(--hero-button-background-color);
-    border: 0.1rem solid #729FE3;
     border: var(--hero-button-border);
     border-radius: 0.3rem;
     color: var(--hero-button-text-color);
@@ -744,22 +694,12 @@ button:hover {opacity: 0.8;}
 }
 
 .hero-button:hover {
-    background-color: #729FE3;
     background-color: var(--hero-button-hover-background-color);
-    color: #FFFFFF;
     color: var(--hero-button-hover-text-color);
 }
 
 .hero-text-color {
     color: var(--hero-text-color);
-}
-
-.prolonged-text {
-    display: none;
-}
-
-.dark-text {
-    color: #2F314F;
 }
 
 .fab-container {
@@ -839,10 +779,8 @@ button:hover {opacity: 0.8;}
 
 #lightAndDarkModeSwitch {
     text-align: right;
-    background-color: #FFEACC;
     background-color: var(--theme-switch-background-color);
 }
-
 
 .theme-switch input[type=checkbox] {
     display: none;
@@ -889,7 +827,6 @@ button:hover {opacity: 0.8;}
 }
 
 main {
-    background-color: #FFEACC;
     background-color: var(--main-background-color);
 }
 
@@ -1121,29 +1058,14 @@ footer,
 }
 
 .breadcrumb li a {
-    color: #BEC9D8;
     color: var(--breadcrumb-color);
 }
 
 .breadcrumb li a:hover {
-    color: #e4e2dc;
     color: var(--breadcrumb-color-hover);
 }
 
-.card {
-    border-style: double;
-    border-width: 2px;
-    border-color: #0A1934;
-    border-radius: 10px;
-}
-
 .text-center {text-align: center;}
-
-#ukurasaPageContent {
-    fill: #FFF7D6;
-    font-family: 'Jost', cursive;
-    font-size: 94px;
-}
 
 .p1 {
     padding-left: 0.188rem;
