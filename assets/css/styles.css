@@ -865,7 +865,7 @@ main {
     background-color: var(--ukurasa-homepage-card-background-color)
 }
 
-#porfolioHomepageCard {
+#portfolioHomepageCard {
     background-color: var(--portfolio-homepage-card-background-color)
 }
 
@@ -908,7 +908,7 @@ main {
     background-color: var(--card-background-color)
 }
 
-#homepageHeroSpecialIntroMessage {
+#homepageHeroContent {
     background-color: var(--card-background-color)
 }
 
