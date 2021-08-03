@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&family=Oswald:wght@500&display=swap);
 
 :root {
-    --header-background-color: #1B428C;
+    --header-background-color: #0048B4;
     --body-headings-color: #0A1934;
     --special-heading-color: #FBF5DE;
     --body-paragraph-color: #0A1934;
     --special-paragraph-color: #FCFEFD;
     --figcaption-color: #0A1934;
     --hero-text-color: #FCFEFD;
-    --horizontal-rule-color: #1B428C;
-    --horizontal-rule-background-color: #1B428C;
+    --horizontal-rule-color: #0048B4;
+    --horizontal-rule-background-color: #0048B4;
     --v-line-left-color: #FCFEFD;
     --v-line-right-color: #FCFEFD;
     --strong-color: #FCFEFD;
@@ -55,28 +55,43 @@
     --hero-button-text-color: #FFB55E;
     --hero-button-hover-background-color: #FFB55E;
     --hero-button-hover-text-color: #0A1934;
-    --theme-switch-background-color: #1B428C;
-    --homepage-hero-content-background: #1B428C;
-    --main-background-color: #729FE3;
+    --theme-switch-background-color: #0048B4;
+    --homepage-hero-content-background: #0048B4;
+    --main-background-color: #7AA5FF;
+    --portfolio-timeline-background-color: #0048B4;
+    --podcasts-background-color: #7AA5FF;
     --thankyou-content-background-color: #FBF5DE;
     --homepage-content-card-color: #FBF5DE;
-    --card-background-color: #729FE3;
-    --special-card-background-color: #1B428C;
-    --ukurasa-homepage-card-background-color: #1B428C;
+    --card-background-color: #FBF5DE;
+    --card-text-color: #0A1934;
+    --accordion-panel-background-color: #000E24;
+    --accordion-background-color: #000E24;
+    --special-card-background-color: #000E24;
+    --videos-card-background-color: #0048B4;
+    --ukurasa-homepage-card-background-color: #0048B4;
     --portfolio-homepage-card-background-color: #FBF5DE;
-    --blog-homepage-card-background-color: #1B428C;
+    --blog-homepage-card-background-color: #0048B4;
+    --ukurasa-images-card-background-color: #FBF5DE;
+    --ukurasa-illustrations-card-background-color: #7AA5FF;
+    --illustrations-background-color: #0048B4;
+    --people-background-color: #FBF5DE;
+    --nature-illustrations-background-color: #7AA5FF;
+    --people-illustrations-background-color: #FBF5DE;
+    --soccer-kits-illustrations-background-color: #0048B4;
+    --aircrafts-illustrations-background-color: #7AA5FF;
+    --timeline-content-background-color: #4D7FCB;
     --navbar-menu-icon-color: #0A1934;
     --navbar-menu-icon-background-color: #FBF5DE;
     --navbar-background-color: #FBF5DE;
     --navbar-color: #415579;
     --navbar-hover-color: #4E75BF;
-    --navbar-active-color: #071123;
+    --navbar-active-color: #BF525F;
     --breadcrumb-color: #FCFEFD;
     --breadcrumb-color-hover: #FCFEFD
 }
 
 [data-theme=dark] {
-    --header-background-color: #050d1C;
+    --header-background-color: #000E24;
     --body-headings-color: #B3AC8D;
     --special-heading-color: #B3AC8D;
     --body-paragraph-color: #BEC9D8;
@@ -97,13 +112,13 @@
     --blockquote-color: #C7D1EB;
     --cite-color: #FAC03E;
     --a-color: #FFB55E;
-    --footer-background-color: #08142A;
+    --footer-background-color: #001D48;
     --footer-paragraph-color: #BEC9D8;
     --footer-anchor-color: #BEC9D8;
-    --copyright-text-background-color: #08142A;
+    --copyright-text-background-color: #001D48;
     --small-text-color: #E8EAEB;
     --fieldset-color: #0A1934;
-    --fieldset-border: 0.1rem solid #050d1C;
+    --fieldset-border: 0.1rem solid #000E24;
     --legend-color: #B3AC8D;
     --label-color: #E8EAEB;
     --input-background-color: #20293C;
@@ -131,19 +146,32 @@
     --hero-button-text-color: #FFB55E;
     --hero-button-hover-background-color: #FFB55E;
     --hero-button-hover-text-color: #0A1934;
-    --theme-switch-background-color: #08142A;
+    --theme-switch-background-color: #001D48;
     --homepage-hero-content-background: #050d1C;
-    --main-background-color: #0B1A38;
-    --thankyou-content-background-color: #050d1C;
+    --main-background-color: #000E24;
+    --portfolio-timeline-background-color: #001D48;
+    --podcasts-background-color: #001D48;
+    --thankyou-content-background-color: #000E24;
     --homepage-content-card-color: #020203;
-    --card-background-color: #050d1C;
-    --special-card-background-color: #0B1A38;
-    --ukurasa-homepage-card-background-color: #0B1A38;
-    --portfolio-homepage-card-background-color: #050d1C;
-    --blog-homepage-card-background-color: #0B1A38;
+    --card-background-color: #000E24;
+    --accordion-panel-background-color: #0C1019;
+    --accordion-background-color: #0c1019;
+    --special-card-background-color: #001D48;
+    --videos-card-background-color: #001D48;
+    --ukurasa-homepage-card-background-color: #001D48;
+    --portfolio-homepage-card-background-color: #000E24;
+    --blog-homepage-card-background-color: #001D48;
+    --ukurasa-illustrations-card-background-color: #000E24;
+    --illustrations-background-color: #000E24;
+    --people-background-color: #000E24;
+    --nature-illustrations-background-color: #000E24;
+    --people-illustrations-background-color: #000E24;
+    --soccer-kits-illustrations-background-color: #001D48;
+    --aircrafts-illustrations-background-color: #001D48;
+    --timeline-content-background-color: #000E24;
     --navbar-menu-icon-color: #E8EAEB;
-    --navbar-menu-icon-background-color: #08142A;
-    --navbar-background-color: #08142A;
+    --navbar-menu-icon-background-color: #001D48;
+    --navbar-background-color: #001D48;
     --navbar-color: #E8EAEB;
     --navbar-hover-color: #4E75BF;
     --navbar-active-color: #FFB55E;
@@ -276,8 +304,13 @@ hr {
     width: 100%
 }
 
+.v-line-left-bottom {
+    border-left: .2rem solid;
+    color: var(--v-line-left-color)
+}
+
 .v-line-left {
-    border-left: .1rem solid;
+    border-left: .2rem solid;
     color: var(--v-line-left-color)
 }
 
@@ -355,7 +388,7 @@ hr {
 
 .timeline-content {
     padding: 1rem 1rem;
-    background-color: transparent;
+    background-color: var(--timeline-content-background-color);
     position: relative;
     border-radius: .3rem
 }
@@ -545,6 +578,7 @@ iframe {
     width: 100%;
     height: 20rem;
     border: none;
+    border-radius: .3rem;
     scroll-behavior: smooth
 }
 
@@ -582,7 +616,7 @@ input[type=text] {
     border-radius: .3rem;
     letter-spacing: .0625em;
     -webkit-transition: .5s;
-    transition: 50ms;
+    transition: .5s;
     outline: 0;
     scroll-behavior: smooth
 }
@@ -614,7 +648,7 @@ input[type=email] {
     border-radius: .3rem;
     letter-spacing: .0625em;
     -webkit-transition: .5s;
-    transition: 50ms;
+    transition: .5s;
     outline: 0;
     scroll-behavior: smooth
 }
@@ -629,7 +663,7 @@ textarea {
     border-radius: .3rem;
     letter-spacing: .0625em;
     -webkit-transition: .5s;
-    transition: 50ms;
+    transition: .5s;
     outline: 0;
     scroll-behavior: smooth
 }
@@ -643,8 +677,8 @@ button {
     font-size: 1rem;
     letter-spacing: .0625em;
     padding: .7rem;
-    -webkit-transition: .5s;
-    transition: 50ms;
+    -webkit-transition: 450ms;
+    transition: 450ms;
     outline: 0;
     scroll-behavior: smooth
 }
@@ -666,8 +700,8 @@ button:hover {
     font-weight: 400;
     letter-spacing: .0625em;
     padding: .7rem;
-    -webkit-transition: .5s;
-    transition: 50ms;
+    -webkit-transition: 450ms;
+    transition: 450ms;
     outline: 0;
     scroll-behavior: smooth
 }
@@ -681,7 +715,7 @@ button:hover {
     background-color: transparent;
     background-color: var(--special-button-background-color);
     border: var(--special-button-border);
-    border-radius: .3rem;
+    border-radius: 3rem;
     color: var(--special-button-text-color);
     cursor: pointer;
     font-family: Oswald, sans-serif;
@@ -689,9 +723,9 @@ button:hover {
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: .0625em;
-    padding: .7rem;
-    -webkit-transition: .5s;
-    transition: 50ms;
+    padding: .8rem 1.3rem .8rem 1.3rem;
+    -webkit-transition: 450ms;
+    transition: 450ms;
     outline: 0;
     scroll-behavior: smooth
 }
@@ -705,7 +739,7 @@ button:hover {
     background-color: transparent;
     background-color: var(--hero-button-background-color);
     border: var(--hero-button-border);
-    border-radius: .3rem;
+    border-radius: 5rem;
     color: var(--hero-button-text-color);
     cursor: pointer;
     font-family: Oswald, sans-serif;
@@ -713,9 +747,9 @@ button:hover {
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: .0625em;
-    padding: .7rem;
-    -webkit-transition: .5s;
-    transition: 50ms;
+    padding: .8rem 1.3rem .8rem 1.3rem;
+    -webkit-transition: 450ms;
+    transition: 450ms;
     outline: 0;
     scroll-behavior: smooth
 }
@@ -826,7 +860,7 @@ button:hover {
 }
 
 .theme-switch label::after {
-    background-color: #1b428c;
+    background-color: #0048b4;
     border-radius: 50%;
     content: ' ';
     cursor: pointer;
@@ -857,6 +891,58 @@ main {
     background-color: var(--main-background-color)
 }
 
+.people-illustration-background-color {
+    fill: var(--people-background-color)
+}
+
+#podcastsContainer {
+    background-color: var(--podcasts-background-color)
+}
+
+#portfolioPageMainContent {
+    background-color: var(--portfolio-timeline-background-color)
+}
+
+#soccerKitsIllustrations {
+    background-color: var(--soccer-kits-illustrations-background-color)
+}
+
+#peopleIllustrations {
+    background-color: var(--people-illustrations-background-color)
+}
+
+#peopleIllustrations h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--body-headings-color)
+}
+
+#aircraftsIllustrations {
+    background-color: var(--aircrafts-illustrations-background-color)
+}
+
+#natureIllustrations {
+    background-color: var(--nature-illustrations-background-color)
+}
+
+#natureIllustations p {
+    color: var(--body-paragraph-color)
+}
+
+#ukurasaPageIllustrations {
+    background-color: var(--ukurasa-illustrations-card-background-color)
+}
+
+#ukurasaPageImages {
+    background-color: var(--ukurasa-images-card-background-color)
+}
+
+#ukurasaPageVideos {
+    background-color: var(--videos-card-background-color)
+}
+
 #contentPageCardsHomepage {
     background-color: var(--card-background-color)
 }
@@ -877,29 +963,6 @@ main {
     background-color: var(--thankyou-content-background-color)
 }
 
-#sunsetNightSunrise {
-    background-color: var(--card-background-color)
-}
-
-#aircraftHelicopter {
-    background-color: var(--special-card-background-color);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
-}
-
-#illustrationsGroup1,
-#illustrationsGroup2,
-#illustrationsGroup3,
-#illustrationsGroup4,
-#illustrationsGroup5,
-#illustrationsGroup6 {
-    background-color: var(--card-background-color)
-}
-
-#ukurasaPageVideos {
-    background-color: var(--special-card-background-color)
-}
-
 #heroIntroContent {
     background-color: var(--homepage-hero-content-background)
 }
@@ -912,6 +975,7 @@ main {
     background-color: var(--card-background-color)
 }
 
+#aircrafts,
 #blogCardsKartasi,
 #blogCardsKasuku,
 #blogIntroContent,
@@ -989,15 +1053,15 @@ footer {
 }
 
 #aircraftIntroAnimation {
-    background-image: linear-gradient(to bottom, #1b428c, #729fe3)
+    background-image: linear-gradient(to bottom, #0048b4, #7aa5ff)
 }
 
 #kenyaAirwaysFlight {
-    background-image: linear-gradient(to bottom, #1b428c, #729fe3)
+    background-image: linear-gradient(to bottom, #0048b4, #7aa5ff)
 }
 
 #AirbusH160HelicopterFlying {
-    background-image: linear-gradient(to bottom, #1b428c, #729fe3)
+    background-image: linear-gradient(to bottom, #0048b4, #7aa5ff)
 }
 
 .navbar {

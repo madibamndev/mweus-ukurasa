@@ -24,11 +24,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
     <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#1B428C">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#0048B4">
     <meta name="apple-mobile-web-app-title" content="Mweus Ukurasa">
     <meta name="application-name" content="Mweus Ukurasa">
-    <meta name="msapplication-TileColor" content="#1B428C">
-    <meta name="theme-color" content="#1B428C">
+    <meta name="msapplication-TileColor" content="#0048B4">
+    <meta name="theme-color" content="#0048B4">
     <!-- styles.css -->
     <link rel="preconnect stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
@@ -40,7 +40,7 @@
         <div class="fade-in-from-up">
             <nav aria-label="navbar">
                 <ul class="navbar" id="myNavbar">
-                    <li><a href="javascript:void(0);" class="icon" onclick="revealTopNavbar()">
+                    <li><a href="javascript:void(0);" class="icon" onclick="revealTopNavbar()" style="padding: 1rem 2rem">
                             <i class="fa fa-bars fa-2x"></i></a>
                     </li>
                     <li><a href="index.html" class="brand-logo">
@@ -65,8 +65,8 @@
                 <!-- Message from the creator starts here -->
                 <article>
                     <div class="pl-3 pr-3 pb-5 pt-5">
-                        <h1 class="pl-2 pb-3 hero-text-color" style="font-size: 3.5rem;">Portfolio</h1>
-                        <p class="pl-2 hero-text-color">The content below comprises a timeline of apps and website projects. The projects involve creating simple websites and
+                        <h1 class="pl-3 pb-4 hero-text-color" style="font-size: 3.5rem;">Portfolio</h1>
+                        <p class="pl-3 hero-text-color">The content below comprises a timeline of apps and website projects. The projects involve creating simple websites and
                         apps that help solve everyday challenges. E.g. creating a personal portfolio to showcase and market your skills amongst
                         others.</p>
                     </div>
@@ -79,10 +79,10 @@
         <main id="portfolioPageMainContent">
             <!-- Portfolio page content starts here -->
                 <!-- Message from the creator starts here -->
-                <article class="pb-5">
+                <article id="portfolioTimeline" class="pt-5 pb-5">
                     <div class="pl-3 pr-3 pb-5 pt-5">
-                        <h2 class="text-center">Timeline</h2>
-                        <p>Below is a timeline of my portfolio projects composed of websites and app designs.</p>
+                        <h2 class="text-center special-heading">Timeline</h2>
+                        <p class="pl-3 pb-5 special-paragraph">Below is a timeline of my portfolio projects composed of websites and app designs.</p>
                     </div>
                     <div class="timeline">
                         <div class="zoom-in-from-left">
@@ -228,36 +228,37 @@
                 <!-- Floating Action Button content ends here -->
                 <!-- Contact Form content starts here -->
                 <div class="fade-down-from-left">
-                    <div class="pl-3 pr-3 pb-5 pt-3" id="thankyouContent">
-                        <article class="pl-3 pt-2 pr-3 pb-2">
+                    <div class="pl-3 pr-3 pb-5 pt-5" id="thankyouContent">
+                        <article class="pl-3 pb-5 pt-2 pr-3 pb-2">
                             <h2>Get in touch!</h2>
                             <p>For questions and inquiries get in touch.</p>
                             <p>Asante sana!</p>
                         </article>
-                        <div class="p2">
-                            <aside id="ContactMeForm" class="p3">
-                                <form name="contactmeform" method="POST" data-netlify="true" autocomplete="on" novalidate>
-                                    <fieldset>
-                                        <legend>Contact Form</legend>
-                                        <div>
-                                            <label for="inputNames" class="form-label">Names</label>
-                                            <input id="inputNames" type="text" name="names" placeholder="First and Last name.." value="First and Last Name..">
-                                        </div>
-                                        <div>
-                                            <label for="inputEmail" class="form-label">Email address</label>
-                                            <input id="inputEmail" type="email" name="email" placeholder="Enter valid email.." value="Valid email please..">
-                                        </div>
-                                        <div>
-                                            <label for="textareaMessageOrComment">Message</label>
-                                            <textarea id="textareaMessageOrComment" name="message" placeholder="Please keep your message concise.." maxlength="550" rows="4"></textarea>
-                                        </div>
-                                    </fieldset>
-                                    <div class="pt-4">
-                                        <button type="submit" value="Submit">Submit</button>
+                        <aside id="ContactMeForm">
+                            <form name="contactmeform" method="POST" data-netlify="true" autocomplete="on" novalidate>
+                                <fieldset>
+                                    <legend>Contact Form</legend>
+                                    <div>
+                                        <label for="inputNames" class="form-label">Names</label>
+                                        <input id="inputNames" type="text" name="names" placeholder="First and Last name.."
+                                            value="First and Last Name..">
                                     </div>
-                                </form>
-                            </aside>
-                        </div>
+                                    <div>
+                                        <label for="inputEmail" class="form-label">Email address</label>
+                                        <input id="inputEmail" type="email" name="email" placeholder="Enter valid email.."
+                                            value="Valid email please..">
+                                    </div>
+                                    <div>
+                                        <label for="textareaMessageOrComment">Message</label>
+                                        <textarea id="textareaMessageOrComment" name="message"
+                                            placeholder="Please keep your message concise.." maxlength="550" rows="4"></textarea>
+                                    </div>
+                                </fieldset>
+                                <div class="pt-2 pl-3">
+                                    <button type="submit" value="Submit">Submit</button>
+                                </div>
+                            </form>
+                        </aside>
                     </div>
                 </div>
                 <!-- Contact Form content starts here -->
@@ -284,7 +285,7 @@
             <!-- Breadcrumb Nav content ends here -->
             <!-- brand slogan content starts here -->
             <div class="pl-3 pt-5 pb-3 pr-3">
-                <div class="v-line-left pl-3">
+                <div class="v-line-left-bottom pl-3">
                     <a href="index.html">
                         <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" viewbox="0 0 50 50">
                             <defs />
@@ -292,15 +293,15 @@
                                 d="M15.269 48.035a24.917 24.917 0 01-2.943-1.48 42.956 42.956 0 0125.349 0 25.139 25.139 0 01-2.944 1.48 25.082 25.082 0 01-19.462 0zM34 43.764a45.07 45.07 0 00-17.995 0A44.4 44.4 0 0010.4 45.3a25.245 25.245 0 01-3.079-2.622A24.961 24.961 0 01.509 30.056a45.05 45.05 0 004.009-5.095 44.682 44.682 0 004.116-7.583A44.391 44.391 0 0011.236 9 44.81 44.81 0 0012 3.641a24.993 24.993 0 0126 .001A44.82 44.82 0 0038.764 9a44.452 44.452 0 002.6 8.38 44.692 44.692 0 004.117 7.583 45.041 45.041 0 004.009 5.095 24.967 24.967 0 01-6.812 12.623A25.313 25.313 0 0139.6 45.3a44.4 44.4 0 00-5.6-1.536zM8.333 25A16.667 16.667 0 1025 8.333 16.686 16.686 0 008.333 25zm11.308 5.329a8.676 8.676 0 01.184-1.483l.151-.787a6.78 6.78 0 00.071-.4 1.454 1.454 0 01.216-.581.469.469 0 01.386-.259.44.44 0 01.3.107.343.343 0 01.125.272 5.364 5.364 0 01-.106.673l-.1.595q-.045.27-.1.5l-.051.287-.041.205a4.476 4.476 0 00-.068.715q0 1.145 1 1.145a1.4 1.4 0 001.128-.8 8.735 8.735 0 00.851-2.993.781.781 0 01.224-.424.58.58 0 01.422-.177q.371 0 .372.356a15.242 15.242 0 01-.354 1.772 5.377 5.377 0 01-1.084 2.369 2.214 2.214 0 01-1.706.833q-1.82-.008-1.82-1.926zm8.159 1.679a1.576 1.576 0 01-.527.092.8.8 0 01-.4-.086.422.422 0 01-.2-.2.861.861 0 01-.046-.314 4.25 4.25 0 01.1-.974 1.447 1.447 0 01.184-.52.287.287 0 01.223-.09.248.248 0 01.172.059.2.2 0 01.067.153 1.426 1.426 0 01-.074.31 3.128 3.128 0 00-.137.943c0 .059 0 .111.007.157a.34.34 0 00.178.045 2.161 2.161 0 00.482-.06l.147-.891a3.651 3.651 0 01.1-.455.387.387 0 01.119-.194.315.315 0 01.191-.055.245.245 0 01.171.059.194.194 0 01.066.15c0 .022-.025.154-.075.4l-.074.342-.133.91c-.006.047-.012.088-.015.123a.273.273 0 01-.107.179.315.315 0 01-.2.073.209.209 0 01-.219-.156zm.895.051a.237.237 0 01-.04-.188l.2-1.28.049-.279a.686.686 0 01.052-.2.257.257 0 01.1-.1.3.3 0 01.158-.04.2.2 0 01.224.222 1.431 1.431 0 01.807-.259q.32 0 .32.353a.972.972 0 01-.016.168l-.02.131a.4.4 0 01-.094.206.274.274 0 01-.225.1c-.139 0-.207-.063-.207-.188a.484.484 0 01-.003-.069l.018-.2a.99.99 0 00-.7.454l-.152.978a.312.312 0 01-.31.262.2.2 0 01-.165-.071zm7.341-.128a1.577 1.577 0 01-.576.176q-.8 0-.8-.74a1.313 1.313 0 01.429-1.011 1.376 1.376 0 01.951-.4 1.006 1.006 0 01.427.113c.158.075.236.16.236.255a.223.223 0 01-.063.157 2.017 2.017 0 00-.112.454 3.181 3.181 0 00-.046.445.422.422 0 00.012.122l.059.192a1.031 1.031 0 01.045.187.24.24 0 01-.088.16.3.3 0 01-.217.085c-.064.002-.148-.063-.261-.195zm-.581-1.258a.84.84 0 00-.248.625q0 .346.3.346a.744.744 0 00.459-.16 3.322 3.322 0 01.137-1.02.21.21 0 00-.111-.037.754.754 0 00-.541.246zm-3.588 1.258a1.577 1.577 0 01-.576.176q-.8 0-.8-.74a1.313 1.313 0 01.429-1.011 1.374 1.374 0 01.951-.4 1.006 1.006 0 01.427.113c.158.075.236.16.236.255a.223.223 0 01-.063.157 2.009 2.009 0 00-.112.454 3.181 3.181 0 00-.046.445.458.458 0 00.012.122l.059.192a.994.994 0 01.044.187.238.238 0 01-.087.16.3.3 0 01-.217.085c-.065.002-.15-.063-.261-.195zm-.582-1.258a.843.843 0 00-.248.625q0 .346.3.346a.748.748 0 00.459-.16 3.322 3.322 0 01.137-1.02.213.213 0 00-.112-.037.757.757 0 00-.541.246zm1.652 1.348c-.143-.062-.214-.148-.214-.256 0-.165.089-.247.267-.247a.793.793 0 01.248.057.939.939 0 00.257.057q.421 0 .421-.174c0-.062-.079-.131-.238-.207a2.424 2.424 0 01-.546-.317.416.416 0 01-.138-.324.616.616 0 01.25-.492 1.727 1.727 0 011.01-.2q.379 0 .379.236a.7.7 0 01-.063.272.2.2 0 01-.187.149c-.131 0-.2-.055-.209-.165a1.2 1.2 0 00-.16-.012q-.489 0-.489.135c0 .052.085.118.252.2a2.326 2.326 0 01.556.351.451.451 0 01.138.327.612.612 0 01-.281.5 1.242 1.242 0 01-.76.21 1.228 1.228 0 01-.497-.1zm-7.134-.09a4.423 4.423 0 00-.4-.709q-.065-.1-.07-.111a6.566 6.566 0 01-.285.176c-.044.21-.079.383-.1.521a.311.311 0 01-.106.186.3.3 0 01-.2.074.2.2 0 01-.232-.229 4.285 4.285 0 01.1-.561c.05-.217.081-.372.1-.463l.229-1.293c.006-.048.013-.113.02-.2a1.3 1.3 0 01.038-.266.277.277 0 01.1-.13.306.306 0 01.194-.063.232.232 0 01.165.06.21.21 0 01.064.158l-.026.247a7.268 7.268 0 01-.122.751q-.053.254-.1.545.308-.212.928-.744a.313.313 0 01.2-.08.236.236 0 01.17.067.211.211 0 01.07.158.261.261 0 01-.038.137 1.851 1.851 0 01-.279.269 7.04 7.04 0 01-.427.347l.325.526a1.176 1.176 0 01.214.5.251.251 0 01-.1.193.33.33 0 01-.224.088.206.206 0 01-.211-.154zM.147 27.735A25.584 25.584 0 010 25 24.92 24.92 0 017.322 7.322a25.336 25.336 0 012.752-2.382 42.481 42.481 0 01-3.328 12.274 42.913 42.913 0 01-6.6 10.521zm49.705 0a42.913 42.913 0 01-6.6-10.521A42.488 42.488 0 0139.926 4.94a25.385 25.385 0 012.752 2.382A24.924 24.924 0 0150 25a25.585 25.585 0 01-.147 2.736zm-31.841-2.989l-.059-.823q-.014-.205-.021-2.116a3.85 3.85 0 00-.139.315q-.437 1.052-.656 1.47l-.332.632a4.007 4.007 0 01-.461.742.552.552 0 01-.427.188q-.29 0-.4-.379l-.088-.636q-.072-.522-.161-2.191-.109.246-.5 1.327t-.5 1.465c-.141.323-.34.485-.595.485a.371.371 0 01-.283-.111.4.4 0 01-.1-.283 4.135 4.135 0 01.461-1.442q.27-.6.4-.927l.554-1.5a2.931 2.931 0 01.485-.949.642.642 0 01.458-.205.4.4 0 01.42.342 10.468 10.468 0 01.1 1.688 13.815 13.815 0 00.1 1.7 24.63 24.63 0 001.112-2.506l.314-.786a.673.673 0 01.653-.489.388.388 0 01.342.221 2.086 2.086 0 01.13.913l-.018.809c0 .293.007.616.027.965s.053.687.1 1.011q.13.946.13 1.117a.452.452 0 01-.178.334.584.584 0 01-.4.158c-.25.001-.407-.179-.468-.539zm2.747.2a3.879 3.879 0 01-.067-1.093q-.057.09-.259.489a5.094 5.094 0 01-.385.676.306.306 0 01-.239.132c-.051 0-.1-.039-.15-.116a.963.963 0 01-.109-.345 10.692 10.692 0 01-.037-1.2 1.5 1.5 0 01.02-.279.294.294 0 01.109-.173.312.312 0 01.2-.072.2.2 0 01.2.092.907.907 0 01.032.383l-.012.381v.392q.3-.582.487-.988a.364.364 0 01.339-.252.21.21 0 01.171.075.506.506 0 01.074.282c.007.139.014.286.017.443l.012.553.506-1.215a.26.26 0 01.258-.14.263.263 0 01.173.061.2.2 0 01.073.156.363.363 0 01-.045.151c-.03.062-.133.292-.311.693a7.143 7.143 0 01-.375.77 1.461 1.461 0 01-.2.263.33.33 0 01-.24.095c-.106 0-.187-.072-.242-.216zm4.8.064a1.576 1.576 0 01-.527.092.808.808 0 01-.4-.086.427.427 0 01-.2-.2.861.861 0 01-.046-.314 4.255 4.255 0 01.1-.974 1.432 1.432 0 01.184-.519.285.285 0 01.223-.091.248.248 0 01.172.059.2.2 0 01.067.153 1.45 1.45 0 01-.075.31 3.158 3.158 0 00-.137.944 1.325 1.325 0 00.008.156.34.34 0 00.178.045 2.11 2.11 0 00.482-.06l.146-.891a3.553 3.553 0 01.1-.455.368.368 0 01.119-.194.308.308 0 01.191-.056.249.249 0 01.171.059.193.193 0 01.065.15c0 .022-.024.154-.074.4l-.075.341-.132.91-.016.123a.274.274 0 01-.106.18.322.322 0 01-.2.072.209.209 0 01-.215-.157zm.992.014c-.143-.062-.215-.148-.215-.256 0-.164.089-.247.268-.247a.793.793 0 01.247.057.941.941 0 00.256.057q.423 0 .422-.174c0-.062-.079-.131-.238-.207a2.477 2.477 0 01-.545-.316.419.419 0 01-.138-.325.613.613 0 01.25-.492 1.727 1.727 0 011.01-.2c.252 0 .379.078.379.236a.711.711 0 01-.063.272.2.2 0 01-.187.149c-.131 0-.2-.055-.209-.164a1.075 1.075 0 00-.16-.012q-.489 0-.489.134c0 .052.084.118.252.2a2.331 2.331 0 01.556.35.452.452 0 01.137.328.61.61 0 01-.28.5 1.238 1.238 0 01-.76.21 1.21 1.21 0 01-.49-.103zm-4.234-.136a.656.656 0 01-.255-.544 1.524 1.524 0 01.341-.93 1.076 1.076 0 01.9-.451 1.134 1.134 0 01.575.122.383.383 0 01.206.347.462.462 0 01-.163.358 2.324 2.324 0 01-.622.331l-.7.292a.608.608 0 00.5.2.955.955 0 00.459-.108.672.672 0 01.277-.1c.115 0 .172.05.172.149q0 .228-.308.378a1.528 1.528 0 01-.676.149 1.107 1.107 0 01-.703-.196zm.318-.969l.472-.187a4.578 4.578 0 00.455-.225.615.615 0 00-.327-.072q-.356-.003-.597.481z" />
                         </svg>
                     </a>
-                    <h2>Mweus Ukurasa</h2>
-                    <p>Simplifying ideas into valuable experiences</p>
+                    <h2 class="pb-3">Mweus Ukurasa</h2>
+                    <p class="pb-3">Simplifying ideas into valuable experiences</p>
                 </div>
             </div>
             <!-- brand slogan content ends here -->
             <!-- Social links content starts here -->
             <div class="pl-3 pt-5 pb-3 pr-2">
-                <div class="v-line-left pl-3">
-                    <p class="pl-3 pb-3">Connect with me on</p>
+                <div class="v-line-left-bottom pl-3">
+                    <p class="pl-3 pb-3" style="font-size: 2rem;">Follow me on!</p>
                     <p class="pl-3 pb-3"><a class="linkedin" target="_blank" rel="noreferrer"
                             href="https://www.linkedin.com/in/mweu-ngolia-321692167/"><i class="fab fa-2x fa-linkedin-in"
                                 style="color: #FCFEFD;padding-right: 0.5rem;"></i> Linkedin</a></p>
