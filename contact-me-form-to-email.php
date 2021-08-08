@@ -11,7 +11,7 @@ $message_or_comment = $_POST['message'];
 //Validate first
 if(empty($names)) 
 {
-    echo "First Name and Last Name is mandatory!";
+    echo "Valid First Name and Last Name is mandatory!";
     exit;
 }
 
@@ -33,12 +33,12 @@ if(empty($message_or_comment))
     exit;
 }
 
-$email_from = "madiba.mweu@gmail.com";//<== update the email address
+$email_from = "mweusukurasa@gmail.com";//<== update the email address
 $email_subject = "New Form submission";
-$email_body = "You have received a new message or comment from $name.\n".
+$email_body = "You have received a new message or comment from $names.\n".
     "Here is the message or comment:\n $names, $visitor_email and $message_or_comment".
     
-$to = "madiba.mweu@gmail.com";//<== update the email address
+$to = "mweusukurasa@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!

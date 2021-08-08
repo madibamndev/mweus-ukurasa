@@ -85,7 +85,7 @@
     --navbar-background-color: #FBF5DE;
     --navbar-color: #415579;
     --navbar-hover-color: #4E75BF;
-    --navbar-active-color: #BF525F;
+    --navbar-active-color: #BE3A34;
     --breadcrumb-color: #FCFEFD;
     --breadcrumb-color-hover: #FCFEFD
 }
@@ -171,8 +171,8 @@
     --aircrafts-illustrations-background-color: #001D48;
     --timeline-content-background-color: #000E24;
     --navbar-menu-icon-color: #E8EAEB;
-    --navbar-menu-icon-background-color: #001D48;
-    --navbar-background-color: #001D48;
+    --navbar-menu-icon-background-color: #030813;
+    --navbar-background-color: #030813;
     --navbar-color: #E8EAEB;
     --navbar-hover-color: #4E75BF;
     --navbar-active-color: #FFB55E;
@@ -394,7 +394,7 @@ hr {
     border-radius: .3rem
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:720px) {
     .timeline::after {
         left: 1.55rem
     }
@@ -1126,7 +1126,7 @@ footer {
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:720px) {
     .navbar.responsive {
         position: relative
     }
