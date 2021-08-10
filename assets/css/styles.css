@@ -394,7 +394,7 @@ hr {
     border-radius: .3rem
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:900px) {
     .timeline::after {
         left: 1.55rem
     }
@@ -1110,7 +1110,7 @@ footer {
     display: none
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:720px) {
     .navbar li a {
         display: none
     }
